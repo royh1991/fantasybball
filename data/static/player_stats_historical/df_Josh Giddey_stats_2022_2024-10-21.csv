@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2021-10-21,20-339,DAL,AWAY,ATL,L (-26),0,4:11,1,2,.500,0,0,,0,0,,0,0,0,0,0,0,0,0,2,1.0,+1,Josh Giddey
+2021-10-23,20-341,DAL,AWAY,TOR,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-10-26,20-344,DAL,HOME,HOU,W (+10),0,3:41,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,0,Josh Giddey
+2021-10-28,20-346,DAL,HOME,SAS,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-10-29,20-347,DAL,AWAY,DEN,L (-31),0,16:39,0,3,.000,0,2,.000,0,0,,2,5,7,1,0,1,2,1,0,-0.2,+10,Josh Giddey
+2021-10-31,20-349,DAL,HOME,SAC,W (+6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-11-02,20-351,DAL,HOME,MIA,L (-15),0,4:02,0,1,.000,0,0,,0,0,,1,0,1,0,0,0,0,0,0,0.0,-6,Josh Giddey
+2021-11-03,20-352,DAL,AWAY,SAS,W (+1),0,5:39,0,1,.000,0,0,,0,0,,1,1,2,1,0,0,0,0,0,1.0,+10,Josh Giddey
+2021-11-06,20-355,DAL,HOME,BOS,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-11-08,20-357,DAL,HOME,NOP,W (+16),0,0:45,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,0,Josh Giddey
+2021-11-10,20-359,DAL,AWAY,CHI,L (-10),0,1:50,2,2,1.000,0,0,,0,0,,0,0,0,0,0,0,0,0,4,3.4,+4,Josh Giddey
+2021-11-12,20-361,DAL,AWAY,SAS,W (+14),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-11-15,20-364,DAL,HOME,DEN,W (+10),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-11-17,21-001,DAL,AWAY,PHO,L (-7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-11-19,21-003,DAL,AWAY,PHO,L (-8),0,2:00,0,0,,0,0,,0,0,,0,0,0,1,1,0,0,2,0,0.9,+7,Josh Giddey
+2021-11-21,21-005,DAL,AWAY,LAC,L (-6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-11-23,21-007,DAL,AWAY,LAC,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-11-27,21-011,DAL,HOME,WAS,L (-6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-11-29,21-013,DAL,HOME,CLE,L (-18),0,7:56,1,2,.500,0,0,,0,0,,0,0,0,0,0,0,0,0,2,1.0,+11,Josh Giddey
+2021-12-01,21-015,DAL,AWAY,NOP,W (+32),0,5:23,2,2,1.000,0,0,,0,0,,0,1,1,1,1,0,0,1,4,5.0,+2,Josh Giddey
+2021-12-03,21-017,DAL,HOME,NOP,L (-16),0,2:01,1,1,1.000,0,0,,0,2,.000,0,0,0,0,0,0,0,1,2,0.5,0,Josh Giddey
+2021-12-04,21-018,DAL,HOME,MEM,L (-7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Josh Giddey
+2021-12-07,21-021,DAL,HOME,BRK,L (-3),0,6:51,1,1,1.000,0,0,,0,0,,0,0,0,0,1,0,0,1,2,2.3,-8,Josh Giddey
+2021-12-08,21-022,DAL,AWAY,MEM,W (+8),0,10:20,2,3,.667,0,0,,0,0,,0,1,1,0,0,0,0,3,4,1.8,-7,Josh Giddey
+2021-12-10,21-024,DAL,AWAY,IND,L (-13),0,4:05,1,3,.333,0,0,,0,0,,1,0,1,0,0,0,0,1,2,0.6,-7,Josh Giddey
+2021-12-12,21-026,DAL,AWAY,OKC,W (+19),0,18:26,3,5,.600,1,2,.500,1,2,.500,1,4,5,2,1,0,0,2,8,8.8,+6,Josh Giddey
+2021-12-13,21-027,DAL,HOME,CHO,W (+24),0,21:13,3,3,1.000,1,1,1.000,0,0,,2,4,6,2,0,1,2,1,7,8.4,+13,Josh Giddey
+2021-12-15,21-029,DAL,HOME,LAL,L (-3),0,10:27,1,1,1.000,1,1,1.000,0,0,,0,2,2,0,2,0,0,1,3,4.9,+9,Josh Giddey
+2021-12-19,21-033,DAL,AWAY,MIN,L (-6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Josh Giddey
+2021-12-21,21-035,DAL,HOME,MIN,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Josh Giddey
+2021-12-23,21-037,DAL,HOME,MIL,L (-7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Josh Giddey
+2021-12-25,21-039,DAL,AWAY,UTA,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Josh Giddey
+2021-12-27,21-041,DAL,AWAY,POR,W (+15),0,26:27,3,7,.429,0,2,.000,3,3,1.000,0,4,4,10,2,0,1,4,9,12.9,+15,Josh Giddey
+2021-12-29,21-043,DAL,AWAY,SAC,L (-1),0,27:57,2,6,.333,0,1,.000,0,0,,2,1,3,3,1,2,0,3,4,5.6,-14,Josh Giddey
+2021-12-31,21-045,DAL,AWAY,SAC,W (+16),0,26:26,2,6,.333,0,1,.000,4,4,1.000,0,2,2,1,0,0,2,2,8,3.1,+12,Josh Giddey
+2022-01-02,21-047,DAL,AWAY,OKC,W (+9),0,16:35,1,5,.200,0,2,.000,0,0,,1,2,3,1,1,1,1,0,2,1.6,+14,Josh Giddey
+2022-01-03,21-048,DAL,HOME,DEN,W (+14),0,16:42,3,4,.750,0,1,.000,0,0,,0,1,1,0,0,0,2,3,6,1.5,-1,Josh Giddey
+2022-01-05,21-050,DAL,HOME,GSW,W (+17),0,5:25,0,0,,0,0,,0,0,,0,0,0,1,0,0,0,2,0,-0.1,+5,Josh Giddey
+2022-01-07,21-052,DAL,AWAY,HOU,W (+24),0,25:01,6,7,.857,1,1,1.000,4,5,.800,3,2,5,2,2,0,0,3,17,19.0,-3,Josh Giddey
+2022-01-09,21-054,DAL,HOME,CHI,W (+14),0,22:25,8,10,.800,1,1,1.000,1,1,1.000,1,5,6,1,0,0,1,3,18,14.9,+9,Josh Giddey
+2022-01-12,21-057,DAL,AWAY,NYK,L (-23),0,11:26,0,0,,0,0,,1,2,.500,0,2,2,0,1,0,0,1,1,1.8,-3,Josh Giddey
+2022-01-14,21-059,DAL,AWAY,MEM,W (+27),0,9:46,0,2,.000,0,1,.000,0,0,,0,0,0,0,0,0,0,2,0,-2.2,+6,Josh Giddey
+2022-01-15,21-060,DAL,HOME,ORL,W (+16),0,25:11,3,6,.500,1,3,.333,0,0,,3,1,4,2,1,0,2,4,7,5.2,+7,Josh Giddey
+2022-01-17,21-062,DAL,HOME,OKC,W (+2),0,17:47,2,5,.400,0,0,,0,2,.000,0,0,0,1,1,0,0,4,4,0.6,-9,Josh Giddey
+2022-01-19,21-064,DAL,HOME,TOR,W (+4),0,6:51,2,2,1.000,1,1,1.000,0,0,,1,0,1,1,0,0,0,1,5,5.4,-4,Josh Giddey
+2022-01-20,21-065,DAL,HOME,PHO,L (-8),0,11:11,1,3,.333,0,0,,0,0,,0,1,1,1,0,0,0,1,2,0.9,+6,Josh Giddey
+2022-01-23,21-068,DAL,HOME,MEM,W (+13),0,14:44,2,3,.667,0,1,.000,0,0,,0,1,1,2,2,0,1,0,4,5.4,+4,Josh Giddey
+2022-01-25,21-070,DAL,AWAY,GSW,L (-38),0,21:39,2,8,.250,0,3,.000,0,0,,2,0,2,3,2,0,0,3,4,3.5,-25,Josh Giddey
+2022-01-26,21-071,DAL,AWAY,POR,W (+20),0,15:09,3,4,.750,0,0,,3,4,.750,1,1,2,2,0,1,1,2,9,8.3,+2,Josh Giddey
+2022-01-29,21-074,DAL,HOME,IND,W (+27),0,24:10,4,6,.667,0,1,.000,4,4,1.000,1,0,1,3,1,0,1,5,12,10.2,+10,Josh Giddey
+2022-01-30,21-075,DAL,AWAY,ORL,L (-2),0,21:53,4,6,.667,2,2,1.000,1,2,.500,0,1,1,3,0,0,1,1,11,9.0,-3,Josh Giddey
+2022-02-02,21-078,DAL,HOME,OKC,L (-6),0,18:34,2,6,.333,0,1,.000,1,2,.500,1,1,2,4,0,1,0,1,5,5.3,+2,Josh Giddey
+2022-02-04,21-080,DAL,HOME,PHI,W (+9),0,18:06,0,1,.000,0,1,.000,0,0,,1,6,7,1,0,0,1,1,0,1.1,-4,Josh Giddey
+2022-02-06,21-082,DAL,HOME,ATL,W (+9),0,23:21,3,10,.300,1,3,.333,2,2,1.000,2,4,6,1,3,1,2,1,9,7.8,+8,Josh Giddey
+2022-02-08,21-084,DAL,HOME,DET,W (+30),0,20:50,1,2,.500,0,0,,0,0,,0,3,3,0,3,0,0,2,2,4.1,+20,Josh Giddey
+2022-02-10,21-086,DAL,HOME,LAC,W (+7),0,14:17,2,2,1.000,0,0,,0,0,,0,3,3,2,0,0,0,3,4,4.5,-6,Josh Giddey
+2022-02-12,21-088,DAL,HOME,LAC,L (-2),0,20:15,1,7,.143,0,2,.000,0,0,,3,0,3,0,3,0,0,2,2,1.8,-13,Josh Giddey
+2022-02-15,21-091,DAL,AWAY,MIA,W (+8),1,20:13,3,5,.600,2,3,.667,0,0,,1,2,3,3,0,0,0,3,8,7.9,+2,Josh Giddey
+2022-02-17,21-093,DAL,AWAY,NOP,W (+7),1,25:13,0,2,.000,0,2,.000,0,0,,0,3,3,2,0,1,0,2,0,0.8,-5,Josh Giddey
+2022-02-25,21-101,DAL,AWAY,UTA,L (-5),0,11:42,0,0,,0,0,,0,0,,0,2,2,0,0,0,0,2,0,-0.2,+10,Josh Giddey
+2022-02-27,21-103,DAL,AWAY,GSW,W (+6),0,13:10,3,4,.750,0,0,,0,0,,0,2,2,0,0,0,2,2,6,2.2,+12,Josh Giddey
+2022-03-01,21-105,DAL,AWAY,LAL,W (+5),0,9:56,3,3,1.000,0,0,,0,0,,2,2,4,2,0,0,0,3,6,7.3,+6,Josh Giddey
+2022-03-03,21-107,DAL,HOME,GSW,W (+9),0,17:21,1,4,.250,1,1,1.000,0,0,,1,1,2,1,1,0,1,0,3,2.3,-3,Josh Giddey
+2022-03-05,21-109,DAL,HOME,SAC,W (+1),0,28:54,4,6,.667,2,3,.667,2,4,.500,6,6,12,1,1,0,1,1,12,14.9,+5,Josh Giddey
+2022-03-07,21-111,DAL,HOME,UTA,W (+8),0,18:22,2,5,.400,0,2,.000,0,0,,1,2,3,3,2,0,2,1,4,4.3,+1,Josh Giddey
+2022-03-09,21-113,DAL,HOME,NYK,L (-30),0,17:58,1,2,.500,0,1,.000,0,0,,0,1,1,0,1,0,3,2,2,-1.5,-15,Josh Giddey
+2022-03-11,21-115,DAL,AWAY,HOU,W (+13),1,35:57,4,10,.400,1,2,.500,1,1,1.000,3,3,6,1,4,2,0,4,10,12.1,-1,Josh Giddey
+2022-03-13,21-117,DAL,AWAY,BOS,W (+3),0,16:35,4,7,.571,1,3,.333,0,0,,1,0,1,0,0,0,2,5,9,2.4,-10,Josh Giddey
+2022-03-16,21-120,DAL,AWAY,BRK,W (+2),0,17:54,2,6,.333,2,4,.500,0,0,,0,1,1,1,0,0,0,1,6,3.2,+2,Josh Giddey
+2022-03-18,21-122,DAL,AWAY,PHI,L (-10),0,20:11,3,6,.500,1,2,.500,0,1,.000,1,3,4,0,1,1,0,1,7,6.5,-7,Josh Giddey
+2022-03-19,21-123,DAL,AWAY,CHO,L (-21),0,21:08,4,6,.667,1,2,.500,0,0,,2,1,3,2,0,0,3,0,9,6.5,-6,Josh Giddey
+2022-03-21,21-125,DAL,HOME,MIN,W (+2),0,12:04,1,5,.200,0,1,.000,0,0,,0,2,2,2,1,1,1,1,2,1.2,-6,Josh Giddey
+2022-03-23,21-127,DAL,HOME,HOU,W (+19),0,19:34,1,4,.250,0,2,.000,0,0,,0,1,1,0,0,0,1,2,2,-1.9,+8,Josh Giddey
+2022-03-25,21-129,DAL,AWAY,MIN,L (-21),0,16:41,2,3,.667,1,1,1.000,2,2,1.000,1,1,2,0,0,0,2,2,7,3.9,-20,Josh Giddey
+2022-03-27,21-131,DAL,HOME,UTA,W (+14),0,13:37,0,1,.000,0,1,.000,0,0,,0,0,0,2,0,1,0,2,0,0.6,+1,Josh Giddey
+2022-03-29,21-133,DAL,HOME,LAL,W (+18),0,19:37,5,8,.625,2,3,.667,0,0,,0,0,0,1,0,0,1,1,12,7.7,+15,Josh Giddey
+2022-03-30,21-134,DAL,AWAY,CLE,W (+8),0,16:39,1,2,.500,0,0,,0,0,,1,3,4,0,2,0,2,2,2,1.8,+2,Josh Giddey
+2022-04-01,21-136,DAL,AWAY,WAS,L (-32),0,13:42,2,5,.400,0,2,.000,0,0,,0,1,1,0,0,0,1,2,4,-0.2,-23,Josh Giddey
+2022-04-03,21-138,DAL,AWAY,MIL,W (+6),0,10:08,1,2,.500,1,2,.500,0,0,,0,1,1,0,0,0,0,1,3,1.9,-6,Josh Giddey
+2022-04-06,21-141,DAL,AWAY,DET,W (+18),0,21:22,5,6,.833,2,3,.667,0,0,,0,7,7,1,2,0,0,3,12,13.4,+2,Josh Giddey
+2022-04-08,21-143,DAL,HOME,POR,W (+50),0,15:55,0,1,.000,0,1,.000,1,2,.500,1,3,4,2,1,0,0,0,1,3.9,+26,Josh Giddey
+2022-04-10,21-145,DAL,HOME,SAS,W (+10),0,17:25,3,5,.600,1,3,.333,0,0,,1,2,3,2,0,0,2,3,7,4.2,0,Josh Giddey

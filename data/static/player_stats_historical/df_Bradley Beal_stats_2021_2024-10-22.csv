@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2020-12-23,27-178,WAS,AWAY,PHI,L (-6),1,35:44,11,22,.500,3,8,.375,6,7,.857,0,2,2,3,4,0,6,3,31,19.1,+6,Bradley Beal
+2020-12-26,27-181,WAS,HOME,ORL,L (-10),1,37:14,14,24,.583,2,5,.400,9,13,.692,2,5,7,5,2,0,4,2,39,29.8,-9,Bradley Beal
+2020-12-27,27-182,WAS,HOME,ORL,L (-7),1,39:06,10,29,.345,0,7,.000,9,9,1.000,0,5,5,7,0,1,1,1,29,18.4,-1,Bradley Beal
+2020-12-29,27-184,WAS,HOME,CHI,L (-8),1,36:32,9,20,.450,1,5,.200,10,10,1.000,2,2,4,3,2,1,5,4,29,18.8,-12,Bradley Beal
+2020-12-31,27-186,WAS,HOME,CHI,L (-3),1,34:53,8,19,.421,0,3,.000,12,13,.923,1,3,4,3,1,1,3,4,28,18.3,+3,Bradley Beal
+2021-01-01,27-187,WAS,AWAY,MIN,W (+21),1,27:58,12,20,.600,3,5,.600,4,5,.800,0,3,3,7,1,0,2,1,31,25.8,+23,Bradley Beal
+2021-01-03,27-189,WAS,AWAY,BRK,W (+1),1,36:28,9,25,.360,2,5,.400,7,9,.778,4,6,10,5,1,2,2,1,27,20.4,-2,Bradley Beal
+2021-01-06,27-192,WAS,AWAY,PHI,L (-5),1,38:15,20,35,.571,7,10,.700,13,15,.867,4,3,7,5,1,0,4,3,60,45.7,-9,Bradley Beal
+2021-01-08,27-194,WAS,AWAY,BOS,L (-9),1,38:11,16,29,.552,4,9,.444,5,5,1.000,0,3,3,3,0,1,5,3,41,24.6,-7,Bradley Beal
+2021-01-09,27-195,WAS,HOME,MIA,L (-4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Bradley Beal
+2021-01-11,27-197,WAS,HOME,PHO,W (+21),1,35:03,12,22,.545,2,7,.286,8,9,.889,2,6,8,9,2,1,1,3,34,33.0,+19,Bradley Beal
+2021-01-24,27-210,WAS,AWAY,SAS,L (-20),1,32:28,13,29,.448,3,10,.300,2,3,.667,1,6,7,4,0,0,4,2,31,16.0,-2,Bradley Beal
+2021-01-26,27-212,WAS,AWAY,HOU,L (-19),1,35:27,12,28,.429,1,5,.200,8,8,1.000,1,4,5,4,0,1,5,1,33,18.2,-4,Bradley Beal
+2021-01-27,27-213,WAS,AWAY,NOP,L (-18),1,40:05,17,37,.459,6,14,.429,7,7,1.000,2,2,4,6,4,0,3,3,47,33.9,-17,Bradley Beal
+2021-01-29,27-215,WAS,HOME,ATL,L (-16),1,31:47,10,26,.385,0,8,.000,6,7,.857,1,1,2,3,2,1,1,4,26,14.6,-17,Bradley Beal
+2021-01-31,27-217,WAS,HOME,BRK,W (+3),1,37:36,13,23,.565,2,5,.400,9,9,1.000,1,5,6,4,0,0,2,3,37,27.9,-12,Bradley Beal
+2021-02-02,27-219,WAS,HOME,POR,L (-11),1,37:55,14,24,.583,6,12,.500,3,5,.600,1,1,2,4,0,1,4,2,37,24.7,-12,Bradley Beal
+2021-02-03,27-220,WAS,AWAY,MIA,W (+3),1,38:05,11,23,.478,4,11,.364,6,8,.750,4,4,8,4,1,1,5,4,32,21.4,-4,Bradley Beal
+2021-02-05,27-222,WAS,AWAY,MIA,L (-27),1,27:24,1,14,.071,1,7,.143,4,4,1.000,1,2,3,3,3,0,1,3,7,1.8,-25,Bradley Beal
+2021-02-07,27-224,WAS,AWAY,CHO,L (-22),1,28:18,11,22,.500,3,9,.333,6,6,1.000,1,5,6,0,0,0,1,2,31,20.4,-27,Bradley Beal
+2021-02-08,27-225,WAS,AWAY,CHI,W (+4),1,34:57,10,24,.417,1,5,.200,14,15,.933,3,2,5,7,1,1,2,4,35,27.5,-5,Bradley Beal
+2021-02-10,27-227,WAS,HOME,TOR,L (-22),1,37:29,8,20,.400,1,6,.167,7,7,1.000,1,3,4,5,2,0,2,2,24,17.5,-20,Bradley Beal
+2021-02-12,27-229,WAS,HOME,NYK,L (-18),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Bradley Beal
+2021-02-14,27-231,WAS,HOME,BOS,W (+13),1,33:09,10,18,.556,4,9,.444,11,11,1.000,0,7,7,5,2,0,6,2,35,27.2,+22,Bradley Beal
+2021-02-15,27-232,WAS,HOME,HOU,W (+12),1,35:41,14,24,.583,3,8,.375,6,8,.750,0,8,8,3,3,0,3,2,37,28.7,+15,Bradley Beal
+2021-02-17,27-234,WAS,HOME,DEN,W (+2),1,36:30,8,20,.400,1,5,.200,8,8,1.000,1,3,4,10,0,0,3,1,25,19.4,-1,Bradley Beal
+2021-02-20,27-237,WAS,AWAY,POR,W (+7),1,35:12,16,27,.593,2,8,.250,3,4,.750,3,4,7,3,2,0,5,5,37,24.5,+8,Bradley Beal
+2021-02-22,27-239,WAS,AWAY,LAL,W (+3),1,44:14,12,24,.500,2,5,.400,7,9,.778,0,7,7,6,3,0,5,2,33,23.7,+7,Bradley Beal
+2021-02-23,27-240,WAS,AWAY,LAC,L (-19),1,39:18,12,24,.500,1,5,.200,3,3,1.000,2,2,4,10,0,0,3,1,28,21.6,-5,Bradley Beal
+2021-02-25,27-242,WAS,AWAY,DEN,W (+2),1,36:28,10,19,.526,2,5,.400,11,11,1.000,0,4,4,4,1,0,2,5,33,24.7,+2,Bradley Beal
+2021-02-27,27-244,WAS,HOME,MIN,W (+16),1,30:27,12,23,.522,2,6,.333,8,8,1.000,2,6,8,6,1,0,3,1,34,27.7,+6,Bradley Beal
+2021-02-28,27-245,WAS,AWAY,BOS,L (-1),1,39:23,16,29,.552,3,6,.500,11,12,.917,2,5,7,2,2,1,5,1,46,33.3,+2,Bradley Beal
+2021-03-02,27-247,WAS,HOME,MEM,L (-14),1,35:30,8,18,.444,1,4,.250,6,6,1.000,0,6,6,5,1,0,6,2,23,13.1,-25,Bradley Beal
+2021-03-04,27-249,WAS,HOME,LAC,W (+2),1,36:42,9,23,.391,1,4,.250,14,15,.933,1,6,7,3,2,1,1,5,33,24.4,+4,Bradley Beal
+2021-03-10,27-255,WAS,AWAY,MEM,L (-15),1,34:09,6,22,.273,1,8,.125,8,8,1.000,0,3,3,5,3,1,0,1,21,15.7,-12,Bradley Beal
+2021-03-12,27-257,WAS,HOME,PHI,L (-26),1,28:52,8,13,.615,1,2,.500,2,4,.500,0,2,2,1,0,0,3,0,19,10.6,-16,Bradley Beal
+2021-03-13,27-258,WAS,HOME,MIL,L (-6),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Bradley Beal
+2021-03-15,27-260,WAS,HOME,MIL,L (-11),1,41:45,13,19,.684,4,7,.571,7,7,1.000,0,6,6,5,1,0,3,4,37,30.6,-4,Bradley Beal
+2021-03-17,27-262,WAS,HOME,SAC,L (-2),1,35:31,12,20,.600,0,5,.000,5,6,.833,0,6,6,5,0,0,4,1,29,20.3,-3,Bradley Beal
+2021-03-18,27-263,WAS,HOME,UTA,W (+9),1,39:21,16,24,.667,4,6,.667,7,8,.875,0,2,2,5,0,0,3,3,43,32.1,+14,Bradley Beal
+2021-03-21,27-266,WAS,AWAY,BRK,L (-7),1,38:34,6,15,.400,1,3,.333,4,5,.800,1,1,2,5,0,0,6,3,17,5.8,+3,Bradley Beal
+2021-03-23,27-268,WAS,AWAY,NYK,L (-18),1,32:22,6,15,.400,0,3,.000,10,10,1.000,0,4,4,4,1,0,5,2,22,13.1,-20,Bradley Beal
+2021-03-25,27-270,WAS,AWAY,NYK,L (-4),1,39:22,8,23,.348,2,7,.286,8,9,.889,1,3,4,9,0,0,6,5,26,12.6,-1,Bradley Beal
+2021-03-27,27-272,WAS,HOME,DET,W (+14),1,20:52,6,11,.545,3,4,.750,2,2,1.000,1,2,3,6,0,0,2,1,17,14.8,+18,Bradley Beal
+2021-03-29,27-274,WAS,HOME,IND,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Bradley Beal
+2021-03-30,27-275,WAS,HOME,CHO,L (-10),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Bradley Beal
+2021-04-01,27-277,WAS,AWAY,DET,L (-29),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Bradley Beal
+2021-04-03,27-279,WAS,HOME,DAL,L (-22),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Bradley Beal
+2021-04-05,27-281,WAS,AWAY,TOR,L (-2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Bradley Beal
+2021-04-07,27-283,WAS,AWAY,ORL,W (+15),1,30:22,11,19,.579,4,6,.667,0,0,,1,0,1,5,1,1,2,0,26,21.0,+18,Bradley Beal
+2021-04-09,27-285,WAS,AWAY,GSW,W (+3),1,29:56,7,16,.438,1,5,.200,5,6,.833,1,2,3,6,0,0,6,2,20,9.9,+1,Bradley Beal
+2021-04-10,27-286,WAS,AWAY,PHO,L (-28),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Bradley Beal
+2021-04-12,27-288,WAS,AWAY,UTA,W (+4),1,36:33,14,31,.452,2,5,.400,4,7,.571,3,0,3,5,1,0,0,3,34,22.1,-12,Bradley Beal
+2021-04-14,27-290,WAS,AWAY,SAC,W (+12),1,36:07,10,22,.455,2,8,.250,9,9,1.000,2,2,4,3,1,0,5,2,31,18.9,-1,Bradley Beal
+2021-04-16,27-292,WAS,HOME,NOP,W (+2),1,42:25,10,29,.345,0,9,.000,10,11,.909,1,3,4,6,0,0,4,2,30,14.3,-13,Bradley Beal
+2021-04-17,27-293,WAS,HOME,DET,W (+21),1,34:52,13,22,.591,4,6,.667,7,8,.875,1,2,3,3,2,0,2,2,37,29.0,+25,Bradley Beal
+2021-04-19,27-295,WAS,HOME,OKC,W (+12),1,35:29,12,21,.571,3,4,.750,3,4,.750,0,1,1,2,3,1,1,1,30,23.7,+13,Bradley Beal
+2021-04-21,27-297,WAS,HOME,GSW,W (+4),1,36:27,8,21,.381,2,6,.333,11,11,1.000,1,9,10,4,2,0,1,2,29,23.9,+12,Bradley Beal
+2021-04-23,27-299,WAS,AWAY,OKC,W (+20),1,36:23,12,24,.500,4,6,.667,5,5,1.000,1,5,6,3,1,2,7,1,33,20.3,+12,Bradley Beal
+2021-04-25,27-301,WAS,HOME,CLE,W (+9),1,38:35,13,24,.542,2,4,.500,5,6,.833,3,3,6,3,1,0,2,4,33,23.5,+7,Bradley Beal
+2021-04-26,27-302,WAS,HOME,SAS,L (-3),1,41:36,20,37,.541,0,4,.000,5,5,1.000,2,1,3,1,0,0,0,2,45,28.7,-1,Bradley Beal
+2021-04-28,27-304,WAS,HOME,LAL,W (+9),1,36:18,11,18,.611,3,5,.600,2,2,1.000,0,3,3,3,1,0,4,1,27,18.4,+14,Bradley Beal
+2021-04-30,27-306,WAS,AWAY,CLE,W (+29),1,26:12,8,24,.333,1,4,.250,2,2,1.000,1,0,1,3,0,0,1,2,19,6.4,+9,Bradley Beal
+2021-05-01,27-307,WAS,AWAY,DAL,L (-1),1,36:45,9,20,.450,1,5,.200,10,11,.909,1,3,4,3,2,0,3,4,29,19.3,0,Bradley Beal
+2021-05-03,27-309,WAS,HOME,IND,W (+13),1,37:21,11,24,.458,1,5,.200,3,5,.600,2,3,5,6,2,1,5,3,26,15.8,+14,Bradley Beal
+2021-05-05,27-311,WAS,AWAY,MIL,L (-1),1,38:43,14,24,.583,3,6,.500,11,14,.786,0,4,4,3,1,0,2,2,42,31.1,-8,Bradley Beal
+2021-05-06,27-312,WAS,AWAY,TOR,W (+2),1,44:44,11,22,.500,1,1,1.000,5,7,.714,1,4,5,5,0,0,1,0,28,20.6,+7,Bradley Beal
+2021-05-08,27-314,WAS,AWAY,IND,W (+1),1,39:27,19,31,.613,3,7,.429,9,11,.818,4,1,5,1,1,2,1,1,50,39.9,+8,Bradley Beal
+2021-05-10,27-316,WAS,AWAY,ATL,L (-1),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Bradley Beal
+2021-05-12,27-318,WAS,AWAY,ATL,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Bradley Beal
+2021-05-14,27-320,WAS,HOME,CLE,W (+15),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Bradley Beal
+2021-05-16,27-322,WAS,HOME,CHO,W (+5),1,34:37,8,27,.296,3,11,.273,6,7,.857,1,5,6,4,1,0,3,4,25,10.3,+12,Bradley Beal

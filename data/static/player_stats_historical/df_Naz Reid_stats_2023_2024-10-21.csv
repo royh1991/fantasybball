@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2022-10-19,23-054,MIN,HOME,OKC,W (+7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Naz Reid
+2022-10-21,23-056,MIN,HOME,UTA,L (-6),0,9:19,0,3,.000,0,1,.000,0,0,,1,1,2,1,1,2,1,2,0,0.2,-1,Naz Reid
+2022-10-23,23-058,MIN,AWAY,OKC,W (+10),0,13:04,5,7,.714,2,4,.500,2,4,.500,1,1,2,1,0,1,0,4,14,11.1,+2,Naz Reid
+2022-10-24,23-059,MIN,HOME,SAS,L (-9),0,12:43,3,7,.429,0,1,.000,0,0,,1,2,3,0,0,1,0,0,6,4.3,-1,Naz Reid
+2022-10-26,23-061,MIN,HOME,SAS,W (+12),0,5:13,1,1,1.000,0,0,,0,0,,0,2,2,1,1,0,0,0,2,4.0,+3,Naz Reid
+2022-10-28,23-063,MIN,HOME,LAL,W (+9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Naz Reid
+2022-10-30,23-065,MIN,AWAY,SAS,L (-9),0,8:33,5,7,.714,1,2,.500,0,0,,1,1,2,0,1,0,0,0,11,10.1,+12,Naz Reid
+2022-11-01,23-067,MIN,AWAY,PHO,L (-9),0,15:46,5,6,.833,1,2,.500,2,2,1.000,0,3,3,0,1,0,0,0,13,12.7,+10,Naz Reid
+2022-11-04,23-070,MIN,HOME,MIL,L (-13),0,22:01,3,7,.429,0,3,.000,2,2,1.000,0,5,5,0,0,1,1,3,8,4.3,+1,Naz Reid
+2022-11-05,23-071,MIN,HOME,HOU,W (+12),0,13:15,4,7,.571,2,4,.500,1,2,.500,0,3,3,0,0,1,5,6,11,1.5,+8,Naz Reid
+2022-11-07,23-073,MIN,HOME,NYK,L (-13),0,18:17,5,8,.625,0,3,.000,1,2,.500,2,0,2,0,0,1,0,2,11,8.3,-14,Naz Reid
+2022-11-09,23-075,MIN,HOME,PHO,L (-12),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Naz Reid
+2022-11-11,23-077,MIN,AWAY,MEM,L (-11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Naz Reid
+2022-11-13,23-079,MIN,AWAY,CLE,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Naz Reid
+2022-11-16,23-082,MIN,AWAY,ORL,W (+18),0,1:46,0,0,,0,0,,0,0,,0,1,1,1,0,0,0,0,0,1.0,-5,Naz Reid
+2022-11-19,23-085,MIN,AWAY,PHI,W (+3),0,10:23,3,4,.750,1,1,1.000,2,2,1.000,1,3,4,1,0,0,0,5,9,7.7,+3,Naz Reid
+2022-11-21,23-087,MIN,HOME,MIA,W (+4),0,16:11,3,9,.333,0,2,.000,3,4,.750,0,4,4,2,0,1,1,3,9,4.6,-25,Naz Reid
+2022-11-23,23-089,MIN,AWAY,IND,W (+14),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Naz Reid
+2022-11-25,23-091,MIN,AWAY,CHO,L (-2),0,13:27,3,5,.600,1,2,.500,0,0,,0,0,0,0,0,0,1,3,7,2.5,-3,Naz Reid
+2022-11-27,23-093,MIN,HOME,GSW,L (-23),0,16:01,3,6,.500,2,3,.667,0,1,.000,0,2,2,2,0,0,0,1,8,6.2,-4,Naz Reid
+2022-11-28,23-094,MIN,AWAY,WAS,L (-15),0,17:43,2,6,.333,1,3,.333,1,2,.500,0,3,3,0,0,0,1,5,6,0.1,-2,Naz Reid
+2022-11-30,23-096,MIN,HOME,MEM,W (+8),0,22:12,3,8,.375,0,5,.000,1,2,.500,0,3,3,1,1,5,1,2,7,6.5,-5,Naz Reid
+2022-12-03,23-099,MIN,HOME,OKC,L (-7),0,29:47,6,12,.500,0,2,.000,1,2,.500,3,15,18,3,0,4,1,4,13,15.5,0,Naz Reid
+2022-12-07,23-103,MIN,HOME,IND,W (+6),0,11:35,3,5,.600,0,1,.000,0,0,,4,3,7,0,1,0,3,3,6,4.2,+4,Naz Reid
+2022-12-09,23-105,MIN,AWAY,UTA,W (+10),0,17:09,4,10,.400,3,6,.500,1,1,1.000,1,3,4,1,0,1,4,2,12,4.8,-5,Naz Reid
+2022-12-10,23-106,MIN,AWAY,POR,L (-6),0,14:27,6,12,.500,0,2,.000,3,3,1.000,2,1,3,0,1,2,0,1,15,12.7,-17,Naz Reid
+2022-12-12,23-108,MIN,AWAY,POR,L (-21),0,18:16,4,4,1.000,1,1,1.000,1,2,.500,0,4,4,1,0,0,1,2,10,8.5,-12,Naz Reid
+2022-12-14,23-110,MIN,AWAY,LAC,L (-11),0,20:05,3,5,.600,0,0,,3,4,.750,1,6,7,1,0,0,1,1,9,8.1,-15,Naz Reid
+2022-12-16,23-112,MIN,AWAY,OKC,W (+2),1,36:39,11,18,.611,3,5,.600,3,7,.429,3,6,9,3,3,1,3,3,28,23.7,+21,Naz Reid
+2022-12-18,23-114,MIN,HOME,CHI,W (+24),1,11:52,4,4,1.000,2,2,1.000,0,2,.000,0,3,3,0,1,0,0,0,10,9.9,+14,Naz Reid
+2022-12-19,23-115,MIN,HOME,DAL,W (+10),1,40:00,11,19,.579,2,6,.333,3,4,.750,2,11,13,1,2,1,2,2,27,23.0,+17,Naz Reid
+2022-12-21,23-117,MIN,HOME,DAL,L (-5),0,12:34,2,3,.667,2,2,1.000,0,0,,0,3,3,4,0,0,1,5,6,5.4,-1,Naz Reid
+2022-12-23,23-119,MIN,AWAY,BOS,L (-12),0,25:05,6,10,.600,2,4,.500,0,0,,1,4,5,2,0,2,4,4,14,8.5,-1,Naz Reid
+2022-12-26,23-122,MIN,AWAY,MIA,L (-3),0,29:15,8,15,.533,1,4,.250,4,5,.800,2,9,11,2,0,1,3,1,21,16.1,+13,Naz Reid
+2022-12-28,23-124,MIN,AWAY,NOP,L (-1),0,25:28,5,8,.625,2,5,.400,1,2,.500,0,6,6,1,0,2,1,1,13,11.5,+6,Naz Reid
+2022-12-30,23-126,MIN,AWAY,MIL,L (-9),1,29:48,7,18,.389,2,8,.250,0,0,,1,6,7,1,1,1,0,5,16,9.1,-6,Naz Reid
+2022-12-31,23-127,MIN,HOME,DET,L (-12),0,23:59,3,6,.500,0,2,.000,0,0,,2,7,9,0,2,2,3,2,6,6.1,-8,Naz Reid
+2023-01-02,23-129,MIN,HOME,DEN,W (+13),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Naz Reid
+2023-01-04,23-131,MIN,HOME,POR,W (+7),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Naz Reid
+2023-01-06,23-133,MIN,HOME,LAC,W (+13),0,9:15,4,4,1.000,2,2,1.000,0,0,,0,0,0,0,0,0,1,1,10,7.4,-14,Naz Reid
+2023-01-08,23-135,MIN,AWAY,HOU,W (+8),0,10:23,3,4,.750,0,0,,0,0,,2,3,5,0,1,0,0,1,6,7.3,-8,Naz Reid
+2023-01-11,23-138,MIN,AWAY,DET,L (-17),0,13:29,4,7,.571,0,0,,0,0,,6,2,8,0,0,0,2,2,8,6.7,-16,Naz Reid
+2023-01-13,23-140,MIN,HOME,PHO,W (+5),0,15:29,5,8,.625,1,3,.333,2,2,1.000,2,4,6,3,2,0,2,1,13,13.7,+5,Naz Reid
+2023-01-14,23-141,MIN,HOME,CLE,W (+8),0,28:09,8,16,.500,1,7,.143,0,0,,2,5,7,0,0,1,1,4,17,10.0,-5,Naz Reid
+2023-01-16,23-143,MIN,HOME,UTA,L (-1),0,21:46,3,8,.375,1,4,.250,0,0,,4,3,7,0,0,2,1,5,7,4.7,-6,Naz Reid
+2023-01-18,23-145,MIN,AWAY,DEN,L (-4),1,25:57,4,9,.444,0,5,.000,9,10,.900,1,2,3,2,0,3,3,5,17,11.7,+2,Naz Reid
+2023-01-19,23-146,MIN,HOME,TOR,W (+2),1,22:05,2,6,.333,1,1,1.000,0,0,,0,7,7,2,2,1,4,3,5,2.6,+16,Naz Reid
+2023-01-21,23-148,MIN,HOME,HOU,W (+9),1,15:09,2,7,.286,0,4,.000,1,1,1.000,1,2,3,1,0,1,1,3,5,1.4,-9,Naz Reid
+2023-01-23,23-150,MIN,AWAY,HOU,L (-5),0,9:08,1,2,.500,0,1,.000,0,0,,1,0,1,0,1,1,1,0,2,2.4,-2,Naz Reid
+2023-01-25,23-152,MIN,AWAY,NOP,W (+9),0,13:30,1,1,1.000,1,1,1.000,3,4,.750,1,6,7,0,2,2,1,2,6,9.4,-4,Naz Reid
+2023-01-27,23-154,MIN,HOME,MEM,W (+11),0,16:33,4,6,.667,1,3,.333,0,2,.000,2,1,3,1,2,1,0,1,9,10.3,+6,Naz Reid
+2023-01-28,23-155,MIN,HOME,SAC,W (+7),0,13:19,6,9,.667,1,4,.250,1,1,1.000,0,2,2,0,0,0,1,4,14,8.1,-8,Naz Reid
+2023-01-30,23-157,MIN,HOME,SAC,L (-7),0,15:38,3,9,.333,0,4,.000,0,0,,2,1,3,1,1,0,1,2,6,2.5,-8,Naz Reid
+2023-02-01,23-159,MIN,HOME,GSW,W (+5),1,35:20,10,22,.455,2,8,.250,2,4,.500,1,12,13,4,1,1,1,4,24,18.0,+5,Naz Reid
+2023-02-03,23-161,MIN,HOME,ORL,L (-7),0,20:47,4,7,.571,2,4,.500,0,1,.000,2,1,3,1,1,1,2,4,10,6.8,-11,Naz Reid
+2023-02-05,23-163,MIN,HOME,DEN,W (+30),0,14:45,3,3,1.000,1,1,1.000,0,0,,1,1,2,0,0,1,0,4,7,6.2,+7,Naz Reid
+2023-02-07,23-165,MIN,AWAY,DEN,L (-34),1,12:08,5,9,.556,1,3,.333,0,0,,0,3,3,0,0,0,2,2,11,4.8,-7,Naz Reid
+2023-02-08,23-166,MIN,AWAY,UTA,W (+25),1,21:58,3,8,.375,2,4,.500,0,0,,2,5,7,3,0,0,2,3,8,5.4,+14,Naz Reid
+2023-02-10,23-168,MIN,AWAY,MEM,L (-21),0,16:51,4,7,.571,2,3,.667,0,0,,0,3,3,2,0,0,1,3,10,6.8,-3,Naz Reid
+2023-02-13,23-171,MIN,AWAY,DAL,W (+3),0,12:28,4,9,.444,1,5,.200,1,1,1.000,0,2,2,2,0,0,1,3,10,5.1,-7,Naz Reid
+2023-02-16,23-174,MIN,HOME,WAS,L (-8),0,12:30,2,7,.286,0,2,.000,2,2,1.000,1,4,5,2,0,0,2,0,6,3.2,-12,Naz Reid
+2023-02-24,23-182,MIN,HOME,CHO,L (-8),0,17:58,6,12,.500,2,7,.286,2,2,1.000,1,7,8,2,0,2,1,4,16,13.0,-1,Naz Reid
+2023-02-26,23-184,MIN,AWAY,GSW,L (-5),1,36:11,12,22,.545,4,11,.364,2,5,.400,2,7,9,3,5,2,2,3,30,27.0,-6,Naz Reid
+2023-02-28,23-186,MIN,AWAY,LAC,W (+7),0,18:46,4,6,.667,0,1,.000,4,7,.571,3,5,8,2,1,0,4,5,12,8.2,+4,Naz Reid
+2023-03-03,23-189,MIN,AWAY,LAL,W (+8),0,20:57,6,12,.500,3,6,.500,0,0,,1,7,8,2,2,0,2,4,15,11.6,+9,Naz Reid
+2023-03-04,23-190,MIN,AWAY,SAC,W (+4),0,16:56,4,5,.800,2,3,.667,0,2,.000,0,4,4,1,0,0,0,5,10,7.2,-7,Naz Reid
+2023-03-07,23-193,MIN,HOME,PHI,L (-23),0,17:37,4,9,.444,1,4,.250,2,2,1.000,1,2,3,3,1,0,1,3,11,8.5,-10,Naz Reid
+2023-03-10,23-196,MIN,HOME,BRK,L (-1),0,10:45,1,3,.333,1,1,1.000,0,0,,1,3,4,0,0,0,2,3,3,-0.3,-6,Naz Reid
+2023-03-13,23-199,MIN,AWAY,ATL,W (+21),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Naz Reid
+2023-03-15,23-201,MIN,HOME,BOS,L (-2),0,19:03,4,9,.444,1,3,.333,6,6,1.000,0,6,6,1,0,0,3,4,15,8.2,0,Naz Reid
+2023-03-17,23-203,MIN,AWAY,CHI,L (-8),0,24:33,6,15,.400,0,4,.000,2,2,1.000,1,2,3,1,1,1,2,4,14,6.0,-12,Naz Reid
+2023-03-18,23-204,MIN,AWAY,TOR,L (-15),0,19:51,8,10,.800,1,2,.500,5,7,.714,0,4,4,1,0,0,2,3,22,16.1,-9,Naz Reid
+2023-03-20,23-206,MIN,AWAY,NYK,W (+6),0,19:32,6,9,.667,0,2,.000,0,0,,0,2,2,3,0,1,1,4,12,8.9,-13,Naz Reid
+2023-03-22,23-208,MIN,HOME,ATL,W (+1),0,25:37,11,15,.733,2,4,.500,2,2,1.000,1,7,8,0,2,0,2,3,26,21.5,+3,Naz Reid
+2023-03-26,23-212,MIN,AWAY,GSW,W (+3),0,20:46,10,17,.588,3,5,.600,0,0,,1,5,6,1,0,0,1,0,23,17.0,+8,Naz Reid
+2023-03-27,23-213,MIN,AWAY,SAC,W (+4),0,20:46,7,12,.583,2,5,.400,2,4,.500,0,4,4,1,1,1,0,1,18,14.8,-8,Naz Reid
+2023-03-29,23-215,MIN,AWAY,PHO,L (-7),0,23:08,5,13,.385,2,4,.500,3,5,.600,1,5,6,2,0,1,1,1,15,10.0,-4,Naz Reid
+2023-03-31,23-217,MIN,HOME,LAL,L (-12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Naz Reid
+2023-04-02,23-219,MIN,HOME,POR,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Naz Reid
+2023-04-04,23-221,MIN,AWAY,BRK,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Naz Reid
+2023-04-08,23-225,MIN,AWAY,SAS,W (+20),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Naz Reid
+2023-04-09,23-226,MIN,HOME,NOP,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Naz Reid

@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2019-10-22,26-284,TOR,HOME,NOP,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2019-10-25,26-287,TOR,AWAY,BOS,L (-6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2019-10-26,26-288,TOR,AWAY,CHI,W (+24),0,4:34,0,1,.000,0,1,.000,2,2,1.000,1,1,2,0,0,2,1,1,2,2.3,+2,Chris Boucher
+2019-10-28,26-290,TOR,HOME,ORL,W (+9),0,4:24,0,0,,0,0,,2,2,1.000,0,1,1,0,0,0,0,0,2,2.3,+2,Chris Boucher
+2019-10-30,26-292,TOR,HOME,DET,W (+12),0,4:04,0,2,.000,0,0,,0,0,,0,1,1,0,0,2,0,0,0,0.3,-5,Chris Boucher
+2019-11-02,26-295,TOR,AWAY,MIL,L (-10),0,4:09,0,0,,0,0,,0,0,,1,0,1,0,0,0,0,0,0,0.7,-6,Chris Boucher
+2019-11-06,26-299,TOR,HOME,SAC,W (+4),0,5:21,0,0,,0,0,,0,0,,0,0,0,1,0,1,0,1,0,1.0,-3,Chris Boucher
+2019-11-08,26-301,TOR,AWAY,NOP,W (+18),0,13:42,1,6,.167,0,1,.000,3,4,.750,3,5,8,1,1,1,0,2,5,6.0,+4,Chris Boucher
+2019-11-10,26-303,TOR,AWAY,LAL,W (+9),0,24:22,7,11,.636,1,4,.250,0,2,.000,1,1,2,1,2,3,0,2,15,14.3,+3,Chris Boucher
+2019-11-11,26-304,TOR,AWAY,LAC,L (-10),0,22:03,5,10,.500,3,5,.600,0,0,,2,4,6,0,1,2,1,5,13,10.0,-2,Chris Boucher
+2019-11-13,26-306,TOR,AWAY,POR,W (+8),0,14:30,1,4,.250,0,2,.000,0,0,,3,4,7,1,0,0,0,2,2,2.8,-1,Chris Boucher
+2019-11-16,26-309,TOR,AWAY,DAL,L (-8),0,12:02,1,2,.500,0,1,.000,1,2,.500,2,1,3,0,0,1,1,0,3,3.0,-1,Chris Boucher
+2019-11-18,26-311,TOR,HOME,CHO,W (+36),0,18:15,5,11,.455,1,2,.500,0,1,.000,7,4,11,0,1,0,1,3,11,9.8,+10,Chris Boucher
+2019-11-20,26-313,TOR,HOME,ORL,W (+16),0,20:24,5,10,.500,0,2,.000,4,4,1.000,6,5,11,1,0,1,0,3,14,14.9,+22,Chris Boucher
+2019-11-23,26-316,TOR,AWAY,ATL,W (+3),0,15:10,5,7,.714,1,2,.500,2,2,1.000,4,4,8,0,0,0,2,2,13,11.3,-5,Chris Boucher
+2019-11-25,26-318,TOR,HOME,PHI,W (+5),0,13:10,0,2,.000,0,2,.000,0,0,,2,1,3,0,0,0,0,2,0,-0.5,+2,Chris Boucher
+2019-11-27,26-320,TOR,HOME,NYK,W (+28),0,25:29,4,10,.400,2,4,.500,3,4,.750,5,7,12,4,0,0,0,3,13,14.4,+26,Chris Boucher
+2019-11-29,26-322,TOR,AWAY,ORL,W (+7),0,11:53,2,4,.500,0,1,.000,3,6,.500,0,3,3,1,1,2,1,0,7,6.8,-1,Chris Boucher
+2019-12-01,26-324,TOR,HOME,UTA,W (+20),0,4:57,0,1,.000,0,1,.000,0,0,,1,0,1,0,1,0,0,0,0,1.0,0,Chris Boucher
+2019-12-03,26-326,TOR,HOME,MIA,L (-11),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2019-12-05,26-328,TOR,HOME,HOU,L (-10),0,3:16,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,-5,Chris Boucher
+2019-12-08,26-331,TOR,AWAY,PHI,L (-6),0,4:28,1,1,1.000,1,1,1.000,0,0,,0,0,0,0,0,0,0,0,3,2.7,-3,Chris Boucher
+2019-12-09,26-332,TOR,AWAY,CHI,W (+1),0,13:58,2,4,.500,1,2,.500,0,0,,2,3,5,0,0,0,1,1,5,3.9,-9,Chris Boucher
+2019-12-11,26-334,TOR,HOME,LAC,L (-20),0,8:59,2,5,.400,1,3,.333,0,0,,1,2,3,0,0,0,0,1,5,3.2,+2,Chris Boucher
+2019-12-14,26-337,TOR,HOME,BRK,W (+8),0,5:31,0,1,.000,0,1,.000,0,0,,0,0,0,0,0,1,0,0,0,0.0,-10,Chris Boucher
+2019-12-16,26-339,TOR,HOME,CLE,W (+20),0,12:53,2,3,.667,1,1,1.000,2,2,1.000,2,3,5,1,0,0,0,4,7,7.1,+5,Chris Boucher
+2019-12-18,26-341,TOR,AWAY,DET,W (+13),0,6:12,0,2,.000,0,1,.000,2,2,1.000,0,1,1,0,0,0,0,0,2,0.9,-3,Chris Boucher
+2019-12-20,26-343,TOR,HOME,WAS,W (+4),0,12:48,1,4,.250,0,1,.000,2,2,1.000,3,2,5,0,0,0,0,3,4,3.1,-3,Chris Boucher
+2019-12-22,26-345,TOR,HOME,DAL,W (+3),0,24:06,6,12,.500,0,1,.000,9,12,.750,3,4,7,0,2,4,1,2,21,20.1,+24,Chris Boucher
+2019-12-23,26-346,TOR,AWAY,IND,L (-5),0,13:51,1,3,.333,0,1,.000,3,4,.750,2,4,6,0,0,1,1,3,5,4.0,+3,Chris Boucher
+2019-12-25,26-348,TOR,HOME,BOS,L (-16),0,27:33,7,10,.700,3,4,.750,7,8,.875,3,3,6,0,0,2,0,4,24,22.2,-5,Chris Boucher
+2019-12-28,26-351,TOR,AWAY,BOS,W (+16),0,16:12,3,4,.750,0,1,.000,0,0,,2,2,4,3,0,1,0,3,6,8.0,+19,Chris Boucher
+2019-12-29,26-352,TOR,HOME,OKC,L (-1),0,19:01,3,7,.429,1,3,.333,2,2,1.000,0,5,5,0,0,0,1,2,9,5.0,-4,Chris Boucher
+2019-12-31,26-354,TOR,HOME,CLE,W (+20),0,15:50,1,5,.200,0,1,.000,0,0,,3,3,6,0,2,1,0,0,2,4.6,+9,Chris Boucher
+2020-01-02,26-356,TOR,AWAY,MIA,L (-8),0,13:06,1,1,1.000,0,0,,0,0,,2,6,8,0,0,2,1,1,2,4.9,-7,Chris Boucher
+2020-01-04,26-358,TOR,AWAY,BRK,W (+19),0,19:50,3,8,.375,0,2,.000,1,4,.250,6,1,7,0,0,1,1,2,7,4.8,+8,Chris Boucher
+2020-01-07,26-361,TOR,HOME,POR,L (-2),0,15:47,4,7,.571,2,3,.667,2,4,.500,3,6,9,0,0,3,1,5,12,10.9,+8,Chris Boucher
+2020-01-08,26-362,TOR,AWAY,CHO,W (+2),0,13:39,1,5,.200,1,4,.250,0,0,,1,2,3,1,0,2,0,1,3,2.9,-13,Chris Boucher
+2020-01-12,27-001,TOR,HOME,SAS,L (-1),0,9:18,2,5,.400,1,3,.333,2,2,1.000,0,3,3,1,2,1,1,4,7,6.0,-4,Chris Boucher
+2020-01-15,27-004,TOR,AWAY,OKC,W (+9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2020-01-17,27-006,TOR,HOME,WAS,W (+29),0,4:56,1,2,.500,0,1,.000,0,0,,0,2,2,0,0,0,1,2,2,-0.2,+1,Chris Boucher
+2020-01-18,27-007,TOR,AWAY,MIN,W (+10),0,3:19,1,2,.500,0,1,.000,0,0,,1,1,2,1,0,0,0,0,2,2.7,-6,Chris Boucher
+2020-01-20,27-009,TOR,AWAY,ATL,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2020-01-22,27-011,TOR,HOME,PHI,W (+12),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2020-01-24,27-013,TOR,AWAY,NYK,W (+6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2020-01-26,27-015,TOR,AWAY,SAS,W (+4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2020-01-28,27-017,TOR,HOME,ATL,W (+16),0,13:02,4,8,.500,0,3,.000,1,1,1.000,3,2,5,1,1,0,0,4,9,7.8,+2,Chris Boucher
+2020-01-30,27-019,TOR,AWAY,CLE,W (+6),0,14:47,4,5,.800,0,1,.000,2,2,1.000,0,4,4,0,0,1,0,1,10,9.6,-6,Chris Boucher
+2020-01-31,27-020,TOR,AWAY,DET,W (+13),0,17:47,3,8,.375,0,2,.000,2,2,1.000,1,6,7,0,0,3,0,3,8,7.0,+14,Chris Boucher
+2020-02-02,27-022,TOR,HOME,CHI,W (+27),0,24:31,5,10,.500,1,4,.250,4,4,1.000,1,4,5,1,2,0,1,3,15,12.4,+21,Chris Boucher
+2020-02-05,27-025,TOR,HOME,IND,W (+1),0,7:55,2,3,.667,0,1,.000,3,4,.750,1,1,2,0,0,0,0,0,7,6.3,-3,Chris Boucher
+2020-02-07,27-027,TOR,AWAY,IND,W (+9),0,7:34,1,4,.250,1,2,.500,0,0,,0,2,2,1,1,0,0,3,3,1.7,0,Chris Boucher
+2020-02-08,27-028,TOR,HOME,BRK,W (+1),0,16:02,2,5,.400,0,2,.000,5,5,1.000,2,3,5,0,0,3,2,5,9,6.7,+5,Chris Boucher
+2020-02-10,27-030,TOR,HOME,MIN,W (+11),0,13:19,3,5,.600,0,1,.000,0,0,,0,2,2,0,0,0,1,3,6,2.1,-6,Chris Boucher
+2020-02-12,27-032,TOR,AWAY,BRK,L (-10),0,9:03,1,3,.333,0,2,.000,0,0,,1,1,2,0,0,0,0,1,2,0.9,-9,Chris Boucher
+2020-02-21,27-041,TOR,HOME,PHO,W (+17),0,13:31,1,3,.333,0,1,.000,0,0,,1,2,3,0,1,4,0,3,2,4.2,-5,Chris Boucher
+2020-02-23,27-043,TOR,HOME,IND,W (+46),0,17:11,2,4,.500,1,2,.500,4,4,1.000,1,10,11,2,0,4,0,2,9,14.1,+12,Chris Boucher
+2020-02-25,27-045,TOR,HOME,MIL,L (-11),0,19:08,4,8,.500,2,4,.500,0,0,,3,4,7,0,0,1,1,2,10,8.2,+6,Chris Boucher
+2020-02-28,27-048,TOR,HOME,CHO,L (-3),0,16:17,2,3,.667,0,1,.000,0,0,,1,1,2,1,0,0,0,1,4,4.0,-2,Chris Boucher
+2020-03-01,27-050,TOR,AWAY,DEN,L (-15),0,8:42,1,3,.333,1,2,.500,2,2,1.000,1,1,2,0,0,0,1,4,5,1.7,-6,Chris Boucher
+2020-03-03,27-052,TOR,AWAY,PHO,W (+9),0,28:44,5,12,.417,2,5,.400,7,8,.875,6,9,15,0,2,1,1,3,19,19.6,+13,Chris Boucher
+2020-03-05,27-054,TOR,AWAY,GSW,W (+8),0,7:51,1,2,.500,0,1,.000,0,0,,0,1,1,0,0,1,0,2,2,1.2,+9,Chris Boucher
+2020-03-08,27-057,TOR,AWAY,SAC,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2020-03-09,27-058,TOR,AWAY,UTA,W (+9),0,5:33,0,2,.000,0,2,.000,0,0,,0,0,0,0,0,1,0,0,0,-0.7,-15,Chris Boucher
+2020-08-01,27-203,TOR,HOME,LAL,W (+15),0,1:27,0,1,.000,0,1,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,-1,Chris Boucher
+2020-08-03,27-205,TOR,AWAY,MIA,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2020-08-05,27-207,TOR,AWAY,ORL,W (+10),0,0:38,0,0,,0,0,,0,0,,0,1,1,0,0,0,0,1,0,-0.1,-1,Chris Boucher
+2020-08-07,27-209,TOR,HOME,BOS,L (-22),0,14:18,3,3,1.000,2,2,1.000,1,1,1.000,0,5,5,1,0,1,2,3,9,7.8,+8,Chris Boucher
+2020-08-09,27-211,TOR,HOME,MEM,W (+9),0,5:34,0,0,,0,0,,1,2,.500,0,0,0,0,0,0,1,0,1,-0.4,-1,Chris Boucher
+2020-08-10,27-212,TOR,AWAY,MIL,W (+8),0,29:09,9,15,.600,3,7,.429,4,5,.800,5,6,11,2,2,2,0,3,25,26.6,+12,Chris Boucher
+2020-08-12,27-214,TOR,AWAY,PHI,W (+4),0,21:59,7,12,.583,4,6,.667,1,2,.500,4,5,9,0,0,4,1,1,19,18.7,-8,Chris Boucher
+2020-08-14,27-216,TOR,HOME,DEN,W (+8),0,21:30,3,8,.375,1,3,.333,2,3,.667,4,5,9,0,0,1,1,2,9,7.4,+5,Chris Boucher

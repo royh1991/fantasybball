@@ -1,0 +1,65 @@
+,Team Role,Team ID,Opponent ID,Player Name,Pro Team,gameDate,Injury Status,Injured,week,week_start_dt,week_end_dt
+287,Home,11,17,Dereck Lively II,Dallas Mavericks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+407,Home,11,17,Brandon Boston Jr.,New Orleans Pelicans,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+527,Away,17,11,Luka Doncic,Dallas Mavericks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+646,Away,17,11,Miles Bridges,Charlotte Hornets,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+926,Away,17,11,Grant Williams,Charlotte Hornets,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+1007,Away,17,11,Yves Missi,New Orleans Pelicans,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+1086,Home,18,6,De'Aaron Fox,Sacramento Kings,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+1167,Home,18,6,Dejounte Murray,New Orleans Pelicans,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+1527,Home,18,6,Trey Jemison III,New Orleans Pelicans,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+2086,Home,16,21,Domantas Sabonis,Sacramento Kings,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+2165,Home,16,21,Jaylen Brown,Boston Celtics,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+2367,Home,16,21,P.J. Washington,Dallas Mavericks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+2806,Away,21,16,Brandon Miller,Charlotte Hornets,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+2846,Away,21,16,Keegan Murray,Sacramento Kings,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+2967,Away,21,16,Trey Murphy III,New Orleans Pelicans,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+3005,Away,21,16,Al Horford,Boston Celtics,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+3167,Home,10,20,Kyrie Irving,Dallas Mavericks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+3207,Home,10,20,Zion Williamson,New Orleans Pelicans,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+3566,Home,10,20,Kevin Huerter,Sacramento Kings,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+3727,Away,20,10,CJ McCollum,New Orleans Pelicans,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+4327,Home,8,15,Brandon Ingram,New Orleans Pelicans,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+4367,Home,8,15,Klay Thompson,Dallas Mavericks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+4446,Home,8,15,Mark Williams,Charlotte Hornets,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+4726,Away,15,8,LaMelo Ball,Charlotte Hornets,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+5085,Away,15,8,Payton Pritchard,Boston Celtics,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+5325,Home,19,12,Jrue Holiday,Boston Celtics,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+5405,Home,19,12,Kristaps Porzingis,Boston Celtics,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+5646,Home,19,12,Moussa Diabate,Charlotte Hornets,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+5806,Away,12,19,DeMar DeRozan,Sacramento Kings,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+6367,Home,14,5,Daniel Gafford,Dallas Mavericks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+6725,Away,5,14,Jayson Tatum,Boston Celtics,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+6845,Away,5,14,Derrick White,Boston Celtics,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+7207,Away,5,14,Naji Marshall,Dallas Mavericks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+7485,Home,11,17,Walker Kessler,Utah Jazz,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+7965,Away,17,11,Devin Vassell,San Antonio Spurs,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+8286,Home,18,6,Anthony Davis,Los Angeles Lakers,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+8566,Home,18,6,Austin Reaves,Los Angeles Lakers,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+8725,Home,18,6,Keldon Johnson,San Antonio Spurs,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+8805,Away,6,18,Victor Wembanyama,San Antonio Spurs,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+8885,Away,6,18,Lauri Markkanen,Utah Jazz,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+8966,Away,6,18,D'Angelo Russell,Los Angeles Lakers,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+9047,Away,6,18,Jonas Valanciunas,Toronto Raptors,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+9086,Away,6,18,Bobby Portis,Milwaukee Bucks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+9167,Away,6,18,Malcolm Brogdon,Toronto Raptors,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+9205,Away,6,18,Jeremy Sochan,San Antonio Spurs,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+9245,Away,6,18,Harrison Barnes,San Antonio Spurs,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+9285,Away,6,18,John Collins,Utah Jazz,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+10566,Home,10,20,Khris Middleton,Milwaukee Bucks,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+10645,Home,10,20,Chris Paul,San Antonio Spurs,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+11085,Away,20,10,Collin Sexton,Utah Jazz,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+11366,Away,20,10,Taurean Prince,Milwaukee Bucks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+11727,Home,8,15,Jordan Poole,Toronto Raptors,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+12287,Away,15,8,Bilal Coulibaly,Toronto Raptors,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+12446,Home,19,12,Damian Lillard,Milwaukee Bucks,2024-11-16,OUT,True,Week 4,2024-11-11,2024-11-17
+12606,Home,19,12,Brook Lopez,Milwaukee Bucks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+12767,Home,19,12,Carlton Carrington,Toronto Raptors,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+12966,Away,12,19,LeBron James,Los Angeles Lakers,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+13127,Away,12,19,Kyle Kuzma,Toronto Raptors,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+13327,Away,12,19,Alexandre Sarr,Toronto Raptors,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+13726,Home,14,5,Giannis Antetokounmpo,Milwaukee Bucks,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+13805,Home,14,5,Keyonte George,Utah Jazz,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+13845,Home,14,5,Jordan Clarkson,Utah Jazz,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+13926,Home,14,5,Dalton Knecht,Los Angeles Lakers,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17
+14365,Away,5,14,Stephon Castle,San Antonio Spurs,2024-11-16,ACTIVE,False,Week 4,2024-11-11,2024-11-17

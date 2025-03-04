@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2020-12-22,24-320,GSW,AWAY,BRK,L (-26),0,11:17,2,4,.500,0,0,,0,1,.000,0,2,2,0,0,0,2,3,4,-1.0,-10,Kevon Looney
+2020-12-25,24-323,GSW,AWAY,MIL,L (-39),0,11:01,1,3,.333,0,1,.000,0,0,,1,2,3,0,0,0,0,1,2,1.2,-11,Kevon Looney
+2020-12-27,24-325,GSW,AWAY,CHI,W (+1),0,16:53,3,5,.600,0,0,,2,2,1.000,3,1,4,4,0,0,0,2,8,10.1,+12,Kevon Looney
+2020-12-29,24-327,GSW,AWAY,DET,W (+10),0,21:49,0,2,.000,0,1,.000,2,2,1.000,0,5,5,4,1,0,0,1,2,5.5,-10,Kevon Looney
+2021-01-01,24-330,GSW,HOME,POR,L (-25),0,12:05,1,1,1.000,0,0,,0,0,,0,0,0,0,1,1,0,3,2,2.2,-8,Kevon Looney
+2021-01-03,24-332,GSW,HOME,POR,W (+15),0,17:20,1,1,1.000,0,0,,0,0,,2,3,5,2,0,0,1,1,2,4.0,+2,Kevon Looney
+2021-01-04,24-333,GSW,HOME,SAC,W (+31),0,12:23,5,6,.833,0,0,,1,2,.500,1,2,3,2,0,0,0,3,11,9.9,+19,Kevon Looney
+2021-01-06,24-335,GSW,HOME,LAC,L (-7),0,12:14,2,2,1.000,0,0,,2,2,1.000,2,1,3,3,1,0,3,2,6,6.4,-4,Kevon Looney
+2021-01-08,24-337,GSW,HOME,LAC,W (+10),0,11:55,1,1,1.000,0,0,,0,0,,0,2,2,0,1,0,3,5,2,-1.7,+10,Kevon Looney
+2021-01-10,24-339,GSW,HOME,TOR,W (+1),0,14:11,1,1,1.000,0,0,,0,0,,2,1,3,0,0,1,0,0,2,4.1,+5,Kevon Looney
+2021-01-12,24-341,GSW,HOME,IND,L (-9),0,15:38,1,2,.500,0,0,,1,2,.500,1,8,9,1,0,0,1,1,3,4.0,+13,Kevon Looney
+2021-01-14,24-343,GSW,AWAY,DEN,L (-10),0,9:43,0,1,.000,0,1,.000,0,0,,2,2,4,0,0,0,0,1,0,0.9,-17,Kevon Looney
+2021-01-18,24-347,GSW,AWAY,LAL,W (+2),0,19:21,3,3,1.000,1,1,1.000,0,0,,1,5,6,1,0,0,0,3,7,7.8,+12,Kevon Looney
+2021-01-20,24-349,GSW,HOME,SAS,W (+22),0,13:38,1,1,1.000,0,0,,0,0,,1,4,5,2,1,1,1,2,2,4.9,+13,Kevon Looney
+2021-01-21,24-350,GSW,HOME,NYK,L (-15),0,12:37,1,1,1.000,0,0,,1,2,.500,1,1,2,1,0,0,0,2,3,3.2,-6,Kevon Looney
+2021-01-23,24-352,GSW,AWAY,UTA,L (-19),0,13:21,2,2,1.000,1,1,1.000,0,0,,2,1,3,1,0,0,0,1,5,6.4,-2,Kevon Looney
+2021-01-25,24-354,GSW,HOME,MIN,W (+22),1,18:54,1,4,.250,0,0,,0,0,,2,3,5,4,0,1,1,2,2,3.6,+21,Kevon Looney
+2021-01-27,24-356,GSW,HOME,MIN,W (+12),1,11:48,1,3,.333,0,0,,0,0,,5,5,10,4,0,0,2,1,2,5.7,+9,Kevon Looney
+2021-01-28,24-357,GSW,AWAY,PHO,L (-21),1,15:30,1,2,.500,0,0,,0,0,,1,3,4,1,2,0,0,1,2,4.9,-6,Kevon Looney
+2021-01-30,24-359,GSW,HOME,DET,W (+27),1,22:31,3,3,1.000,0,0,,0,0,,2,4,6,4,0,2,0,1,6,11.5,+15,Kevon Looney
+2021-02-02,24-362,GSW,HOME,BOS,L (-4),1,13:20,2,5,.400,0,0,,0,0,,3,0,3,3,0,0,0,1,4,5.1,+5,Kevon Looney
+2021-02-04,24-364,GSW,AWAY,DAL,W (+31),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kevon Looney
+2021-02-06,25-000,GSW,AWAY,DAL,L (-2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kevon Looney
+2021-02-08,25-002,GSW,AWAY,SAS,L (-5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kevon Looney
+2021-02-09,25-003,GSW,AWAY,SAS,W (+23),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kevon Looney
+2021-02-11,25-005,GSW,HOME,ORL,W (+6),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevon Looney
+2021-02-13,25-007,GSW,HOME,BRK,L (-17),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevon Looney
+2021-02-15,25-009,GSW,HOME,CLE,W (+31),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kevon Looney
+2021-02-17,25-011,GSW,HOME,MIA,W (+8),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevon Looney
+2021-02-19,25-013,GSW,AWAY,ORL,L (-4),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevon Looney
+2021-02-20,25-014,GSW,AWAY,CHO,L (-2),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevon Looney
+2021-02-23,25-017,GSW,AWAY,NYK,W (+8),1,20:15,1,1,1.000,0,0,,0,0,,2,4,6,4,0,1,1,4,2,5.2,+17,Kevon Looney
+2021-02-24,25-018,GSW,AWAY,IND,W (+4),1,17:10,2,4,.500,0,0,,0,0,,4,1,5,1,0,1,0,2,4,5.7,-4,Kevon Looney
+2021-02-26,25-020,GSW,HOME,CHO,W (+9),1,19:48,3,3,1.000,0,0,,4,4,1.000,0,1,1,1,1,0,0,2,10,10.3,+7,Kevon Looney
+2021-02-28,25-022,GSW,AWAY,LAL,L (-26),1,5:53,0,2,.000,0,0,,0,0,,0,1,1,0,0,0,0,1,0,-1.5,-15,Kevon Looney
+2021-03-03,25-025,GSW,AWAY,POR,L (-2),1,17:17,3,7,.429,0,0,,3,4,.750,6,2,8,0,1,0,2,3,9,7.5,+4,Kevon Looney
+2021-03-04,25-026,GSW,AWAY,PHO,L (-22),0,13:25,2,4,.500,0,1,.000,0,0,,4,1,5,0,1,0,0,1,4,5.7,-14,Kevon Looney
+2021-03-11,25-033,GSW,AWAY,LAC,L (-26),1,12:55,0,1,.000,0,0,,2,2,1.000,1,4,5,1,0,0,0,3,2,2.7,-14,Kevon Looney
+2021-03-14,25-036,GSW,HOME,UTA,W (+12),1,10:50,0,1,.000,0,0,,2,2,1.000,0,3,3,0,0,0,1,1,2,0.8,-1,Kevon Looney
+2021-03-15,25-037,GSW,HOME,LAL,L (-31),1,11:30,0,2,.000,0,0,,0,0,,0,1,1,3,1,0,1,4,0,-0.6,-3,Kevon Looney
+2021-03-17,25-039,GSW,AWAY,HOU,W (+14),1,23:03,3,3,1.000,1,1,1.000,0,0,,2,4,6,2,0,2,1,4,7,8.9,-7,Kevon Looney
+2021-03-19,25-041,GSW,AWAY,MEM,W (+13),1,20:33,5,6,.833,1,2,.500,0,0,,1,3,4,3,3,1,1,3,11,14.0,-3,Kevon Looney
+2021-03-20,25-042,GSW,AWAY,MEM,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevon Looney
+2021-03-23,25-045,GSW,HOME,PHI,L (-10),0,17:24,1,1,1.000,0,0,,0,2,.000,2,4,6,2,0,2,0,0,2,6.3,+3,Kevon Looney
+2021-03-25,25-047,GSW,AWAY,SAC,L (-22),0,18:34,3,5,.600,0,0,,0,0,,2,1,3,2,0,0,1,0,6,5.8,-13,Kevon Looney
+2021-03-26,25-048,GSW,HOME,ATL,L (-16),0,19:17,2,3,.667,0,0,,0,0,,0,1,1,4,0,0,0,4,4,4.2,0,Kevon Looney
+2021-03-29,25-051,GSW,HOME,CHI,W (+14),0,17:17,0,2,.000,0,0,,0,0,,2,2,4,4,1,1,0,2,0,4.3,+17,Kevon Looney
+2021-04-01,25-054,GSW,AWAY,MIA,L (-7),0,20:52,2,4,.500,0,1,.000,0,0,,2,2,4,3,0,0,0,3,4,4.9,+2,Kevon Looney
+2021-04-02,25-055,GSW,AWAY,TOR,L (-53),0,9:29,0,0,,0,0,,0,0,,0,1,1,3,0,0,0,0,0,2.4,-11,Kevon Looney
+2021-04-04,25-057,GSW,AWAY,ATL,L (-6),0,16:10,1,3,.333,0,0,,0,0,,2,2,4,1,0,2,0,2,2,3.6,-8,Kevon Looney
+2021-04-06,25-059,GSW,HOME,MIL,W (+1),0,16:39,2,4,.500,0,1,.000,0,0,,2,2,4,3,1,0,0,2,4,6.3,+2,Kevon Looney
+2021-04-09,25-062,GSW,HOME,WAS,L (-3),0,18:56,0,1,.000,0,0,,0,2,.000,0,2,2,0,1,0,3,4,0,-4.5,-6,Kevon Looney
+2021-04-10,25-063,GSW,HOME,HOU,W (+16),0,21:48,2,5,.400,0,0,,0,0,,3,3,6,3,0,1,0,1,4,6.7,+16,Kevon Looney
+2021-04-12,25-065,GSW,HOME,DEN,W (+9),1,31:03,0,3,.000,0,2,.000,0,0,,4,7,11,3,1,0,1,3,0,3.7,-2,Kevon Looney
+2021-04-14,25-067,GSW,AWAY,OKC,W (+38),1,21:44,4,6,.667,0,0,,1,1,1.000,3,2,5,3,1,0,0,2,9,11.4,+31,Kevon Looney
+2021-04-15,25-068,GSW,AWAY,CLE,W (+18),1,27:58,4,7,.571,0,1,.000,0,0,,4,6,10,2,0,0,1,3,8,8.5,+24,Kevon Looney
+2021-04-17,25-070,GSW,AWAY,BOS,L (-5),1,25:35,2,4,.500,0,1,.000,0,0,,4,5,9,2,0,0,0,1,4,7.3,-7,Kevon Looney
+2021-04-19,25-072,GSW,AWAY,PHI,W (+11),1,33:41,2,4,.500,0,0,,1,2,.500,4,11,15,1,0,0,3,5,5,4.4,+1,Kevon Looney
+2021-04-21,25-074,GSW,AWAY,WAS,L (-4),1,26:17,2,3,.667,0,0,,2,2,1.000,3,5,8,2,0,1,2,3,6,7.2,-7,Kevon Looney
+2021-04-23,25-076,GSW,HOME,DEN,W (+21),1,27:01,1,3,.333,0,1,.000,0,0,,2,6,8,4,0,0,0,1,2,5.9,+4,Kevon Looney
+2021-04-25,25-078,GSW,HOME,SAC,W (+4),1,25:25,4,12,.333,0,0,,0,0,,6,3,9,1,0,0,0,4,8,5.4,-10,Kevon Looney
+2021-04-27,25-080,GSW,HOME,DAL,L (-30),1,20:37,1,3,.333,0,1,.000,0,0,,2,2,4,1,1,0,0,1,2,3.6,-6,Kevon Looney
+2021-04-29,25-082,GSW,AWAY,MIN,L (-12),1,28:06,3,3,1.000,0,0,,1,1,1.000,0,2,2,5,0,1,0,3,7,9.7,-16,Kevon Looney
+2021-05-01,25-084,GSW,AWAY,HOU,W (+26),1,24:32,3,5,.600,0,0,,0,3,.000,1,4,5,4,0,0,1,4,6,4.6,+18,Kevon Looney
+2021-05-03,25-086,GSW,AWAY,NOP,W (+15),1,22:33,3,4,.750,0,0,,0,0,,0,2,2,0,0,0,0,5,6,3.0,+12,Kevon Looney
+2021-05-04,25-087,GSW,AWAY,NOP,L (-5),1,32:12,4,4,1.000,0,0,,0,0,,1,5,6,0,0,2,1,1,8,9.0,-3,Kevon Looney
+2021-05-06,25-089,GSW,HOME,OKC,W (+21),1,27:22,1,3,.333,0,0,,0,0,,3,7,10,2,1,0,0,1,2,6.5,+5,Kevon Looney
+2021-05-08,25-091,GSW,HOME,OKC,W (+39),1,23:40,1,2,.500,0,0,,1,2,.500,1,11,12,1,0,1,0,3,3,5.8,+38,Kevon Looney
+2021-05-10,25-093,GSW,HOME,UTA,W (+3),1,29:56,2,3,.667,0,0,,1,2,.500,3,10,13,2,0,0,2,4,5,6.2,0,Kevon Looney
+2021-05-11,25-094,GSW,HOME,PHO,W (+6),1,23:41,1,4,.250,0,0,,1,2,.500,3,4,7,4,0,0,0,4,3,4.7,0,Kevon Looney
+2021-05-14,25-097,GSW,HOME,NOP,W (+3),1,21:34,2,4,.500,0,0,,3,4,.750,1,7,8,2,0,0,0,2,7,8.0,+11,Kevon Looney
+2021-05-16,25-099,GSW,HOME,MEM,W (+12),1,31:11,3,5,.600,0,0,,0,0,,5,6,11,3,0,0,1,3,6,8.9,+5,Kevon Looney

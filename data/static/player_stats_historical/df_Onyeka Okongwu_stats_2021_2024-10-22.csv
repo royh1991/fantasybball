@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2020-12-23,20-012,ATL,AWAY,CHI,W (+20),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2020-12-26,20-015,ATL,AWAY,MEM,W (+10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2020-12-28,20-017,ATL,HOME,DET,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2020-12-30,20-019,ATL,AWAY,BRK,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-01-01,20-021,ATL,AWAY,BRK,W (+18),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-01-02,20-022,ATL,HOME,CLE,L (-5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-01-04,20-024,ATL,HOME,NYK,L (-5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-01-06,20-026,ATL,HOME,CHO,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-01-09,20-029,ATL,AWAY,CHO,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-01-11,20-031,ATL,HOME,PHI,W (+18),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-01-15,20-035,ATL,AWAY,UTA,L (-24),0,14:18,2,6,.333,0,0,,0,0,,3,2,5,2,1,0,2,1,4,3.3,+1,Onyeka Okongwu
+2021-01-16,20-036,ATL,AWAY,POR,L (-6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Onyeka Okongwu
+2021-01-18,20-038,ATL,HOME,MIN,W (+11),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Onyeka Okongwu
+2021-01-20,20-040,ATL,HOME,DET,W (+8),0,13:41,1,3,.333,0,0,,0,0,,1,5,6,0,0,3,0,0,2,4.6,-11,Onyeka Okongwu
+2021-01-22,20-042,ATL,AWAY,MIN,W (+18),0,4:28,1,1,1.000,0,0,,0,0,,0,1,1,0,0,0,1,0,2,1.0,-1,Onyeka Okongwu
+2021-01-24,20-044,ATL,AWAY,MIL,L (-14),1,15:46,2,2,1.000,0,0,,0,2,.000,1,1,2,0,1,3,0,4,4,5.1,-6,Onyeka Okongwu
+2021-01-26,20-046,ATL,HOME,LAC,W (+9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Onyeka Okongwu
+2021-01-27,20-047,ATL,HOME,BRK,L (-4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Onyeka Okongwu
+2021-01-29,20-049,ATL,AWAY,WAS,W (+16),0,11:20,2,3,.667,0,0,,2,3,.667,0,4,4,0,0,0,0,2,6,4.7,0,Onyeka Okongwu
+2021-02-01,20-052,ATL,HOME,LAL,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-02-03,20-054,ATL,HOME,DAL,L (-6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Onyeka Okongwu
+2021-02-04,20-055,ATL,HOME,UTA,L (-21),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-02-06,20-057,ATL,HOME,TOR,W (+11),0,7:56,1,2,.500,0,0,,1,3,.333,0,2,2,0,0,0,0,4,3,0.2,-3,Onyeka Okongwu
+2021-02-10,20-061,ATL,AWAY,DAL,L (-1),0,5:55,0,1,.000,0,0,,0,0,,1,0,1,0,0,0,1,2,0,-1.8,-13,Onyeka Okongwu
+2021-02-12,20-063,ATL,HOME,SAS,L (-11),0,15:58,1,1,1.000,0,0,,4,4,1.000,0,3,3,2,2,0,1,2,6,8.2,+26,Onyeka Okongwu
+2021-02-13,20-064,ATL,HOME,IND,L (-12),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Onyeka Okongwu
+2021-02-15,20-066,ATL,AWAY,NYK,L (-11),0,3:21,0,0,,0,0,,0,0,,0,1,1,0,0,0,0,0,0,0.3,-2,Onyeka Okongwu
+2021-02-17,20-068,ATL,AWAY,BOS,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Onyeka Okongwu
+2021-02-19,20-070,ATL,AWAY,BOS,L (-12),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Onyeka Okongwu
+2021-02-21,20-072,ATL,HOME,DEN,W (+8),0,13:38,4,7,.571,0,1,.000,1,1,1.000,0,2,2,0,0,1,0,2,9,6.2,+3,Onyeka Okongwu
+2021-02-23,20-074,ATL,AWAY,CLE,L (-1),0,10:10,0,1,.000,0,0,,0,0,,0,0,0,0,1,0,1,2,0,-1.5,-10,Onyeka Okongwu
+2021-02-24,20-075,ATL,HOME,BOS,W (+15),0,11:55,2,3,.667,0,0,,1,2,.500,2,2,4,0,0,0,0,0,5,5.3,-2,Onyeka Okongwu
+2021-02-26,20-077,ATL,AWAY,OKC,L (-9),0,4:24,2,2,1.000,0,0,,0,0,,0,0,0,0,0,0,0,1,4,3.0,-2,Onyeka Okongwu
+2021-02-28,20-079,ATL,AWAY,MIA,L (-10),0,3:22,0,0,,0,0,,0,0,,1,0,1,1,0,0,0,1,0,1.0,-4,Onyeka Okongwu
+2021-03-02,20-081,ATL,AWAY,MIA,W (+14),0,10:02,3,3,1.000,0,0,,0,0,,1,2,3,0,1,0,0,2,6,6.6,+8,Onyeka Okongwu
+2021-03-03,20-082,ATL,AWAY,ORL,W (+3),0,13:01,0,2,.000,0,0,,0,0,,2,2,4,0,0,0,2,3,0,-2.6,-4,Onyeka Okongwu
+2021-03-11,20-090,ATL,AWAY,TOR,W (+1),0,10:38,1,1,1.000,0,0,,0,0,,1,1,2,0,1,3,0,1,2,5.4,+6,Onyeka Okongwu
+2021-03-13,20-092,ATL,HOME,SAC,W (+15),0,9:36,2,2,1.000,0,0,,0,0,,1,4,5,0,0,0,0,2,4,4.5,-4,Onyeka Okongwu
+2021-03-14,20-093,ATL,HOME,CLE,W (+18),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-03-16,20-095,ATL,AWAY,HOU,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Onyeka Okongwu
+2021-03-18,20-097,ATL,HOME,OKC,W (+23),0,4:08,0,0,,0,0,,0,0,,0,0,0,0,0,1,0,0,0,0.7,+1,Onyeka Okongwu
+2021-03-20,20-099,ATL,AWAY,LAL,W (+5),0,3:24,0,1,.000,0,0,,0,0,,1,0,1,0,0,0,1,2,0,-1.8,-5,Onyeka Okongwu
+2021-03-22,20-101,ATL,AWAY,LAC,L (-9),0,3:43,2,3,.667,0,0,,0,0,,1,0,1,0,0,0,0,0,4,3.4,+4,Onyeka Okongwu
+2021-03-24,20-103,ATL,AWAY,SAC,L (-2),0,3:28,0,0,,0,0,,0,0,,0,1,1,0,0,0,0,1,0,-0.1,+2,Onyeka Okongwu
+2021-03-26,20-105,ATL,AWAY,GSW,W (+16),0,8:57,1,2,.500,0,0,,0,0,,0,2,2,0,0,0,0,2,2,0.8,-6,Onyeka Okongwu
+2021-03-28,20-107,ATL,AWAY,DEN,L (-24),0,11:55,0,0,,0,0,,1,2,.500,0,3,3,0,1,2,0,1,1,3.5,-5,Onyeka Okongwu
+2021-03-30,20-109,ATL,AWAY,PHO,L (-7),0,5:38,1,1,1.000,0,0,,0,0,,1,1,2,0,0,0,0,1,2,2.3,-9,Onyeka Okongwu
+2021-04-01,20-111,ATL,AWAY,SAS,W (+5),0,12:28,4,6,.667,0,0,,2,4,.500,2,3,5,0,0,1,1,2,10,7.8,0,Onyeka Okongwu
+2021-04-02,20-112,ATL,AWAY,NOP,W (+23),0,19:18,5,6,.833,0,0,,1,2,.500,3,6,9,0,2,1,2,3,11,11.8,+3,Onyeka Okongwu
+2021-04-04,20-114,ATL,HOME,GSW,W (+6),0,15:40,1,2,.500,0,0,,5,7,.714,1,5,6,1,1,0,1,3,7,6.9,+6,Onyeka Okongwu
+2021-04-06,20-116,ATL,HOME,NOP,W (+16),0,19:41,2,4,.500,0,0,,3,6,.500,2,1,3,0,1,2,1,5,7,4.9,-15,Onyeka Okongwu
+2021-04-07,20-117,ATL,HOME,MEM,L (-18),1,32:19,6,12,.500,0,0,,1,2,.500,6,5,11,1,0,2,0,3,13,13.2,-10,Onyeka Okongwu
+2021-04-09,20-119,ATL,HOME,CHI,W (+12),0,10:55,3,3,1.000,0,0,,0,0,,1,4,5,0,0,0,0,4,6,5.4,0,Onyeka Okongwu
+2021-04-11,20-121,ATL,AWAY,CHO,W (+4),0,12:27,1,2,.500,0,0,,1,2,.500,1,3,4,0,1,0,1,2,3,2.4,-12,Onyeka Okongwu
+2021-04-13,20-123,ATL,AWAY,TOR,W (+5),0,13:10,3,4,.750,0,0,,1,1,1.000,0,0,0,1,1,0,0,4,7,5.5,+2,Onyeka Okongwu
+2021-04-15,20-125,ATL,HOME,MIL,L (-11),0,9:15,4,4,1.000,0,0,,0,0,,0,2,2,0,0,1,0,3,8,6.9,-10,Onyeka Okongwu
+2021-04-18,20-128,ATL,HOME,IND,W (+12),0,7:26,0,1,.000,0,0,,2,2,1.000,1,0,1,0,0,2,0,2,2,2.6,-13,Onyeka Okongwu
+2021-04-20,20-130,ATL,HOME,ORL,W (+16),0,15:55,0,2,.000,0,0,,0,0,,3,2,5,0,1,0,0,2,0,1.5,+8,Onyeka Okongwu
+2021-04-21,20-131,ATL,AWAY,NYK,L (-10),0,8:05,2,2,1.000,0,0,,0,0,,1,0,1,0,0,1,0,2,4,4.0,-10,Onyeka Okongwu
+2021-04-23,20-133,ATL,HOME,MIA,W (+15),1,28:12,2,4,.500,0,1,.000,2,2,1.000,2,5,7,1,1,1,3,5,6,4.3,-2,Onyeka Okongwu
+2021-04-25,20-135,ATL,HOME,MIL,W (+7),0,9:40,0,3,.000,0,0,,0,0,,1,0,1,0,0,0,0,2,0,-2.2,-5,Onyeka Okongwu
+2021-04-26,20-136,ATL,AWAY,DET,L (-14),0,13:25,3,3,1.000,0,0,,0,0,,0,3,3,0,1,1,2,3,6,4.5,+3,Onyeka Okongwu
+2021-04-28,20-138,ATL,AWAY,PHI,L (-44),0,16:06,0,0,,0,0,,0,0,,1,0,1,1,1,1,2,1,0,0.7,-23,Onyeka Okongwu
+2021-04-30,20-140,ATL,AWAY,PHI,L (-22),0,21:33,5,7,.714,0,1,.000,2,2,1.000,1,2,3,0,0,2,0,5,12,9.8,-13,Onyeka Okongwu
+2021-05-01,20-141,ATL,HOME,CHI,W (+11),0,13:34,2,2,1.000,0,0,,0,0,,1,2,3,0,0,0,1,3,4,2.5,-7,Onyeka Okongwu
+2021-05-03,20-143,ATL,HOME,POR,W (+9),0,8:40,1,1,1.000,0,0,,0,0,,0,2,2,1,0,0,0,0,2,3.0,+7,Onyeka Okongwu
+2021-05-05,20-145,ATL,HOME,PHO,W (+32),0,18:27,6,7,.857,0,0,,2,2,1.000,4,3,7,2,3,1,1,3,14,18.1,+33,Onyeka Okongwu
+2021-05-06,20-146,ATL,AWAY,IND,L (-7),0,6:58,1,2,.500,0,0,,1,1,1.000,1,1,2,0,0,1,0,1,3,3.3,-9,Onyeka Okongwu
+2021-05-10,20-150,ATL,HOME,WAS,W (+1),0,7:19,1,2,.500,0,0,,0,0,,1,0,1,2,0,0,2,2,2,0.3,-3,Onyeka Okongwu
+2021-05-12,20-152,ATL,HOME,WAS,W (+4),0,10:42,5,7,.714,0,0,,1,2,.500,3,1,4,0,0,0,0,0,11,10.1,+1,Onyeka Okongwu
+2021-05-13,20-153,ATL,HOME,ORL,W (+23),0,16:21,1,3,.333,0,0,,1,2,.500,3,3,6,0,0,1,2,2,3,1.8,-1,Onyeka Okongwu
+2021-05-16,20-156,ATL,HOME,HOU,W (+29),1,32:54,10,13,.769,0,0,,1,3,.333,6,9,15,3,2,2,1,2,21,25.7,+17,Onyeka Okongwu

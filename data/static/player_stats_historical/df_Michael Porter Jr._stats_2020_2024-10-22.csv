@@ -1,0 +1,74 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2019-10-23,21-116,DEN,AWAY,POR,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2019-10-25,21-118,DEN,HOME,PHO,W (+1),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2019-10-28,21-121,DEN,AWAY,SAC,W (+7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2019-10-29,21-122,DEN,HOME,DAL,L (-3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2019-10-31,21-124,DEN,AWAY,NOP,L (-15),0,20:52,5,8,.625,1,3,.333,4,6,.667,1,3,4,1,0,0,1,2,15,11.1,+1,Michael Porter Jr.
+2019-11-02,21-126,DEN,AWAY,ORL,W (+4),0,7:26,1,2,.500,0,0,,1,2,.500,1,3,4,0,0,0,1,0,3,2.2,0,Michael Porter Jr.
+2019-11-05,21-129,DEN,HOME,MIA,W (+20),0,3:13,2,2,1.000,0,0,,0,0,,1,0,1,0,0,0,0,1,4,3.7,-1,Michael Porter Jr.
+2019-11-08,21-132,DEN,HOME,PHI,W (+3),0,8:01,1,2,.500,0,1,.000,0,0,,0,0,0,0,0,0,0,0,2,1.0,-9,Michael Porter Jr.
+2019-11-10,21-134,DEN,AWAY,MIN,W (+2),0,9:03,2,5,.400,1,1,1.000,0,0,,3,1,4,0,0,0,1,1,5,3.3,-6,Michael Porter Jr.
+2019-11-12,21-136,DEN,HOME,ATL,L (-4),0,6:40,1,2,.500,0,0,,0,0,,0,1,1,0,0,0,0,1,2,0.9,-6,Michael Porter Jr.
+2019-11-14,21-138,DEN,HOME,BRK,W (+8),0,3:40,0,2,.000,0,1,.000,0,0,,1,0,1,0,0,0,0,0,0,-0.7,-4,Michael Porter Jr.
+2019-11-17,21-141,DEN,AWAY,MEM,W (+17),0,13:14,0,4,.000,0,1,.000,0,0,,0,3,3,2,0,2,2,4,0,-2.7,+13,Michael Porter Jr.
+2019-11-20,21-144,DEN,HOME,HOU,W (+10),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2019-11-22,21-146,DEN,HOME,BOS,W (+4),0,10:04,2,5,.400,0,2,.000,0,0,,1,4,5,0,0,1,1,3,4,1.7,-9,Michael Porter Jr.
+2019-11-24,21-148,DEN,HOME,PHO,W (+12),0,7:51,1,2,.500,0,1,.000,0,0,,0,0,0,1,0,0,0,1,2,1.3,-7,Michael Porter Jr.
+2019-11-26,21-150,DEN,HOME,WAS,W (+13),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2019-11-30,21-154,DEN,AWAY,SAC,L (-3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2019-12-03,21-157,DEN,HOME,LAL,L (-9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2019-12-05,21-159,DEN,AWAY,NYK,W (+37),0,5:16,2,4,.500,2,3,.667,0,0,,0,3,3,1,0,0,2,1,6,3.2,-2,Michael Porter Jr.
+2019-12-06,21-160,DEN,AWAY,BOS,L (-13),0,7:57,4,7,.571,1,2,.500,0,0,,2,1,3,0,0,0,0,0,9,7.4,+10,Michael Porter Jr.
+2019-12-08,21-162,DEN,AWAY,BRK,L (-3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2019-12-10,21-164,DEN,AWAY,PHI,L (-5),0,13:42,2,7,.286,0,0,,2,2,1.000,2,4,6,0,0,0,0,2,6,3.7,-9,Michael Porter Jr.
+2019-12-12,21-166,DEN,HOME,POR,W (+15),0,9:59,2,4,.500,2,4,.500,0,0,,0,1,1,0,0,0,3,0,6,1.3,+1,Michael Porter Jr.
+2019-12-14,21-168,DEN,HOME,OKC,W (+8),0,4:23,0,2,.000,0,1,.000,0,0,,0,0,0,0,0,1,0,1,0,-1.1,-5,Michael Porter Jr.
+2019-12-15,21-169,DEN,HOME,NYK,W (+6),0,10:56,4,8,.500,0,1,.000,1,1,1.000,4,4,8,2,0,1,1,0,9,10.1,-4,Michael Porter Jr.
+2019-12-18,21-172,DEN,HOME,ORL,W (+9),0,8:49,2,3,.667,0,1,.000,0,0,,0,3,3,0,1,1,0,1,4,4.9,-4,Michael Porter Jr.
+2019-12-20,21-174,DEN,HOME,MIN,W (+9),0,10:24,1,6,.167,0,2,.000,0,0,,1,4,5,1,0,0,0,1,2,0.4,-3,Michael Porter Jr.
+2019-12-22,21-176,DEN,AWAY,LAL,W (+24),0,5:06,1,2,.500,0,0,,0,0,,0,1,1,0,0,1,0,2,2,1.2,-2,Michael Porter Jr.
+2019-12-23,21-177,DEN,AWAY,PHO,W (+2),0,6:11,1,1,1.000,1,1,1.000,0,0,,0,1,1,0,0,0,1,2,3,1.2,+1,Michael Porter Jr.
+2019-12-25,21-179,DEN,HOME,NOP,L (-12),0,5:45,2,3,.667,1,2,.500,0,0,,0,1,1,1,0,0,0,2,5,3.9,+6,Michael Porter Jr.
+2019-12-28,21-182,DEN,HOME,MEM,W (+9),0,18:43,4,7,.571,3,5,.600,0,0,,1,3,4,0,2,1,1,1,11,10.6,+7,Michael Porter Jr.
+2019-12-29,21-183,DEN,HOME,SAC,W (+5),1,26:07,8,10,.800,1,3,.333,2,2,1.000,3,3,6,1,0,0,0,4,19,17.3,+5,Michael Porter Jr.
+2019-12-31,21-185,DEN,AWAY,HOU,L (-26),0,10:53,3,6,.500,1,3,.333,0,0,,1,2,3,0,0,0,0,1,7,4.9,-13,Michael Porter Jr.
+2020-01-02,21-187,DEN,AWAY,IND,W (+8),0,22:46,11,12,.917,2,3,.667,1,2,.500,0,5,5,1,0,0,1,3,25,20.6,+13,Michael Porter Jr.
+2020-01-04,21-189,DEN,AWAY,WAS,L (-14),0,12:09,3,5,.600,0,2,.000,1,2,.500,1,1,2,0,0,1,3,2,7,2.2,-16,Michael Porter Jr.
+2020-01-06,21-191,DEN,AWAY,ATL,W (+8),0,20:03,2,3,.667,0,0,,0,0,,1,2,3,2,0,2,1,2,4,5.0,+17,Michael Porter Jr.
+2020-01-08,21-193,DEN,AWAY,DAL,W (+1),0,14:29,1,3,.333,0,1,.000,0,0,,0,3,3,0,1,0,3,3,2,-2.0,+2,Michael Porter Jr.
+2020-01-11,21-196,DEN,HOME,CLE,L (-8),0,3:17,0,1,.000,0,1,.000,0,0,,0,0,0,0,0,0,1,1,0,-2.1,-6,Michael Porter Jr.
+2020-01-12,21-197,DEN,HOME,LAC,W (+10),0,19:03,6,8,.750,1,1,1.000,0,0,,2,2,4,0,1,1,1,2,13,11.7,+10,Michael Porter Jr.
+2020-01-15,21-200,DEN,HOME,CHO,W (+14),0,27:38,7,13,.538,2,5,.400,3,5,.600,0,8,8,1,2,1,0,4,19,16.1,+10,Michael Porter Jr.
+2020-01-16,21-201,DEN,AWAY,GSW,W (+3),0,29:18,6,10,.600,3,3,1.000,3,3,1.000,2,8,10,5,2,1,0,2,18,22.6,+11,Michael Porter Jr.
+2020-01-19,21-204,DEN,HOME,IND,L (-8),0,22:42,3,9,.333,0,2,.000,4,4,1.000,1,7,8,0,2,0,0,3,10,8.5,-4,Michael Porter Jr.
+2020-01-20,21-205,DEN,AWAY,MIN,W (+7),0,29:41,7,12,.583,4,8,.500,2,2,1.000,2,12,14,4,0,1,1,4,20,20.3,+17,Michael Porter Jr.
+2020-01-22,21-207,DEN,AWAY,HOU,L (-16),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2020-01-24,21-209,DEN,AWAY,NOP,W (+7),0,24:06,5,15,.333,3,7,.429,2,2,1.000,3,7,10,1,1,0,1,2,15,10.6,+7,Michael Porter Jr.
+2020-01-26,21-211,DEN,HOME,HOU,W (+7),0,23:45,6,12,.500,4,6,.667,1,2,.500,4,5,9,1,0,0,1,2,17,13.8,+4,Michael Porter Jr.
+2020-01-28,21-213,DEN,AWAY,MEM,L (-8),0,22:06,3,9,.333,2,4,.500,0,0,,2,2,4,1,3,0,0,0,8,8.6,-6,Michael Porter Jr.
+2020-01-30,21-215,DEN,HOME,UTA,W (+6),0,25:12,5,11,.455,2,4,.500,0,0,,2,10,12,2,1,1,2,3,12,10.6,+8,Michael Porter Jr.
+2020-01-31,21-216,DEN,AWAY,MIL,W (+12),0,25:08,5,11,.455,1,3,.333,4,4,1.000,1,10,11,1,1,2,1,2,15,14.3,+11,Michael Porter Jr.
+2020-02-02,21-218,DEN,AWAY,DET,L (-5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Michael Porter Jr.
+2020-02-04,21-220,DEN,HOME,POR,W (+28),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Michael Porter Jr.
+2020-02-05,21-221,DEN,AWAY,UTA,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2020-02-08,21-224,DEN,AWAY,PHO,W (+9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Michael Porter Jr.
+2020-02-10,21-226,DEN,HOME,SAS,W (+7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Michael Porter Jr.
+2020-02-12,21-228,DEN,HOME,LAL,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Michael Porter Jr.
+2020-02-21,21-237,DEN,AWAY,OKC,L (-12),0,7:41,2,5,.400,0,1,.000,0,0,,1,1,2,0,0,0,1,0,4,1.3,-14,Michael Porter Jr.
+2020-02-23,21-239,DEN,HOME,MIN,W (+12),0,9:42,1,4,.250,0,1,.000,0,0,,0,3,3,0,0,0,0,3,2,-0.7,-10,Michael Porter Jr.
+2020-02-25,21-241,DEN,HOME,DET,W (+17),0,22:29,6,9,.667,1,3,.333,0,0,,2,6,8,1,0,0,2,1,13,10.6,+9,Michael Porter Jr.
+2020-02-28,21-244,DEN,AWAY,LAC,L (-29),0,9:28,3,4,.750,1,1,1.000,0,0,,2,1,3,1,0,1,0,0,7,8.5,-5,Michael Porter Jr.
+2020-03-01,21-246,DEN,HOME,TOR,W (+15),0,19:10,4,8,.500,1,3,.333,2,4,.500,3,3,6,3,1,0,0,0,11,12.3,-1,Michael Porter Jr.
+2020-03-03,21-248,DEN,HOME,GSW,L (-16),0,13:29,1,6,.167,1,1,1.000,0,0,,1,1,2,0,0,0,1,2,3,-1.6,-7,Michael Porter Jr.
+2020-03-05,21-250,DEN,AWAY,CHO,W (+2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Michael Porter Jr.
+2020-03-07,21-252,DEN,AWAY,CLE,L (-2),0,15:45,3,6,.500,1,3,.333,0,0,,1,1,2,1,1,0,1,1,7,5.3,-3,Michael Porter Jr.
+2020-03-09,21-254,DEN,HOME,MIL,W (+14),0,11:54,0,2,.000,0,1,.000,0,0,,0,1,1,0,0,0,0,1,0,-1.5,+3,Michael Porter Jr.
+2020-03-11,21-256,DEN,AWAY,DAL,L (-16),0,4:44,0,3,.000,0,0,,0,0,,0,1,1,0,1,0,0,1,0,-1.2,+1,Michael Porter Jr.
+2020-08-01,22-033,DEN,HOME,MIA,L (-20),1,24:31,4,11,.364,2,8,.250,1,1,1.000,1,0,1,3,0,1,3,5,11,3.4,-15,Michael Porter Jr.
+2020-08-03,22-035,DEN,AWAY,OKC,W (+8),1,43:43,12,16,.750,4,6,.667,9,9,1.000,2,10,12,1,1,1,3,4,37,32.8,+25,Michael Porter Jr.
+2020-08-05,22-037,DEN,AWAY,SAS,W (+6),1,36:00,11,19,.579,5,9,.556,3,4,.750,4,11,15,0,0,1,2,4,30,23.9,+13,Michael Porter Jr.
+2020-08-06,22-038,DEN,HOME,POR,L (-10),1,34:29,10,18,.556,4,7,.571,3,3,1.000,3,9,12,2,2,1,0,3,27,26.1,-12,Michael Porter Jr.
+2020-08-08,22-040,DEN,HOME,UTA,W (+2),1,45:02,7,18,.389,1,8,.125,8,8,1.000,3,8,11,2,2,1,1,4,23,19.2,+13,Michael Porter Jr.
+2020-08-10,22-042,DEN,AWAY,LAL,L (-3),1,24:03,6,6,1.000,3,3,1.000,0,0,,0,4,4,1,1,0,4,2,15,11.3,+2,Michael Porter Jr.
+2020-08-12,22-044,DEN,HOME,LAC,L (-13),1,25:27,4,10,.400,0,4,.000,3,4,.750,0,5,5,2,1,1,1,3,11,7.6,-16,Michael Porter Jr.
+2020-08-14,22-046,DEN,AWAY,TOR,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Michael Porter Jr.

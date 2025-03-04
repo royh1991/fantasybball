@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2023-10-24,33-234,GSW,HOME,PHO,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Draymond Green
+2023-10-27,33-237,GSW,AWAY,SAC,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Draymond Green
+2023-10-29,33-239,GSW,AWAY,HOU,W (+11),1,20:43,2,4,.500,0,0,,0,1,.000,1,4,5,5,0,0,4,3,4,1.8,+2,Draymond Green
+2023-10-30,33-240,GSW,AWAY,NOP,W (+28),1,21:34,3,8,.375,0,2,.000,0,0,,1,5,6,7,0,1,1,2,6,7.6,+6,Draymond Green
+2023-11-01,33-242,GSW,HOME,SAC,W (+1),1,27:30,4,7,.571,2,4,.500,3,4,.750,2,0,2,9,2,2,2,1,13,18.0,-5,Draymond Green
+2023-11-03,33-244,GSW,AWAY,OKC,W (+2),1,28:58,5,11,.455,2,4,.500,3,3,1.000,2,3,5,3,0,1,3,5,15,9.4,-1,Draymond Green
+2023-11-05,33-246,GSW,AWAY,CLE,L (-11),1,29:22,5,11,.455,2,3,.667,6,6,1.000,0,3,3,8,3,1,1,0,18,21.5,-6,Draymond Green
+2023-11-06,33-247,GSW,AWAY,DET,W (+11),1,27:33,2,4,.500,0,1,.000,2,2,1.000,3,6,9,8,0,0,1,2,6,11.7,+1,Draymond Green
+2023-11-08,33-249,GSW,AWAY,DEN,L (-3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Draymond Green
+2023-11-11,33-252,GSW,HOME,CLE,L (-8),1,17:59,3,4,.750,2,3,.667,0,0,,2,3,5,4,0,0,1,3,8,9.3,-1,Draymond Green
+2023-11-12,33-253,GSW,HOME,MIN,L (-6),1,24:23,3,7,.429,1,3,.333,2,2,1.000,2,7,9,7,1,0,2,5,9,10.7,-11,Draymond Green
+2023-11-14,33-255,GSW,HOME,MIN,L (-3),1,1:43,0,0,,0,0,,0,0,,0,2,2,0,0,0,1,1,0,-0.8,-2,Draymond Green
+2023-11-16,33-257,GSW,HOME,OKC,L (-19),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2023-11-18,33-259,GSW,HOME,OKC,L (-7),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2023-11-20,33-261,GSW,HOME,HOU,W (+5),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2023-11-22,33-263,GSW,AWAY,PHO,L (-8),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2023-11-24,33-265,GSW,HOME,SAS,W (+6),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2023-11-28,33-269,GSW,AWAY,SAC,L (-1),1,33:13,3,8,.375,2,4,.500,0,0,,0,6,6,3,0,2,4,4,8,3.3,+5,Draymond Green
+2023-11-30,33-271,GSW,HOME,LAC,W (+6),1,28:57,4,8,.500,2,4,.500,3,4,.750,1,4,5,5,0,0,2,5,13,10.0,-11,Draymond Green
+2023-12-02,33-273,GSW,AWAY,LAC,L (-1),1,32:19,8,15,.533,4,8,.500,1,2,.500,1,8,9,4,0,1,3,2,21,16.1,-6,Draymond Green
+2023-12-06,33-277,GSW,HOME,POR,W (+4),1,30:34,3,7,.429,0,2,.000,4,4,1.000,6,4,10,9,0,2,4,3,10,14.2,-1,Draymond Green
+2023-12-08,33-279,GSW,AWAY,OKC,L (-2),1,35:03,5,7,.714,1,2,.500,1,2,.500,1,4,5,13,0,1,4,6,12,14.0,-2,Draymond Green
+2023-12-12,33-283,GSW,AWAY,PHO,L (-3),1,17:12,1,3,.333,0,2,.000,0,0,,0,2,2,2,0,0,3,3,2,-1.9,-15,Draymond Green
+2023-12-14,33-285,GSW,AWAY,LAC,L (-8),Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Draymond Green
+2023-12-16,33-287,GSW,HOME,BRK,W (+4),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2023-12-17,33-288,GSW,AWAY,POR,W (+4),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2023-12-19,33-290,GSW,HOME,BOS,W (+6),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2023-12-22,33-293,GSW,HOME,WAS,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Draymond Green
+2023-12-23,33-294,GSW,HOME,POR,W (+20),Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Draymond Green
+2023-12-25,33-296,GSW,AWAY,DEN,L (-6),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2023-12-28,33-299,GSW,HOME,MIA,L (-12),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Draymond Green
+2023-12-30,33-301,GSW,HOME,DAL,L (-10),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2024-01-02,33-304,GSW,HOME,ORL,W (+6),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Draymond Green
+2024-01-04,33-306,GSW,HOME,DEN,L (-3),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2024-01-05,33-307,GSW,HOME,DET,W (+4),Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Player Suspended,Draymond Green
+2024-01-07,33-309,GSW,HOME,TOR,L (-15),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Draymond Green
+2024-01-10,33-312,GSW,HOME,NOP,L (-36),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Draymond Green
+2024-01-12,33-314,GSW,AWAY,CHI,W (+9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Draymond Green
+2024-01-13,33-315,GSW,AWAY,MIL,L (-11),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Draymond Green
+2024-01-15,33-317,GSW,AWAY,MEM,L (-9),0,23:30,2,4,.500,1,1,1.000,2,2,1.000,0,7,7,4,1,0,3,4,7,6.3,+1,Draymond Green
+2024-01-24,33-326,GSW,HOME,ATL,W (+22),0,22:47,5,6,.833,2,3,.667,0,0,,1,4,5,3,2,1,2,3,12,13.3,+19,Draymond Green
+2024-01-25,33-327,GSW,HOME,SAC,L (-1),0,31:24,0,3,.000,0,1,.000,5,8,.625,0,4,4,11,3,1,2,3,5,11.1,+14,Draymond Green
+2024-01-27,33-329,GSW,HOME,LAL,L (-1),1,45:42,4,9,.444,0,4,.000,0,0,,0,14,14,11,3,2,2,5,8,15.6,+31,Draymond Green
+2024-01-30,33-332,GSW,HOME,PHI,W (+12),1,29:04,3,8,.375,2,4,.500,1,1,1.000,1,5,6,6,0,1,2,3,9,8.5,+18,Draymond Green
+2024-02-02,33-335,GSW,AWAY,MEM,W (+20),1,27:42,4,7,.571,1,2,.500,0,0,,2,10,12,6,0,3,4,4,9,10.8,+10,Draymond Green
+2024-02-03,33-336,GSW,AWAY,ATL,L (-7),1,34:59,3,9,.333,1,3,.333,0,0,,1,5,6,8,0,1,3,2,7,6.6,-7,Draymond Green
+2024-02-05,33-338,GSW,AWAY,BRK,W (+11),1,30:20,4,6,.667,0,0,,0,0,,2,8,10,7,0,2,3,2,8,11.7,+11,Draymond Green
+2024-02-07,33-340,GSW,AWAY,PHI,W (+23),1,18:08,2,4,.500,0,1,.000,0,1,.000,1,5,6,3,1,1,2,3,4,4.4,+14,Draymond Green
+2024-02-08,33-341,GSW,AWAY,IND,W (+22),1,27:35,4,8,.500,0,1,.000,0,0,,2,6,8,5,2,0,5,3,8,6.5,+13,Draymond Green
+2024-02-10,33-343,GSW,HOME,PHO,W (+1),1,29:30,7,9,.778,1,3,.333,0,0,,2,5,7,9,0,0,4,4,15,15.1,+3,Draymond Green
+2024-02-12,33-345,GSW,AWAY,UTA,W (+22),1,23:29,5,7,.714,2,4,.500,0,0,,2,8,10,8,1,1,1,4,12,17.6,+11,Draymond Green
+2024-02-14,33-347,GSW,HOME,LAC,L (-5),1,31:08,4,12,.333,1,2,.500,0,0,,1,9,10,4,1,0,1,5,9,6.4,-12,Draymond Green
+2024-02-15,33-348,GSW,AWAY,UTA,W (+3),1,28:49,9,14,.643,3,5,.600,2,4,.500,0,5,5,5,4,2,0,4,23,24.8,-6,Draymond Green
+2024-02-22,33-355,GSW,HOME,LAL,W (+18),1,21:21,3,5,.600,2,2,1.000,0,0,,0,7,7,5,0,1,1,1,8,10.6,+19,Draymond Green
+2024-02-23,33-356,GSW,HOME,CHO,W (+13),1,20:44,2,6,.333,1,2,.500,0,0,,3,10,13,3,1,2,1,2,5,9.4,+18,Draymond Green
+2024-02-25,33-358,GSW,HOME,DEN,L (-16),1,27:10,3,6,.500,1,1,1.000,0,0,,0,5,5,4,1,0,6,1,7,2.9,-23,Draymond Green
+2024-02-27,33-360,GSW,AWAY,WAS,W (+11),1,28:53,1,4,.250,1,2,.500,3,4,.750,0,8,8,8,0,0,2,1,6,8.8,-6,Draymond Green
+2024-02-29,33-362,GSW,AWAY,NYK,W (+11),1,26:48,3,4,.750,0,0,,1,2,.500,4,6,10,6,0,1,2,3,7,11.3,+19,Draymond Green
+2024-03-01,33-363,GSW,AWAY,TOR,W (+15),1,27:48,1,4,.250,0,0,,4,4,1.000,2,11,13,5,1,2,3,2,6,10.4,+10,Draymond Green
+2024-03-03,33-365,GSW,AWAY,BOS,L (-52),1,13:37,2,2,1.000,0,0,,2,2,1.000,0,4,4,2,0,0,0,2,6,7.2,-24,Draymond Green
+2024-03-06,34-002,GSW,HOME,MIL,W (+35),1,25:05,5,11,.455,2,4,.500,0,1,.000,0,6,6,6,0,2,3,4,12,8.7,+8,Draymond Green
+2024-03-07,34-003,GSW,HOME,CHI,L (-3),1,32:46,5,12,.417,1,5,.200,0,0,,2,8,10,12,1,2,4,6,11,12.8,0,Draymond Green
+2024-03-09,34-005,GSW,HOME,SAS,L (-13),1,27:54,3,6,.500,1,3,.333,0,0,,2,3,5,4,2,1,3,2,7,8.0,-8,Draymond Green
+2024-03-11,34-007,GSW,AWAY,SAS,W (+10),1,27:47,2,7,.286,0,2,.000,1,2,.500,2,4,6,4,2,0,5,6,5,0.5,-6,Draymond Green
+2024-03-13,34-009,GSW,AWAY,DAL,L (-10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Draymond Green
+2024-03-16,34-012,GSW,AWAY,LAL,W (+7),1,34:15,3,6,.500,0,2,.000,0,0,,2,10,12,13,1,0,2,3,6,14.3,+12,Draymond Green
+2024-03-18,34-014,GSW,HOME,NYK,L (-7),1,30:53,1,7,.143,0,2,.000,0,0,,3,5,8,5,1,0,4,2,2,0.8,-7,Draymond Green
+2024-03-20,34-016,GSW,HOME,MEM,W (+21),1,24:28,5,10,.500,0,3,.000,0,0,,4,8,12,7,1,1,1,1,10,15.4,+25,Draymond Green
+2024-03-22,34-018,GSW,HOME,IND,L (-12),1,33:19,4,10,.400,0,1,.000,3,4,.750,2,6,8,6,0,2,1,2,11,12.2,+4,Draymond Green
+2024-03-24,34-020,GSW,AWAY,MIN,L (-4),1,31:33,5,9,.556,2,5,.400,0,0,,0,8,8,3,1,0,0,2,12,12.4,+8,Draymond Green
+2024-03-26,34-022,GSW,AWAY,MIA,W (+21),1,27:43,2,5,.400,0,1,.000,0,0,,0,9,9,8,2,0,1,5,4,8.6,+9,Draymond Green
+2024-03-27,34-023,GSW,AWAY,ORL,W (+8),1,3:36,0,1,.000,0,1,.000,0,0,,0,3,3,1,0,0,1,1,0,-0.5,-2,Draymond Green
+2024-03-29,34-025,GSW,AWAY,CHO,W (+18),1,28:02,4,7,.571,0,2,.000,0,0,,2,6,8,4,1,0,3,4,8,7.1,+6,Draymond Green
+2024-03-31,34-027,GSW,AWAY,SAS,W (+4),1,31:46,8,9,.889,2,2,1.000,3,4,.750,2,4,6,11,6,1,5,3,21,28.3,+13,Draymond Green
+2024-04-02,34-029,GSW,HOME,DAL,W (+4),1,30:45,5,8,.625,0,1,.000,1,1,1.000,3,5,8,6,4,1,3,3,11,15.7,-4,Draymond Green
+2024-04-04,34-031,GSW,AWAY,HOU,W (+23),1,28:59,2,3,.667,0,1,.000,1,2,.500,2,6,8,5,1,1,2,5,5,7.7,+26,Draymond Green
+2024-04-05,34-032,GSW,AWAY,DAL,L (-2),1,34:28,3,9,.333,0,2,.000,0,0,,2,5,7,3,2,1,4,3,6,3.4,-9,Draymond Green
+2024-04-07,34-034,GSW,HOME,UTA,W (+8),1,21:04,1,4,.250,1,2,.500,0,0,,1,2,3,3,2,1,2,1,3,4.3,+7,Draymond Green
+2024-04-09,34-036,GSW,AWAY,LAL,W (+14),1,32:10,5,7,.714,5,7,.714,0,2,.000,0,6,6,10,0,1,4,2,15,16.0,+11,Draymond Green
+2024-04-11,34-038,GSW,AWAY,POR,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Draymond Green
+2024-04-12,34-039,GSW,HOME,NOP,L (-5),1,35:57,0,0,,0,0,,0,0,,1,11,12,11,1,1,2,5,0,9.4,-6,Draymond Green
+2024-04-14,34-041,GSW,HOME,UTA,W (+7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Draymond Green

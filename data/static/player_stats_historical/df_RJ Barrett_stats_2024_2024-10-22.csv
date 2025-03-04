@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2023-10-25,23-133,NYK,HOME,BOS,L (-4),1,36:20,8,20,.400,2,5,.400,6,7,.857,1,2,3,2,1,0,2,0,24,14.5,+6,RJ Barrett
+2023-10-27,23-135,NYK,AWAY,ATL,W (+6),1,33:54,9,15,.600,3,5,.600,5,6,.833,1,2,3,6,1,0,3,2,26,21.4,+6,RJ Barrett
+2023-10-28,23-136,NYK,AWAY,NOP,L (-9),1,29:59,7,16,.438,1,6,.167,3,4,.750,0,3,3,2,0,1,3,0,18,9.2,-15,RJ Barrett
+2023-10-31,23-139,NYK,AWAY,CLE,W (+18),1,24:50,5,13,.385,3,5,.600,3,4,.750,1,2,3,0,0,0,1,2,16,8.0,+14,RJ Barrett
+2023-11-01,23-140,NYK,HOME,CLE,L (-6),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,RJ Barrett
+2023-11-03,23-142,NYK,AWAY,MIL,L (-5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2023-11-06,23-145,NYK,HOME,LAC,W (+14),1,30:43,9,16,.563,2,4,.500,6,6,1.000,1,5,6,4,0,0,5,1,26,18.0,+13,RJ Barrett
+2023-11-08,23-147,NYK,HOME,SAS,W (+21),1,31:44,8,17,.471,5,9,.556,3,3,1.000,0,2,2,6,1,0,0,2,24,20.3,+26,RJ Barrett
+2023-11-12,23-151,NYK,HOME,CHO,W (+22),1,30:41,9,16,.563,4,6,.667,2,3,.667,0,4,4,2,1,1,1,1,24,18.9,+26,RJ Barrett
+2023-11-13,23-152,NYK,AWAY,BOS,L (-16),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,RJ Barrett
+2023-11-15,23-154,NYK,AWAY,ATL,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2023-11-17,23-156,NYK,AWAY,WAS,W (+21),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,RJ Barrett
+2023-11-18,23-157,NYK,AWAY,CHO,W (+14),1,25:51,5,15,.333,1,5,.200,4,5,.800,0,3,3,3,1,0,1,0,15,9.1,+16,RJ Barrett
+2023-11-20,23-159,NYK,AWAY,MIN,L (-17),1,21:58,4,13,.308,3,4,.750,3,4,.750,2,5,7,1,1,0,4,5,14,4.7,-13,RJ Barrett
+2023-11-24,23-163,NYK,HOME,MIA,W (+2),1,34:18,7,14,.500,1,5,.200,3,3,1.000,0,7,7,1,0,0,3,2,18,10.0,+9,RJ Barrett
+2023-11-26,23-165,NYK,HOME,PHO,L (-3),1,30:57,3,11,.273,0,2,.000,3,4,.750,0,2,2,1,0,1,0,3,9,2.9,-5,RJ Barrett
+2023-11-28,23-167,NYK,HOME,CHO,W (+24),1,28:18,3,13,.231,1,4,.250,9,9,1.000,0,3,3,2,1,0,1,1,16,10.0,0,RJ Barrett
+2023-11-30,23-169,NYK,HOME,DET,W (+6),1,23:56,5,12,.417,1,6,.167,4,6,.667,0,1,1,2,0,0,2,2,15,6.7,-5,RJ Barrett
+2023-12-01,23-170,NYK,AWAY,TOR,W (+13),1,26:59,6,18,.333,1,6,.167,2,3,.667,1,3,4,6,0,0,2,1,15,7.8,-5,RJ Barrett
+2023-12-05,23-174,NYK,AWAY,MIL,L (-24),1,31:28,7,18,.389,1,4,.250,8,8,1.000,3,5,8,1,0,0,2,0,23,15.5,-6,RJ Barrett
+2023-12-08,23-177,NYK,AWAY,BOS,L (-10),1,30:41,9,16,.563,2,5,.400,3,4,.750,1,2,3,3,1,0,0,0,23,19.4,-12,RJ Barrett
+2023-12-11,23-180,NYK,HOME,TOR,W (+6),1,32:15,11,21,.524,3,8,.375,2,4,.500,0,3,3,2,1,1,1,1,27,18.5,+1,RJ Barrett
+2023-12-13,23-182,NYK,AWAY,UTA,L (-4),1,24:18,3,16,.188,0,7,.000,3,4,.750,1,5,6,2,0,0,0,2,9,1.4,-4,RJ Barrett
+2023-12-15,23-184,NYK,AWAY,PHO,W (+17),1,28:56,6,10,.600,1,2,.500,8,8,1.000,1,1,2,3,0,1,1,2,21,18.4,0,RJ Barrett
+2023-12-16,23-185,NYK,AWAY,LAC,L (-22),1,28:19,7,15,.467,2,7,.286,2,2,1.000,1,4,5,0,0,1,1,1,18,11.5,-30,RJ Barrett
+2023-12-18,23-187,NYK,AWAY,LAL,W (+5),1,30:06,3,10,.300,0,2,.000,6,6,1.000,1,4,5,4,0,1,1,2,12,9.8,-7,RJ Barrett
+2023-12-20,23-189,NYK,AWAY,BRK,W (+19),1,26:51,5,11,.455,0,1,.000,4,4,1.000,0,5,5,2,1,1,2,2,14,10.1,+13,RJ Barrett
+2023-12-23,23-192,NYK,HOME,MIL,L (-19),1,29:05,5,17,.294,2,5,.400,1,2,.500,1,6,7,1,0,1,1,1,13,5.2,-8,RJ Barrett
+2023-12-25,23-194,NYK,HOME,MIL,W (+7),1,27:34,8,14,.571,2,5,.400,3,4,.750,1,5,6,1,1,0,3,3,21,13.7,-6,RJ Barrett
+2023-12-27,23-196,NYK,AWAY,OKC,L (-9),1,29:49,5,14,.357,1,7,.143,3,6,.500,0,4,4,4,0,0,5,5,14,2.0,-9,RJ Barrett
+2023-12-29,23-198,NYK,AWAY,ORL,L (-9),1,36:39,7,17,.412,1,5,.200,4,5,.800,2,4,6,2,1,0,2,4,19,10.9,-22,RJ Barrett
+2023-12-30,23-199,TOR,AWAY,DET,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-01-01,23-201,TOR,HOME,CLE,W (+3),1,29:25,6,12,.500,1,2,.500,6,8,.750,3,6,9,1,0,0,5,5,19,9.8,-7,RJ Barrett
+2024-01-03,23-203,TOR,AWAY,MEM,W (+5),1,32:44,5,12,.417,2,5,.400,2,3,.667,0,7,7,3,1,0,3,3,14,8.2,-2,RJ Barrett
+2024-01-05,23-205,TOR,AWAY,SAC,L (-5),1,27:13,4,8,.500,2,4,.500,4,4,1.000,1,3,4,2,0,1,0,2,14,12.9,-19,RJ Barrett
+2024-01-07,23-207,TOR,AWAY,GSW,W (+15),1,36:10,13,20,.650,5,8,.625,6,8,.750,0,6,6,6,1,0,0,3,37,33.2,+26,RJ Barrett
+2024-01-09,23-209,TOR,AWAY,LAL,L (-1),1,35:28,10,13,.769,1,3,.333,2,3,.667,1,9,10,5,2,0,3,4,23,21.8,+10,RJ Barrett
+2024-01-10,23-210,TOR,AWAY,LAC,L (-6),1,36:36,10,16,.625,4,6,.667,0,0,,1,4,5,4,0,0,4,4,24,15.9,0,RJ Barrett
+2024-01-12,23-212,TOR,AWAY,UTA,L (-32),1,30:09,2,9,.222,0,2,.000,0,0,,0,7,7,2,1,3,2,4,4,1.5,-16,RJ Barrett
+2024-01-15,23-215,TOR,HOME,BOS,L (-9),1,36:17,11,19,.579,0,4,.000,2,3,.667,0,9,9,4,0,0,0,4,24,18.6,-4,RJ Barrett
+2024-01-17,23-217,TOR,HOME,MIA,W (+24),1,36:20,9,14,.643,1,3,.333,7,13,.538,3,5,8,3,0,0,0,1,26,22.7,+20,RJ Barrett
+2024-01-18,23-218,TOR,HOME,CHI,L (-6),1,34:49,6,16,.375,1,6,.167,4,5,.800,0,4,4,6,1,0,1,2,17,12.4,-5,RJ Barrett
+2024-01-20,23-220,TOR,AWAY,NYK,L (-26),1,28:56,8,15,.533,1,3,.333,3,9,.333,2,6,8,4,1,0,0,2,20,16.5,-14,RJ Barrett
+2024-01-22,23-222,TOR,HOME,MEM,L (-8),1,37:01,12,18,.667,0,2,.000,5,6,.833,1,8,9,1,0,1,2,3,29,22.1,-9,RJ Barrett
+2024-01-26,23-226,TOR,HOME,LAC,L (-20),1,36:00,9,19,.474,0,2,.000,4,8,.500,2,4,6,4,1,0,3,1,22,13.7,-27,RJ Barrett
+2024-01-28,23-228,TOR,AWAY,ATL,L (-1),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-01-30,23-230,TOR,AWAY,CHI,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-02-02,23-233,TOR,AWAY,HOU,L (-29),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-02-04,23-235,TOR,AWAY,OKC,L (-8),1,43:24,9,16,.563,2,5,.400,3,4,.750,1,6,7,4,1,1,4,3,23,16.8,-13,RJ Barrett
+2024-02-05,23-236,TOR,AWAY,NOP,L (-38),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-02-07,23-238,TOR,AWAY,CHO,W (+6),1,33:22,9,15,.600,4,6,.667,1,1,1.000,0,6,6,5,0,1,1,4,23,19.5,0,RJ Barrett
+2024-02-09,23-240,TOR,HOME,HOU,W (+3),1,35:38,8,12,.667,1,3,.333,4,5,.800,1,4,5,7,1,0,2,2,21,20.4,+8,RJ Barrett
+2024-02-10,23-241,TOR,HOME,CLE,L (-24),1,32:39,5,14,.357,0,2,.000,4,7,.571,2,5,7,1,1,0,2,0,14,7.6,-12,RJ Barrett
+2024-02-12,23-243,TOR,HOME,SAS,L (-23),1,24:05,6,10,.600,0,2,.000,1,2,.500,2,3,5,2,1,0,4,3,13,7.5,-30,RJ Barrett
+2024-02-14,23-245,TOR,HOME,IND,L (-2),1,33:32,9,17,.529,1,3,.333,4,8,.500,3,6,9,3,1,1,3,1,23,17.4,-13,RJ Barrett
+2024-02-22,23-253,TOR,HOME,BRK,W (+28),1,29:05,5,13,.385,2,4,.500,0,2,.000,0,5,5,7,0,0,3,3,12,6.3,+29,RJ Barrett
+2024-02-23,23-254,TOR,AWAY,ATL,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-02-26,23-257,TOR,AWAY,IND,W (+8),1,32:41,11,16,.688,2,3,.667,0,3,.000,0,2,2,5,0,0,2,4,24,16.5,+13,RJ Barrett
+2024-02-28,23-259,TOR,HOME,DAL,L (-11),1,34:32,9,16,.563,4,6,.667,4,9,.444,0,5,5,6,0,0,1,0,26,21.1,-6,RJ Barrett
+2024-03-01,23-261,TOR,HOME,GSW,L (-15),1,31:16,9,15,.600,2,4,.500,3,4,.750,0,2,2,4,0,0,2,1,23,16.7,-7,RJ Barrett
+2024-03-03,23-263,TOR,HOME,CHO,W (+5),1,34:57,10,15,.667,3,6,.500,0,2,.000,1,7,8,5,2,0,5,2,23,18.2,+4,RJ Barrett
+2024-03-05,23-265,TOR,HOME,NOP,L (-41),1,31:59,7,14,.500,0,2,.000,1,5,.200,0,6,6,1,0,2,3,3,15,6.1,-19,RJ Barrett
+2024-03-07,23-267,TOR,AWAY,PHO,L (-7),1,37:10,9,16,.563,3,4,.750,2,3,.667,1,1,2,4,1,1,1,4,23,17.9,-7,RJ Barrett
+2024-03-09,23-269,TOR,AWAY,POR,L (-10),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,RJ Barrett
+2024-03-11,23-271,TOR,AWAY,DEN,L (-6),1,37:58,10,20,.500,1,3,.333,5,5,1.000,2,5,7,9,0,0,4,1,26,20.8,-3,RJ Barrett
+2024-03-13,23-273,TOR,AWAY,DET,L (-9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-03-15,23-275,TOR,HOME,ORL,L (-10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-03-17,23-277,TOR,AWAY,ORL,L (-15),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-03-20,23-280,TOR,HOME,SAC,L (-34),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-03-22,23-282,TOR,HOME,OKC,L (-20),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-03-23,23-283,TOR,AWAY,WAS,L (-3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-03-25,23-285,TOR,HOME,BRK,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-03-27,23-287,TOR,HOME,NYK,L (-44),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-03-31,23-291,TOR,HOME,PHI,L (-15),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,RJ Barrett
+2024-04-02,23-293,TOR,HOME,LAL,L (-17),1,26:27,11,18,.611,2,3,.667,4,7,.571,0,6,6,6,0,0,0,3,28,23.4,-9,RJ Barrett
+2024-04-03,23-294,TOR,AWAY,MIN,L (-48),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,RJ Barrett
+2024-04-05,23-296,TOR,AWAY,MIL,W (+6),1,34:11,8,18,.444,1,4,.250,9,11,.818,2,5,7,2,2,1,5,4,26,16.2,+1,RJ Barrett
+2024-04-07,23-298,TOR,HOME,WAS,W (+8),1,36:11,9,19,.474,0,3,.000,4,6,.667,2,6,8,7,0,1,6,3,22,13.1,-4,RJ Barrett
+2024-04-09,23-300,TOR,HOME,IND,L (-17),1,32:46,10,19,.526,0,3,.000,3,3,1.000,2,2,4,4,1,0,5,2,23,13.7,-12,RJ Barrett
+2024-04-10,23-301,TOR,AWAY,BRK,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,RJ Barrett
+2024-04-12,23-303,TOR,AWAY,MIA,L (-22),1,32:36,13,18,.722,1,4,.250,8,10,.800,1,10,11,3,0,0,3,3,35,28.4,-9,RJ Barrett
+2024-04-14,23-305,TOR,AWAY,MIA,L (-15),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,RJ Barrett

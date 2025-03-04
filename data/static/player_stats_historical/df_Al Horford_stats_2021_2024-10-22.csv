@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2020-12-26,34-206,OKC,AWAY,CHO,W (+2),1,28:33,1,5,.200,0,2,.000,1,1,1.000,0,13,13,3,0,1,1,0,3,5.6,+3,Al Horford
+2020-12-28,34-208,OKC,HOME,UTA,L (-1),1,29:12,4,10,.400,3,7,.429,0,0,,0,5,5,4,1,0,1,1,11,9.5,+7,Al Horford
+2020-12-29,34-209,OKC,HOME,ORL,L (-11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2020-12-31,34-211,OKC,HOME,NOP,L (-33),1,24:13,7,9,.778,3,5,.600,0,0,,1,5,6,3,0,0,0,1,17,17.4,-7,Al Horford
+2021-01-02,34-213,OKC,AWAY,ORL,W (+9),1,27:46,5,12,.417,2,7,.286,0,0,,1,6,7,4,0,1,1,2,12,9.8,-2,Al Horford
+2021-01-04,34-215,OKC,AWAY,MIA,L (-28),1,21:14,1,6,.167,0,4,.000,0,0,,1,4,5,1,0,0,0,1,2,0.4,-5,Al Horford
+2021-01-06,34-217,OKC,AWAY,NOP,W (+1),1,27:12,3,11,.273,2,7,.286,0,0,,1,6,7,1,0,3,1,3,8,4.6,+4,Al Horford
+2021-01-08,34-219,OKC,AWAY,NYK,W (+12),1,28:58,6,15,.400,3,7,.429,0,2,.000,1,7,8,0,1,1,2,1,15,8.2,-2,Al Horford
+2021-01-10,34-221,OKC,AWAY,BRK,W (+13),1,27:47,9,17,.529,3,7,.429,1,1,1.000,0,6,6,3,1,1,2,4,22,15.7,+3,Al Horford
+2021-01-12,34-223,OKC,HOME,SAS,L (-10),1,28:56,5,13,.385,0,4,.000,0,0,,0,7,7,3,0,0,0,1,10,6.7,+6,Al Horford
+2021-01-13,34-224,OKC,HOME,LAL,L (-29),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-01-15,34-226,OKC,HOME,CHI,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-01-19,34-230,OKC,AWAY,DEN,L (-18),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-01-22,34-233,OKC,AWAY,LAC,L (-14),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-01-24,34-235,OKC,AWAY,LAC,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-01-25,34-236,OKC,AWAY,POR,W (+3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-01-27,34-238,OKC,AWAY,PHO,W (+5),1,29:48,8,12,.667,5,5,1.000,0,0,,1,10,11,2,3,1,0,1,21,24.2,+14,Al Horford
+2021-01-29,34-240,OKC,HOME,BRK,L (-22),1,23:38,6,15,.400,4,6,.667,0,0,,2,4,6,4,1,2,0,1,16,15.3,-2,Al Horford
+2021-02-01,34-243,OKC,HOME,HOU,L (-30),1,25:18,5,13,.385,2,3,.667,0,0,,2,5,7,3,2,1,1,1,12,11.2,-18,Al Horford
+2021-02-03,34-245,OKC,HOME,HOU,W (+17),1,29:01,6,10,.600,2,4,.500,3,3,1.000,0,6,6,3,2,0,7,3,17,10.1,-2,Al Horford
+2021-02-05,34-247,OKC,HOME,MIN,L (-3),1,29:03,10,19,.526,3,6,.500,3,3,1.000,2,5,7,8,2,3,2,2,26,26.5,+20,Al Horford
+2021-02-06,34-248,OKC,HOME,MIN,W (+2),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Al Horford
+2021-02-08,34-250,OKC,AWAY,LAL,L (-7),1,34:07,6,20,.300,2,8,.250,0,0,,1,4,5,3,1,1,2,4,14,4.5,-13,Al Horford
+2021-02-10,34-252,OKC,AWAY,LAL,L (-1),1,33:55,11,18,.611,1,4,.250,2,2,1.000,2,6,8,8,4,1,2,3,25,27.1,+5,Al Horford
+2021-02-12,34-254,OKC,AWAY,DEN,L (-2),1,28:09,6,15,.400,3,8,.375,1,2,.500,1,4,5,4,0,0,0,1,16,11.8,-6,Al Horford
+2021-02-14,34-256,OKC,HOME,MIL,W (+5),1,30:21,8,16,.500,2,7,.286,2,2,1.000,0,7,7,9,0,0,0,0,20,20.4,+10,Al Horford
+2021-02-16,34-258,OKC,HOME,POR,L (-11),1,29:06,5,11,.455,1,4,.250,1,2,.500,0,5,5,3,0,0,2,3,12,6.3,-21,Al Horford
+2021-02-17,34-259,OKC,AWAY,MEM,L (-9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Al Horford
+2021-02-19,34-261,OKC,AWAY,MIL,L (-13),1,29:22,4,14,.286,2,9,.222,0,0,,0,5,5,4,0,1,1,1,10,5.4,-19,Al Horford
+2021-02-21,34-263,OKC,AWAY,CLE,W (+16),1,27:40,7,12,.583,2,4,.500,0,0,,0,8,8,1,2,0,0,2,16,14.7,-2,Al Horford
+2021-02-22,34-264,OKC,HOME,MIA,L (-14),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Al Horford
+2021-02-24,34-266,OKC,HOME,SAS,W (+3),1,29:39,7,16,.438,2,6,.333,0,0,,3,4,7,7,0,0,0,1,16,15.4,+10,Al Horford
+2021-02-26,34-268,OKC,HOME,ATL,W (+9),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Al Horford
+2021-02-27,34-269,OKC,HOME,DEN,L (-30),1,24:54,3,11,.273,0,5,.000,0,0,,2,3,5,2,1,2,1,2,6,3.8,-33,Al Horford
+2021-03-03,34-273,OKC,AWAY,DAL,L (-9),1,29:07,5,12,.417,0,3,.000,0,0,,2,2,4,1,0,2,1,4,10,5.1,-20,Al Horford
+2021-03-04,34-274,OKC,AWAY,SAS,W (+5),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Al Horford
+2021-03-11,34-281,OKC,HOME,DAL,W (+8),1,27:41,8,15,.533,4,5,.800,1,1,1.000,1,8,9,2,1,2,0,3,21,19.4,+9,Al Horford
+2021-03-13,34-283,OKC,HOME,NYK,L (-22),1,27:10,7,9,.778,2,4,.500,0,0,,1,4,5,0,0,1,2,2,16,12.3,-12,Al Horford
+2021-03-14,34-284,OKC,HOME,MEM,W (+6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-03-16,34-286,OKC,AWAY,CHI,L (-21),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-03-18,34-288,OKC,AWAY,ATL,L (-23),1,24:32,3,13,.231,2,6,.333,3,3,1.000,1,5,6,2,2,1,0,0,11,9.4,-21,Al Horford
+2021-03-21,34-291,OKC,AWAY,HOU,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-03-22,34-292,OKC,AWAY,MIN,W (+9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-03-24,34-294,OKC,HOME,MEM,L (-9),1,25:24,6,11,.545,1,5,.200,0,0,,3,5,8,6,1,1,0,0,13,17.2,-7,Al Horford
+2021-03-27,34-297,OKC,HOME,BOS,L (-17),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-03-29,34-299,OKC,HOME,DAL,L (-21),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-03-31,34-301,OKC,HOME,TOR,W (+10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-02,34-303,OKC,AWAY,PHO,L (-37),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-03,34-304,OKC,AWAY,POR,L (-48),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-05,34-306,OKC,HOME,DET,L (-24),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-07,34-308,OKC,HOME,CHO,L (-11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-08,34-309,OKC,HOME,CLE,L (-27),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-10,34-311,OKC,HOME,PHI,L (-24),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-13,34-314,OKC,AWAY,UTA,L (-10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-14,34-315,OKC,HOME,GSW,L (-38),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-16,34-317,OKC,AWAY,DET,L (-6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-18,34-319,OKC,AWAY,TOR,L (-6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-19,34-320,OKC,AWAY,WAS,L (-12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-21,34-322,OKC,AWAY,IND,L (-6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-23,34-324,OKC,HOME,WAS,L (-20),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-26,34-327,OKC,AWAY,PHI,L (-31),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-27,34-328,OKC,AWAY,BOS,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-04-29,34-330,OKC,HOME,NOP,L (-14),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-05-01,34-332,OKC,HOME,IND,L (-57),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-05-02,34-333,OKC,HOME,PHO,L (-3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-05-04,34-335,OKC,HOME,SAC,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-05-06,34-337,OKC,AWAY,GSW,L (-21),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-05-08,34-339,OKC,AWAY,GSW,L (-39),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-05-09,34-340,OKC,AWAY,SAC,L (-28),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-05-11,34-342,OKC,AWAY,SAC,L (-16),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-05-14,34-345,OKC,HOME,UTA,L (-16),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford
+2021-05-16,34-347,OKC,HOME,LAC,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Al Horford

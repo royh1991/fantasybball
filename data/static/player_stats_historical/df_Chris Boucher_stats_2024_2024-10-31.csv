@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2023-10-25,30-287,TOR,HOME,MIN,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2023-10-27,30-289,TOR,AWAY,CHI,L (-1),0,16:39,3,4,.750,0,0,,4,5,.800,1,5,6,0,0,0,1,3,10,8.0,+22,Chris Boucher
+2023-10-28,30-290,TOR,HOME,PHI,L (-7),0,11:42,1,6,.167,0,2,.000,3,3,1.000,1,3,4,0,1,0,1,2,5,2.0,-2,Chris Boucher
+2023-10-30,30-292,TOR,HOME,POR,L (-8),0,16:56,1,4,.250,0,0,,2,2,1.000,3,4,7,1,0,1,1,2,4,4.5,-3,Chris Boucher
+2023-11-01,30-294,TOR,HOME,MIL,W (+19),0,13:28,2,4,.500,0,1,.000,2,2,1.000,1,4,5,1,1,0,0,3,6,6.4,-10,Chris Boucher
+2023-11-02,30-295,TOR,AWAY,PHI,L (-15),0,12:47,2,4,.500,0,2,.000,2,2,1.000,2,2,4,0,0,1,1,3,6,4.5,-5,Chris Boucher
+2023-11-05,30-298,TOR,AWAY,SAS,W (+7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2023-11-08,30-301,TOR,AWAY,DAL,W (+11),0,14:53,4,4,1.000,1,1,1.000,1,2,.500,1,1,2,0,0,1,1,5,10,7.1,+4,Chris Boucher
+2023-11-11,30-304,TOR,AWAY,BOS,L (-23),0,21:58,2,4,.500,2,3,.667,0,0,,0,5,5,1,0,0,0,2,6,5.4,-9,Chris Boucher
+2023-11-13,30-306,TOR,HOME,WAS,W (+4),0,20:30,3,6,.500,1,2,.500,0,0,,2,5,7,2,0,3,0,1,7,10.0,+14,Chris Boucher
+2023-11-15,30-308,TOR,HOME,MIL,L (-16),0,20:16,2,8,.250,1,3,.333,4,4,1.000,5,4,9,0,0,1,1,1,9,8.2,+6,Chris Boucher
+2023-11-17,30-310,TOR,HOME,BOS,L (-3),0,18:00,2,6,.333,1,2,.500,1,2,.500,1,3,4,0,0,0,0,0,6,3.8,-10,Chris Boucher
+2023-11-19,30-312,TOR,HOME,DET,W (+29),0,17:59,5,7,.714,3,4,.750,1,3,.333,1,5,6,1,1,1,0,4,14,13.3,+10,Chris Boucher
+2023-11-21,30-314,TOR,AWAY,ORL,L (-19),0,17:50,1,4,.250,1,3,.333,0,0,,0,2,2,0,0,1,0,3,3,0.7,-12,Chris Boucher
+2023-11-22,30-315,TOR,AWAY,IND,W (+1),0,10:24,1,3,.333,0,1,.000,4,4,1.000,1,0,1,0,0,0,0,2,6,4.2,+6,Chris Boucher
+2023-11-24,30-317,TOR,HOME,CHI,W (+13),0,10:20,1,3,.333,0,1,.000,2,2,1.000,0,1,1,0,1,0,0,1,4,3.2,-1,Chris Boucher
+2023-11-26,30-319,TOR,AWAY,CLE,L (-3),0,10:21,1,2,.500,0,0,,3,4,.750,2,2,4,0,1,0,1,0,5,5.6,-9,Chris Boucher
+2023-11-28,30-321,TOR,AWAY,BRK,L (-12),0,12:07,5,7,.714,3,4,.750,0,0,,1,0,1,0,1,0,0,0,13,11.8,+8,Chris Boucher
+2023-11-29,30-322,TOR,HOME,PHO,W (+7),0,2:57,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,0,Chris Boucher
+2023-12-01,30-324,TOR,HOME,NYK,L (-13),0,19:10,4,10,.400,1,4,.250,2,3,.667,2,1,3,2,1,0,0,0,11,9.3,+5,Chris Boucher
+2023-12-06,30-329,TOR,HOME,MIA,L (-9),0,10:10,0,2,.000,0,1,.000,0,0,,0,4,4,0,0,0,1,0,0,-1.2,+2,Chris Boucher
+2023-12-08,30-331,TOR,AWAY,CHO,L (-3),0,13:21,4,9,.444,0,3,.000,1,1,1.000,1,2,3,0,0,1,1,4,9,3.7,+11,Chris Boucher
+2023-12-11,30-334,TOR,AWAY,NYK,L (-6),0,10:04,2,8,.250,0,4,.000,1,1,1.000,2,1,3,0,0,0,1,1,5,0.5,-8,Chris Boucher
+2023-12-13,30-336,TOR,HOME,ATL,W (+7),0,9:41,1,2,.500,0,1,.000,0,0,,0,0,0,0,0,2,0,0,2,2.4,-10,Chris Boucher
+2023-12-15,30-338,TOR,HOME,ATL,L (-21),0,14:44,2,4,.500,1,3,.333,2,5,.400,0,3,3,0,1,2,1,1,7,5.7,-7,Chris Boucher
+2023-12-18,30-341,TOR,HOME,CHO,W (+15),0,14:46,3,6,.500,0,1,.000,1,2,.500,1,2,3,0,0,1,0,1,7,5.2,+7,Chris Boucher
+2023-12-20,30-343,TOR,HOME,DEN,L (-9),0,12:26,2,3,.667,1,1,1.000,0,0,,2,5,7,0,0,1,1,1,5,5.9,+8,Chris Boucher
+2023-12-22,30-345,TOR,AWAY,PHI,L (-10),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2023-12-23,30-346,TOR,HOME,UTA,L (-7),0,13:18,3,3,1.000,1,1,1.000,2,3,.667,1,2,3,1,1,0,0,2,9,9.9,-11,Chris Boucher
+2023-12-27,30-350,TOR,AWAY,WAS,W (+30),0,12:15,2,5,.400,2,4,.500,0,0,,1,3,4,0,0,0,0,3,6,3.7,+7,Chris Boucher
+2023-12-29,30-352,TOR,AWAY,BOS,L (-2),0,6:38,1,3,.333,1,3,.333,0,0,,0,3,3,0,0,0,0,1,3,1.8,-8,Chris Boucher
+2023-12-30,30-353,TOR,AWAY,DET,L (-2),0,16:43,0,1,.000,0,1,.000,4,6,.667,0,2,2,0,0,0,0,2,4,2.3,-3,Chris Boucher
+2024-01-01,30-355,TOR,HOME,CLE,W (+3),0,11:21,0,0,,0,0,,0,0,,0,1,1,0,0,0,0,0,0,0.3,+1,Chris Boucher
+2024-01-03,30-357,TOR,AWAY,MEM,W (+5),0,13:21,2,2,1.000,0,0,,0,0,,3,5,8,2,0,0,1,0,4,7.4,+10,Chris Boucher
+2024-01-05,30-359,TOR,AWAY,SAC,L (-5),0,27:41,5,9,.556,1,5,.200,3,5,.600,3,6,9,1,1,1,0,2,14,14.4,+1,Chris Boucher
+2024-01-07,30-361,TOR,AWAY,GSW,W (+15),0,16:03,7,7,1.000,3,3,1.000,0,0,,2,7,9,1,1,1,0,0,17,20.8,+17,Chris Boucher
+2024-01-09,30-363,TOR,AWAY,LAL,L (-1),0,14:02,1,3,.333,0,2,.000,0,0,,0,7,7,1,2,0,3,1,2,1.7,-4,Chris Boucher
+2024-01-10,30-364,TOR,AWAY,LAC,L (-6),0,11:21,1,3,.333,0,1,.000,1,1,1.000,0,1,1,0,0,0,0,0,3,1.6,-10,Chris Boucher
+2024-01-12,31-001,TOR,AWAY,UTA,L (-32),0,11:36,2,4,.500,1,3,.333,2,2,1.000,0,0,0,0,0,0,1,1,7,3.6,-12,Chris Boucher
+2024-01-15,31-004,TOR,HOME,BOS,L (-9),0,14:06,1,6,.167,0,4,.000,2,2,1.000,1,1,2,0,0,0,0,1,4,0.8,-8,Chris Boucher
+2024-01-17,31-006,TOR,HOME,MIA,W (+24),0,17:35,1,3,.333,0,1,.000,0,0,,2,5,7,0,0,1,0,0,2,3.9,+20,Chris Boucher
+2024-01-18,31-007,TOR,HOME,CHI,L (-6),0,17:38,2,4,.500,1,3,.333,1,2,.500,2,7,9,2,0,0,2,1,6,6.1,+13,Chris Boucher
+2024-01-20,31-009,TOR,AWAY,NYK,L (-26),0,11:30,2,5,.400,0,1,.000,1,2,.500,2,0,2,1,0,0,0,2,5,3.2,-4,Chris Boucher
+2024-01-22,31-011,TOR,HOME,MEM,L (-8),0,12:00,1,3,.333,1,2,.500,2,2,1.000,2,3,5,1,0,0,0,1,5,5.9,-4,Chris Boucher
+2024-01-26,31-015,TOR,HOME,LAC,L (-20),0,16:46,4,8,.500,0,3,.000,1,2,.500,3,2,5,0,0,0,0,1,9,6.9,-4,Chris Boucher
+2024-01-28,31-017,TOR,AWAY,ATL,L (-1),0,13:04,1,2,.500,0,1,.000,3,3,1.000,1,3,4,0,0,0,1,2,5,3.8,+14,Chris Boucher
+2024-01-30,31-019,TOR,AWAY,CHI,W (+11),0,7:27,2,2,1.000,1,1,1.000,0,0,,0,2,2,0,0,0,1,1,5,3.6,-5,Chris Boucher
+2024-02-02,31-022,TOR,AWAY,HOU,L (-29),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-02-04,31-024,TOR,AWAY,OKC,L (-8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-02-05,31-025,TOR,AWAY,NOP,L (-38),0,12:00,4,5,.800,1,2,.500,2,2,1.000,1,5,6,1,0,1,1,0,11,11.7,-4,Chris Boucher
+2024-02-07,31-027,TOR,AWAY,CHO,W (+6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-02-09,31-029,TOR,HOME,HOU,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-02-10,31-030,TOR,HOME,CLE,L (-24),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-02-12,31-032,TOR,HOME,SAS,L (-23),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-02-14,31-034,TOR,HOME,IND,L (-2),0,10:54,4,5,.800,0,1,.000,2,4,.500,2,2,4,0,1,1,0,2,10,10.2,+3,Chris Boucher
+2024-02-22,31-042,TOR,HOME,BRK,W (+28),0,4:06,0,1,.000,0,1,.000,2,2,1.000,0,1,1,0,0,0,0,0,2,1.6,-1,Chris Boucher
+2024-02-23,31-043,TOR,AWAY,ATL,W (+2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-02-26,31-046,TOR,AWAY,IND,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-02-28,31-048,TOR,HOME,DAL,L (-11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-03-01,31-050,TOR,HOME,GSW,L (-15),0,4:59,1,2,.500,0,1,.000,0,0,,0,2,2,0,0,0,1,1,2,0.2,0,Chris Boucher
+2024-03-03,31-052,TOR,HOME,CHO,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-03-05,31-054,TOR,HOME,NOP,L (-41),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Chris Boucher
+2024-03-07,31-056,TOR,AWAY,PHO,L (-7),0,23:42,5,6,.833,0,0,,1,1,1.000,5,4,9,2,0,0,2,2,11,12.1,0,Chris Boucher
+2024-03-09,31-058,TOR,AWAY,POR,L (-10),0,31:15,4,5,.800,2,3,.667,6,6,1.000,1,7,8,2,0,3,3,2,16,16.6,+3,Chris Boucher
+2024-03-11,31-060,TOR,AWAY,DEN,L (-6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-03-13,31-062,TOR,AWAY,DET,L (-9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-03-15,31-064,TOR,HOME,ORL,L (-10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-03-17,31-066,TOR,AWAY,ORL,L (-15),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-03-20,31-069,TOR,HOME,SAC,L (-34),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-03-22,31-071,TOR,HOME,OKC,L (-20),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-03-23,31-072,TOR,AWAY,WAS,L (-3),Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Chris Boucher
+2024-03-25,31-074,TOR,HOME,BRK,L (-8),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Chris Boucher
+2024-03-27,31-076,TOR,HOME,NYK,L (-44),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Chris Boucher
+2024-03-31,31-080,TOR,HOME,PHI,L (-15),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Chris Boucher
+2024-04-02,31-082,TOR,HOME,LAL,L (-17),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-04-03,31-083,TOR,AWAY,MIN,L (-48),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-04-05,31-085,TOR,AWAY,MIL,W (+6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-04-07,31-087,TOR,HOME,WAS,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-04-09,31-089,TOR,HOME,IND,L (-17),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Chris Boucher
+2024-04-10,31-090,TOR,AWAY,BRK,L (-4),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Chris Boucher
+2024-04-12,31-092,TOR,AWAY,MIA,L (-22),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher
+2024-04-14,31-094,TOR,AWAY,MIA,L (-15),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Chris Boucher

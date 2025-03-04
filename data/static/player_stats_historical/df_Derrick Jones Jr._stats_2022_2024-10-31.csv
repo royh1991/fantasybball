@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2021-10-20,24-247,CHI,AWAY,DET,W (+6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2021-10-22,24-249,CHI,HOME,NOP,W (+16),0,2:26,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,-4,Derrick Jones Jr.
+2021-10-23,24-250,CHI,HOME,DET,W (+15),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2021-10-25,24-252,CHI,AWAY,TOR,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2021-10-28,24-255,CHI,HOME,NYK,L (-1),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2021-10-30,24-257,CHI,HOME,UTA,W (+8),0,18:57,2,3,.667,0,1,.000,0,0,,1,2,3,0,1,3,0,0,4,7.1,+18,Derrick Jones Jr.
+2021-11-01,24-259,CHI,AWAY,BOS,W (+14),0,21:09,3,5,.600,1,2,.500,2,2,1.000,1,3,4,0,1,2,0,1,9,10.3,+23,Derrick Jones Jr.
+2021-11-03,24-261,CHI,AWAY,PHI,L (-5),0,16:38,1,2,.500,0,1,.000,2,2,1.000,0,1,1,0,2,2,0,1,4,6.3,+4,Derrick Jones Jr.
+2021-11-06,24-264,CHI,HOME,PHI,L (-9),0,17:36,3,4,.750,0,1,.000,6,6,1.000,3,1,4,0,0,1,0,1,12,13.1,+4,Derrick Jones Jr.
+2021-11-08,24-266,CHI,HOME,BRK,W (+23),0,17:01,2,5,.400,1,3,.333,2,2,1.000,0,3,3,0,0,0,0,3,7,4.0,+8,Derrick Jones Jr.
+2021-11-10,24-268,CHI,HOME,DAL,W (+10),0,19:46,2,5,.400,0,3,.000,2,2,1.000,2,5,7,2,0,0,0,3,6,6.4,-3,Derrick Jones Jr.
+2021-11-12,24-270,CHI,AWAY,GSW,L (-26),0,20:30,3,3,1.000,1,1,1.000,2,2,1.000,2,4,6,1,1,0,1,1,9,11.0,-8,Derrick Jones Jr.
+2021-11-14,24-272,CHI,AWAY,LAC,W (+10),0,18:00,1,2,.500,0,0,,0,0,,0,1,1,1,1,1,2,2,2,0.9,-6,Derrick Jones Jr.
+2021-11-15,24-273,CHI,AWAY,LAL,W (+18),0,16:17,6,7,.857,0,0,,1,3,.333,0,3,3,2,1,1,1,5,13,10.7,+9,Derrick Jones Jr.
+2021-11-17,24-275,CHI,AWAY,POR,L (-5),0,20:18,3,7,.429,0,0,,0,0,,2,1,3,1,1,1,2,5,6,2.4,+7,Derrick Jones Jr.
+2021-11-19,24-277,CHI,AWAY,DEN,W (+6),0,23:32,7,10,.700,0,1,.000,2,2,1.000,3,5,8,0,0,1,1,4,16,13.5,+9,Derrick Jones Jr.
+2021-11-21,24-279,CHI,HOME,NYK,W (+6),0,21:31,3,6,.500,1,1,1.000,1,2,.500,4,3,7,0,0,0,0,3,8,7.1,+2,Derrick Jones Jr.
+2021-11-22,24-280,CHI,HOME,IND,L (-32),0,18:41,2,3,.667,0,0,,4,6,.667,2,3,5,0,1,0,0,1,8,8.8,-13,Derrick Jones Jr.
+2021-11-24,24-282,CHI,AWAY,HOU,L (-5),0,11:01,0,2,.000,0,0,,0,0,,1,1,2,1,0,1,0,1,0,0.6,-6,Derrick Jones Jr.
+2021-11-26,24-284,CHI,AWAY,ORL,W (+35),0,10:04,1,2,.500,0,0,,0,0,,1,1,2,0,0,0,0,6,2,-0.4,+9,Derrick Jones Jr.
+2021-11-27,24-285,CHI,HOME,MIA,L (-3),0,16:14,3,3,1.000,0,0,,1,1,1.000,0,1,1,1,0,1,0,2,7,7.0,-5,Derrick Jones Jr.
+2021-11-29,24-287,CHI,HOME,CHO,W (+14),0,14:32,2,4,.500,0,1,.000,0,0,,2,0,2,1,0,0,1,2,4,2.3,-8,Derrick Jones Jr.
+2021-12-02,24-290,CHI,AWAY,NYK,W (+4),0,13:49,3,3,1.000,0,0,,0,0,,0,1,1,0,2,2,1,2,6,7.0,-3,Derrick Jones Jr.
+2021-12-04,24-292,CHI,AWAY,BRK,W (+4),0,32:34,2,4,.500,2,3,.667,2,2,1.000,1,2,3,1,0,4,1,3,8,8.6,+2,Derrick Jones Jr.
+2021-12-06,24-294,CHI,HOME,DEN,W (+12),1,27:49,5,12,.417,1,5,.200,1,2,.500,4,5,9,1,0,1,1,4,12,8.3,-6,Derrick Jones Jr.
+2021-12-08,24-296,CHI,AWAY,CLE,L (-23),1,28:03,4,7,.571,1,2,.500,2,2,1.000,1,1,2,0,1,0,1,2,11,7.9,-10,Derrick Jones Jr.
+2021-12-11,24-299,CHI,AWAY,MIA,L (-26),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2021-12-19,24-307,CHI,HOME,LAL,W (+5),0,5:32,0,2,.000,0,1,.000,0,0,,0,1,1,0,0,0,0,0,0,-1.1,-3,Derrick Jones Jr.
+2021-12-20,24-308,CHI,HOME,HOU,W (+15),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2021-12-26,24-314,CHI,HOME,IND,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2021-12-27,24-315,CHI,AWAY,ATL,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2021-12-29,24-317,CHI,HOME,ATL,W (+14),0,4:30,0,0,,0,0,,2,2,1.000,0,2,2,1,0,0,0,2,2,2.5,-5,Derrick Jones Jr.
+2021-12-31,24-319,CHI,AWAY,IND,W (+2),0,14:20,3,3,1.000,1,1,1.000,0,0,,0,2,2,0,0,0,0,2,7,5.9,-3,Derrick Jones Jr.
+2022-01-01,24-320,CHI,AWAY,WAS,W (+1),1,27:34,2,2,1.000,2,2,1.000,3,4,.750,1,3,4,1,1,2,2,3,9,9.5,-1,Derrick Jones Jr.
+2022-01-03,24-322,CHI,HOME,ORL,W (+4),1,21:03,3,4,.750,1,1,1.000,0,0,,3,2,5,0,1,0,0,2,7,8.3,-3,Derrick Jones Jr.
+2022-01-07,24-326,CHI,HOME,WAS,W (+8),1,16:02,0,2,.000,0,1,.000,2,2,1.000,0,3,3,2,0,0,1,4,2,0.3,+4,Derrick Jones Jr.
+2022-01-09,24-328,CHI,AWAY,DAL,L (-14),1,23:49,3,7,.429,1,4,.250,2,2,1.000,3,5,8,0,1,0,0,2,9,9.1,-7,Derrick Jones Jr.
+2022-01-11,24-330,CHI,HOME,DET,W (+46),1,13:21,2,3,.667,2,2,1.000,0,0,,0,2,2,0,0,0,0,4,6,3.7,+14,Derrick Jones Jr.
+2022-01-12,24-331,CHI,HOME,BRK,L (-26),1,0:36,0,0,,0,0,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,0,Derrick Jones Jr.
+2022-01-14,24-333,CHI,HOME,GSW,L (-42),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-01-15,24-334,CHI,AWAY,BOS,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-01-17,24-336,CHI,AWAY,MEM,L (-13),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-01-19,24-338,CHI,HOME,CLE,W (+13),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-01-21,24-340,CHI,AWAY,MIL,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-01-23,24-342,CHI,AWAY,ORL,L (-19),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-01-24,24-343,CHI,AWAY,OKC,W (+1),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-01-26,24-345,CHI,HOME,TOR,W (+6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-01-28,24-347,CHI,AWAY,SAS,L (-9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-01-30,24-349,CHI,HOME,POR,W (+14),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-02-01,24-351,CHI,HOME,ORL,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-02-03,24-353,CHI,AWAY,TOR,L (-7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-02-04,24-354,CHI,AWAY,IND,W (+7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-02-06,24-356,CHI,HOME,PHI,L (-11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-02-07,24-357,CHI,HOME,PHO,L (-3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-02-09,24-359,CHI,AWAY,CHO,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-02-11,24-361,CHI,HOME,MIN,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2022-02-12,24-362,CHI,HOME,OKC,W (+5),0,22:54,1,5,.200,0,1,.000,1,2,.500,1,1,2,1,1,0,0,6,3,-0.2,+13,Derrick Jones Jr.
+2022-02-14,24-364,CHI,HOME,SAS,W (+11),0,22:01,2,7,.286,0,1,.000,0,1,.000,4,3,7,1,0,0,2,1,4,1.5,+2,Derrick Jones Jr.
+2022-02-16,25-001,CHI,HOME,SAC,W (+7),0,16:20,2,4,.500,1,1,1.000,0,0,,3,1,4,1,0,0,0,3,5,4.9,+12,Derrick Jones Jr.
+2022-02-24,25-009,CHI,HOME,ATL,W (+4),0,20:25,0,2,.000,0,2,.000,2,2,1.000,0,3,3,0,0,2,0,0,2,2.9,-6,Derrick Jones Jr.
+2022-02-26,25-011,CHI,HOME,MEM,L (-6),0,19:27,3,4,.750,0,0,,2,4,.500,2,4,6,0,0,1,0,1,8,8.5,+4,Derrick Jones Jr.
+2022-02-28,25-013,CHI,AWAY,MIA,L (-13),0,20:06,1,1,1.000,0,0,,0,0,,0,3,3,1,0,0,1,4,2,0.7,+11,Derrick Jones Jr.
+2022-03-03,25-016,CHI,AWAY,ATL,L (-6),0,12:38,2,5,.400,0,2,.000,0,1,.000,0,1,1,0,0,0,0,1,4,0.8,+18,Derrick Jones Jr.
+2022-03-04,25-017,CHI,HOME,MIL,L (-6),0,16:29,2,3,.667,0,0,,1,1,1.000,0,4,4,1,0,0,1,4,5,3.0,-10,Derrick Jones Jr.
+2022-03-07,25-020,CHI,AWAY,PHI,L (-15),0,21:12,4,6,.667,0,0,,0,0,,3,3,6,0,2,3,2,4,8,8.9,-8,Derrick Jones Jr.
+2022-03-09,25-022,CHI,AWAY,DET,W (+6),0,22:11,3,3,1.000,0,0,,0,0,,0,1,1,0,1,0,0,1,6,6.0,-9,Derrick Jones Jr.
+2022-03-12,25-025,CHI,HOME,CLE,W (+10),0,15:26,1,3,.333,0,1,.000,0,0,,0,2,2,0,0,0,0,1,2,0.5,+17,Derrick Jones Jr.
+2022-03-14,25-027,CHI,AWAY,SAC,L (-9),0,18:19,0,1,.000,0,1,.000,2,2,1.000,2,4,6,1,2,1,1,0,2,6.3,+4,Derrick Jones Jr.
+2022-03-16,25-029,CHI,AWAY,UTA,L (-15),0,19:25,0,1,.000,0,1,.000,1,2,.500,1,0,1,2,1,0,0,0,1,3.0,-9,Derrick Jones Jr.
+2022-03-18,25-031,CHI,AWAY,PHO,L (-27),0,18:39,1,4,.250,0,3,.000,0,0,,1,3,4,1,0,0,2,1,2,-0.5,-4,Derrick Jones Jr.
+2022-03-21,25-034,CHI,HOME,TOR,W (+14),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2022-03-22,25-035,CHI,AWAY,MIL,L (-28),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2022-03-24,25-037,CHI,AWAY,NOP,L (-17),0,6:08,1,2,.500,0,0,,0,0,,0,1,1,0,0,0,0,0,2,1.3,-9,Derrick Jones Jr.
+2022-03-26,25-039,CHI,AWAY,CLE,W (+4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2022-03-28,25-041,CHI,AWAY,NYK,L (-5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2022-03-29,25-042,CHI,AWAY,WAS,W (+13),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2022-03-31,25-044,CHI,HOME,LAC,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2022-04-02,25-046,CHI,HOME,MIA,L (-18),0,3:12,1,1,1.000,0,0,,1,1,1.000,1,0,1,0,0,0,0,0,3,3.4,0,Derrick Jones Jr.
+2022-04-05,25-049,CHI,HOME,MIL,L (-21),0,20:44,2,5,.400,2,5,.400,0,0,,1,1,2,2,1,1,1,1,6,6.0,-1,Derrick Jones Jr.
+2022-04-06,25-050,CHI,HOME,BOS,L (-23),0,23:05,3,8,.375,0,4,.000,3,4,.750,1,3,4,1,0,1,1,2,9,5.4,+2,Derrick Jones Jr.
+2022-04-08,25-052,CHI,HOME,CHO,L (-16),0,18:54,2,3,.667,0,0,,0,0,,0,3,3,0,0,0,0,0,4,3.6,-3,Derrick Jones Jr.
+2022-04-10,25-054,CHI,AWAY,MIN,W (+4),0,28:32,3,5,.600,2,2,1.000,4,4,1.000,3,1,4,2,2,1,3,4,12,11.6,-2,Derrick Jones Jr.

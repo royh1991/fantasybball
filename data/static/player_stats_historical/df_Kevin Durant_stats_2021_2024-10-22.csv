@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2020-12-22,32-084,BRK,HOME,GSW,W (+26),1,24:56,7,16,.438,1,2,.500,7,7,1.000,1,4,5,3,3,1,1,3,22,19.1,+26,Kevin Durant
+2020-12-25,32-087,BRK,AWAY,BOS,W (+28),1,33:24,9,16,.563,3,4,.750,8,9,.889,0,4,4,3,2,0,2,3,29,23.1,+31,Kevin Durant
+2020-12-27,32-089,BRK,AWAY,CHO,L (-2),1,36:21,9,15,.600,5,7,.714,6,9,.667,0,3,3,4,0,1,3,3,29,21.1,+7,Kevin Durant
+2020-12-28,32-090,BRK,HOME,MEM,L (-5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2020-12-30,32-092,BRK,HOME,ATL,W (+4),1,34:59,11,22,.500,2,6,.333,9,9,1.000,1,10,11,9,1,1,4,1,33,29.3,+1,Kevin Durant
+2021-01-01,32-094,BRK,HOME,ATL,L (-18),1,37:28,10,21,.476,2,7,.286,6,6,1.000,1,7,8,4,1,2,5,0,28,20.3,-1,Kevin Durant
+2021-01-03,32-096,BRK,HOME,WAS,L (-1),1,37:37,8,15,.533,2,7,.286,10,12,.833,0,11,11,7,0,0,6,1,28,21.7,+11,Kevin Durant
+2021-01-05,32-098,BRK,HOME,UTA,W (+34),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-01-07,32-100,BRK,HOME,PHI,W (+13),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-01-08,32-101,BRK,AWAY,MEM,L (-5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-01-10,32-103,BRK,HOME,OKC,L (-13),1,37:40,11,21,.524,2,7,.286,12,15,.800,1,10,11,4,0,1,4,2,36,26.9,0,Kevin Durant
+2021-01-12,32-105,BRK,HOME,DEN,W (+6),1,35:53,12,18,.667,4,7,.571,6,7,.857,0,9,9,13,0,0,7,4,34,29.0,+15,Kevin Durant
+2021-01-13,32-106,BRK,AWAY,NYK,W (+7),1,30:21,10,18,.556,3,5,.600,3,4,.750,0,3,3,6,0,2,1,1,26,22.1,+12,Kevin Durant
+2021-01-16,32-109,BRK,HOME,ORL,W (+7),1,40:02,16,26,.615,5,8,.625,5,5,1.000,0,4,4,5,2,2,6,0,42,32.3,+10,Kevin Durant
+2021-01-18,32-111,BRK,HOME,MIL,W (+2),1,35:42,10,21,.476,2,4,.500,8,9,.889,0,9,9,6,0,2,3,5,30,22.2,0,Kevin Durant
+2021-01-20,32-113,BRK,AWAY,CLE,L (-12),1,50:09,12,25,.480,3,9,.333,11,13,.846,1,11,12,8,1,4,2,2,38,35.1,+2,Kevin Durant
+2021-01-22,32-115,BRK,AWAY,CLE,L (-12),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevin Durant
+2021-01-23,32-116,BRK,HOME,MIA,W (+4),1,36:56,11,19,.579,4,7,.571,5,6,.833,1,3,4,4,0,2,4,4,31,21.9,+6,Kevin Durant
+2021-01-25,32-118,BRK,HOME,MIA,W (+13),1,37:46,6,21,.286,3,12,.250,5,6,.833,0,13,13,5,1,2,1,1,20,15.7,+11,Kevin Durant
+2021-01-27,32-120,BRK,AWAY,ATL,W (+4),1,42:08,13,26,.500,3,7,.429,3,4,.750,1,4,5,2,0,2,1,2,32,21.5,-2,Kevin Durant
+2021-01-29,32-122,BRK,AWAY,OKC,W (+22),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevin Durant
+2021-01-31,32-124,BRK,AWAY,WAS,L (-3),1,37:34,11,19,.579,2,4,.500,13,13,1.000,0,7,7,6,2,1,5,4,37,30.5,+6,Kevin Durant
+2021-02-02,32-126,BRK,HOME,LAC,W (+4),1,38:10,11,13,.846,1,1,1.000,5,5,1.000,0,9,9,0,0,1,5,3,28,20.5,-8,Kevin Durant
+2021-02-05,32-129,BRK,HOME,TOR,L (-6),0,19:06,3,8,.375,1,3,.333,1,2,.500,0,6,6,5,1,1,3,4,8,5.6,+10,Kevin Durant
+2021-02-06,32-130,BRK,AWAY,PHI,L (-16),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-02-09,32-133,BRK,AWAY,DET,L (-11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-02-10,32-134,BRK,HOME,IND,W (+10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-02-13,32-137,BRK,AWAY,GSW,W (+17),1,33:16,8,19,.421,1,6,.167,3,4,.750,0,5,5,6,0,2,4,0,20,12.6,+22,Kevin Durant
+2021-02-15,32-139,BRK,AWAY,SAC,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-02-16,32-140,BRK,AWAY,PHO,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-02-18,32-142,BRK,AWAY,LAL,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-02-21,32-145,BRK,AWAY,LAC,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-02-23,32-147,BRK,HOME,SAC,W (+9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-02-25,32-149,BRK,HOME,ORL,W (+37),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-02-27,32-151,BRK,HOME,DAL,L (-17),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-01,32-153,BRK,AWAY,SAS,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-03,32-155,BRK,AWAY,HOU,W (+18),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-11,32-163,BRK,HOME,BOS,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-13,32-165,BRK,HOME,DET,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-15,32-167,BRK,HOME,NYK,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-17,32-169,BRK,AWAY,IND,W (+9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-19,32-171,BRK,AWAY,ORL,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-21,32-173,BRK,HOME,WAS,W (+7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-23,32-175,BRK,AWAY,POR,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-24,32-176,BRK,AWAY,UTA,L (-30),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-26,32-178,BRK,AWAY,DET,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-29,32-181,BRK,HOME,MIN,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-03-31,32-183,BRK,HOME,HOU,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-04-01,32-184,BRK,HOME,CHO,W (+22),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-04-04,32-187,BRK,AWAY,CHI,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-04-05,32-188,BRK,HOME,NYK,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kevin Durant
+2021-04-07,32-190,BRK,HOME,NOP,W (+28),0,18:56,5,5,1.000,2,2,1.000,5,5,1.000,1,6,7,5,0,1,6,1,17,15.8,+22,Kevin Durant
+2021-04-10,32-193,BRK,HOME,LAL,L (-25),1,23:50,8,17,.471,1,4,.250,5,5,1.000,1,6,7,5,0,1,8,0,22,12.0,-13,Kevin Durant
+2021-04-13,32-196,BRK,AWAY,MIN,W (+30),1,27:10,11,15,.733,4,6,.667,5,6,.833,0,4,4,4,0,0,4,1,31,24.1,+32,Kevin Durant
+2021-04-14,32-197,BRK,AWAY,PHI,L (-6),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevin Durant
+2021-04-16,32-199,BRK,HOME,CHO,W (+15),1,30:17,8,12,.667,3,5,.600,6,6,1.000,0,3,3,11,0,1,4,3,25,23.9,-5,Kevin Durant
+2021-04-18,32-201,BRK,AWAY,MIA,L (-2),1,4:03,3,3,1.000,2,2,1.000,0,2,.000,0,1,1,0,0,1,0,0,8,7.3,-3,Kevin Durant
+2021-04-20,32-203,BRK,AWAY,NOP,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kevin Durant
+2021-04-21,32-204,BRK,AWAY,TOR,L (-11),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevin Durant
+2021-04-23,32-206,BRK,HOME,BOS,W (+5),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevin Durant
+2021-04-25,32-208,BRK,HOME,PHO,W (+9),0,28:14,12,21,.571,2,3,.667,7,8,.875,0,6,6,4,2,1,1,1,33,28.6,+11,Kevin Durant
+2021-04-27,32-210,BRK,AWAY,TOR,W (+13),1,32:37,5,7,.714,3,5,.600,4,4,1.000,0,10,10,4,2,2,3,1,17,19.9,+15,Kevin Durant
+2021-04-29,32-212,BRK,AWAY,IND,W (+17),1,36:21,16,24,.667,2,4,.500,8,8,1.000,0,3,3,10,1,0,2,3,42,37.3,+14,Kevin Durant
+2021-04-30,32-213,BRK,HOME,POR,L (-19),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kevin Durant
+2021-05-02,32-215,BRK,AWAY,MIL,L (-3),1,39:52,16,33,.485,7,13,.538,3,4,.750,2,8,10,2,1,0,5,3,42,24.9,-8,Kevin Durant
+2021-05-04,32-217,BRK,AWAY,MIL,L (-6),1,40:12,11,22,.500,4,8,.500,6,7,.857,0,9,9,6,1,2,3,4,32,25.3,+1,Kevin Durant
+2021-05-06,32-219,BRK,AWAY,DAL,L (-4),1,35:52,7,21,.333,0,4,.000,6,6,1.000,1,8,9,3,1,1,2,4,20,11.4,-2,Kevin Durant
+2021-05-08,32-221,BRK,AWAY,DEN,W (+6),1,40:38,9,14,.643,3,6,.500,12,13,.923,0,11,11,7,2,2,5,1,33,32.6,+1,Kevin Durant
+2021-05-11,32-224,BRK,AWAY,CHI,W (+8),1,31:44,9,13,.692,1,2,.500,2,3,.667,0,4,4,8,1,3,2,2,21,22.2,+7,Kevin Durant
+2021-05-12,32-225,BRK,HOME,SAS,W (+12),1,28:51,4,10,.400,0,4,.000,6,6,1.000,0,7,7,7,0,3,1,0,14,16.7,+9,Kevin Durant
+2021-05-15,32-228,BRK,HOME,CHI,W (+14),1,29:41,4,17,.235,1,6,.167,3,4,.750,1,8,9,6,0,0,5,1,12,3.2,+10,Kevin Durant
+2021-05-16,32-229,BRK,HOME,CLE,W (+14),1,28:55,8,10,.800,1,2,.500,6,6,1.000,0,8,8,13,0,0,2,2,23,27.9,+29,Kevin Durant

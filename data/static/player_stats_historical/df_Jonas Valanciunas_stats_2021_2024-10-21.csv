@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2020-12-23,28-231,MEM,HOME,SAS,L (-12),1,29:33,6,11,.545,1,1,1.000,2,6,.333,3,10,13,2,1,1,1,4,15,13.7,-4,Jonas Valanciunas
+2020-12-26,28-234,MEM,HOME,ATL,L (-10),1,28:56,2,6,.333,1,3,.333,8,10,.800,2,10,12,4,1,1,4,5,13,11.7,+2,Jonas Valanciunas
+2020-12-28,28-236,MEM,AWAY,BRK,W (+5),1,39:07,6,11,.545,0,1,.000,2,2,1.000,0,14,14,2,1,3,1,2,14,15.6,+9,Jonas Valanciunas
+2020-12-30,28-238,MEM,AWAY,BOS,L (-19),1,24:10,7,11,.636,1,1,1.000,5,7,.714,4,7,11,1,0,0,5,2,20,14.1,-13,Jonas Valanciunas
+2021-01-01,28-240,MEM,AWAY,CHO,W (+15),1,25:47,6,9,.667,0,0,,2,4,.500,3,7,10,1,1,0,2,3,14,12.0,+17,Jonas Valanciunas
+2021-01-03,28-242,MEM,HOME,LAL,L (-14),1,26:13,7,14,.500,0,1,.000,0,0,,3,7,10,1,1,0,2,5,14,8.9,-19,Jonas Valanciunas
+2021-01-05,28-244,MEM,HOME,LAL,L (-2),1,25:42,4,13,.308,0,1,.000,5,5,1.000,2,9,11,2,1,1,4,1,13,8.3,-10,Jonas Valanciunas
+2021-01-07,28-246,MEM,HOME,CLE,L (-4),1,27:32,6,11,.545,1,2,.500,4,4,1.000,3,7,10,3,1,1,2,5,17,15.7,-5,Jonas Valanciunas
+2021-01-08,28-247,MEM,HOME,BRK,W (+5),1,13:34,3,5,.600,0,1,.000,2,2,1.000,1,3,4,0,2,1,1,2,8,8.2,+16,Jonas Valanciunas
+2021-01-11,28-250,MEM,AWAY,CLE,W (+10),1,29:49,6,10,.600,0,1,.000,0,0,,2,5,7,3,0,1,3,5,12,8.1,+2,Jonas Valanciunas
+2021-01-13,28-252,MEM,AWAY,MIN,W (+11),1,30:13,11,19,.579,0,1,.000,2,2,1.000,8,8,16,1,0,2,1,5,24,22.2,+4,Jonas Valanciunas
+2021-01-16,28-255,MEM,HOME,PHI,W (+2),1,20:09,3,6,.500,0,1,.000,3,6,.500,1,6,7,1,0,1,1,5,9,5.7,-3,Jonas Valanciunas
+2021-01-18,28-257,MEM,HOME,PHO,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jonas Valanciunas
+2021-01-30,28-269,MEM,AWAY,SAS,W (+17),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jonas Valanciunas
+2021-02-01,28-271,MEM,AWAY,SAS,W (+31),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jonas Valanciunas
+2021-02-02,28-272,MEM,AWAY,IND,L (-18),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jonas Valanciunas
+2021-02-04,28-274,MEM,HOME,HOU,L (-12),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jonas Valanciunas
+2021-02-06,28-276,MEM,AWAY,NOP,L (-9),0,24:20,9,11,.818,2,2,1.000,3,3,1.000,1,6,7,2,0,1,3,1,23,20.1,0,Jonas Valanciunas
+2021-02-08,28-278,MEM,HOME,TOR,L (-15),1,33:35,8,12,.667,0,0,,11,12,.917,10,10,20,3,1,1,3,5,27,30.2,+4,Jonas Valanciunas
+2021-02-10,28-280,MEM,HOME,CHO,W (+16),1,28:52,6,13,.462,0,2,.000,0,0,,6,9,15,3,2,0,2,0,12,14.3,+10,Jonas Valanciunas
+2021-02-12,28-282,MEM,AWAY,LAL,L (-10),1,32:15,9,13,.692,1,1,1.000,3,4,.750,2,6,8,5,0,0,3,4,22,18.2,0,Jonas Valanciunas
+2021-02-14,28-284,MEM,AWAY,SAC,W (+14),1,26:24,11,14,.786,1,1,1.000,2,4,.500,3,10,13,2,0,0,1,2,25,23.5,+9,Jonas Valanciunas
+2021-02-16,28-286,MEM,HOME,NOP,L (-31),1,28:13,5,11,.455,0,1,.000,0,0,,2,3,5,1,0,0,0,2,10,6.5,-4,Jonas Valanciunas
+2021-02-17,28-287,MEM,HOME,OKC,W (+9),1,28:04,9,12,.750,0,0,,4,6,.667,5,7,12,2,0,1,2,4,22,20.5,+17,Jonas Valanciunas
+2021-02-19,28-289,MEM,HOME,DET,W (+14),1,29:37,7,14,.500,0,0,,3,3,1.000,7,8,15,1,0,0,3,3,17,13.8,+2,Jonas Valanciunas
+2021-02-20,28-290,MEM,HOME,PHO,L (-31),1,25:02,5,9,.556,0,1,.000,0,0,,4,7,11,1,1,0,1,2,10,10.5,-12,Jonas Valanciunas
+2021-02-22,28-292,MEM,AWAY,DAL,L (-10),1,29:33,5,18,.278,0,2,.000,1,2,.500,4,11,15,0,0,1,4,3,11,1.6,-9,Jonas Valanciunas
+2021-02-25,28-295,MEM,HOME,LAC,W (+28),1,24:54,7,14,.500,2,2,1.000,0,0,,3,12,15,2,0,0,0,2,16,15.3,+9,Jonas Valanciunas
+2021-02-26,28-296,MEM,HOME,LAC,L (-20),1,32:51,9,17,.529,0,1,.000,4,5,.800,3,8,11,3,1,0,0,0,22,20.9,-8,Jonas Valanciunas
+2021-02-28,28-298,MEM,AWAY,HOU,W (+49),1,12:37,3,6,.500,0,0,,0,0,,3,3,6,0,0,0,2,5,6,2.0,-1,Jonas Valanciunas
+2021-03-02,28-300,MEM,AWAY,WAS,W (+14),1,28:53,5,11,.455,0,0,,1,2,.500,4,12,16,1,1,0,2,5,11,9.0,-7,Jonas Valanciunas
+2021-03-04,28-302,MEM,HOME,MIL,L (-1),1,27:20,6,16,.375,0,1,.000,1,1,1.000,4,8,12,0,1,1,3,1,13,7.7,0,Jonas Valanciunas
+2021-03-10,28-308,MEM,HOME,WAS,W (+15),1,32:28,12,21,.571,0,2,.000,5,7,.714,9,11,20,3,0,4,2,3,29,29.6,+17,Jonas Valanciunas
+2021-03-12,28-310,MEM,HOME,DEN,L (-1),1,36:33,7,10,.700,0,0,,0,0,,2,9,11,1,1,0,1,2,14,13.8,0,Jonas Valanciunas
+2021-03-14,28-312,MEM,AWAY,OKC,L (-6),1,29:47,6,10,.600,0,0,,4,7,.571,6,8,14,4,2,0,1,3,16,19.4,-6,Jonas Valanciunas
+2021-03-15,28-313,MEM,AWAY,PHO,L (-23),1,26:46,11,14,.786,0,1,.000,2,3,.667,8,9,17,0,2,0,2,3,24,25.3,-12,Jonas Valanciunas
+2021-03-17,28-315,MEM,HOME,MIA,W (+4),1,23:38,3,5,.600,0,0,,1,2,.500,3,9,12,0,0,0,1,3,7,6.9,-8,Jonas Valanciunas
+2021-03-19,28-317,MEM,HOME,GSW,L (-13),1,25:03,4,7,.571,0,1,.000,2,4,.500,2,14,16,4,0,1,2,1,10,12.6,-12,Jonas Valanciunas
+2021-03-20,28-318,MEM,HOME,GSW,W (+8),1,27:15,5,10,.500,1,2,.500,8,9,.889,3,12,15,1,0,2,1,4,19,18.8,+17,Jonas Valanciunas
+2021-03-22,28-320,MEM,HOME,BOS,W (+6),1,33:35,7,10,.700,0,0,,2,2,1.000,7,12,19,2,1,0,0,2,16,21.9,+6,Jonas Valanciunas
+2021-03-24,28-322,MEM,AWAY,OKC,W (+9),1,26:30,7,14,.500,0,1,.000,2,2,1.000,6,9,15,0,0,0,1,3,16,13.7,+17,Jonas Valanciunas
+2021-03-26,28-324,MEM,AWAY,UTA,L (-3),1,28:12,5,14,.357,0,1,.000,4,4,1.000,7,11,18,2,1,2,1,4,14,15.6,-3,Jonas Valanciunas
+2021-03-27,28-325,MEM,AWAY,UTA,L (-16),1,20:41,5,10,.500,0,1,.000,3,3,1.000,6,5,11,2,0,1,3,3,13,11.6,-6,Jonas Valanciunas
+2021-03-29,28-327,MEM,AWAY,HOU,W (+10),1,31:59,13,18,.722,0,0,,4,6,.667,4,11,15,1,0,0,3,1,30,25.2,+13,Jonas Valanciunas
+2021-03-31,28-329,MEM,HOME,UTA,L (-4),1,32:11,8,17,.471,0,0,,0,0,,7,7,14,5,1,0,0,4,16,17.2,+1,Jonas Valanciunas
+2021-04-02,28-331,MEM,HOME,MIN,W (+12),1,22:16,7,14,.500,1,1,1.000,4,4,1.000,6,5,11,0,0,0,0,5,19,15.7,+15,Jonas Valanciunas
+2021-04-04,28-333,MEM,AWAY,PHI,W (+16),1,25:50,8,11,.727,0,1,.000,0,0,,5,7,12,1,0,0,1,2,16,16.0,+27,Jonas Valanciunas
+2021-04-06,28-335,MEM,AWAY,MIA,W (+12),1,27:18,7,9,.778,1,1,1.000,5,5,1.000,2,8,10,0,1,0,2,2,20,18.5,+6,Jonas Valanciunas
+2021-04-07,28-336,MEM,AWAY,ATL,W (+18),1,26:29,9,13,.692,1,2,.500,0,0,,4,7,11,4,0,1,0,2,19,21.1,+17,Jonas Valanciunas
+2021-04-09,28-338,MEM,AWAY,NYK,L (-4),1,35:45,8,11,.727,1,1,1.000,3,4,.750,3,11,14,2,1,3,2,2,20,22.2,+1,Jonas Valanciunas
+2021-04-11,28-340,MEM,HOME,IND,L (-7),1,32:14,16,25,.640,0,0,,2,2,1.000,12,10,22,2,0,2,1,2,34,35.3,-12,Jonas Valanciunas
+2021-04-12,28-341,MEM,HOME,CHI,W (+11),1,34:14,12,15,.800,0,1,.000,2,2,1.000,3,11,14,2,0,3,2,3,26,26.0,+21,Jonas Valanciunas
+2021-04-14,28-343,MEM,HOME,DAL,L (-1),1,32:42,7,13,.538,0,0,,5,8,.625,9,7,16,2,0,0,1,5,19,18.3,-10,Jonas Valanciunas
+2021-04-16,28-345,MEM,AWAY,CHI,W (+11),1,31:08,7,9,.778,1,2,.500,1,1,1.000,0,7,7,5,0,0,0,1,16,17.7,+17,Jonas Valanciunas
+2021-04-17,28-346,MEM,AWAY,MIL,W (+13),1,25:44,7,10,.700,0,2,.000,3,3,1.000,2,6,8,2,0,1,1,0,17,17.1,+11,Jonas Valanciunas
+2021-04-19,28-348,MEM,AWAY,DEN,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jonas Valanciunas
+2021-04-21,28-350,MEM,AWAY,LAC,L (-12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jonas Valanciunas
+2021-04-23,28-352,MEM,AWAY,POR,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jonas Valanciunas
+2021-04-25,28-354,MEM,AWAY,POR,W (+7),1,30:12,9,17,.529,3,4,.750,0,0,,1,9,10,2,2,0,0,2,21,18.7,+1,Jonas Valanciunas
+2021-04-26,28-355,MEM,AWAY,DEN,L (-24),1,23:10,6,9,.667,0,0,,1,2,.500,1,2,3,0,1,0,3,3,13,6.8,-17,Jonas Valanciunas
+2021-04-28,28-357,MEM,HOME,POR,L (-21),1,24:34,8,13,.615,1,2,.500,2,2,1.000,1,5,6,1,0,1,1,3,19,14.5,-12,Jonas Valanciunas
+2021-04-30,28-359,MEM,HOME,ORL,W (+17),1,26:46,5,8,.625,1,1,1.000,3,4,.750,4,11,15,2,1,1,0,4,14,17.6,+1,Jonas Valanciunas
+2021-05-01,28-360,MEM,AWAY,ORL,L (-1),1,30:21,5,10,.500,0,0,,1,4,.250,7,9,16,3,1,3,3,3,11,13.4,+7,Jonas Valanciunas
+2021-05-03,28-362,MEM,HOME,NYK,L (-14),1,34:57,4,8,.500,0,0,,3,3,1.000,7,9,16,1,0,3,2,1,11,15.0,-7,Jonas Valanciunas
+2021-05-05,28-364,MEM,AWAY,MIN,W (+4),1,19:55,4,7,.571,0,1,.000,1,2,.500,2,3,5,2,2,0,0,6,9,8.6,+6,Jonas Valanciunas
+2021-05-06,29-000,MEM,AWAY,DET,L (-14),1,31:30,9,12,.750,0,0,,1,2,.500,6,10,16,2,0,2,2,2,19,21.0,-10,Jonas Valanciunas
+2021-05-08,29-002,MEM,AWAY,TOR,W (+10),1,36:13,9,15,.600,0,1,.000,0,0,,5,16,21,1,1,4,2,5,18,19.9,+19,Jonas Valanciunas
+2021-05-10,29-004,MEM,HOME,NOP,W (+5),1,27:28,9,12,.750,0,0,,2,2,1.000,3,8,11,2,0,5,0,4,20,23.0,+14,Jonas Valanciunas
+2021-05-11,29-005,MEM,HOME,DAL,W (+29),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jonas Valanciunas
+2021-05-13,29-007,MEM,HOME,SAC,W (+6),1,33:11,8,10,.800,0,0,,8,8,1.000,1,12,13,3,0,1,2,1,24,24.9,+22,Jonas Valanciunas
+2021-05-14,29-008,MEM,HOME,SAC,W (+1),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jonas Valanciunas
+2021-05-16,29-010,MEM,AWAY,GSW,L (-12),1,35:30,12,15,.800,0,0,,5,6,.833,6,10,16,1,1,0,1,2,29,30.0,-13,Jonas Valanciunas

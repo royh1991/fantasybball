@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2022-10-19,28-180,MIA,HOME,CHI,L (-8),0,10:54,2,4,.500,1,3,.333,0,0,,1,3,4,3,0,0,0,1,5,6.3,+8,Duncan Robinson
+2022-10-21,28-182,MIA,HOME,BOS,L (-7),0,6:07,0,0,,0,0,,0,0,,1,0,1,1,0,0,0,0,0,1.4,-5,Duncan Robinson
+2022-10-22,28-183,MIA,HOME,TOR,W (+3),0,14:38,3,5,.600,2,3,.667,0,0,,0,3,3,0,0,0,0,3,8,5.4,-2,Duncan Robinson
+2022-10-24,28-185,MIA,HOME,TOR,L (-8),0,15:34,4,8,.500,3,6,.500,1,1,1.000,0,1,1,0,0,0,0,4,12,6.7,-6,Duncan Robinson
+2022-10-26,28-187,MIA,AWAY,POR,W (+21),0,19:06,2,7,.286,1,5,.200,0,0,,0,3,3,3,0,0,1,2,5,2.1,+12,Duncan Robinson
+2022-10-27,28-188,MIA,AWAY,GSW,L (-13),0,13:09,1,7,.143,1,5,.200,0,0,,0,1,1,1,0,0,0,1,3,-0.9,-4,Duncan Robinson
+2022-10-29,28-190,MIA,AWAY,SAC,L (-6),0,4:38,0,2,.000,0,0,,2,2,1.000,1,1,2,0,0,0,0,2,2,0.8,-8,Duncan Robinson
+2022-11-01,28-193,MIA,HOME,GSW,W (+7),0,25:41,6,10,.600,5,8,.625,0,0,,0,2,2,3,0,0,2,3,17,11.9,+19,Duncan Robinson
+2022-11-02,28-194,MIA,HOME,SAC,W (+3),0,24:52,1,6,.167,1,5,.200,1,1,1.000,0,6,6,1,0,0,0,1,4,2.3,-8,Duncan Robinson
+2022-11-04,28-196,MIA,AWAY,IND,L (-2),0,16:40,0,7,.000,0,6,.000,0,0,,0,3,3,0,0,0,0,1,0,-4.4,-13,Duncan Robinson
+2022-11-07,28-199,MIA,HOME,POR,L (-3),0,28:31,3,9,.333,3,9,.333,0,0,,0,4,4,3,0,0,1,2,9,5.4,+2,Duncan Robinson
+2022-11-10,28-202,MIA,HOME,CHO,W (+5),0,22:34,5,10,.500,2,6,.333,2,3,.667,0,0,0,1,0,0,0,3,14,8.1,0,Duncan Robinson
+2022-11-12,28-204,MIA,HOME,CHO,W (+17),0,23:09,2,9,.222,0,6,.000,1,1,1.000,0,1,1,2,1,0,1,1,5,0.8,+5,Duncan Robinson
+2022-11-14,28-206,MIA,HOME,PHO,W (+1),0,20:42,3,7,.429,2,6,.333,2,2,1.000,0,0,0,0,0,0,2,0,10,4.3,-7,Duncan Robinson
+2022-11-16,28-208,MIA,AWAY,TOR,L (-8),0,14:32,0,2,.000,0,1,.000,0,0,,1,2,3,3,0,0,2,2,0,-0.8,-3,Duncan Robinson
+2022-11-18,28-210,MIA,AWAY,WAS,L (-1),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Duncan Robinson
+2022-11-20,28-212,MIA,AWAY,CLE,L (-26),0,20:55,3,6,.500,1,3,.333,0,0,,0,1,1,0,0,0,2,3,7,1.1,-22,Duncan Robinson
+2022-11-21,28-213,MIA,AWAY,MIN,L (-4),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Duncan Robinson
+2022-11-23,28-215,MIA,HOME,WAS,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2022-11-25,28-217,MIA,HOME,WAS,W (+3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2022-11-27,28-219,MIA,AWAY,ATL,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2022-11-30,28-222,MIA,AWAY,BOS,L (-13),0,11:42,1,1,1.000,1,1,1.000,0,0,,0,0,0,0,3,0,0,3,3,4.5,-9,Duncan Robinson
+2022-12-02,28-224,MIA,AWAY,BOS,W (+4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2022-12-05,28-227,MIA,AWAY,MEM,L (-8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2022-12-06,28-228,MIA,HOME,DET,L (-20),0,15:18,1,4,.250,1,3,.333,2,2,1.000,1,1,2,1,0,0,1,2,5,2.5,-4,Duncan Robinson
+2022-12-08,28-230,MIA,HOME,LAC,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2022-12-10,28-232,MIA,HOME,SAS,L (-4),0,8:27,0,2,.000,0,2,.000,3,3,1.000,0,1,1,0,0,0,0,1,3,1.5,-6,Duncan Robinson
+2022-12-12,28-234,MIA,AWAY,IND,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2022-12-14,28-236,MIA,AWAY,OKC,W (+2),0,22:49,4,8,.500,4,8,.500,2,2,1.000,1,0,1,3,0,0,1,2,14,11.0,+14,Duncan Robinson
+2022-12-15,28-237,MIA,AWAY,HOU,W (+3),0,23:37,3,12,.250,2,11,.182,0,0,,0,3,3,1,0,0,2,2,8,-0.4,+5,Duncan Robinson
+2022-12-17,28-239,MIA,AWAY,SAS,W (+10),0,25:34,4,8,.500,3,6,.500,1,1,1.000,0,2,2,3,2,0,0,5,12,10.7,+3,Duncan Robinson
+2022-12-20,28-242,MIA,HOME,CHI,L (-10),0,36:15,4,12,.333,4,12,.333,1,2,.500,0,3,3,2,0,0,3,4,13,3.5,+7,Duncan Robinson
+2022-12-23,28-245,MIA,HOME,IND,L (-3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2022-12-26,28-248,MIA,HOME,MIN,W (+3),0,14:03,3,5,.600,3,5,.600,0,0,,0,4,4,0,1,0,0,0,9,8.9,+9,Duncan Robinson
+2022-12-28,28-250,MIA,HOME,LAL,W (+14),0,15:50,3,5,.600,2,4,.500,0,0,,0,1,1,0,0,0,0,2,8,5.2,-11,Duncan Robinson
+2022-12-30,28-252,MIA,AWAY,DEN,L (-5),0,19:13,3,7,.429,3,7,.429,0,0,,0,0,0,1,1,0,0,2,9,6.2,-6,Duncan Robinson
+2022-12-31,28-253,MIA,AWAY,UTA,W (+3),0,21:09,3,8,.375,1,5,.200,2,2,1.000,1,1,2,1,0,0,0,2,9,5.5,+12,Duncan Robinson
+2023-01-02,28-255,MIA,AWAY,LAC,W (+10),0,5:06,0,3,.000,0,3,.000,0,0,,0,0,0,0,0,0,1,2,0,-3.9,-2,Duncan Robinson
+2023-01-04,28-257,MIA,AWAY,LAL,L (-3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-06,28-259,MIA,AWAY,PHO,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-08,28-261,MIA,HOME,BRK,L (-1),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-10,28-263,MIA,HOME,OKC,W (+1),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-12,28-265,MIA,HOME,MIL,W (+6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-14,28-267,MIA,HOME,MIL,W (+16),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-16,28-269,MIA,AWAY,ATL,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-18,28-271,MIA,AWAY,NOP,W (+26),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-20,28-273,MIA,AWAY,DAL,L (-25),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-22,28-275,MIA,HOME,NOP,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-24,28-277,MIA,HOME,BOS,W (+3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-27,28-280,MIA,HOME,ORL,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-29,28-282,MIA,AWAY,CHO,L (-5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-01-31,28-284,MIA,AWAY,CLE,W (+3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-02-02,28-286,MIA,AWAY,NYK,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-02-04,28-288,MIA,AWAY,MIL,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-02-08,28-292,MIA,HOME,IND,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-02-10,28-294,MIA,HOME,HOU,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-02-11,28-295,MIA,AWAY,ORL,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-02-13,28-297,MIA,HOME,DEN,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-02-15,28-299,MIA,AWAY,BRK,L (-11),0,23:21,2,7,.286,2,7,.286,0,0,,1,2,3,2,1,0,0,4,6,4.0,0,Duncan Robinson
+2023-02-24,28-308,MIA,AWAY,MIL,L (-29),0,19:49,1,6,.167,1,6,.167,0,0,,0,2,2,1,3,0,2,1,3,1.1,-13,Duncan Robinson
+2023-02-25,28-309,MIA,AWAY,CHO,L (-5),0,5:32,0,1,.000,0,1,.000,0,0,,0,0,0,1,0,0,0,1,0,-0.4,-17,Duncan Robinson
+2023-02-27,28-311,MIA,AWAY,PHI,W (+2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2023-03-01,28-313,MIA,HOME,PHI,L (-23),0,5:32,1,1,1.000,1,1,1.000,0,0,,0,1,1,0,0,0,0,0,3,3.0,-7,Duncan Robinson
+2023-03-03,28-315,MIA,HOME,NYK,L (-2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2023-03-04,28-316,MIA,HOME,ATL,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2023-03-06,28-318,MIA,HOME,ATL,W (+2),0,17:01,4,5,.800,3,4,.750,3,3,1.000,0,0,0,2,0,0,0,1,14,13.1,+5,Duncan Robinson
+2023-03-08,28-320,MIA,HOME,CLE,L (-4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2023-03-10,28-322,MIA,HOME,CLE,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-03-11,28-323,MIA,AWAY,ORL,L (-12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Duncan Robinson
+2023-03-13,28-325,MIA,HOME,UTA,W (+4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2023-03-15,28-327,MIA,HOME,MEM,W (+19),0,3:19,1,3,.333,0,1,.000,0,0,,0,1,1,0,0,0,0,0,2,0.6,-5,Duncan Robinson
+2023-03-18,28-330,MIA,AWAY,CHI,L (-14),0,1:43,0,2,.000,0,2,.000,0,0,,0,0,0,0,0,0,0,0,0,-1.4,+3,Duncan Robinson
+2023-03-19,28-331,MIA,AWAY,DET,W (+12),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2023-03-22,28-334,MIA,HOME,NYK,W (+7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2023-03-25,28-337,MIA,HOME,BRK,L (-29),0,3:30,0,1,.000,0,1,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,-2,Duncan Robinson
+2023-03-28,28-340,MIA,AWAY,TOR,L (-14),0,12:00,1,4,.250,1,4,.250,1,1,1.000,0,0,0,1,0,0,0,0,4,2.3,+3,Duncan Robinson
+2023-03-29,28-341,MIA,AWAY,NYK,L (-9),0,27:53,4,7,.571,4,6,.667,0,0,,0,0,0,0,0,0,3,3,12,4.5,-11,Duncan Robinson
+2023-04-01,28-344,MIA,HOME,DAL,W (+7),0,2:15,0,1,.000,0,1,.000,0,0,,0,1,1,0,0,0,0,1,0,-0.8,+9,Duncan Robinson
+2023-04-04,28-347,MIA,AWAY,DET,W (+13),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Duncan Robinson
+2023-04-06,28-349,MIA,AWAY,PHI,W (+28),0,5:14,2,3,.667,1,2,.500,0,0,,0,0,0,1,0,0,0,0,5,4.4,-1,Duncan Robinson
+2023-04-07,28-350,MIA,AWAY,WAS,L (-6),1,27:36,2,8,.250,1,6,.167,0,0,,0,5,5,1,1,0,3,6,5,-2.0,-12,Duncan Robinson
+2023-04-09,28-352,MIA,HOME,ORL,W (+13),0,35:13,6,14,.429,3,11,.273,5,6,.833,0,2,2,4,1,0,1,4,20,14.0,+9,Duncan Robinson

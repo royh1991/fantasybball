@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2022-10-19,18-335,DET,HOME,ORL,W (+4),0,21:43,7,13,.538,0,0,,0,4,.000,5,5,10,1,0,3,3,0,14,10.9,+7,Jalen Duren
+2022-10-21,18-337,DET,AWAY,NYK,L (-24),0,22:40,4,8,.500,0,1,.000,0,1,.000,3,7,10,0,1,0,1,4,8,6.2,-12,Jalen Duren
+2022-10-22,18-338,DET,AWAY,IND,L (-9),0,18:27,3,3,1.000,0,0,,0,0,,2,1,3,0,0,2,0,0,6,8.2,-8,Jalen Duren
+2022-10-25,18-341,DET,AWAY,WAS,L (-21),0,23:03,3,6,.500,0,0,,0,1,.000,4,4,8,0,0,0,0,2,6,5.8,-9,Jalen Duren
+2022-10-26,18-342,DET,HOME,ATL,L (-5),0,20:55,3,4,.750,0,0,,1,2,.500,3,6,9,0,0,1,1,2,7,7.8,-2,Jalen Duren
+2022-10-28,18-344,DET,HOME,ATL,L (-24),0,23:16,2,4,.500,0,0,,4,6,.667,2,1,3,0,0,2,3,4,8,3.7,-19,Jalen Duren
+2022-10-30,18-346,DET,HOME,GSW,W (+14),0,15:04,1,3,.333,0,0,,1,2,.500,3,1,4,0,0,1,1,2,3,2.2,+2,Jalen Duren
+2022-10-31,18-347,DET,AWAY,MIL,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jalen Duren
+2022-11-02,18-349,DET,AWAY,MIL,L (-25),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jalen Duren
+2022-11-04,18-351,DET,HOME,CLE,L (-24),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jalen Duren
+2022-11-07,18-354,DET,HOME,OKC,W (+9),0,21:24,2,5,.400,0,0,,3,6,.500,2,2,4,0,0,3,1,3,7,5.0,-11,Jalen Duren
+2022-11-09,18-356,DET,AWAY,BOS,L (-16),0,29:43,5,8,.625,0,0,,0,0,,5,5,10,2,1,1,0,1,10,14.1,-10,Jalen Duren
+2022-11-11,18-358,DET,AWAY,NYK,L (-9),0,21:10,0,1,.000,0,0,,1,4,.250,2,6,8,0,0,1,1,1,1,1.6,-3,Jalen Duren
+2022-11-12,18-359,DET,HOME,BOS,L (-9),0,17:11,1,1,1.000,0,0,,0,0,,1,11,12,1,2,0,1,2,2,6.6,-9,Jalen Duren
+2022-11-14,18-361,DET,HOME,TOR,L (-4),0,19:06,1,1,1.000,0,0,,0,2,.000,2,4,6,0,0,0,1,3,2,1.3,0,Jalen Duren
+2022-11-17,18-364,DET,AWAY,LAC,L (-5),0,25:07,3,6,.500,0,0,,2,3,.667,4,5,9,0,0,1,1,3,8,7.4,+5,Jalen Duren
+2022-11-18,19-000,DET,AWAY,LAL,L (-7),0,21:47,5,7,.714,0,0,,2,2,1.000,3,5,8,0,1,1,1,4,12,11.8,-6,Jalen Duren
+2022-11-20,19-002,DET,AWAY,SAC,L (-8),0,27:04,6,8,.750,0,0,,0,0,,5,3,8,1,1,0,1,2,12,13.1,-7,Jalen Duren
+2022-11-22,19-004,DET,AWAY,DEN,W (+2),0,25:50,2,3,.667,0,0,,0,0,,4,3,7,2,1,0,0,4,4,7.2,+14,Jalen Duren
+2022-11-23,19-005,DET,AWAY,UTA,W (+9),0,27:11,2,4,.500,0,0,,0,0,,2,5,7,0,2,2,1,3,4,6.1,+6,Jalen Duren
+2022-11-25,19-007,DET,AWAY,PHO,L (-6),0,14:25,0,1,.000,0,0,,4,4,1.000,3,2,5,2,0,0,1,3,4,5.2,+6,Jalen Duren
+2022-11-27,19-009,DET,HOME,CLE,L (-8),0,20:16,0,3,.000,0,0,,1,2,.500,2,4,6,1,0,0,0,2,1,1.0,-10,Jalen Duren
+2022-11-29,19-011,DET,HOME,NYK,L (-30),0,26:59,6,7,.857,0,0,,0,0,,3,2,5,1,1,0,1,3,12,11.7,-13,Jalen Duren
+2022-12-01,19-013,DET,HOME,DAL,W (+6),0,18:24,5,7,.714,0,0,,1,4,.250,1,1,2,0,2,0,1,2,11,8.1,-4,Jalen Duren
+2022-12-04,19-016,DET,HOME,MEM,L (-10),0,15:01,0,0,,0,0,,0,0,,2,1,3,3,1,2,1,3,0,4.0,-6,Jalen Duren
+2022-12-06,19-018,DET,AWAY,MIA,W (+20),0,17:45,2,3,.667,0,0,,0,0,,2,2,4,0,0,0,2,2,4,1.9,+10,Jalen Duren
+2022-12-07,19-019,DET,AWAY,NOP,L (-6),0,26:33,5,5,1.000,0,0,,2,2,1.000,5,8,13,0,1,0,3,0,12,14.4,+11,Jalen Duren
+2022-12-09,19-021,DET,AWAY,MEM,L (-11),1,27:32,5,7,.714,0,0,,0,0,,2,10,12,0,0,0,1,3,10,9.3,-12,Jalen Duren
+2022-12-11,19-023,DET,HOME,LAL,L (-7),1,23:42,1,1,1.000,0,0,,1,2,.500,4,9,13,2,1,0,1,4,3,7.6,-5,Jalen Duren
+2022-12-14,19-026,DET,AWAY,CHO,W (+7),1,36:23,2,8,.250,0,0,,3,4,.750,6,13,19,2,0,3,3,4,7,8.8,+12,Jalen Duren
+2022-12-16,19-028,DET,HOME,SAC,L (-9),1,30:28,5,7,.714,0,0,,5,6,.833,6,8,14,1,0,1,0,4,15,18.1,-13,Jalen Duren
+2022-12-18,19-030,DET,HOME,BRK,L (-3),1,28:46,4,5,.800,0,0,,0,0,,3,8,11,2,3,0,2,3,8,11.8,+13,Jalen Duren
+2022-12-20,19-032,DET,HOME,UTA,L (-15),1,30:21,7,9,.778,0,0,,1,1,1.000,6,8,14,0,0,0,1,3,15,15.9,-7,Jalen Duren
+2022-12-21,19-033,DET,AWAY,PHI,L (-20),1,28:10,3,4,.750,0,0,,1,2,.500,2,6,8,4,0,0,2,2,7,8.2,-2,Jalen Duren
+2022-12-23,19-035,DET,AWAY,ATL,L (-25),1,28:11,5,7,.714,0,0,,3,4,.750,3,5,8,0,0,1,1,2,13,12.2,-6,Jalen Duren
+2022-12-26,19-038,DET,HOME,LAC,L (-11),1,38:32,7,11,.636,0,0,,1,1,1.000,7,5,12,2,1,1,1,3,15,17.4,-16,Jalen Duren
+2022-12-28,19-040,DET,HOME,ORL,W (+20),1,33:42,3,5,.600,0,0,,1,2,.500,8,10,18,4,0,1,2,5,7,12.4,+10,Jalen Duren
+2022-12-30,19-042,DET,AWAY,CHI,L (-14),1,30:50,2,4,.500,0,0,,0,0,,3,5,8,3,0,0,1,2,4,5.9,-16,Jalen Duren
+2022-12-31,19-043,DET,AWAY,MIN,W (+12),1,13:31,1,1,1.000,0,0,,1,2,.500,0,0,0,1,0,0,1,4,3,0.4,-15,Jalen Duren
+2023-01-02,19-045,DET,AWAY,POR,L (-29),1,22:11,2,6,.333,0,0,,1,2,.500,5,6,11,3,1,1,0,2,5,9.5,-14,Jalen Duren
+2023-01-04,19-047,DET,AWAY,GSW,W (+3),1,31:49,8,8,1.000,0,0,,2,3,.667,5,6,11,0,0,0,3,2,18,16.7,+5,Jalen Duren
+2023-01-06,19-049,DET,AWAY,SAS,L (-12),1,27:01,5,8,.625,0,0,,1,1,1.000,3,6,9,0,2,0,1,2,11,11.5,-12,Jalen Duren
+2023-01-08,19-051,DET,HOME,PHI,L (-12),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jalen Duren
+2023-01-10,19-053,DET,AWAY,PHI,L (-31),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jalen Duren
+2023-01-11,19-054,DET,HOME,MIN,W (+17),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jalen Duren
+2023-01-13,19-056,DET,HOME,NOP,L (-6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jalen Duren
+2023-01-15,19-058,DET,HOME,NYK,L (-13),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jalen Duren
+2023-01-19,19-062,DET,HOME,CHI,L (-18),0,18:13,4,4,1.000,0,0,,3,4,.750,3,9,12,1,1,2,2,2,11,14.5,+5,Jalen Duren
+2023-01-23,19-066,DET,HOME,MIL,L (-20),1,31:00,9,13,.692,0,0,,5,5,1.000,4,11,15,1,2,2,1,2,23,25.9,-16,Jalen Duren
+2023-01-26,19-069,DET,AWAY,BRK,W (+8),1,27:14,7,8,.875,0,0,,3,3,1.000,2,5,7,2,1,1,0,3,17,19.0,+2,Jalen Duren
+2023-01-28,19-071,DET,HOME,HOU,L (-3),1,24:06,3,4,.750,0,0,,3,4,.750,2,3,5,0,2,1,0,5,9,10.0,-3,Jalen Duren
+2023-01-30,19-073,DET,AWAY,DAL,L (-6),1,27:31,4,4,1.000,0,0,,1,2,.500,3,1,4,1,1,3,1,2,9,11.8,+3,Jalen Duren
+2023-02-03,19-077,DET,HOME,CHO,W (+6),1,32:55,6,8,.750,0,0,,1,2,.500,2,11,13,2,1,1,5,4,13,10.6,+7,Jalen Duren
+2023-02-04,19-078,DET,HOME,PHO,L (-16),1,27:39,0,2,.000,0,0,,1,2,.500,3,3,6,3,0,1,2,4,1,1.4,-9,Jalen Duren
+2023-02-06,19-080,DET,HOME,BOS,L (-12),1,27:42,3,4,.750,0,0,,1,1,1.000,5,9,14,0,0,0,1,2,7,9.8,-5,Jalen Duren
+2023-02-08,19-082,DET,AWAY,CLE,L (-28),1,27:25,6,8,.750,0,0,,2,2,1.000,5,4,9,2,0,3,0,2,14,18.2,-5,Jalen Duren
+2023-02-10,19-084,DET,HOME,SAS,W (+7),1,41:53,13,20,.650,0,0,,4,9,.444,7,10,17,3,1,4,1,4,30,30.4,-10,Jalen Duren
+2023-02-12,19-086,DET,AWAY,TOR,L (-1),1,21:12,2,5,.400,0,0,,2,4,.500,1,3,4,1,0,0,1,4,6,2.2,-23,Jalen Duren
+2023-02-15,19-089,DET,AWAY,BOS,L (-18),1,24:30,1,3,.333,0,0,,0,0,,0,8,8,1,0,0,1,2,2,1.6,-9,Jalen Duren
+2023-02-23,19-097,DET,AWAY,ORL,L (-2),1,22:37,1,5,.200,0,0,,0,0,,2,6,8,0,1,0,2,5,2,-0.9,-16,Jalen Duren
+2023-02-25,19-099,DET,HOME,TOR,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jalen Duren
+2023-02-27,19-101,DET,AWAY,CHO,L (-11),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jalen Duren
+2023-03-01,19-103,DET,HOME,CHI,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jalen Duren
+2023-03-04,19-106,DET,AWAY,CLE,L (-24),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jalen Duren
+2023-03-06,19-108,DET,HOME,POR,L (-6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jalen Duren
+2023-03-07,19-109,DET,HOME,WAS,L (-2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jalen Duren
+2023-03-09,19-111,DET,HOME,CHO,L (-10),0,21:13,4,8,.500,0,0,,0,0,,5,4,9,2,0,1,4,1,8,6.4,-23,Jalen Duren
+2023-03-11,19-113,DET,HOME,IND,L (-6),0,20:27,4,8,.500,0,0,,8,10,.800,5,6,11,1,0,2,0,3,16,17.4,-8,Jalen Duren
+2023-03-13,19-115,DET,HOME,IND,W (+20),0,23:32,6,11,.545,0,0,,0,0,,5,6,11,3,1,2,2,1,12,14.1,+21,Jalen Duren
+2023-03-14,19-116,DET,AWAY,WAS,L (-20),0,17:34,4,8,.500,0,0,,1,1,1.000,5,3,8,0,0,1,1,4,9,7.5,-13,Jalen Duren
+2023-03-16,19-118,DET,HOME,DEN,L (-19),0,27:07,7,10,.700,0,1,.000,1,4,.250,5,8,13,4,3,0,3,3,15,17.1,-9,Jalen Duren
+2023-03-19,19-121,DET,HOME,MIA,L (-12),0,8:52,1,1,1.000,0,0,,0,0,,0,1,1,0,0,1,1,1,2,1.3,-4,Jalen Duren
+2023-03-21,19-123,DET,AWAY,ATL,L (-22),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Jalen Duren
+2023-03-24,19-126,DET,AWAY,TOR,L (-21),0,24:33,3,4,.750,0,0,,3,4,.750,0,5,5,4,1,0,0,1,9,11.9,-9,Jalen Duren
+2023-03-27,19-129,DET,HOME,MIL,L (-9),0,27:40,8,11,.727,0,0,,2,4,.500,6,4,10,3,1,0,1,4,18,18.6,+9,Jalen Duren
+2023-03-29,19-131,DET,AWAY,OKC,L (-1),0,19:12,4,4,1.000,0,0,,2,4,.500,4,2,6,0,0,1,1,3,10,9.9,+10,Jalen Duren
+2023-03-31,19-133,DET,AWAY,HOU,L (-6),0,24:30,4,7,.571,0,0,,3,8,.375,5,5,10,0,2,1,1,4,11,10.8,,Jalen Duren
+2023-04-02,19-135,DET,AWAY,ORL,L (-26),0,21:56,3,6,.500,0,0,,1,2,.500,5,2,7,0,1,0,1,3,7,6.5,-4,Jalen Duren
+2023-04-04,19-137,DET,HOME,MIA,L (-13),1,35:54,7,8,.875,0,0,,6,7,.857,3,11,14,1,1,1,2,3,20,21.4,-12,Jalen Duren
+2023-04-05,19-138,DET,HOME,BRK,L (-15),1,34:54,9,11,.818,0,0,,0,0,,3,5,8,2,1,0,2,3,18,16.7,-19,Jalen Duren
+2023-04-07,19-140,DET,AWAY,IND,W (+7),1,22:57,5,6,.833,0,0,,0,0,,3,7,10,0,1,2,4,5,10,8.4,+4,Jalen Duren
+2023-04-09,19-142,DET,AWAY,CHI,L (-22),1,34:40,2,5,.400,0,0,,0,0,,3,15,18,0,0,1,6,2,4,1.8,+3,Jalen Duren

@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2020-12-22,25-013,GSW,AWAY,BRK,L (-26),1,25:39,3,14,.214,0,6,.000,0,0,,4,3,7,2,1,2,3,1,6,1.5,-28,Kelly Oubre Jr.
+2020-12-25,25-016,GSW,AWAY,MIL,L (-39),1,19:46,1,10,.100,0,5,.000,1,2,.500,1,4,5,1,1,0,2,3,3,-3.6,-15,Kelly Oubre Jr.
+2020-12-27,25-018,GSW,AWAY,CHI,W (+1),1,30:18,3,16,.188,0,6,.000,2,2,1.000,3,8,11,0,4,0,3,3,8,2.3,+9,Kelly Oubre Jr.
+2020-12-29,25-020,GSW,AWAY,DET,W (+10),1,29:01,6,10,.600,1,4,.250,1,3,.333,0,5,5,0,2,2,2,2,14,10.7,+8,Kelly Oubre Jr.
+2021-01-01,25-023,GSW,HOME,POR,L (-25),1,28:07,4,12,.333,0,4,.000,2,3,.667,0,4,4,0,0,1,2,2,10,1.9,-20,Kelly Oubre Jr.
+2021-01-03,25-025,GSW,HOME,POR,W (+15),1,32:57,7,13,.538,1,5,.200,2,2,1.000,2,3,5,0,2,1,1,3,17,13.5,+10,Kelly Oubre Jr.
+2021-01-04,25-026,GSW,HOME,SAC,W (+31),1,25:31,6,13,.462,4,6,.667,2,2,1.000,1,2,3,2,1,2,0,2,18,15.6,+21,Kelly Oubre Jr.
+2021-01-06,25-028,GSW,HOME,LAC,L (-7),1,24:40,4,13,.308,0,6,.000,0,0,,1,4,5,0,1,0,2,4,8,-0.2,-11,Kelly Oubre Jr.
+2021-01-08,25-030,GSW,HOME,LAC,W (+10),1,21:23,2,7,.286,0,3,.000,2,2,1.000,2,3,5,0,1,0,3,2,6,1.4,-25,Kelly Oubre Jr.
+2021-01-10,25-032,GSW,HOME,TOR,W (+1),1,29:01,5,14,.357,1,6,.167,1,1,1.000,3,3,6,3,0,1,1,1,12,8.6,-4,Kelly Oubre Jr.
+2021-01-12,25-034,GSW,HOME,IND,L (-9),1,29:06,6,11,.545,3,7,.429,2,2,1.000,0,5,5,2,0,1,1,1,17,13.9,+6,Kelly Oubre Jr.
+2021-01-14,25-036,GSW,AWAY,DEN,L (-10),1,30:25,3,10,.300,3,8,.375,5,6,.833,0,5,5,2,1,1,1,2,14,10.6,-7,Kelly Oubre Jr.
+2021-01-18,25-040,GSW,AWAY,LAL,W (+2),1,37:05,9,18,.500,2,8,.250,3,4,.750,2,2,4,0,2,2,0,2,23,18.2,+5,Kelly Oubre Jr.
+2021-01-20,25-042,GSW,HOME,SAS,W (+22),1,30:37,4,11,.364,2,4,.500,6,8,.750,3,6,9,0,1,1,0,3,16,13.5,+1,Kelly Oubre Jr.
+2021-01-21,25-043,GSW,HOME,NYK,L (-15),1,31:18,2,11,.182,0,4,.000,3,6,.500,0,6,6,3,1,1,0,3,7,3.3,-13,Kelly Oubre Jr.
+2021-01-23,25-045,GSW,AWAY,UTA,L (-19),1,24:20,2,8,.250,0,2,.000,1,2,.500,0,2,2,1,0,0,1,3,5,-1.1,-29,Kelly Oubre Jr.
+2021-01-25,25-047,GSW,HOME,MIN,W (+22),1,27:33,4,9,.444,2,3,.667,4,5,.800,2,4,6,4,3,1,1,0,14,17.0,+13,Kelly Oubre Jr.
+2021-01-27,25-049,GSW,HOME,MIN,W (+12),1,24:22,7,9,.778,2,3,.667,4,4,1.000,0,9,9,3,2,1,4,4,20,18.4,-6,Kelly Oubre Jr.
+2021-01-28,25-050,GSW,AWAY,PHO,L (-21),1,25:32,1,11,.091,0,5,.000,2,2,1.000,0,4,4,1,1,0,1,2,4,-2.2,-17,Kelly Oubre Jr.
+2021-01-30,25-052,GSW,HOME,DET,W (+27),1,27:03,8,14,.571,2,6,.333,0,2,.000,2,4,6,1,0,1,1,2,18,12.8,+24,Kelly Oubre Jr.
+2021-02-02,25-055,GSW,HOME,BOS,L (-4),1,26:17,5,11,.455,1,3,.333,1,2,.500,0,1,1,2,0,0,1,4,12,5.0,-25,Kelly Oubre Jr.
+2021-02-04,25-057,GSW,AWAY,DAL,W (+31),1,36:12,14,21,.667,7,10,.700,5,6,.833,1,7,8,2,1,1,2,3,40,33.2,+18,Kelly Oubre Jr.
+2021-02-06,25-059,GSW,AWAY,DAL,L (-2),1,32:44,5,16,.313,2,6,.333,2,3,.667,2,3,5,1,0,0,1,3,14,5.2,-7,Kelly Oubre Jr.
+2021-02-08,25-061,GSW,AWAY,SAS,L (-5),1,35:37,9,16,.563,4,8,.500,2,3,.667,1,3,4,1,0,2,2,2,24,16.9,-7,Kelly Oubre Jr.
+2021-02-09,25-062,GSW,AWAY,SAS,W (+23),1,34:08,4,14,.286,2,5,.400,2,2,1.000,2,8,10,1,1,0,1,2,12,7.5,+14,Kelly Oubre Jr.
+2021-02-11,25-064,GSW,HOME,ORL,W (+6),1,33:59,6,12,.500,3,7,.429,2,2,1.000,3,7,10,4,0,0,1,2,17,16.2,+5,Kelly Oubre Jr.
+2021-02-13,25-066,GSW,HOME,BRK,L (-17),1,31:36,6,15,.400,1,5,.200,4,4,1.000,3,7,10,2,1,1,1,2,17,14.4,-22,Kelly Oubre Jr.
+2021-02-15,25-068,GSW,HOME,CLE,W (+31),1,25:01,6,14,.429,1,3,.333,1,1,1.000,0,3,3,1,2,1,1,3,14,8.7,+25,Kelly Oubre Jr.
+2021-02-17,25-070,GSW,HOME,MIA,W (+8),1,43:35,9,15,.600,4,7,.571,1,2,.500,3,5,8,2,3,0,1,3,23,21.5,+4,Kelly Oubre Jr.
+2021-02-19,25-072,GSW,AWAY,ORL,L (-4),1,36:30,10,18,.556,3,6,.500,3,7,.429,3,4,7,1,4,0,1,0,26,22.8,-5,Kelly Oubre Jr.
+2021-02-20,25-073,GSW,AWAY,CHO,L (-2),1,36:48,9,19,.474,4,9,.444,3,5,.600,2,4,6,1,2,1,0,1,25,20.1,-7,Kelly Oubre Jr.
+2021-02-23,25-076,GSW,AWAY,NYK,W (+8),1,36:32,8,18,.444,1,5,.200,2,2,1.000,3,5,8,2,0,3,0,3,19,15.5,+14,Kelly Oubre Jr.
+2021-02-24,25-077,GSW,AWAY,IND,W (+4),1,36:06,7,15,.467,1,4,.250,2,2,1.000,0,5,5,0,0,0,0,0,17,10.8,+10,Kelly Oubre Jr.
+2021-02-26,25-079,GSW,HOME,CHO,W (+9),1,37:37,11,15,.733,3,6,.500,2,2,1.000,1,5,6,3,1,0,2,2,27,23.4,+23,Kelly Oubre Jr.
+2021-02-28,25-081,GSW,AWAY,LAL,L (-26),1,25:54,6,10,.600,0,2,.000,2,3,.667,1,4,5,1,0,0,2,2,14,8.8,-24,Kelly Oubre Jr.
+2021-03-03,25-084,GSW,AWAY,POR,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kelly Oubre Jr.
+2021-03-04,25-085,GSW,AWAY,PHO,L (-22),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-03-11,25-092,GSW,AWAY,LAC,L (-26),1,32:27,7,14,.500,1,5,.200,0,2,.000,1,5,6,0,0,1,1,2,15,8.3,-19,Kelly Oubre Jr.
+2021-03-14,25-095,GSW,HOME,UTA,W (+12),1,30:12,2,8,.250,0,3,.000,3,4,.750,0,7,7,1,1,1,0,3,7,5.1,-4,Kelly Oubre Jr.
+2021-03-15,25-096,GSW,HOME,LAL,L (-31),1,28:22,5,9,.556,1,4,.250,1,3,.333,1,1,2,1,2,0,5,3,12,4.4,-28,Kelly Oubre Jr.
+2021-03-17,25-098,GSW,AWAY,HOU,W (+14),1,35:38,8,16,.500,1,6,.167,2,4,.500,0,4,4,1,1,0,0,2,19,12.3,-1,Kelly Oubre Jr.
+2021-03-19,25-100,GSW,AWAY,MEM,W (+13),1,28:53,2,7,.286,0,3,.000,0,0,,0,4,4,1,1,2,1,1,4,2.8,+14,Kelly Oubre Jr.
+2021-03-20,25-101,GSW,AWAY,MEM,L (-8),1,28:19,4,13,.308,1,4,.250,3,5,.600,2,4,6,2,0,2,1,3,12,6.9,-19,Kelly Oubre Jr.
+2021-03-23,25-104,GSW,HOME,PHI,L (-10),1,35:10,8,14,.571,2,4,.500,6,9,.667,3,7,10,3,0,1,0,3,24,22.0,+4,Kelly Oubre Jr.
+2021-03-25,25-106,GSW,AWAY,SAC,L (-22),1,32:36,8,17,.471,3,6,.500,0,0,,2,2,4,2,0,0,0,4,19,12.1,-11,Kelly Oubre Jr.
+2021-03-26,25-107,GSW,HOME,ATL,L (-16),1,28:12,5,13,.385,1,5,.200,3,7,.429,2,4,6,2,2,1,0,2,14,11.2,-8,Kelly Oubre Jr.
+2021-03-29,25-110,GSW,HOME,CHI,W (+14),1,35:49,8,19,.421,0,3,.000,2,2,1.000,4,7,11,0,1,0,0,2,18,13.0,+7,Kelly Oubre Jr.
+2021-04-01,25-113,GSW,AWAY,MIA,L (-7),1,34:52,4,11,.364,0,3,.000,0,1,.000,0,4,4,1,1,0,2,2,8,1.6,-8,Kelly Oubre Jr.
+2021-04-02,25-114,GSW,AWAY,TOR,L (-53),1,18:28,3,11,.273,2,4,.500,1,1,1.000,2,5,7,1,0,0,2,0,9,4.1,-37,Kelly Oubre Jr.
+2021-04-04,25-116,GSW,AWAY,ATL,L (-6),1,37:11,9,16,.563,2,6,.333,0,0,,3,8,11,2,2,3,1,5,20,19.4,-4,Kelly Oubre Jr.
+2021-04-06,25-118,GSW,HOME,MIL,W (+1),1,37:06,6,14,.429,4,8,.500,3,4,.750,1,5,6,1,2,0,3,3,19,11.9,+5,Kelly Oubre Jr.
+2021-04-09,25-121,GSW,HOME,WAS,L (-3),1,36:36,8,13,.615,4,8,.500,3,3,1.000,0,6,6,2,1,0,1,1,23,19.9,-13,Kelly Oubre Jr.
+2021-04-10,25-122,GSW,HOME,HOU,W (+16),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kelly Oubre Jr.
+2021-04-12,25-124,GSW,HOME,DEN,W (+9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-04-14,25-126,GSW,AWAY,OKC,W (+38),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-04-15,25-127,GSW,AWAY,CLE,W (+18),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-04-17,25-129,GSW,AWAY,BOS,L (-5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-04-19,25-131,GSW,AWAY,PHI,W (+11),0,21:55,2,6,.333,0,1,.000,5,7,.714,1,1,2,0,0,0,2,2,9,3.0,+8,Kelly Oubre Jr.
+2021-04-21,25-133,GSW,AWAY,WAS,L (-4),0,36:36,8,17,.471,2,4,.500,6,6,1.000,3,6,9,1,0,2,4,2,24,16.5,+6,Kelly Oubre Jr.
+2021-04-23,25-135,GSW,HOME,DEN,W (+21),0,32:30,9,16,.563,3,7,.429,2,5,.400,1,5,6,3,3,2,1,1,23,21.5,+19,Kelly Oubre Jr.
+2021-04-25,25-137,GSW,HOME,SAC,W (+4),0,31:08,8,17,.471,1,7,.143,2,2,1.000,4,3,7,0,0,0,1,2,19,12.2,+3,Kelly Oubre Jr.
+2021-04-27,25-139,GSW,HOME,DAL,L (-30),0,23:08,2,10,.200,2,7,.286,4,8,.500,1,2,3,0,1,0,0,1,10,4.1,-41,Kelly Oubre Jr.
+2021-04-29,25-141,GSW,AWAY,MIN,L (-12),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-05-01,25-143,GSW,AWAY,HOU,W (+26),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-05-03,25-145,GSW,AWAY,NOP,W (+15),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-05-04,25-146,GSW,AWAY,NOP,L (-5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-05-06,25-148,GSW,HOME,OKC,W (+21),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-05-08,25-150,GSW,HOME,OKC,W (+39),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-05-10,25-152,GSW,HOME,UTA,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-05-11,25-153,GSW,HOME,PHO,W (+6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kelly Oubre Jr.
+2021-05-14,25-156,GSW,HOME,NOP,W (+3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kelly Oubre Jr.
+2021-05-16,25-158,GSW,HOME,MEM,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kelly Oubre Jr.

@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2018-10-17,27-094,PHO,HOME,DAL,W (+21),0,4:08,0,0,,0,0,,0,0,,1,0,1,0,0,0,0,0,0,0.7,-2,Dyson Daniels
+2018-10-20,27-097,PHO,AWAY,DEN,L (-28),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Dyson Daniels
+2018-10-22,27-099,PHO,AWAY,GSW,L (-20),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Dyson Daniels
+2018-10-24,27-101,PHO,HOME,LAL,L (-18),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-10-27,27-104,PHO,AWAY,MEM,L (-21),0,4:31,1,3,.333,1,2,.500,0,0,,0,0,0,1,0,0,1,1,3,0.6,+4,Dyson Daniels
+2018-10-28,27-105,PHO,AWAY,OKC,L (-7),0,16:49,3,5,.600,1,3,.333,1,1,1.000,0,1,1,1,2,0,0,1,8,8.3,+7,Dyson Daniels
+2018-10-31,27-108,PHO,HOME,SAS,L (-30),0,12:00,1,7,.143,1,6,.167,0,0,,0,2,2,2,2,0,2,4,3,-1.1,-2,Dyson Daniels
+2018-11-02,27-110,PHO,HOME,TOR,L (-9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Dyson Daniels
+2018-11-04,27-112,PHO,HOME,MEM,W (+2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-06,27-114,PHO,HOME,BRK,L (-22),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-08,27-116,PHO,HOME,BOS,L (-7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-10,27-118,PHO,AWAY,NOP,L (-20),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-12,27-120,PHO,AWAY,OKC,L (-17),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-14,27-122,PHO,HOME,SAS,W (+20),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-17,27-125,PHO,HOME,OKC,L (-10),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-19,27-127,PHO,AWAY,PHI,L (-5),0,2:41,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,-3,Dyson Daniels
+2018-11-21,27-129,PHO,AWAY,CHI,L (-8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-23,27-131,PHO,AWAY,MIL,W (+2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-25,27-133,PHO,AWAY,DET,L (-11),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-27,27-135,PHO,HOME,IND,L (-5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-28,27-136,PHO,AWAY,LAC,L (-16),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-11-30,27-138,PHO,HOME,ORL,L (-14),0,15:57,3,6,.500,2,5,.400,0,0,,0,1,1,0,1,0,4,3,8,1.1,-2,Dyson Daniels
+2018-12-02,27-140,PHO,AWAY,LAL,L (-24),0,15:13,3,6,.500,3,5,.600,0,0,,0,3,3,0,0,0,0,1,9,6.5,-6,Dyson Daniels
+2018-12-04,27-142,PHO,HOME,SAC,L (-17),0,20:41,4,9,.444,4,9,.444,1,1,1.000,1,1,2,2,1,1,1,1,13,11.0,-7,Dyson Daniels
+2018-12-06,27-144,PHO,AWAY,POR,L (-22),0,22:02,5,9,.556,2,6,.333,3,3,1.000,2,1,3,1,0,0,1,1,15,11.7,+1,Dyson Daniels
+2018-12-07,27-145,PHO,HOME,MIA,L (-17),0,31:52,6,13,.462,6,10,.600,0,0,,0,4,4,0,0,0,0,2,18,11.7,-3,Dyson Daniels
+2018-12-10,27-148,PHO,HOME,LAC,L (-4),0,31:54,4,9,.444,2,6,.333,0,0,,0,1,1,0,2,0,2,2,10,4.8,-11,Dyson Daniels
+2018-12-11,27-149,PHO,AWAY,SAS,L (-25),0,16:33,1,4,.250,1,4,.250,2,3,.667,0,0,0,0,0,0,1,3,5,0.0,-11,Dyson Daniels
+2018-12-13,27-151,PHO,HOME,DAL,W (+10),0,11:21,0,3,.000,0,2,.000,0,0,,0,1,1,1,1,0,0,1,0,-0.5,+8,Dyson Daniels
+2018-12-15,27-153,PHO,HOME,MIN,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-12-17,27-155,PHO,AWAY,NYK,W (+18),0,5:02,0,2,.000,0,1,.000,0,0,,0,0,0,0,0,0,0,1,0,-1.8,-4,Dyson Daniels
+2018-12-19,27-157,PHO,AWAY,BOS,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-12-22,27-160,PHO,AWAY,WAS,L (-3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-12-23,27-161,PHO,AWAY,BRK,L (-8),0,14:21,3,4,.750,1,1,1.000,0,0,,0,1,1,0,1,0,0,2,7,5.9,+10,Dyson Daniels
+2018-12-26,27-164,PHO,AWAY,ORL,W (+2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-12-28,27-166,PHO,HOME,OKC,L (-16),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-12-29,27-167,PHO,HOME,DEN,L (-4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2018-12-31,27-169,PHO,HOME,GSW,L (-23),0,4:57,1,2,.500,1,2,.500,0,0,,1,0,1,0,0,0,1,0,3,1.7,+3,Dyson Daniels
+2019-01-02,27-171,PHO,HOME,PHI,L (-5),0,15:12,2,6,.333,2,6,.333,0,0,,0,2,2,0,3,0,0,3,6,5.0,+24,Dyson Daniels
+2019-01-04,27-173,PHO,HOME,LAC,L (-10),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2019-01-06,27-175,PHO,HOME,CHO,L (-6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2019-01-08,27-177,PHO,HOME,SAC,W (+4),0,16:18,4,9,.444,3,6,.500,0,0,,0,1,1,1,0,0,1,1,11,5.9,-6,Dyson Daniels
+2019-01-09,27-178,PHO,AWAY,DAL,L (-10),0,10:40,0,3,.000,0,2,.000,1,1,1.000,0,0,0,0,0,0,0,0,1,-1.1,+1,Dyson Daniels
+2019-01-12,27-181,PHO,HOME,DEN,W (+9),0,15:01,1,3,.333,1,3,.333,0,0,,1,0,1,0,0,0,0,1,3,1.6,+8,Dyson Daniels
+2019-01-15,27-184,PHO,AWAY,IND,L (-34),0,4:49,2,5,.400,2,4,.500,0,0,,0,0,0,0,0,0,0,0,6,3.3,-4,Dyson Daniels
+2019-01-17,27-186,PHO,AWAY,TOR,L (-2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2019-01-19,27-188,PHO,AWAY,CHO,L (-20),0,10:28,1,2,.500,1,2,.500,2,2,1.000,0,0,0,0,1,0,0,3,5,3.8,-6,Dyson Daniels
+2019-01-20,27-189,PHO,AWAY,MIN,L (-2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2019-01-22,27-191,PHO,HOME,MIN,L (-27),0,17:24,3,7,.429,1,4,.250,0,0,,0,1,1,0,1,1,0,0,7,5.3,-7,Dyson Daniels
+2019-01-24,27-193,PHO,HOME,POR,L (-14),0,6:38,1,2,.500,1,2,.500,2,4,.500,0,1,1,0,0,0,0,0,5,3.5,+8,Dyson Daniels
+2019-01-25,27-194,PHO,AWAY,DEN,L (-37),0,14:37,2,6,.333,1,3,.333,0,0,,0,0,0,0,0,0,1,2,5,-0.2,-13,Dyson Daniels
+2019-01-27,27-196,PHO,AWAY,LAL,L (-14),0,8:59,1,3,.333,1,3,.333,0,0,,0,0,0,0,1,0,2,1,3,-0.1,-8,Dyson Daniels
+2019-01-29,27-198,PHO,AWAY,SAS,L (-2),0,6:13,0,0,,0,0,,0,0,,0,2,2,0,0,0,0,1,0,0.2,0,Dyson Daniels
+2019-02-02,27-202,PHO,HOME,ATL,L (-6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2019-02-04,27-204,PHO,HOME,HOU,L (-8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2019-02-06,27-206,PHO,AWAY,UTA,L (-28),0,13:31,1,4,.250,1,2,.500,0,0,,0,1,1,0,0,0,1,1,3,-0.5,-8,Dyson Daniels
+2019-02-08,27-208,PHO,HOME,GSW,L (-10),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2019-02-10,27-210,PHO,AWAY,SAC,L (-13),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2019-02-13,27-213,PHO,AWAY,LAC,L (-27),0,13:06,4,8,.500,0,4,.000,0,1,.000,0,1,1,0,0,0,0,3,8,2.7,-2,Dyson Daniels
+2019-02-21,27-221,PHO,AWAY,CLE,L (-13),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Dyson Daniels
+2019-02-23,27-223,PHO,AWAY,ATL,L (-8),0,5:46,2,4,.500,1,3,.333,0,0,,0,1,1,1,0,0,1,1,5,2.6,+7,Dyson Daniels
+2019-02-25,27-225,PHO,AWAY,MIA,W (+3),0,16:42,5,6,.833,3,3,1.000,1,1,1.000,0,1,1,2,1,0,0,0,14,14.5,+17,Dyson Daniels
+2019-03-01,27-229,PHO,HOME,NOP,L (-14),0,16:50,5,9,.556,4,6,.667,1,1,1.000,1,3,4,0,1,0,1,0,15,12.3,-3,Dyson Daniels
+2019-03-02,27-230,PHO,HOME,LAL,W (+9),0,8:14,2,4,.500,0,2,.000,0,0,,0,0,0,0,0,0,0,3,4,0.8,-4,Dyson Daniels
+2019-03-04,27-232,PHO,HOME,MIL,W (+9),0,5:39,1,2,.500,0,0,,0,0,,0,0,0,0,0,0,0,0,2,1.0,-2,Dyson Daniels
+2019-03-06,27-234,PHO,HOME,NYK,W (+11),0,14:26,2,6,.333,1,5,.200,0,0,,0,3,3,2,0,2,0,0,5,5.3,+5,Dyson Daniels
+2019-03-09,27-237,PHO,AWAY,POR,L (-7),0,7:29,2,3,.667,1,2,.500,0,0,,0,0,0,1,1,0,0,2,5,4.6,+15,Dyson Daniels
+2019-03-10,27-238,PHO,AWAY,GSW,W (+4),0,20:24,0,4,.000,0,4,.000,0,0,,0,0,0,0,1,0,1,3,0,-4.0,-11,Dyson Daniels
+2019-03-13,27-241,PHO,HOME,UTA,L (-17),0,8:25,3,3,1.000,0,0,,0,0,,0,1,1,1,0,0,0,1,6,5.7,+1,Dyson Daniels
+2019-03-15,27-243,PHO,AWAY,HOU,L (-6),1,15:21,1,3,.333,1,3,.333,0,0,,0,0,0,3,1,0,1,5,3,1.4,-4,Dyson Daniels
+2019-03-16,27-244,PHO,AWAY,NOP,W (+2),0,8:05,0,1,.000,0,1,.000,0,0,,0,3,3,1,0,0,1,1,0,-0.5,+3,Dyson Daniels
+2019-03-18,27-246,PHO,HOME,CHI,L (-15),0,16:19,3,7,.429,2,4,.500,2,3,.667,1,2,3,1,0,0,0,2,10,7.1,-6,Dyson Daniels
+2019-03-21,27-249,PHO,HOME,DET,L (-20),0,21:26,3,6,.500,1,3,.333,0,0,,0,3,3,1,0,0,1,5,7,2.6,-7,Dyson Daniels
+2019-03-23,27-251,PHO,AWAY,SAC,L (-9),0,24:32,5,11,.455,4,10,.400,2,2,1.000,0,3,3,1,0,1,0,1,16,12.2,-7,Dyson Daniels
+2019-03-25,27-253,PHO,AWAY,UTA,L (-33),0,27:28,3,8,.375,1,5,.200,0,0,,2,3,5,0,1,0,2,0,7,3.9,-21,Dyson Daniels
+2019-03-27,27-255,PHO,HOME,WAS,L (-3),0,22:06,5,12,.417,5,10,.500,0,0,,2,3,5,0,0,0,0,3,15,9.7,+5,Dyson Daniels
+2019-03-30,27-258,PHO,HOME,MEM,L (-5),0,21:55,3,8,.375,3,5,.600,0,0,,0,2,2,0,1,0,0,2,9,5.4,+2,Dyson Daniels
+2019-04-01,27-260,PHO,HOME,CLE,W (+9),0,24:40,2,9,.222,1,6,.167,0,0,,0,2,2,1,0,0,0,1,5,0.4,-1,Dyson Daniels
+2019-04-03,27-262,PHO,HOME,UTA,L (-21),0,31:03,3,9,.333,2,4,.500,0,0,,0,1,1,1,0,0,1,3,8,1.7,-23,Dyson Daniels
+2019-04-05,27-264,PHO,HOME,NOP,W (+7),0,23:33,5,9,.556,4,7,.571,0,0,,0,2,2,0,1,0,0,3,14,10.1,-16,Dyson Daniels
+2019-04-07,27-266,PHO,AWAY,HOU,L (-36),0,26:37,1,8,.125,1,6,.167,0,0,,1,2,3,1,1,0,0,2,3,0.0,-21,Dyson Daniels
+2019-04-09,27-268,PHO,AWAY,DAL,L (-11),0,9:45,0,3,.000,0,2,.000,0,0,,0,0,0,0,1,0,0,2,0,-1.9,-11,Dyson Daniels

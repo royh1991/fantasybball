@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2020-12-23,31-100,MIA,AWAY,ORL,L (-6),1,35:42,7,15,.467,0,0,,5,5,1.000,1,2,3,7,7,0,6,1,19,18.1,-5,Jimmy Butler
+2020-12-25,31-102,MIA,HOME,NOP,W (+13),1,16:13,2,7,.286,0,1,.000,0,0,,3,3,6,5,1,0,1,0,4,6.4,-8,Jimmy Butler
+2020-12-29,31-106,MIA,HOME,MIL,L (-47),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jimmy Butler
+2020-12-30,31-107,MIA,HOME,MIL,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jimmy Butler
+2021-01-01,31-109,MIA,AWAY,DAL,L (-10),1,26:49,0,6,.000,0,0,,2,3,.667,1,2,3,2,2,0,3,1,2,-1.3,-18,Jimmy Butler
+2021-01-04,31-112,MIA,HOME,OKC,W (+28),1,25:42,6,12,.500,0,2,.000,6,6,1.000,0,3,3,6,1,0,0,1,18,17.7,+17,Jimmy Butler
+2021-01-06,31-114,MIA,HOME,BOS,L (-2),1,33:08,9,19,.474,0,3,.000,8,9,.889,2,6,8,3,0,3,1,0,26,22.3,+8,Jimmy Butler
+2021-01-09,31-117,MIA,AWAY,WAS,W (+4),1,36:01,10,18,.556,0,1,.000,6,6,1.000,3,7,10,9,2,1,0,1,26,30.2,+11,Jimmy Butler
+2021-01-12,31-120,MIA,AWAY,PHI,L (-3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jimmy Butler
+2021-01-14,31-122,MIA,AWAY,PHI,L (-17),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jimmy Butler
+2021-01-16,31-124,MIA,HOME,DET,L (-20),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jimmy Butler
+2021-01-18,31-126,MIA,HOME,DET,W (+6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jimmy Butler
+2021-01-20,31-128,MIA,AWAY,TOR,W (+9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jimmy Butler
+2021-01-22,31-130,MIA,AWAY,TOR,L (-20),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jimmy Butler
+2021-01-23,31-131,MIA,AWAY,BRK,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jimmy Butler
+2021-01-25,31-133,MIA,AWAY,BRK,L (-13),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jimmy Butler
+2021-01-27,31-135,MIA,HOME,DEN,L (-27),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Jimmy Butler
+2021-01-28,31-136,MIA,HOME,LAC,L (-4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jimmy Butler
+2021-01-30,31-138,MIA,HOME,SAC,W (+1),1,33:36,8,19,.421,0,2,.000,14,16,.875,1,6,7,8,0,0,0,1,30,26.8,-7,Jimmy Butler
+2021-02-01,31-140,MIA,HOME,CHO,L (-8),1,37:14,9,17,.529,0,3,.000,7,10,.700,3,6,9,5,4,0,3,2,25,23.1,-7,Jimmy Butler
+2021-02-03,31-142,MIA,HOME,WAS,L (-3),1,37:09,5,11,.455,0,1,.000,9,11,.818,3,5,8,9,1,0,0,1,19,23.0,-1,Jimmy Butler
+2021-02-05,31-144,MIA,HOME,WAS,W (+27),1,25:38,4,7,.571,0,0,,6,8,.750,1,7,8,9,3,1,2,1,14,20.3,+34,Jimmy Butler
+2021-02-07,31-146,MIA,AWAY,NYK,W (+6),1,34:15,3,11,.273,0,1,.000,11,12,.917,2,8,10,9,1,0,4,1,17,16.8,+11,Jimmy Butler
+2021-02-09,31-148,MIA,HOME,NYK,W (+2),1,36:20,6,15,.400,1,2,.500,13,15,.867,0,8,8,10,1,1,2,1,26,25.8,+25,Jimmy Butler
+2021-02-11,31-150,MIA,AWAY,HOU,W (+7),1,39:07,8,18,.444,1,2,.500,10,11,.909,1,9,10,10,0,0,3,1,27,24.2,+4,Jimmy Butler
+2021-02-13,31-152,MIA,AWAY,UTA,L (-18),1,31:39,3,10,.300,1,2,.500,8,12,.667,3,5,8,5,3,0,3,3,15,13.5,-22,Jimmy Butler
+2021-02-15,31-154,MIA,AWAY,LAC,L (-7),1,37:57,10,19,.526,0,2,.000,10,10,1.000,3,7,10,10,2,0,1,1,30,32.5,+5,Jimmy Butler
+2021-02-17,31-156,MIA,AWAY,GSW,L (-8),1,40:58,6,15,.400,1,2,.500,0,0,,2,10,12,11,3,0,5,2,13,14.2,-5,Jimmy Butler
+2021-02-18,31-157,MIA,AWAY,SAC,W (+8),1,34:50,6,12,.500,0,1,.000,1,2,.500,3,7,10,13,1,0,3,2,13,17.1,+4,Jimmy Butler
+2021-02-20,31-159,MIA,AWAY,LAL,W (+2),1,34:05,8,20,.400,0,0,,8,10,.800,4,4,8,5,2,0,5,2,24,16.1,0,Jimmy Butler
+2021-02-22,31-161,MIA,AWAY,OKC,W (+14),1,29:20,3,11,.273,0,0,,9,9,1.000,2,2,4,9,1,1,1,0,15,17.5,+11,Jimmy Butler
+2021-02-24,31-163,MIA,HOME,TOR,W (+8),1,34:28,8,17,.471,3,4,.750,8,8,1.000,2,6,8,10,3,1,2,1,27,29.8,+10,Jimmy Butler
+2021-02-26,31-165,MIA,HOME,UTA,W (+8),1,34:44,12,22,.545,0,3,.000,9,11,.818,4,6,10,8,1,0,3,0,33,29.8,+9,Jimmy Butler
+2021-02-28,31-167,MIA,HOME,ATL,W (+10),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Jimmy Butler
+2021-03-02,31-169,MIA,HOME,ATL,L (-14),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Jimmy Butler
+2021-03-04,31-171,MIA,AWAY,NOP,W (+10),1,34:03,10,14,.714,1,2,.500,8,9,.889,0,3,3,9,3,0,3,3,29,28.8,+11,Jimmy Butler
+2021-03-11,31-178,MIA,HOME,ORL,W (+8),1,35:41,9,17,.529,1,4,.250,8,13,.615,1,7,8,11,3,1,2,2,27,28.1,+11,Jimmy Butler
+2021-03-12,31-179,MIA,AWAY,CHI,W (+11),1,33:01,9,17,.529,0,1,.000,10,12,.833,0,3,3,8,4,1,2,2,28,27.3,+9,Jimmy Butler
+2021-03-14,31-181,MIA,AWAY,ORL,W (+5),1,36:29,10,17,.588,0,4,.000,9,10,.900,2,5,7,9,5,1,1,1,29,34.2,+13,Jimmy Butler
+2021-03-16,31-183,MIA,HOME,CLE,W (+15),1,31:51,11,16,.688,0,1,.000,6,6,1.000,4,8,12,4,2,0,3,2,28,27.4,+14,Jimmy Butler
+2021-03-17,31-184,MIA,AWAY,MEM,L (-4),1,35:45,10,20,.500,2,6,.333,2,3,.667,2,5,7,2,1,0,1,2,24,17.1,+3,Jimmy Butler
+2021-03-19,31-186,MIA,HOME,IND,L (-27),1,31:42,6,10,.600,0,0,,5,5,1.000,2,6,8,4,2,0,3,0,17,17.4,-26,Jimmy Butler
+2021-03-21,31-188,MIA,HOME,IND,L (-3),1,41:41,7,16,.438,0,1,.000,7,8,.875,6,9,15,7,0,0,2,3,21,20.8,-15,Jimmy Butler
+2021-03-23,31-190,MIA,HOME,PHO,L (-10),1,26:52,7,13,.538,0,1,.000,0,0,,4,7,11,1,1,0,5,2,14,8.5,-19,Jimmy Butler
+2021-03-25,31-192,MIA,HOME,POR,L (-3),Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Jimmy Butler
+2021-03-26,31-193,MIA,AWAY,CHO,L (-5),1,38:01,7,16,.438,2,8,.250,4,6,.667,1,4,5,9,1,0,1,4,20,17.4,+9,Jimmy Butler
+2021-03-29,31-196,MIA,AWAY,NYK,W (+10),1,34:00,10,15,.667,0,3,.000,7,8,.875,1,4,5,6,0,1,1,2,27,25.1,+6,Jimmy Butler
+2021-03-31,31-198,MIA,AWAY,IND,W (+5),1,37:19,6,14,.429,0,2,.000,6,7,.857,1,3,4,4,2,1,2,1,18,14.9,+6,Jimmy Butler
+2021-04-01,31-199,MIA,HOME,GSW,W (+7),1,34:58,7,13,.538,1,3,.333,7,9,.778,1,5,6,8,4,0,1,2,22,24.9,+10,Jimmy Butler
+2021-04-03,31-201,MIA,HOME,CLE,W (+14),1,32:03,4,8,.500,0,0,,7,7,1.000,2,4,6,11,2,0,1,2,15,21.5,+11,Jimmy Butler
+2021-04-06,31-204,MIA,HOME,MEM,L (-12),1,34:39,11,16,.688,1,2,.500,5,6,.833,1,2,3,5,2,0,1,1,28,26.2,+1,Jimmy Butler
+2021-04-08,31-206,MIA,HOME,LAL,W (+6),1,35:38,8,11,.727,1,2,.500,11,12,.917,2,5,7,5,3,0,3,1,28,29.1,+14,Jimmy Butler
+2021-04-11,31-209,MIA,AWAY,POR,W (+9),1,36:11,7,13,.538,1,2,.500,5,6,.833,0,4,4,5,4,2,3,2,20,19.6,+2,Jimmy Butler
+2021-04-13,31-211,MIA,AWAY,PHO,L (-20),1,32:26,6,16,.375,2,6,.333,4,5,.800,0,4,4,8,2,0,1,0,18,16.6,-12,Jimmy Butler
+2021-04-14,31-212,MIA,AWAY,DEN,L (-17),1,27:34,5,8,.625,0,0,,3,3,1.000,1,2,3,9,3,0,1,1,13,18.6,-11,Jimmy Butler
+2021-04-16,31-214,MIA,AWAY,MIN,L (-8),1,38:37,9,19,.474,0,2,.000,12,15,.800,2,8,10,8,3,1,1,3,30,30.0,+4,Jimmy Butler
+2021-04-18,31-216,MIA,HOME,BRK,W (+2),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Jimmy Butler
+2021-04-19,31-217,MIA,HOME,HOU,W (+22),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Jimmy Butler
+2021-04-21,31-219,MIA,AWAY,SAS,W (+20),1,34:14,6,13,.462,0,1,.000,6,6,1.000,2,5,7,11,1,0,3,2,18,19.1,+17,Jimmy Butler
+2021-04-23,31-221,MIA,AWAY,ATL,L (-15),1,37:11,6,13,.462,0,3,.000,7,7,1.000,1,1,2,7,3,1,4,2,19,17.1,0,Jimmy Butler
+2021-04-24,31-222,MIA,HOME,CHI,W (+5),1,35:29,5,11,.455,0,1,.000,10,12,.833,0,5,5,8,4,0,6,1,20,18.2,+9,Jimmy Butler
+2021-04-26,31-224,MIA,HOME,CHI,L (-8),1,34:53,11,21,.524,0,2,.000,11,11,1.000,2,6,8,5,2,0,0,1,33,31.0,-9,Jimmy Butler
+2021-04-28,31-226,MIA,HOME,SAS,W (+5),1,39:13,11,23,.478,0,1,.000,7,7,1.000,2,6,8,6,1,0,1,1,29,24.3,+7,Jimmy Butler
+2021-05-01,31-229,MIA,AWAY,CLE,W (+17),1,29:30,4,10,.400,0,2,.000,7,8,.875,1,3,4,4,2,0,1,0,15,14.6,+4,Jimmy Butler
+2021-05-02,31-230,MIA,AWAY,CHO,W (+10),1,27:52,5,8,.625,0,1,.000,8,9,.889,2,6,8,8,1,1,0,1,18,24.1,+14,Jimmy Butler
+2021-05-04,31-232,MIA,HOME,DAL,L (-14),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Jimmy Butler
+2021-05-07,31-235,MIA,HOME,MIN,W (+9),1,36:10,7,15,.467,0,1,.000,11,14,.786,4,4,8,6,5,0,3,1,25,25.9,+3,Jimmy Butler
+2021-05-09,31-237,MIA,AWAY,BOS,W (+6),1,39:59,9,14,.643,1,3,.333,7,8,.875,1,7,8,11,2,0,3,3,26,27.7,+10,Jimmy Butler
+2021-05-11,31-239,MIA,AWAY,BOS,W (+8),1,17:21,4,8,.500,1,1,1.000,4,5,.800,1,1,2,3,0,0,0,0,13,11.7,+9,Jimmy Butler
+2021-05-13,31-241,MIA,HOME,PHI,W (+12),1,29:22,6,10,.600,4,4,1.000,5,5,1.000,1,4,5,4,1,0,2,0,21,20.1,+15,Jimmy Butler
+2021-05-15,31-243,MIA,AWAY,MIL,L (-14),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Jimmy Butler
+2021-05-16,31-244,MIA,AWAY,DET,W (+13),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Jimmy Butler

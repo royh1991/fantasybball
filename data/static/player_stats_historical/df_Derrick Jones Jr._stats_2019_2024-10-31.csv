@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2018-10-17,21-244,MIA,AWAY,ORL,L (-3),1,17:13,2,5,.400,1,2,.500,0,0,,1,1,2,2,0,0,2,6,5,0.3,+4,Derrick Jones Jr.
+2018-10-18,21-245,MIA,AWAY,WAS,W (+1),1,23:51,5,10,.500,1,2,.500,6,9,.667,4,1,5,0,1,0,0,5,17,12.9,-3,Derrick Jones Jr.
+2018-10-20,21-247,MIA,HOME,CHO,L (-1),1,30:02,5,13,.385,1,5,.200,1,2,.500,0,3,3,2,1,2,2,2,12,6.4,-1,Derrick Jones Jr.
+2018-10-24,21-251,MIA,HOME,NYK,W (+23),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2018-10-27,21-254,MIA,HOME,POR,W (+9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2018-10-29,21-256,MIA,HOME,SAC,L (-10),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2018-10-30,21-257,MIA,AWAY,CHO,L (-12),0,5:04,1,4,.250,0,0,,0,0,,1,0,1,0,0,0,0,0,2,0.3,-1,Derrick Jones Jr.
+2018-11-03,21-261,MIA,AWAY,ATL,L (-5),0,12:09,0,2,.000,0,0,,2,2,1.000,0,1,1,0,0,0,1,0,2,-0.1,-3,Derrick Jones Jr.
+2018-11-05,21-263,MIA,AWAY,DET,W (+5),0,18:29,2,4,.500,0,0,,0,0,,1,5,6,0,0,1,2,2,4,2.1,+5,Derrick Jones Jr.
+2018-11-07,21-265,MIA,HOME,SAS,W (+7),0,8:16,0,3,.000,0,0,,0,0,,3,3,6,0,0,0,1,0,0,-0.1,-7,Derrick Jones Jr.
+2018-11-09,21-267,MIA,HOME,IND,L (-8),0,25:30,4,6,.667,1,1,1.000,1,2,.500,1,1,2,1,1,1,0,1,10,10.0,-2,Derrick Jones Jr.
+2018-11-10,21-268,MIA,HOME,WAS,L (-6),0,0:31,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,-3,Derrick Jones Jr.
+2018-11-12,21-270,MIA,HOME,PHI,L (-10),0,10:03,2,4,.500,0,2,.000,0,0,,1,1,2,2,0,1,0,1,4,4.7,-8,Derrick Jones Jr.
+2018-11-14,21-272,MIA,AWAY,BRK,W (+13),Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Derrick Jones Jr.
+2018-11-16,21-274,MIA,AWAY,IND,L (-8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2018-11-18,21-276,MIA,HOME,LAL,L (-16),0,12:33,2,4,.500,0,0,,0,0,,2,2,4,0,0,0,1,2,4,2.2,+3,Derrick Jones Jr.
+2018-11-20,21-278,MIA,HOME,BRK,L (-12),1,17:29,1,6,.167,1,3,.333,0,0,,1,3,4,0,0,1,2,3,3,-1.7,-8,Derrick Jones Jr.
+2018-11-23,21-281,MIA,AWAY,CHI,W (+7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2018-11-25,21-283,MIA,AWAY,TOR,L (-10),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2018-11-27,21-285,MIA,HOME,ATL,L (-2),0,5:38,0,2,.000,0,1,.000,0,0,,0,1,1,0,1,0,0,1,0,-0.5,-12,Derrick Jones Jr.
+2018-11-30,21-288,MIA,HOME,NOP,W (+5),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Derrick Jones Jr.
+2018-12-02,21-290,MIA,HOME,UTA,W (+2),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Derrick Jones Jr.
+2018-12-04,21-292,MIA,HOME,ORL,L (-15),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2018-12-07,21-295,MIA,AWAY,PHO,W (+17),0,6:30,2,3,.667,1,2,.500,0,0,,0,0,0,0,0,0,0,2,5,2.9,-5,Derrick Jones Jr.
+2018-12-08,21-296,MIA,AWAY,LAC,W (+23),0,24:47,2,5,.400,0,1,.000,3,6,.500,5,6,11,1,1,2,0,4,7,9.9,+16,Derrick Jones Jr.
+2018-12-10,21-298,MIA,AWAY,LAL,L (-3),0,29:03,3,4,.750,0,0,,2,2,1.000,5,9,14,0,3,3,1,1,8,16.3,+11,Derrick Jones Jr.
+2018-12-12,21-300,MIA,AWAY,UTA,L (-27),0,26:00,3,6,.500,0,3,.000,2,4,.500,0,4,4,0,5,0,0,2,8,9.6,0,Derrick Jones Jr.
+2018-12-14,21-302,MIA,AWAY,MEM,W (+3),0,23:21,6,10,.600,1,1,1.000,0,0,,2,6,8,1,0,2,0,4,13,12.1,+14,Derrick Jones Jr.
+2018-12-16,21-304,MIA,AWAY,NOP,W (+6),0,21:23,5,7,.714,1,2,.500,0,3,.000,5,3,8,0,2,0,0,1,11,12.9,-6,Derrick Jones Jr.
+2018-12-20,21-308,MIA,HOME,HOU,W (+2),0,27:10,3,8,.375,1,3,.333,8,11,.727,6,2,8,1,2,2,0,3,15,17.1,+11,Derrick Jones Jr.
+2018-12-22,21-310,MIA,HOME,MIL,W (+7),0,8:32,2,5,.400,0,1,.000,1,3,.333,3,0,3,1,0,1,0,2,5,4.2,-8,Derrick Jones Jr.
+2018-12-23,21-311,MIA,AWAY,ORL,W (+24),0,21:58,2,5,.400,1,2,.500,1,2,.500,2,3,5,0,0,1,0,3,6,4.7,+7,Derrick Jones Jr.
+2018-12-26,21-314,MIA,HOME,TOR,L (-2),0,9:01,2,2,1.000,0,0,,1,1,1.000,0,0,0,0,0,0,3,1,5,1.0,-3,Derrick Jones Jr.
+2018-12-28,21-316,MIA,HOME,CLE,W (+24),0,18:24,1,1,1.000,0,0,,0,0,,0,3,3,1,0,1,0,3,2,2.8,+11,Derrick Jones Jr.
+2018-12-30,21-318,MIA,HOME,MIN,L (-9),1,24:52,7,11,.636,0,1,.000,2,2,1.000,7,2,9,0,1,1,1,3,16,16.1,-9,Derrick Jones Jr.
+2019-01-02,21-321,MIA,AWAY,CLE,W (+25),0,31:29,4,8,.500,3,4,.750,2,3,.667,3,4,7,2,2,1,1,1,13,14.6,+27,Derrick Jones Jr.
+2019-01-04,21-323,MIA,HOME,WAS,W (+6),0,19:55,2,2,1.000,1,1,1.000,0,0,,2,2,4,0,1,0,2,4,5,3.8,-10,Derrick Jones Jr.
+2019-01-06,21-325,MIA,AWAY,ATL,L (-24),0,29:26,5,9,.556,0,3,.000,4,5,.800,1,2,3,0,3,0,0,1,14,13.2,-4,Derrick Jones Jr.
+2019-01-08,21-327,MIA,HOME,DEN,L (-4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2019-01-10,21-329,MIA,HOME,BOS,W (+16),0,28:30,6,9,.667,2,3,.667,0,0,,1,6,7,0,2,1,2,1,14,12.9,+17,Derrick Jones Jr.
+2019-01-12,21-331,MIA,HOME,MEM,W (+4),0,17:51,4,10,.400,1,2,.500,2,4,.500,2,3,5,0,2,1,1,2,11,8.0,-1,Derrick Jones Jr.
+2019-01-15,21-334,MIA,AWAY,MIL,L (-38),0,18:01,3,5,.600,0,2,.000,1,1,1.000,0,1,1,3,1,0,0,0,7,8.1,-22,Derrick Jones Jr.
+2019-01-18,21-337,MIA,AWAY,DET,L (-5),0,9:59,1,2,.500,0,0,,0,0,,0,2,2,0,0,1,1,1,2,0.9,+1,Derrick Jones Jr.
+2019-01-19,21-338,MIA,AWAY,CHI,W (+14),0,18:37,4,4,1.000,0,0,,1,3,.333,0,2,2,1,0,1,0,3,9,7.8,0,Derrick Jones Jr.
+2019-01-21,21-340,MIA,AWAY,BOS,L (-8),0,28:58,7,12,.583,1,3,.333,3,3,1.000,4,5,9,0,1,1,0,2,18,17.6,+14,Derrick Jones Jr.
+2019-01-23,21-342,MIA,HOME,LAC,L (-12),0,10:42,0,1,.000,0,0,,1,2,.500,1,1,2,0,0,0,2,2,1,-1.9,-4,Derrick Jones Jr.
+2019-01-25,21-344,MIA,AWAY,CLE,W (+6),0,23:01,6,11,.545,1,2,.500,1,3,.333,3,6,9,0,0,1,0,1,14,12.1,-7,Derrick Jones Jr.
+2019-01-27,21-346,MIA,AWAY,NYK,W (+9),0,4:11,0,0,,0,0,,0,0,,0,1,1,0,0,0,0,2,0,-0.5,-5,Derrick Jones Jr.
+2019-01-30,21-349,MIA,HOME,CHI,L (-16),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2019-02-01,21-351,MIA,HOME,OKC,L (-16),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2019-02-02,21-352,MIA,HOME,IND,L (-7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2019-02-05,21-355,MIA,AWAY,POR,W (+10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2019-02-08,21-358,MIA,AWAY,SAC,L (-6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2019-02-10,21-360,MIA,AWAY,GSW,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2019-02-11,21-361,MIA,AWAY,DEN,L (-16),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2019-02-13,21-363,MIA,AWAY,DAL,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2019-02-21,22-006,MIA,AWAY,PHI,L (-4),0,16:30,4,7,.571,1,2,.500,0,0,,1,1,2,0,0,0,0,4,9,5.1,-12,Derrick Jones Jr.
+2019-02-23,22-008,MIA,HOME,DET,L (-23),0,26:40,1,4,.250,0,2,.000,2,2,1.000,1,0,1,1,1,2,0,1,4,5.0,-18,Derrick Jones Jr.
+2019-02-25,22-010,MIA,HOME,PHO,L (-3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2019-02-27,22-012,MIA,HOME,GSW,W (+1),0,17:10,1,5,.200,0,1,.000,0,0,,3,0,3,0,0,2,2,5,2,-1.6,-1,Derrick Jones Jr.
+2019-02-28,22-013,MIA,AWAY,HOU,L (-3),0,20:16,1,2,.500,0,0,,1,2,.500,2,3,5,0,1,0,0,2,3,4.1,+2,Derrick Jones Jr.
+2019-03-02,22-015,MIA,HOME,BRK,W (+29),0,25:36,7,10,.700,2,4,.500,2,2,1.000,0,4,4,0,0,1,0,2,18,14.9,+8,Derrick Jones Jr.
+2019-03-04,22-017,MIA,HOME,ATL,W (+1),0,18:20,3,4,.750,0,1,.000,2,4,.500,1,3,4,2,2,0,1,4,8,8.0,-1,Derrick Jones Jr.
+2019-03-06,22-019,MIA,AWAY,CHO,W (+7),0,4:24,1,2,.500,0,0,,0,1,.000,2,1,3,0,0,0,4,0,2,-1.7,-6,Derrick Jones Jr.
+2019-03-08,22-021,MIA,HOME,CLE,W (+16),0,22:55,3,6,.500,1,2,.500,1,2,.500,2,4,6,2,0,2,2,2,8,7.2,+8,Derrick Jones Jr.
+2019-03-10,22-023,MIA,HOME,TOR,L (-21),0,23:59,2,4,.500,0,1,.000,0,0,,0,0,0,1,0,0,3,2,4,-1.1,-2,Derrick Jones Jr.
+2019-03-13,22-026,MIA,HOME,DET,W (+34),0,31:24,3,7,.429,1,3,.333,1,2,.500,3,1,4,3,2,0,1,2,8,8.6,+12,Derrick Jones Jr.
+2019-03-15,22-028,MIA,HOME,MIL,L (-15),0,14:57,3,6,.500,0,2,.000,3,6,.500,2,1,3,1,1,0,0,1,9,7.8,-18,Derrick Jones Jr.
+2019-03-17,22-030,MIA,HOME,CHO,W (+18),1,24:11,2,6,.333,1,2,.500,1,4,.250,2,3,5,1,1,3,1,3,6,5.3,+11,Derrick Jones Jr.
+2019-03-18,22-031,MIA,AWAY,OKC,W (+9),1,17:26,4,11,.364,0,2,.000,0,0,,0,1,1,0,2,0,0,4,8,2.6,-9,Derrick Jones Jr.
+2019-03-20,22-033,MIA,AWAY,SAS,W (+5),1,31:31,1,7,.143,1,4,.250,2,2,1.000,0,3,3,0,0,2,0,2,5,2.0,+15,Derrick Jones Jr.
+2019-03-22,22-035,MIA,AWAY,MIL,L (-29),1,25:27,4,8,.500,2,6,.333,1,3,.333,4,3,7,3,1,0,0,3,11,11.8,-11,Derrick Jones Jr.
+2019-03-23,22-036,MIA,AWAY,WAS,W (+5),1,15:31,1,5,.200,0,2,.000,0,0,,1,2,3,1,0,0,0,4,2,-0.7,+7,Derrick Jones Jr.
+2019-03-26,22-039,MIA,HOME,ORL,L (-5),1,27:01,4,7,.571,0,0,,1,3,.333,2,5,7,0,0,1,0,0,9,8.5,-7,Derrick Jones Jr.
+2019-03-28,22-041,MIA,HOME,DAL,W (+6),1,17:30,3,6,.500,0,3,.000,3,3,1.000,0,4,4,1,1,1,1,2,9,7.8,+6,Derrick Jones Jr.
+2019-03-30,22-043,MIA,AWAY,NYK,W (+8),1,21:27,1,1,1.000,0,0,,2,2,1.000,1,3,4,2,4,0,1,3,4,8.5,+14,Derrick Jones Jr.
+2019-04-01,22-045,MIA,AWAY,BOS,L (-5),1,17:26,0,1,.000,0,1,.000,1,2,.500,0,2,2,0,0,1,1,1,1,-0.2,-19,Derrick Jones Jr.
+2019-04-03,22-047,MIA,HOME,BOS,L (-10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Derrick Jones Jr.
+2019-04-05,22-049,MIA,AWAY,MIN,L (-2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Derrick Jones Jr.
+2019-04-07,22-051,MIA,AWAY,TOR,L (-8),0,3:43,0,1,.000,0,0,,0,0,,0,0,0,0,0,0,0,2,0,-1.5,-9,Derrick Jones Jr.
+2019-04-09,22-053,MIA,HOME,PHI,W (+23),0,30:14,2,2,1.000,0,0,,3,4,.750,1,2,3,1,0,1,1,1,7,7.3,+9,Derrick Jones Jr.
+2019-04-10,22-054,MIA,AWAY,BRK,L (-19),0,31:19,5,9,.556,0,1,.000,3,5,.600,1,3,4,0,0,0,0,1,13,9.1,-9,Derrick Jones Jr.

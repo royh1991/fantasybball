@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2021-10-19,22-185,BRK,AWAY,MIL,L (-23),1,24:10,6,9,.667,0,0,,0,3,.000,0,7,7,0,0,0,0,3,12,7.8,-15,Nic Claxton
+2021-10-22,22-188,BRK,AWAY,PHI,W (+5),1,16:50,1,4,.250,0,0,,1,2,.500,1,2,3,1,0,1,1,0,3,1.9,-19,Nic Claxton
+2021-10-24,22-190,BRK,HOME,CHO,L (-16),1,18:19,1,3,.333,0,0,,3,4,.750,1,3,4,1,0,1,2,1,5,3.5,-9,Nic Claxton
+2021-10-25,22-191,BRK,HOME,WAS,W (+14),0,16:16,3,4,.750,0,0,,0,0,,1,7,8,1,0,2,0,1,6,8.9,+21,Nic Claxton
+2021-10-27,22-193,BRK,HOME,MIA,L (-13),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-10-29,22-195,BRK,HOME,IND,W (+7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-10-31,22-197,BRK,HOME,DET,W (+26),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-03,22-200,BRK,HOME,ATL,W (+9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-05,22-202,BRK,AWAY,DET,W (+6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-07,22-204,BRK,AWAY,TOR,W (+13),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-08,22-205,BRK,AWAY,CHI,L (-23),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-10,22-207,BRK,AWAY,ORL,W (+33),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-12,22-209,BRK,AWAY,NOP,W (+8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-14,22-211,BRK,AWAY,OKC,W (+24),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-16,22-213,BRK,HOME,GSW,L (-18),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-17,22-214,BRK,HOME,CLE,W (+10),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-19,22-216,BRK,HOME,ORL,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-22,22-219,BRK,AWAY,CLE,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-24,22-221,BRK,AWAY,BOS,W (+19),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-27,22-224,BRK,HOME,PHO,L (-6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-11-30,22-227,BRK,HOME,NYK,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-12-03,22-230,BRK,HOME,MIN,W (+5),0,3:15,0,0,,0,0,,0,0,,0,0,0,0,0,0,1,3,0,-2.2,-5,Nic Claxton
+2021-12-04,22-231,BRK,HOME,CHI,L (-4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Nic Claxton
+2021-12-07,22-234,BRK,AWAY,DAL,W (+3),0,20:57,3,4,.750,0,0,,0,2,.000,2,7,9,1,0,0,1,4,6,5.2,+9,Nic Claxton
+2021-12-08,22-235,BRK,AWAY,HOU,L (-10),1,16:10,3,6,.500,0,0,,2,3,.667,1,3,4,0,0,1,0,2,8,6.1,-8,Nic Claxton
+2021-12-10,22-237,BRK,AWAY,ATL,W (+8),0,16:44,2,2,1.000,0,0,,0,0,,2,2,4,0,0,0,0,2,4,4.6,+9,Nic Claxton
+2021-12-12,22-239,BRK,AWAY,DET,W (+12),0,23:24,0,2,.000,0,0,,2,2,1.000,2,0,2,0,2,2,1,2,2,3.6,+19,Nic Claxton
+2021-12-14,22-241,BRK,HOME,TOR,W (+2),1,26:04,8,10,.800,0,0,,0,0,,3,4,7,1,0,1,1,2,16,15.1,+4,Nic Claxton
+2021-12-16,22-243,BRK,HOME,PHI,W (+9),1,22:01,8,9,.889,0,0,,1,1,1.000,1,1,2,0,2,2,1,4,17,15.7,-1,Nic Claxton
+2021-12-18,22-245,BRK,HOME,ORL,L (-7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2021-12-25,22-252,BRK,AWAY,LAL,W (+7),1,32:12,4,9,.444,0,0,,1,2,.500,1,5,6,3,0,4,0,1,9,10.6,+15,Nic Claxton
+2021-12-27,22-254,BRK,AWAY,LAC,W (+16),1,30:21,8,9,.889,0,0,,2,3,.667,1,4,5,2,0,3,1,5,18,16.9,+2,Nic Claxton
+2021-12-30,22-257,BRK,HOME,PHI,L (-8),1,33:09,5,9,.556,0,0,,0,0,,4,5,9,2,1,2,1,4,10,11.2,-3,Nic Claxton
+2022-01-01,22-259,BRK,HOME,LAC,L (-4),0,22:58,6,8,.750,0,0,,1,2,.500,4,6,10,0,1,1,1,0,13,14.7,-1,Nic Claxton
+2022-01-03,22-261,BRK,HOME,MEM,L (-14),1,25:06,3,4,.750,0,0,,5,6,.833,1,2,3,1,2,1,0,3,11,12.5,-22,Nic Claxton
+2022-01-05,22-263,BRK,AWAY,IND,W (+8),1,23:15,5,8,.625,0,0,,2,3,.667,2,3,5,3,2,1,1,5,12,12.1,-6,Nic Claxton
+2022-01-07,22-265,BRK,HOME,MIL,L (-12),1,25:25,6,9,.667,0,0,,2,2,1.000,5,1,6,1,1,1,1,3,14,14.1,-23,Nic Claxton
+2022-01-09,22-267,BRK,HOME,SAS,W (+2),1,33:22,7,10,.700,0,0,,2,4,.500,5,9,14,1,0,0,1,1,16,16.5,+9,Nic Claxton
+2022-01-10,22-268,BRK,AWAY,POR,L (-6),1,12:40,1,3,.333,0,0,,0,0,,1,0,1,1,0,0,1,4,2,-0.9,-9,Nic Claxton
+2022-01-12,22-270,BRK,AWAY,CHI,W (+26),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2022-01-13,22-271,BRK,HOME,OKC,L (-21),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2022-01-15,22-273,BRK,HOME,NOP,W (+15),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2022-01-17,22-275,BRK,AWAY,CLE,L (-7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2022-01-19,22-277,BRK,AWAY,WAS,W (+1),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2022-01-21,22-279,BRK,AWAY,SAS,W (+15),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2022-01-23,22-281,BRK,AWAY,MIN,L (-11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Nic Claxton
+2022-01-25,22-283,BRK,HOME,LAL,L (-10),0,17:16,3,5,.600,0,0,,0,2,.000,2,4,6,0,0,0,1,0,6,4.5,+2,Nic Claxton
+2022-01-26,22-284,BRK,HOME,DEN,L (-6),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Nic Claxton
+2022-01-29,22-287,BRK,AWAY,GSW,L (-4),1,17:00,4,9,.444,0,0,,1,3,.333,6,2,8,0,0,0,1,0,9,7.3,-21,Nic Claxton
+2022-02-01,22-290,BRK,AWAY,PHO,L (-10),1,18:41,3,6,.500,0,0,,0,2,.000,1,2,3,1,0,0,1,3,6,2.0,-8,Nic Claxton
+2022-02-02,22-291,BRK,AWAY,SAC,L (-11),1,29:21,9,11,.818,0,0,,5,7,.714,6,5,11,1,1,5,0,3,23,27.8,-17,Nic Claxton
+2022-02-04,22-293,BRK,AWAY,UTA,L (-23),1,5:15,0,2,.000,0,0,,0,0,,2,1,3,0,0,0,0,0,0,0.3,-14,Nic Claxton
+2022-02-06,22-295,BRK,AWAY,DEN,L (-20),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Nic Claxton
+2022-02-08,22-297,BRK,HOME,BOS,L (-35),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Nic Claxton
+2022-02-10,22-299,BRK,AWAY,WAS,L (-1),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Nic Claxton
+2022-02-12,22-301,BRK,AWAY,MIA,L (-4),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Nic Claxton
+2022-02-14,22-303,BRK,HOME,SAC,W (+24),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Nic Claxton
+2022-02-16,22-305,BRK,AWAY,NYK,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Nic Claxton
+2022-02-17,22-306,BRK,HOME,WAS,L (-14),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Nic Claxton
+2022-02-24,22-313,BRK,HOME,BOS,L (-23),0,11:05,4,5,.800,0,0,,0,0,,0,1,1,0,1,0,0,0,8,7.4,-8,Nic Claxton
+2022-02-26,22-315,BRK,AWAY,MIL,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Nic Claxton
+2022-02-28,22-317,BRK,HOME,TOR,L (-36),0,12:00,1,2,.500,0,0,,0,2,.000,1,3,4,1,0,1,0,0,2,3.2,-5,Nic Claxton
+2022-03-01,22-318,BRK,AWAY,TOR,L (-1),0,23:11,3,3,1.000,0,0,,2,2,1.000,1,4,5,0,1,3,2,2,8,9.3,+5,Nic Claxton
+2022-03-03,22-320,BRK,HOME,MIA,L (-6),0,6:06,1,1,1.000,0,0,,0,0,,2,1,3,0,0,1,1,1,2,2.7,+2,Nic Claxton
+2022-03-06,22-323,BRK,AWAY,BOS,L (-6),0,18:04,1,4,.250,0,0,,3,4,.750,1,4,5,1,0,0,0,4,5,3.2,-4,Nic Claxton
+2022-03-08,22-325,BRK,AWAY,CHO,W (+11),0,19:34,2,4,.500,0,0,,0,0,,1,1,2,1,0,1,2,3,4,1.2,+10,Nic Claxton
+2022-03-10,22-327,BRK,AWAY,PHI,W (+29),0,21:59,4,5,.800,0,0,,1,3,.333,2,6,8,2,1,3,0,4,9,12.4,+13,Nic Claxton
+2022-03-13,22-330,BRK,HOME,NYK,W (+3),0,21:26,4,6,.667,0,0,,2,3,.667,2,3,5,1,2,1,0,0,10,12.7,0,Nic Claxton
+2022-03-15,22-332,BRK,AWAY,ORL,W (+42),0,23:40,5,9,.556,0,0,,2,3,.667,1,9,10,2,0,0,2,3,12,8.9,+21,Nic Claxton
+2022-03-16,22-333,BRK,HOME,DAL,L (-2),0,26:03,6,8,.750,0,0,,1,1,1.000,4,1,5,2,0,0,0,2,13,13.5,+9,Nic Claxton
+2022-03-18,22-335,BRK,HOME,POR,W (+5),0,24:30,3,5,.600,0,0,,1,2,.500,4,5,9,0,0,2,2,3,7,6.8,+2,Nic Claxton
+2022-03-21,22-338,BRK,HOME,UTA,W (+8),1,27:32,7,8,.875,0,0,,1,1,1.000,1,5,6,4,1,2,1,2,15,17.8,+3,Nic Claxton
+2022-03-23,22-340,BRK,AWAY,MEM,L (-12),0,20:18,2,2,1.000,0,0,,3,4,.750,1,4,5,0,0,1,1,0,7,7.6,-26,Nic Claxton
+2022-03-26,22-343,BRK,AWAY,MIA,W (+15),0,18:06,5,5,1.000,0,0,,0,0,,1,5,6,1,1,2,0,2,10,13.0,+22,Nic Claxton
+2022-03-27,22-344,BRK,HOME,CHO,L (-9),0,15:28,4,4,1.000,0,0,,1,2,.500,1,3,4,0,1,2,1,4,9,8.8,+1,Nic Claxton
+2022-03-29,22-346,BRK,HOME,DET,W (+7),0,18:15,4,5,.800,0,0,,3,4,.750,2,2,4,0,1,0,2,3,11,8.5,-5,Nic Claxton
+2022-03-31,22-348,BRK,HOME,MIL,L (-1),0,23:48,5,6,.833,0,0,,1,4,.250,1,7,8,1,2,1,2,3,11,10.6,+1,Nic Claxton
+2022-04-02,22-350,BRK,AWAY,ATL,L (-7),0,23:59,2,4,.500,0,0,,0,0,,2,5,7,1,0,1,0,3,4,5.1,+3,Nic Claxton
+2022-04-05,22-353,BRK,HOME,HOU,W (+13),0,26:36,4,6,.667,0,0,,1,2,.500,3,6,9,0,1,0,1,2,9,9.1,+4,Nic Claxton
+2022-04-06,22-354,BRK,AWAY,NYK,W (+12),0,22:57,4,8,.500,0,0,,0,1,.000,3,4,7,0,0,1,2,5,8,3.6,-2,Nic Claxton
+2022-04-08,22-356,BRK,HOME,CLE,W (+11),0,15:57,2,3,.667,0,0,,0,0,,0,5,5,1,0,1,0,4,4,4.0,+9,Nic Claxton
+2022-04-10,22-358,BRK,HOME,IND,W (+8),0,23:22,6,6,1.000,0,0,,2,2,1.000,2,4,6,4,0,0,1,4,14,15.0,+7,Nic Claxton

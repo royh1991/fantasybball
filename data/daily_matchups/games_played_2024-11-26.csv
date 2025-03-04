@@ -1,0 +1,60 @@
+,Team Role,Team ID,Opponent ID,Player Name,Pro Team,gameDate,Injury Status,Injured,week,week_start_dt,week_end_dt
+48,Home,11,16,Kevin Durant,Phoenix Suns,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+247,Home,11,16,Walker Kessler,Utah Jazz,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+367,Home,11,16,Jaden McDaniels,Minnesota Timberwolves,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+647,Away,16,11,Immanuel Quickley,Washington Wizards,2024-11-26,OUT,True,Week 6,2024-11-25,2024-12-01
+688,Away,16,11,Bradley Beal,Phoenix Suns,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+728,Away,16,11,Jusuf Nurkic,Phoenix Suns,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+1207,Home,10,18,Donte DiVincenzo,Minnesota Timberwolves,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+2087,Home,8,17,Anthony Edwards,Minnesota Timberwolves,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+2487,Home,8,17,Ochai Agbaji,Washington Wizards,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+2527,Home,8,17,Chris Boucher,Washington Wizards,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+3047,Away,17,8,Julius Randle,Minnesota Timberwolves,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+3727,Away,6,19,Lauri Markkanen,Utah Jazz,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+3966,Away,6,19,Jaime Jaquez Jr.,Miami Heat,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+4087,Away,6,19,John Collins,Utah Jazz,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+4128,Away,6,19,Royce O'Neale,Phoenix Suns,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+4206,Home,14,21,Jimmy Butler,Miami Heat,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+4328,Home,14,21,Devin Booker,Phoenix Suns,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+4407,Home,14,21,Keyonte George,Utah Jazz,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+4727,Away,21,14,Scottie Barnes,Washington Wizards,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+4968,Away,21,14,Tyus Jones,Phoenix Suns,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+5367,Home,5,20,Naz Reid,Minnesota Timberwolves,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+5606,Home,5,20,Terry Rozier,Miami Heat,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+5687,Away,20,5,Rudy Gobert,Minnesota Timberwolves,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+5807,Away,20,5,Collin Sexton,Utah Jazz,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+6006,Away,20,5,Bam Adebayo,Miami Heat,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+6086,Away,20,5,Duncan Robinson,Miami Heat,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+6447,Home,12,15,Jakob Poeltl,Washington Wizards,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+6487,Home,12,15,RJ Barrett,Washington Wizards,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+6647,Home,12,15,Gradey Dick,Washington Wizards,2024-11-26,OUT,True,Week 6,2024-11-25,2024-12-01
+6926,Away,15,12,Tyler Herro,Miami Heat,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+7330,Home,11,16,Nikola Vucevic,Chicago Bulls,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+7407,Home,11,16,Jabari Smith Jr.,Houston Rockets,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+7686,Home,11,16,Harrison Barnes,San Antonio Spurs,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+8207,Away,16,11,Gary Trent Jr.,Milwaukee Bucks,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+8447,Home,10,18,Khris Middleton,Milwaukee Bucks,2024-11-26,OUT,True,Week 6,2024-11-25,2024-12-01
+8526,Home,10,18,Chris Paul,San Antonio Spurs,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+8607,Home,10,18,Tari Eason,Houston Rockets,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+8767,Away,18,10,Anthony Davis,Los Angeles Lakers,2024-11-26,DAY_TO_DAY,False,Week 6,2024-11-25,2024-12-01
+8970,Away,18,10,Coby White,Chicago Bulls,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+9047,Away,18,10,Austin Reaves,Los Angeles Lakers,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+9167,Away,18,10,Amen Thompson,Houston Rockets,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+9966,Away,17,8,Devin Vassell,San Antonio Spurs,2024-11-26,OUT,True,Week 6,2024-11-25,2024-12-01
+10367,Home,19,6,Damian Lillard,Milwaukee Bucks,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+10447,Home,19,6,Jalen Green,Houston Rockets,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+10527,Home,19,6,Brook Lopez,Milwaukee Bucks,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+10846,Away,6,19,Victor Wembanyama,San Antonio Spurs,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+10887,Away,6,19,Alperen Sengun,Houston Rockets,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+11007,Away,6,19,D'Angelo Russell,Los Angeles Lakers,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+11050,Away,6,19,Josh Giddey,Chicago Bulls,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+11127,Away,6,19,Bobby Portis,Milwaukee Bucks,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+11246,Away,6,19,Jeremy Sochan,San Antonio Spurs,2024-11-26,OUT,True,Week 6,2024-11-25,2024-12-01
+11567,Home,14,21,Giannis Antetokounmpo,Milwaukee Bucks,2024-11-26,OUT,True,Week 6,2024-11-25,2024-12-01
+11687,Home,14,21,Dalton Knecht,Los Angeles Lakers,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+11847,Home,14,21,Dillon Brooks,Houston Rockets,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+12726,Home,5,20,Stephon Castle,San Antonio Spurs,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+13447,Home,12,15,LeBron James,Los Angeles Lakers,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+13570,Home,12,15,Zach LaVine,Chicago Bulls,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+13887,Home,12,15,Rui Hachimura,Los Angeles Lakers,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01
+14007,Away,15,12,Fred VanVleet,Houston Rockets,2024-11-26,ACTIVE,False,Week 6,2024-11-25,2024-12-01

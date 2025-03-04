@@ -1,0 +1,73 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2020-12-22,29-176,LAC,AWAY,LAL,W (+7),1,34:01,10,26,.385,1,8,.125,5,5,1.000,0,2,2,3,2,0,3,5,26,11.5,+1,Kawhi Leonard
+2020-12-25,29-179,LAC,AWAY,DEN,W (+13),1,30:21,8,14,.571,2,4,.500,3,3,1.000,2,3,5,7,4,1,2,4,21,22.7,+13,Kawhi Leonard
+2020-12-27,29-181,LAC,HOME,DAL,L (-51),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kawhi Leonard
+2020-12-29,29-183,LAC,HOME,MIN,W (+23),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kawhi Leonard
+2020-12-30,29-184,LAC,HOME,POR,W (+23),1,30:25,9,17,.529,3,5,.600,7,8,.875,1,2,3,7,3,1,0,4,28,27.6,+23,Kawhi Leonard
+2021-01-01,29-186,LAC,AWAY,UTA,L (-6),1,38:41,8,19,.421,2,4,.500,2,4,.500,4,12,16,9,0,3,0,2,20,23.1,+8,Kawhi Leonard
+2021-01-03,29-188,LAC,AWAY,PHO,W (+5),1,34:08,4,21,.190,0,3,.000,7,10,.700,1,5,6,3,1,1,2,0,15,4.7,-11,Kawhi Leonard
+2021-01-05,29-190,LAC,HOME,SAS,L (-3),1,37:14,13,22,.591,1,3,.333,3,3,1.000,2,1,3,10,2,1,0,1,30,30.8,+14,Kawhi Leonard
+2021-01-06,29-191,LAC,AWAY,GSW,W (+7),1,34:31,7,12,.583,0,3,.000,7,7,1.000,0,4,4,4,1,1,7,2,21,13.3,+14,Kawhi Leonard
+2021-01-08,29-193,LAC,AWAY,GSW,L (-10),1,34:11,7,17,.412,3,5,.600,7,8,.875,0,3,3,4,2,0,2,2,24,17.4,-1,Kawhi Leonard
+2021-01-10,29-195,LAC,HOME,CHI,W (+3),1,38:13,14,22,.636,7,9,.778,0,0,,0,2,2,4,3,0,2,0,35,29.6,-3,Kawhi Leonard
+2021-01-13,29-198,LAC,HOME,NOP,W (+5),1,38:51,8,18,.444,2,4,.500,10,11,.909,1,5,6,9,2,0,2,1,28,26.3,+10,Kawhi Leonard
+2021-01-15,29-200,LAC,AWAY,SAC,W (+38),1,27:31,10,15,.667,1,3,.333,6,6,1.000,0,4,4,6,1,0,1,0,27,25.9,+31,Kawhi Leonard
+2021-01-17,29-202,LAC,HOME,IND,W (+33),1,30:47,8,13,.615,1,2,.500,0,0,,2,5,7,5,0,0,1,2,17,15.7,+19,Kawhi Leonard
+2021-01-20,29-205,LAC,HOME,SAC,W (+19),1,34:59,13,22,.591,3,5,.600,3,3,1.000,0,3,3,5,6,0,3,0,32,29.2,+18,Kawhi Leonard
+2021-01-22,29-207,LAC,HOME,OKC,W (+14),1,37:08,10,21,.476,1,7,.143,10,10,1.000,1,7,8,2,3,2,2,2,31,26.1,+2,Kawhi Leonard
+2021-01-24,29-209,LAC,HOME,OKC,W (+8),1,36:29,14,24,.583,4,9,.444,2,2,1.000,1,8,9,8,0,0,0,1,34,31.1,+14,Kawhi Leonard
+2021-01-26,29-211,LAC,AWAY,ATL,L (-9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-01-28,29-213,LAC,AWAY,MIA,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-01-29,29-214,LAC,AWAY,ORL,W (+26),1,28:35,8,15,.533,2,6,.333,6,6,1.000,0,4,4,3,0,0,0,1,24,19.6,+23,Kawhi Leonard
+2021-01-31,29-216,LAC,AWAY,NYK,W (+14),1,34:04,8,15,.533,1,3,.333,11,11,1.000,0,4,4,3,1,1,1,1,28,24.3,+19,Kawhi Leonard
+2021-02-02,29-218,LAC,AWAY,BRK,L (-4),1,39:15,12,24,.500,1,5,.200,8,9,.889,1,4,5,5,4,2,0,1,33,31.0,+7,Kawhi Leonard
+2021-02-03,29-219,LAC,AWAY,CLE,W (+22),1,31:34,9,14,.643,3,6,.500,3,4,.750,0,6,6,3,1,0,4,0,24,18.3,+25,Kawhi Leonard
+2021-02-05,29-221,LAC,HOME,BOS,L (-4),1,36:48,8,19,.421,0,5,.000,12,14,.857,1,10,11,5,1,0,3,3,28,21.1,-9,Kawhi Leonard
+2021-02-07,29-223,LAC,HOME,SAC,L (-3),1,34:56,9,21,.429,0,2,.000,2,4,.500,1,9,10,2,0,0,2,1,20,10.5,-6,Kawhi Leonard
+2021-02-10,29-226,LAC,AWAY,MIN,W (+7),1,36:33,13,25,.520,5,6,.833,5,7,.714,1,7,8,5,2,1,5,1,36,26.5,+25,Kawhi Leonard
+2021-02-12,29-228,LAC,AWAY,CHI,W (+19),1,32:52,14,21,.667,1,6,.167,4,5,.800,0,6,6,3,2,0,0,0,33,29.4,+4,Kawhi Leonard
+2021-02-14,29-230,LAC,HOME,CLE,W (+17),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-02-15,29-231,LAC,HOME,MIA,W (+7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kawhi Leonard
+2021-02-17,29-233,LAC,HOME,UTA,L (-18),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-02-19,29-235,LAC,HOME,UTA,W (+4),1,37:50,10,24,.417,0,4,.000,9,10,.900,2,3,5,4,0,1,2,5,29,17.6,-9,Kawhi Leonard
+2021-02-21,29-237,LAC,HOME,BRK,L (-4),1,39:17,9,19,.474,5,9,.556,6,6,1.000,1,12,13,3,1,0,2,2,29,23.9,-1,Kawhi Leonard
+2021-02-23,29-239,LAC,HOME,WAS,W (+19),1,34:26,13,20,.650,3,7,.429,3,6,.500,1,6,7,4,1,0,1,0,32,27.3,+8,Kawhi Leonard
+2021-02-25,29-241,LAC,AWAY,MEM,L (-28),1,31:39,6,14,.429,1,5,.200,4,5,.800,1,4,5,7,0,0,3,0,17,13.0,-13,Kawhi Leonard
+2021-02-26,29-242,LAC,AWAY,MEM,W (+20),1,34:41,8,13,.615,3,5,.600,11,11,1.000,0,9,9,7,0,1,4,2,30,27.6,+10,Kawhi Leonard
+2021-02-28,29-244,LAC,AWAY,MIL,L (-5),1,37:17,10,21,.476,2,6,.333,3,4,.750,4,5,9,3,2,0,0,0,25,22.3,-7,Kawhi Leonard
+2021-03-02,29-246,LAC,AWAY,BOS,L (-5),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Kawhi Leonard
+2021-03-04,29-248,LAC,AWAY,WAS,L (-2),1,31:47,7,14,.500,2,6,.333,6,7,.857,0,5,5,3,0,0,4,5,22,12.2,+9,Kawhi Leonard
+2021-03-11,29-255,LAC,HOME,GSW,W (+26),1,31:18,10,17,.588,5,7,.714,3,3,1.000,0,9,9,4,3,0,4,2,28,23.8,+27,Kawhi Leonard
+2021-03-14,29-258,LAC,AWAY,NOP,L (-20),1,29:05,9,13,.692,2,4,.500,3,3,1.000,1,4,5,2,2,0,1,2,23,21.0,-26,Kawhi Leonard
+2021-03-15,29-259,LAC,AWAY,DAL,W (+10),1,40:24,9,20,.450,1,5,.200,3,3,1.000,2,6,8,7,4,0,1,3,22,21.5,+14,Kawhi Leonard
+2021-03-17,29-261,LAC,AWAY,DAL,L (-16),1,36:55,9,21,.429,1,4,.250,1,4,.250,2,5,7,7,2,0,2,3,20,14.3,-8,Kawhi Leonard
+2021-03-20,29-264,LAC,HOME,CHO,W (+27),1,31:09,6,13,.462,0,4,.000,5,5,1.000,1,2,3,4,4,0,0,0,17,18.4,+20,Kawhi Leonard
+2021-03-22,29-266,LAC,HOME,ATL,W (+9),1,33:28,8,14,.571,3,4,.750,6,6,1.000,0,7,7,5,1,2,2,1,25,24.0,+1,Kawhi Leonard
+2021-03-24,29-268,LAC,AWAY,SAS,W (+33),1,32:09,9,12,.750,2,2,1.000,5,5,1.000,1,6,7,3,5,0,1,3,25,27.6,+22,Kawhi Leonard
+2021-03-25,29-269,LAC,AWAY,SAS,W (+13),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kawhi Leonard
+2021-03-27,29-271,LAC,HOME,PHI,W (+10),1,34:23,9,17,.529,1,5,.200,9,11,.818,0,4,4,4,3,0,1,0,28,24.9,+12,Kawhi Leonard
+2021-03-29,29-273,LAC,HOME,MIL,W (+24),1,36:17,10,21,.476,0,6,.000,3,4,.750,4,5,9,8,2,0,3,0,23,20.8,+12,Kawhi Leonard
+2021-03-30,29-274,LAC,HOME,ORL,L (-7),1,35:22,10,20,.500,2,4,.500,6,6,1.000,1,4,5,5,1,0,3,3,28,20.2,-7,Kawhi Leonard
+2021-04-01,29-276,LAC,HOME,DEN,L (-7),1,38:31,10,22,.455,2,4,.500,2,2,1.000,6,6,12,4,2,1,2,2,24,21.3,-14,Kawhi Leonard
+2021-04-04,29-279,LAC,HOME,LAL,W (+18),1,33:54,8,15,.533,2,2,1.000,1,1,1.000,4,6,10,8,2,0,2,3,19,20.7,+21,Kawhi Leonard
+2021-04-06,29-281,LAC,HOME,POR,W (+17),1,36:15,10,18,.556,1,4,.250,8,9,.889,1,11,12,7,0,0,1,2,29,27.1,+13,Kawhi Leonard
+2021-04-08,29-283,LAC,HOME,PHO,W (+10),1,37:46,10,20,.500,3,7,.429,4,4,1.000,1,4,5,5,0,0,5,1,27,17.0,+10,Kawhi Leonard
+2021-04-09,29-284,LAC,HOME,HOU,W (+17),1,32:40,11,20,.550,3,6,.500,6,7,.857,0,5,5,8,1,0,2,2,31,26.3,+23,Kawhi Leonard
+2021-04-11,29-286,LAC,HOME,DET,W (+7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-04-13,29-288,LAC,AWAY,IND,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-04-14,29-289,LAC,AWAY,DET,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-04-16,29-291,LAC,AWAY,PHI,L (-3),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-04-18,29-293,LAC,HOME,MIN,W (+19),1,22:46,6,11,.545,2,6,.333,1,1,1.000,0,11,11,8,0,1,3,1,15,15.9,+30,Kawhi Leonard
+2021-04-20,29-295,LAC,AWAY,POR,W (+1),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-04-21,29-296,LAC,HOME,MEM,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-04-23,29-298,LAC,AWAY,HOU,W (+5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-04-26,29-301,LAC,AWAY,NOP,L (-17),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-04-28,29-303,LAC,AWAY,PHO,L (-8),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-05-01,29-306,LAC,HOME,DEN,L (-6),1,30:17,7,12,.583,2,3,.667,0,0,,2,3,5,6,0,0,1,1,16,15.5,-2,Kawhi Leonard
+2021-05-04,29-309,LAC,HOME,TOR,W (+5),1,33:28,3,6,.500,1,2,.500,6,6,1.000,0,3,3,5,0,0,3,0,13,11.4,+20,Kawhi Leonard
+2021-05-06,29-311,LAC,HOME,LAL,W (+24),1,29:52,4,9,.444,2,6,.333,5,6,.833,1,7,8,6,0,1,5,2,15,11.8,+21,Kawhi Leonard
+2021-05-09,29-314,LAC,HOME,NYK,L (-6),1,36:18,9,26,.346,4,9,.444,7,7,1.000,0,4,4,3,1,0,1,0,29,17.7,-6,Kawhi Leonard
+2021-05-11,29-316,LAC,AWAY,TOR,W (+19),1,30:00,6,10,.600,0,1,.000,8,8,1.000,0,7,7,5,2,0,1,2,20,21.2,+12,Kawhi Leonard
+2021-05-13,29-318,LAC,AWAY,CHO,W (+23),1,31:10,5,9,.556,2,4,.500,4,5,.800,0,3,3,9,1,0,3,1,16,16.1,+15,Kawhi Leonard
+2021-05-14,29-319,LAC,AWAY,HOU,L (-7),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Kawhi Leonard
+2021-05-16,29-321,LAC,AWAY,OKC,L (-5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Kawhi Leonard

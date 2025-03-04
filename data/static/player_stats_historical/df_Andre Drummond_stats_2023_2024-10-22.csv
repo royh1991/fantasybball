@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2022-10-19,29-070,CHI,AWAY,MIA,W (+8),0,14:53,2,7,.286,0,1,.000,5,5,1.000,3,2,5,1,1,1,3,4,9,5.4,-8,Andre Drummond
+2022-10-21,29-072,CHI,AWAY,WAS,L (-2),0,18:01,5,6,.833,0,0,,0,2,.000,3,7,10,1,0,1,3,2,10,8.8,+8,Andre Drummond
+2022-10-22,29-073,CHI,HOME,CLE,L (-32),0,13:06,3,8,.375,0,1,.000,2,2,1.000,3,4,7,0,2,0,3,2,8,5.1,-16,Andre Drummond
+2022-10-24,29-075,CHI,HOME,BOS,W (+18),0,15:17,1,2,.500,0,0,,0,0,,2,10,12,0,0,0,1,2,2,3.6,+16,Andre Drummond
+2022-10-26,29-077,CHI,HOME,IND,W (+15),0,16:45,4,8,.500,0,0,,0,0,,4,9,13,1,0,1,0,4,8,9.3,+16,Andre Drummond
+2022-10-28,29-079,CHI,AWAY,SAS,L (-5),0,22:30,8,12,.667,0,0,,1,3,.333,7,7,14,2,3,0,1,3,17,20.2,+13,Andre Drummond
+2022-10-29,29-080,CHI,HOME,PHI,L (-5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Andre Drummond
+2022-11-01,29-083,CHI,AWAY,BRK,W (+9),Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Not With Team,Andre Drummond
+2022-11-02,29-084,CHI,HOME,CHO,W (+18),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Andre Drummond
+2022-11-04,29-086,CHI,AWAY,BOS,L (-4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Andre Drummond
+2022-11-06,29-088,CHI,AWAY,TOR,L (-9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Andre Drummond
+2022-11-07,29-089,CHI,HOME,TOR,W (+14),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Andre Drummond
+2022-11-09,29-091,CHI,HOME,NOP,L (-4),0,12:08,1,2,.500,0,0,,0,0,,0,5,5,1,0,0,2,1,2,0.8,+11,Andre Drummond
+2022-11-13,29-095,CHI,HOME,DEN,L (-23),0,21:31,5,8,.625,0,0,,3,3,1.000,4,7,11,1,1,0,1,3,13,13.8,-8,Andre Drummond
+2022-11-16,29-098,CHI,AWAY,NOP,L (-14),0,14:58,4,6,.667,0,0,,0,0,,1,3,4,0,0,0,0,2,8,6.2,-1,Andre Drummond
+2022-11-18,29-100,CHI,HOME,ORL,L (-1),0,14:36,3,5,.600,0,0,,1,2,.500,4,2,6,1,0,0,2,1,7,6.0,-10,Andre Drummond
+2022-11-21,29-103,CHI,HOME,BOS,W (+14),0,12:57,1,2,.500,0,0,,3,4,.750,4,8,12,1,0,0,2,1,5,7.1,-6,Andre Drummond
+2022-11-23,29-105,CHI,AWAY,MIL,W (+5),0,16:57,1,3,.333,0,0,,0,0,,1,7,8,1,0,2,0,3,2,4.0,-4,Andre Drummond
+2022-11-25,29-107,CHI,AWAY,OKC,L (-4),0,6:33,1,4,.250,0,0,,2,2,1.000,3,1,4,1,0,0,0,0,4,4.7,-10,Andre Drummond
+2022-11-28,29-110,CHI,AWAY,UTA,W (+7),0,14:26,5,8,.625,0,0,,0,0,,4,6,10,0,1,0,1,3,10,9.8,+4,Andre Drummond
+2022-11-30,29-112,CHI,AWAY,PHO,L (-19),0,15:22,2,2,1.000,0,0,,0,0,,1,6,7,2,1,2,1,3,4,7.5,-9,Andre Drummond
+2022-12-02,29-114,CHI,AWAY,GSW,L (-8),0,5:28,0,2,.000,0,0,,0,2,.000,1,1,2,1,0,0,0,0,0,-0.5,-4,Andre Drummond
+2022-12-04,29-116,CHI,AWAY,SAC,L (-9),0,5:32,1,2,.500,0,0,,0,1,.000,0,1,1,0,0,0,0,0,2,0.9,-12,Andre Drummond
+2022-12-07,29-119,CHI,HOME,WAS,W (+4),0,8:28,2,5,.400,0,0,,0,0,,1,2,3,1,0,1,1,5,4,1.0,-7,Andre Drummond
+2022-12-10,29-122,CHI,HOME,DAL,W (+29),0,18:23,4,5,.800,0,0,,1,5,.200,1,6,7,1,0,0,1,0,9,7.7,+12,Andre Drummond
+2022-12-11,29-123,CHI,AWAY,ATL,L (-1),0,16:23,6,9,.667,0,0,,2,3,.667,3,6,9,0,5,0,1,2,14,16.8,+2,Andre Drummond
+2022-12-14,29-126,CHI,HOME,NYK,L (-8),0,11:53,1,1,1.000,0,0,,0,0,,0,2,2,2,0,0,2,2,2,0.9,-5,Andre Drummond
+2022-12-16,29-128,CHI,HOME,NYK,L (-23),0,9:38,0,0,,0,0,,0,0,,0,5,5,1,0,0,1,4,0,-0.4,-6,Andre Drummond
+2022-12-18,29-130,CHI,AWAY,MIN,L (-24),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Andre Drummond
+2022-12-20,29-132,CHI,AWAY,MIA,W (+10),0,7:02,0,0,,0,0,,1,2,.500,0,1,1,0,0,0,0,1,1,0.5,+2,Andre Drummond
+2022-12-21,29-133,CHI,AWAY,ATL,W (+2),0,14:52,2,3,.667,0,0,,1,2,.500,1,10,11,0,0,0,2,0,5,5.0,+15,Andre Drummond
+2022-12-23,29-135,CHI,AWAY,NYK,W (+1),0,20:04,3,7,.429,0,0,,0,2,.000,5,3,8,0,0,0,0,2,6,5.1,-10,Andre Drummond
+2022-12-26,29-138,CHI,HOME,HOU,L (-15),0,18:10,3,5,.600,0,0,,2,2,1.000,4,5,9,2,1,0,1,2,8,10.6,-2,Andre Drummond
+2022-12-28,29-140,CHI,HOME,MIL,W (+6),0,16:18,2,3,.667,0,0,,3,4,.750,2,10,12,1,2,2,3,3,7,9.6,+8,Andre Drummond
+2022-12-30,29-142,CHI,HOME,DET,W (+14),0,15:11,5,7,.714,0,0,,2,2,1.000,3,4,7,0,2,0,1,1,12,13.0,-2,Andre Drummond
+2022-12-31,29-143,CHI,HOME,CLE,L (-1),0,13:05,1,1,1.000,0,0,,0,0,,1,0,1,0,0,1,0,0,2,3.1,-8,Andre Drummond
+2023-01-02,29-145,CHI,AWAY,CLE,L (-11),0,6:48,3,3,1.000,0,0,,0,0,,1,3,4,0,1,0,0,2,6,6.9,+5,Andre Drummond
+2023-01-04,29-147,CHI,HOME,BRK,W (+9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Andre Drummond
+2023-01-06,29-149,CHI,AWAY,PHI,W (+14),0,8:19,3,3,1.000,0,0,,0,2,.000,2,4,6,0,0,0,1,1,6,5.5,-3,Andre Drummond
+2023-01-07,29-150,CHI,HOME,UTA,W (+8),0,11:50,5,5,1.000,0,0,,1,3,.333,2,2,4,0,1,0,1,2,11,9.9,-2,Andre Drummond
+2023-01-09,29-152,CHI,AWAY,BOS,L (-8),0,14:22,2,4,.500,0,0,,2,4,.500,3,6,9,0,1,0,0,3,6,6.9,+10,Andre Drummond
+2023-01-11,29-154,CHI,AWAY,WAS,L (-3),0,8:11,0,0,,0,0,,0,0,,0,2,2,1,0,0,1,5,0,-1.7,+1,Andre Drummond
+2023-01-13,29-156,CHI,HOME,OKC,L (-14),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Andre Drummond
+2023-01-15,29-158,CHI,HOME,GSW,W (+14),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Andre Drummond
+2023-01-19,29-162,CHI,AWAY,DET,W (+18),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Andre Drummond
+2023-01-23,29-166,CHI,HOME,ATL,W (+11),0,3:27,2,2,1.000,0,0,,0,0,,1,0,1,0,0,0,0,0,4,4.1,+2,Andre Drummond
+2023-01-24,29-167,CHI,AWAY,IND,L (-6),0,5:42,3,4,.750,0,0,,1,5,.200,3,2,5,0,0,0,1,1,7,5.1,-7,Andre Drummond
+2023-01-26,29-169,CHI,AWAY,CHO,L (-15),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Andre Drummond
+2023-01-28,29-171,CHI,AWAY,ORL,W (+19),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Andre Drummond
+2023-01-31,29-174,CHI,HOME,LAC,L (-5),0,3:31,0,0,,0,0,,2,4,.500,2,3,5,0,0,0,0,1,2,3.1,-2,Andre Drummond
+2023-02-02,29-176,CHI,HOME,CHO,W (+16),0,14:44,6,9,.667,0,0,,3,5,.600,5,6,11,0,0,0,1,2,15,13.8,+12,Andre Drummond
+2023-02-04,29-178,CHI,HOME,POR,W (+8),0,13:26,3,4,.750,0,0,,1,4,.250,1,4,5,1,0,0,1,1,7,5.4,+9,Andre Drummond
+2023-02-06,29-180,CHI,HOME,SAS,W (+24),0,20:54,9,9,1.000,0,0,,3,4,.750,3,12,15,1,3,1,3,1,21,24.6,+30,Andre Drummond
+2023-02-07,29-181,CHI,AWAY,MEM,L (-15),0,12:33,1,3,.333,0,0,,1,2,.500,1,5,6,1,2,1,4,3,3,1.3,-6,Andre Drummond
+2023-02-09,29-183,CHI,AWAY,BRK,L (-11),0,10:47,2,4,.500,0,0,,0,0,,1,4,5,0,1,0,0,1,4,4.5,-8,Andre Drummond
+2023-02-11,29-185,CHI,AWAY,CLE,L (-8),0,11:34,4,6,.667,0,0,,0,1,.000,0,5,5,0,0,1,4,3,8,2.0,-5,Andre Drummond
+2023-02-13,29-187,CHI,HOME,ORL,L (-9),0,13:48,3,4,.750,0,0,,0,0,,2,5,7,0,0,0,0,1,6,6.9,+4,Andre Drummond
+2023-02-15,29-189,CHI,AWAY,IND,L (-4),0,11:29,1,2,.500,0,0,,1,2,.500,1,6,7,0,3,1,2,1,3,5.4,+6,Andre Drummond
+2023-02-16,29-190,CHI,HOME,MIL,L (-12),0,13:08,1,3,.333,0,0,,3,4,.750,3,2,5,0,0,1,1,1,5,4.9,+2,Andre Drummond
+2023-02-24,29-198,CHI,HOME,BRK,W (+44),0,14:26,6,10,.600,0,0,,1,2,.500,7,3,10,1,2,0,2,3,13,13.3,+3,Andre Drummond
+2023-02-26,29-200,CHI,HOME,WAS,W (+20),0,13:53,1,2,.500,0,0,,0,2,.000,1,4,5,0,0,0,0,1,2,1.7,+19,Andre Drummond
+2023-02-28,29-202,CHI,AWAY,TOR,L (-6),0,16:29,2,4,.500,0,0,,2,2,1.000,3,7,10,1,0,1,2,1,6,7.2,-5,Andre Drummond
+2023-03-01,29-203,CHI,AWAY,DET,W (+2),0,12:32,0,1,.000,0,0,,1,2,.500,2,4,6,0,0,0,3,4,1,-2.1,-9,Andre Drummond
+2023-03-03,29-205,CHI,HOME,PHO,L (-21),0,15:28,2,6,.333,0,0,,0,0,,1,7,8,1,1,0,1,3,4,2.9,-7,Andre Drummond
+2023-03-05,29-207,CHI,HOME,IND,L (-3),0,6:04,1,1,1.000,0,0,,0,0,,0,3,3,0,0,0,0,0,2,2.6,-6,Andre Drummond
+2023-03-08,29-210,CHI,AWAY,DEN,W (+21),0,11:04,1,2,.500,0,0,,0,0,,1,4,5,1,0,1,0,1,2,3.9,+3,Andre Drummond
+2023-03-11,29-213,CHI,AWAY,HOU,W (+8),0,13:41,4,4,1.000,0,0,,3,4,.750,2,3,5,0,1,0,2,3,11,9.5,-1,Andre Drummond
+2023-03-15,29-217,CHI,HOME,SAC,L (-3),0,12:38,1,1,1.000,0,0,,0,0,,1,3,4,1,2,1,3,4,2,2.1,+6,Andre Drummond
+2023-03-17,29-219,CHI,HOME,MIN,W (+8),0,9:36,0,2,.000,0,0,,0,2,.000,0,5,5,0,1,1,0,0,0,1.0,-9,Andre Drummond
+2023-03-18,29-220,CHI,HOME,MIA,W (+14),0,6:28,0,2,.000,0,0,,2,2,1.000,2,4,6,0,0,0,1,2,2,1.4,+6,Andre Drummond
+2023-03-20,29-222,CHI,AWAY,PHI,W (+4),0,6:33,0,1,.000,0,0,,0,0,,0,3,3,0,0,0,0,2,0,-0.6,-1,Andre Drummond
+2023-03-22,29-224,CHI,HOME,PHI,L (-25),0,16:58,6,8,.750,0,0,,1,2,.500,6,6,12,1,0,2,3,0,13,14.5,+5,Andre Drummond
+2023-03-24,29-226,CHI,AWAY,POR,W (+28),0,12:38,1,6,.167,0,1,.000,0,0,,2,6,8,0,1,1,2,2,2,0.3,-10,Andre Drummond
+2023-03-26,29-228,CHI,AWAY,LAL,W (+10),0,17:36,5,6,.833,0,0,,2,3,.667,2,6,8,0,2,0,0,3,12,13.4,+20,Andre Drummond
+2023-03-27,29-229,CHI,AWAY,LAC,L (-12),0,14:07,4,6,.667,0,0,,3,6,.500,3,5,8,0,1,1,1,0,11,11.5,-1,Andre Drummond
+2023-03-29,29-231,CHI,HOME,LAL,L (-11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Andre Drummond
+2023-03-31,29-233,CHI,AWAY,CHO,W (+30),0,13:56,3,4,.750,0,0,,0,0,,2,9,11,1,2,1,1,1,6,10.5,+6,Andre Drummond
+2023-04-02,29-235,CHI,HOME,MEM,W (+21),0,6:39,1,2,.500,0,0,,0,0,,0,3,3,0,0,0,0,0,2,1.9,-9,Andre Drummond
+2023-04-04,29-237,CHI,HOME,ATL,L (-18),0,7:30,0,0,,0,0,,2,4,.500,1,3,4,0,0,2,0,0,2,4.2,0,Andre Drummond
+2023-04-05,29-238,CHI,AWAY,MIL,L (-13),0,13:25,1,1,1.000,0,0,,1,2,.500,0,2,2,0,0,0,0,1,3,2.5,-5,Andre Drummond
+2023-04-07,29-240,CHI,AWAY,DAL,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Andre Drummond
+2023-04-09,29-242,CHI,HOME,DET,W (+22),0,12:40,3,7,.429,0,0,,2,4,.500,5,5,10,0,1,0,1,1,8,8.1,-9,Andre Drummond

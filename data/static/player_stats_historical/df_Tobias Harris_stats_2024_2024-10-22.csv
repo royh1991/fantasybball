@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2023-10-26,31-103,PHI,AWAY,MIL,L (-1),1,37:03,8,9,.889,3,3,1.000,1,2,.500,0,7,7,2,0,0,2,2,20,17.2,-14,Tobias Harris
+2023-10-28,31-105,PHI,AWAY,TOR,W (+7),1,35:48,4,10,.400,1,4,.250,6,7,.857,1,1,2,2,2,2,2,1,15,12.6,0,Tobias Harris
+2023-10-29,31-106,PHI,HOME,POR,W (+28),1,37:44,8,11,.727,2,4,.500,6,7,.857,0,5,5,2,1,2,3,3,24,20.2,+31,Tobias Harris
+2023-11-02,31-110,PHI,HOME,TOR,W (+15),1,40:01,10,17,.588,2,6,.333,1,2,.500,0,7,7,3,3,0,2,1,23,19.5,+6,Tobias Harris
+2023-11-04,31-112,PHI,HOME,PHO,W (+12),1,34:28,7,10,.700,0,1,.000,4,4,1.000,2,8,10,2,1,0,3,4,18,15.4,+20,Tobias Harris
+2023-11-06,31-114,PHI,HOME,WAS,W (+18),1,30:38,6,11,.545,0,2,.000,6,6,1.000,1,4,5,5,1,0,2,1,18,16.7,+9,Tobias Harris
+2023-11-08,31-116,PHI,HOME,BOS,W (+3),1,38:29,5,12,.417,1,4,.250,6,6,1.000,2,7,9,3,0,0,2,1,17,13.8,+3,Tobias Harris
+2023-11-10,31-118,PHI,AWAY,DET,W (+8),1,37:46,8,15,.533,2,3,.667,6,6,1.000,1,4,5,2,0,1,3,1,24,17.3,+10,Tobias Harris
+2023-11-12,31-120,PHI,HOME,IND,W (+11),1,35:44,9,20,.450,0,3,.000,0,0,,4,5,9,4,0,0,1,2,18,12.9,+12,Tobias Harris
+2023-11-14,31-122,PHI,HOME,IND,L (-6),1,36:49,11,17,.647,0,1,.000,0,1,.000,0,7,7,3,1,0,1,3,22,17.1,-8,Tobias Harris
+2023-11-15,31-123,PHI,HOME,BOS,L (-10),1,37:40,6,12,.500,1,2,.500,3,3,1.000,0,7,7,3,0,0,1,0,16,13.2,-1,Tobias Harris
+2023-11-17,31-125,PHI,AWAY,ATL,W (+10),1,38:21,12,20,.600,3,5,.600,2,2,1.000,1,9,10,4,1,0,1,1,29,25.6,-4,Tobias Harris
+2023-11-19,31-127,PHI,AWAY,BRK,W (+22),1,31:53,5,13,.385,0,4,.000,0,0,,1,4,5,1,2,0,0,0,10,7.5,+14,Tobias Harris
+2023-11-21,31-129,PHI,HOME,CLE,L (-3),1,42:47,7,13,.538,3,5,.600,6,6,1.000,0,2,2,2,2,0,0,3,23,19.5,-6,Tobias Harris
+2023-11-22,31-130,PHI,AWAY,MIN,L (-13),1,32:19,4,11,.364,0,3,.000,7,8,.875,1,5,6,2,0,1,1,1,15,11.4,-15,Tobias Harris
+2023-11-25,31-133,PHI,AWAY,OKC,W (+4),1,31:10,6,13,.462,1,5,.200,3,3,1.000,0,5,5,6,0,0,3,3,16,10.8,+20,Tobias Harris
+2023-11-27,31-135,PHI,HOME,LAL,W (+44),1,22:59,3,12,.250,0,4,.000,2,2,1.000,0,5,5,0,0,0,1,1,8,0.9,+7,Tobias Harris
+2023-11-29,31-137,PHI,AWAY,NOP,L (-10),1,29:16,5,10,.500,0,2,.000,2,2,1.000,0,4,4,2,0,0,5,2,12,3.8,-14,Tobias Harris
+2023-12-01,31-139,PHI,AWAY,BOS,L (-6),1,37:55,6,16,.375,1,1,1.000,1,3,.333,3,2,5,3,4,0,4,1,14,8.8,-5,Tobias Harris
+2023-12-06,31-144,PHI,AWAY,WAS,W (+5),1,34:52,3,9,.333,0,1,.000,0,0,,2,4,6,1,2,0,0,2,6,5.4,+10,Tobias Harris
+2023-12-08,31-146,PHI,HOME,ATL,W (+11),1,33:43,5,9,.556,0,1,.000,3,3,1.000,2,6,8,2,1,0,2,3,13,11.1,+8,Tobias Harris
+2023-12-11,31-149,PHI,HOME,WAS,W (+45),1,29:37,2,5,.400,1,2,.500,5,6,.833,0,4,4,6,0,0,0,1,10,11.9,+21,Tobias Harris
+2023-12-13,31-151,PHI,AWAY,DET,W (+18),1,26:12,7,10,.700,3,5,.600,4,4,1.000,1,6,7,1,0,1,1,0,21,19.7,+20,Tobias Harris
+2023-12-15,31-153,PHI,HOME,DET,W (+32),1,23:30,4,8,.500,1,3,.333,4,4,1.000,2,5,7,2,3,1,2,3,13,13.8,+24,Tobias Harris
+2023-12-16,31-154,PHI,AWAY,CHO,W (+53),1,25:11,6,10,.600,1,3,.333,2,2,1.000,1,4,5,4,0,1,1,0,15,14.8,+36,Tobias Harris
+2023-12-18,31-156,PHI,HOME,CHI,L (-4),1,31:42,1,3,.333,1,1,1.000,0,0,,0,5,5,2,0,3,2,1,3,3.9,+6,Tobias Harris
+2023-12-20,31-158,PHI,HOME,MIN,W (+14),1,36:31,4,10,.400,0,1,.000,1,1,1.000,1,4,5,3,1,0,1,5,9,5.6,-3,Tobias Harris
+2023-12-22,31-160,PHI,HOME,TOR,W (+10),1,37:58,12,23,.522,5,9,.556,4,4,1.000,0,8,8,7,1,0,2,2,33,27.2,+8,Tobias Harris
+2023-12-25,31-163,PHI,AWAY,MIA,L (-6),1,41:35,10,18,.556,4,7,.571,3,3,1.000,1,6,7,6,1,0,2,3,27,22.9,+2,Tobias Harris
+2023-12-27,31-165,PHI,AWAY,ORL,W (+20),1,32:53,10,23,.435,1,5,.200,1,1,1.000,1,6,7,2,1,0,0,0,22,14.8,+20,Tobias Harris
+2023-12-29,31-167,PHI,AWAY,HOU,W (+4),1,34:59,10,18,.556,2,6,.333,0,0,,1,3,4,7,4,3,3,3,22,21.8,+5,Tobias Harris
+2023-12-30,31-168,PHI,AWAY,CHI,L (-13),1,34:19,6,16,.375,0,3,.000,3,4,.750,3,4,7,4,0,1,0,1,15,12.2,-20,Tobias Harris
+2024-01-02,31-171,PHI,HOME,CHI,W (+13),1,29:53,9,13,.692,1,4,.250,1,3,.333,1,7,8,2,0,2,1,0,20,18.3,+32,Tobias Harris
+2024-01-05,31-174,PHI,HOME,NYK,L (-36),1,24:03,2,6,.333,1,2,.500,0,1,.000,0,3,3,4,0,0,0,2,5,4.1,-1,Tobias Harris
+2024-01-06,31-175,PHI,HOME,UTA,L (-11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Tobias Harris
+2024-01-10,31-179,PHI,AWAY,ATL,L (-7),1,41:15,12,24,.500,1,2,.500,7,7,1.000,2,8,10,4,0,1,1,2,32,25.5,+1,Tobias Harris
+2024-01-12,31-181,PHI,HOME,SAC,W (+19),1,36:23,14,25,.560,3,7,.429,6,6,1.000,3,4,7,3,3,0,3,0,37,30.5,+19,Tobias Harris
+2024-01-15,31-184,PHI,HOME,HOU,W (+9),1,30:50,3,7,.429,2,3,.667,2,2,1.000,0,3,3,2,0,0,1,2,10,6.8,-1,Tobias Harris
+2024-01-16,31-185,PHI,HOME,DEN,W (+5),1,37:59,8,10,.800,2,4,.500,6,6,1.000,0,5,5,4,1,2,0,2,24,26.1,+13,Tobias Harris
+2024-01-19,31-188,PHI,AWAY,ORL,W (+15),1,34:45,3,11,.273,1,3,.333,5,5,1.000,2,4,6,3,3,1,0,3,12,12.7,+6,Tobias Harris
+2024-01-20,31-189,PHI,AWAY,CHO,W (+8),1,35:40,7,15,.467,1,3,.333,6,7,.857,1,4,5,6,0,0,2,0,21,17.0,+18,Tobias Harris
+2024-01-22,31-191,PHI,HOME,SAS,W (+10),1,34:40,5,11,.455,0,5,.000,4,4,1.000,0,2,2,6,0,0,0,3,14,11.9,+21,Tobias Harris
+2024-01-25,31-194,PHI,AWAY,IND,L (-12),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Tobias Harris
+2024-01-27,31-196,PHI,AWAY,DEN,L (-6),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Tobias Harris
+2024-01-29,31-198,PHI,AWAY,POR,L (-26),1,20:23,3,9,.333,0,3,.000,3,4,.750,1,3,4,1,0,0,0,0,9,5.8,-12,Tobias Harris
+2024-01-30,31-199,PHI,AWAY,GSW,L (-12),1,37:49,10,18,.556,2,4,.500,4,4,1.000,6,4,10,2,2,0,2,2,26,23.4,-15,Tobias Harris
+2024-02-01,31-201,PHI,AWAY,UTA,W (+3),1,39:03,13,21,.619,0,5,.000,2,2,1.000,2,3,5,7,1,1,0,3,28,26.2,+5,Tobias Harris
+2024-02-03,31-203,PHI,HOME,BRK,L (-15),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Tobias Harris
+2024-02-05,31-205,PHI,HOME,DAL,L (-16),1,34:39,8,11,.727,1,1,1.000,0,0,,0,6,6,6,2,1,1,2,17,19.4,-18,Tobias Harris
+2024-02-07,31-207,PHI,HOME,GSW,L (-23),1,29:24,6,14,.429,0,1,.000,1,1,1.000,0,7,7,3,0,1,1,1,13,9.1,-22,Tobias Harris
+2024-02-09,31-209,PHI,HOME,ATL,L (-6),1,38:35,7,16,.438,2,4,.500,5,6,.833,0,6,6,7,0,0,1,2,21,17.1,-4,Tobias Harris
+2024-02-10,31-210,PHI,AWAY,WAS,W (+6),1,32:47,4,14,.286,0,2,.000,3,4,.750,1,6,7,3,3,1,4,1,11,6.3,-8,Tobias Harris
+2024-02-12,31-212,PHI,AWAY,CLE,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Tobias Harris
+2024-02-14,31-214,PHI,HOME,MIA,L (-5),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Tobias Harris
+2024-02-22,31-222,PHI,HOME,NYK,L (-14),1,26:36,3,9,.333,1,3,.333,0,0,,0,4,4,3,3,0,0,2,7,7.4,-15,Tobias Harris
+2024-02-23,31-223,PHI,HOME,CLE,W (+7),1,34:08,6,14,.429,1,2,.500,2,2,1.000,2,7,9,4,2,0,1,3,15,13.7,+9,Tobias Harris
+2024-02-25,31-225,PHI,HOME,MIL,L (-21),1,31:00,3,11,.273,0,3,.000,2,2,1.000,1,7,8,0,1,3,0,1,8,7.0,-14,Tobias Harris
+2024-02-27,31-227,PHI,AWAY,BOS,L (-18),1,29:05,5,19,.263,2,7,.286,1,1,1.000,2,0,2,0,0,0,1,3,13,0.9,-20,Tobias Harris
+2024-03-01,31-230,PHI,HOME,CHO,W (+7),1,40:22,13,19,.684,5,8,.625,0,0,,2,10,12,4,2,1,0,2,31,32.0,+16,Tobias Harris
+2024-03-03,31-232,PHI,AWAY,DAL,W (+4),1,35:12,11,19,.579,3,6,.500,3,4,.750,1,4,5,1,1,0,1,4,28,19.7,+10,Tobias Harris
+2024-03-05,31-234,PHI,AWAY,BRK,L (-5),1,37:23,8,16,.500,1,3,.333,1,2,.500,1,8,9,4,0,0,2,0,18,13.5,-4,Tobias Harris
+2024-03-06,31-235,PHI,HOME,MEM,L (-6),1,34:32,3,12,.250,1,4,.250,1,1,1.000,1,5,6,3,0,1,1,0,8,4.8,-2,Tobias Harris
+2024-03-08,31-237,PHI,HOME,NOP,L (-8),1,38:34,9,19,.474,0,5,.000,3,3,1.000,3,7,10,3,3,1,0,1,21,20.9,+10,Tobias Harris
+2024-03-10,31-239,PHI,AWAY,NYK,W (+6),1,38:16,5,14,.357,0,4,.000,1,3,.333,2,10,12,2,2,0,3,1,11,6.8,-3,Tobias Harris
+2024-03-12,31-241,PHI,AWAY,NYK,L (-27),1,26:29,1,6,.167,0,2,.000,0,0,,0,3,3,1,2,0,1,0,2,0.8,-20,Tobias Harris
+2024-03-14,31-243,PHI,AWAY,MIL,L (-9),1,27:43,5,11,.455,2,4,.500,3,4,.750,0,4,4,3,1,1,0,1,15,13.5,-12,Tobias Harris
+2024-03-16,31-245,PHI,HOME,CHO,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Tobias Harris
+2024-03-18,31-247,PHI,HOME,MIA,W (+7),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Tobias Harris
+2024-03-20,31-249,PHI,AWAY,PHO,L (-13),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Tobias Harris
+2024-03-22,31-251,PHI,AWAY,LAL,L (-7),1,40:51,6,18,.333,1,6,.167,3,5,.600,2,11,13,4,1,1,2,2,16,11.4,-9,Tobias Harris
+2024-03-24,31-253,PHI,AWAY,LAC,W (+14),1,37:49,11,19,.579,2,4,.500,0,0,,1,3,4,4,1,1,3,2,24,17.4,+8,Tobias Harris
+2024-03-25,31-254,PHI,AWAY,SAC,L (-12),1,25:42,5,15,.333,0,2,.000,2,2,1.000,0,8,8,0,0,0,2,2,12,3.1,-13,Tobias Harris
+2024-03-27,31-256,PHI,HOME,LAC,L (-1),1,38:09,5,9,.556,2,3,.667,2,2,1.000,0,7,7,2,0,2,2,3,14,11.4,+1,Tobias Harris
+2024-03-29,31-258,PHI,AWAY,CLE,L (-3),1,34:49,8,17,.471,4,9,.444,1,1,1.000,0,7,7,2,1,1,0,0,21,17.5,-10,Tobias Harris
+2024-03-31,31-260,PHI,AWAY,TOR,W (+15),1,30:02,8,13,.615,1,3,.333,4,4,1.000,3,6,9,3,0,3,1,2,21,21.4,+8,Tobias Harris
+2024-04-02,31-262,PHI,HOME,OKC,W (+4),1,34:59,5,14,.357,5,8,.625,3,4,.750,0,6,6,4,0,1,1,3,18,12.9,+1,Tobias Harris
+2024-04-04,31-264,PHI,AWAY,MIA,W (+4),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Tobias Harris
+2024-04-06,31-266,PHI,AWAY,MEM,W (+20),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Tobias Harris
+2024-04-07,31-267,PHI,AWAY,SAS,W (+7),Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Did Not Dress,Tobias Harris
+2024-04-09,31-269,PHI,HOME,DET,W (+18),1,28:07,6,13,.462,0,2,.000,3,4,.750,4,8,12,4,0,1,0,0,15,16.6,+4,Tobias Harris
+2024-04-12,31-272,PHI,HOME,ORL,W (+12),1,37:54,5,10,.500,1,2,.500,3,3,1.000,2,4,6,3,2,2,1,2,14,15.3,+24,Tobias Harris
+2024-04-14,31-274,PHI,HOME,BRK,W (+21),1,30:00,8,15,.533,3,6,.500,2,2,1.000,2,6,8,2,1,1,1,1,21,18.6,+19,Tobias Harris

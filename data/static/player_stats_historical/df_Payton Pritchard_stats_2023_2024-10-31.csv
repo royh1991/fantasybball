@@ -1,0 +1,83 @@
+DATE,AGE,TEAM,HOME/AWAY,OPPONENT,RESULT,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GAME_SCORE,+/-,NAME
+2022-10-18,24-263,BOS,HOME,PHI,W (+9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-10-21,24-266,BOS,AWAY,MIA,W (+7),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-10-22,24-267,BOS,AWAY,ORL,W (+6),0,3:41,1,2,.500,1,1,1.000,0,0,,0,0,0,0,0,0,0,1,3,1.6,-2,Payton Pritchard
+2022-10-24,24-269,BOS,AWAY,CHI,L (-18),0,5:27,1,4,.250,1,2,.500,0,0,,0,1,1,2,0,0,0,0,3,2.3,+3,Payton Pritchard
+2022-10-28,24-273,BOS,HOME,CLE,L (-9),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-10-30,24-275,BOS,HOME,WAS,W (+18),0,7:24,0,1,.000,0,1,.000,1,2,.500,0,0,0,2,0,0,2,1,1,-1.1,+1,Payton Pritchard
+2022-11-02,24-278,BOS,AWAY,CLE,L (-1),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-11-04,24-280,BOS,HOME,CHI,W (+4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-11-05,24-281,BOS,AWAY,NYK,W (+15),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-11-07,24-283,BOS,AWAY,MEM,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-11-09,24-285,BOS,HOME,DET,W (+16),0,12:46,2,6,.333,0,3,.000,0,0,,0,3,3,1,0,0,2,1,4,-0.2,-1,Payton Pritchard
+2022-11-11,24-287,BOS,HOME,DEN,W (+19),0,15:44,5,6,.833,0,1,.000,1,2,.500,4,1,5,0,1,0,2,0,11,10.5,0,Payton Pritchard
+2022-11-12,24-288,BOS,AWAY,DET,W (+9),0,14:59,2,6,.333,1,3,.333,0,0,,1,1,2,2,0,0,2,0,5,2.0,+16,Payton Pritchard
+2022-11-14,24-290,BOS,HOME,OKC,W (+4),0,14:03,4,8,.500,2,4,.500,0,0,,3,1,4,1,2,0,1,0,10,10.1,+4,Payton Pritchard
+2022-11-16,24-292,BOS,AWAY,ATL,W (+25),0,24:12,5,8,.625,4,6,.667,0,0,,0,3,3,4,1,0,1,2,14,13.3,+5,Payton Pritchard
+2022-11-18,24-294,BOS,AWAY,NOP,W (+8),0,4:47,0,1,.000,0,1,.000,0,0,,0,0,0,0,1,0,0,0,0,0.3,-10,Payton Pritchard
+2022-11-21,24-297,BOS,AWAY,CHI,L (-14),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-11-23,24-299,BOS,HOME,DAL,W (+13),0,1:38,0,1,.000,0,0,,0,0,,0,0,0,0,0,0,0,0,0,-0.7,-3,Payton Pritchard
+2022-11-25,24-301,BOS,HOME,SAC,W (+18),0,15:12,2,4,.500,2,3,.667,3,4,.750,0,1,1,0,0,0,0,0,9,6.9,+22,Payton Pritchard
+2022-11-27,24-303,BOS,HOME,WAS,W (+9),0,17:04,1,4,.250,1,2,.500,0,0,,0,1,1,1,0,0,0,0,3,1.6,-13,Payton Pritchard
+2022-11-28,24-304,BOS,HOME,CHO,W (+35),0,17:23,2,9,.222,2,8,.250,0,0,,0,0,0,2,0,1,1,0,6,1.6,-9,Payton Pritchard
+2022-11-30,24-306,BOS,HOME,MIA,W (+13),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-12-02,24-308,BOS,HOME,MIA,L (-4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-12-04,24-310,BOS,AWAY,BRK,W (+11),0,16:16,3,8,.375,0,3,.000,0,0,,0,2,2,1,0,0,1,1,6,1.5,-5,Payton Pritchard
+2022-12-05,24-311,BOS,AWAY,TOR,W (+6),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-12-07,24-313,BOS,AWAY,PHO,W (+27),0,10:06,2,5,.400,1,3,.333,2,2,1.000,1,1,2,1,1,0,1,1,7,5.6,-10,Payton Pritchard
+2022-12-10,24-316,BOS,AWAY,GSW,L (-16),0,7:15,1,3,.333,1,3,.333,0,0,,1,0,1,1,0,0,0,0,3,2.7,-4,Payton Pritchard
+2022-12-12,24-318,BOS,AWAY,LAC,L (-20),0,7:14,0,1,.000,0,1,.000,0,0,,0,0,0,2,0,0,1,0,0,-0.3,-2,Payton Pritchard
+2022-12-13,24-319,BOS,AWAY,LAL,W (+4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-12-16,24-322,BOS,HOME,ORL,L (-8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2022-12-18,24-324,BOS,HOME,ORL,L (-3),0,3:46,0,2,.000,0,2,.000,0,0,,0,1,1,0,0,0,0,0,0,-1.1,-1,Payton Pritchard
+2022-12-21,24-327,BOS,HOME,IND,L (-5),1,17:23,1,4,.250,1,3,.333,0,0,,1,1,2,4,0,0,0,1,3,4.0,+1,Payton Pritchard
+2022-12-23,24-329,BOS,HOME,MIN,W (+12),0,0:57,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,-4,Payton Pritchard
+2022-12-25,24-331,BOS,HOME,MIL,W (+21),0,3:20,2,2,1.000,0,0,,0,0,,0,0,0,1,0,0,1,0,4,3.1,+2,Payton Pritchard
+2022-12-27,24-333,BOS,HOME,HOU,W (+24),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2022-12-29,24-335,BOS,HOME,LAC,W (+6),0,5:46,0,1,.000,0,1,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,-7,Payton Pritchard
+2023-01-01,24-338,BOS,AWAY,DEN,L (-12),0,2:05,0,0,,0,0,,1,2,.500,0,0,0,0,0,0,1,0,1,-0.4,+2,Payton Pritchard
+2023-01-03,24-340,BOS,AWAY,OKC,L (-33),0,14:46,7,13,.538,3,4,.750,0,0,,0,0,0,0,0,0,1,0,17,9.7,-5,Payton Pritchard
+2023-01-05,24-342,BOS,AWAY,DAL,W (+29),0,2:43,1,1,1.000,0,0,,0,0,,0,0,0,0,1,0,1,0,2,1.7,+1,Payton Pritchard
+2023-01-07,24-344,BOS,AWAY,SAS,W (+5),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2023-01-09,24-346,BOS,HOME,CHI,W (+8),0,3:38,0,0,,0,0,,0,0,,0,1,1,0,0,0,0,0,0,0.3,-2,Payton Pritchard
+2023-01-11,24-348,BOS,HOME,NOP,W (+11),0,17:49,1,6,.167,1,6,.167,0,0,,0,6,6,0,1,0,2,2,3,-0.8,-7,Payton Pritchard
+2023-01-12,24-349,BOS,AWAY,BRK,W (+11),0,14:36,4,7,.571,1,3,.333,0,0,,3,0,3,0,1,0,0,3,9,7.6,+13,Payton Pritchard
+2023-01-14,24-351,BOS,AWAY,CHO,W (+16),0,26:45,4,11,.364,1,6,.167,0,0,,2,1,3,2,1,0,1,1,9,5.6,+4,Payton Pritchard
+2023-01-16,24-353,BOS,AWAY,CHO,W (+12),0,12:44,1,4,.250,1,3,.333,0,0,,0,0,0,0,0,0,0,2,3,-0.2,-3,Payton Pritchard
+2023-01-19,24-356,BOS,HOME,GSW,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2023-01-21,24-358,BOS,AWAY,TOR,W (+2),0,25:52,4,7,.571,4,7,.571,0,0,,1,1,2,2,1,0,1,2,12,10.3,+19,Payton Pritchard
+2023-01-23,24-360,BOS,AWAY,ORL,L (-15),0,30:47,2,6,.333,1,4,.250,0,0,,0,3,3,4,0,0,1,2,5,3.5,0,Payton Pritchard
+2023-01-24,24-361,BOS,AWAY,MIA,L (-3),1,42:28,4,14,.286,2,9,.222,0,0,,1,6,7,4,1,0,2,3,10,4.9,+1,Payton Pritchard
+2023-01-26,24-363,BOS,HOME,NYK,L (-3),0,12:51,3,6,.500,1,3,.333,0,0,,1,2,3,0,0,0,1,1,7,3.9,-6,Payton Pritchard
+2023-01-28,25-000,BOS,HOME,LAL,W (+4),0,5:30,0,1,.000,0,1,.000,0,0,,0,0,0,0,0,0,0,1,0,-1.1,+4,Payton Pritchard
+2023-02-01,25-004,BOS,HOME,BRK,W (+43),0,16:09,2,5,.400,1,4,.250,0,0,,2,0,2,2,0,0,1,1,5,3.7,+8,Payton Pritchard
+2023-02-03,25-006,BOS,HOME,PHO,L (-12),0,12:04,1,2,.500,1,2,.500,0,0,,0,0,0,1,0,0,0,1,3,2.3,-8,Payton Pritchard
+2023-02-06,25-009,BOS,AWAY,DET,W (+12),0,11:02,1,3,.333,1,3,.333,0,0,,0,0,0,0,0,0,1,3,3,-0.9,-8,Payton Pritchard
+2023-02-08,25-011,BOS,HOME,PHI,W (+7),0,4:54,0,0,,0,0,,0,0,,0,1,1,0,0,0,0,0,0,0.3,+4,Payton Pritchard
+2023-02-10,25-013,BOS,HOME,CHO,W (+11),0,21:10,3,8,.375,1,3,.333,0,0,,0,2,2,2,1,0,2,2,7,2.8,+2,Payton Pritchard
+2023-02-12,25-015,BOS,HOME,MEM,W (+10),0,18:11,4,7,.571,4,7,.571,0,0,,0,1,1,3,0,0,0,0,12,11.1,+5,Payton Pritchard
+2023-02-14,25-017,BOS,AWAY,MIL,L (-6),0,14:00,2,6,.333,1,4,.250,1,1,1.000,0,0,0,0,1,0,0,2,6,2.8,-17,Payton Pritchard
+2023-02-15,25-018,BOS,HOME,DET,W (+18),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2023-02-23,25-026,BOS,AWAY,IND,W (+4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2023-02-25,25-028,BOS,AWAY,PHI,W (+3),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2023-02-27,25-030,BOS,AWAY,NYK,L (-15),0,2:00,0,1,.000,0,0,,0,0,,0,1,1,0,0,0,0,0,0,-0.4,0,Payton Pritchard
+2023-03-01,25-032,BOS,HOME,CLE,W (+4),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2023-03-03,25-034,BOS,HOME,BRK,L (-10),0,8:46,0,3,.000,0,1,.000,0,0,,1,0,1,1,0,0,0,1,0,-1.1,-7,Payton Pritchard
+2023-03-05,25-036,BOS,HOME,NYK,L (-2),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2023-03-06,25-037,BOS,AWAY,CLE,L (-4),0,16:08,2,8,.250,1,6,.167,2,2,1.000,0,4,4,1,0,0,1,0,7,3.1,+2,Payton Pritchard
+2023-03-08,25-039,BOS,HOME,POR,W (+22),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-11,25-042,BOS,AWAY,ATL,W (+9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-13,25-044,BOS,AWAY,HOU,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-15,25-046,BOS,AWAY,MIN,W (+2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-17,25-048,BOS,AWAY,POR,W (+14),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-18,25-049,BOS,AWAY,UTA,L (-1),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-21,25-052,BOS,AWAY,SAC,W (+23),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-24,25-055,BOS,HOME,IND,W (+25),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-26,25-057,BOS,HOME,SAS,W (+44),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-28,25-059,BOS,AWAY,WAS,L (-19),0,9:21,2,5,.400,1,3,.333,0,0,,0,2,2,1,0,0,1,0,5,2.6,+3,Payton Pritchard
+2023-03-30,25-061,BOS,AWAY,MIL,W (+41),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-03-31,25-062,BOS,HOME,UTA,W (+8),Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Payton Pritchard
+2023-04-04,25-066,BOS,AWAY,PHI,L (-2),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-04-05,25-067,BOS,HOME,TOR,W (+4),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Payton Pritchard
+2023-04-07,25-069,BOS,HOME,TOR,W (+19),0,24:08,9,14,.643,4,8,.500,0,0,,2,2,4,5,0,0,1,1,22,19.9,+13,Payton Pritchard
+2023-04-09,25-071,BOS,HOME,ATL,W (+6),1,45:53,10,21,.476,9,16,.563,1,1,1.000,1,13,14,11,0,0,7,1,30,24.2,+11,Payton Pritchard
