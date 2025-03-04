@@ -1,0 +1,42 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Simulation results - all simulations are generated and can be recreated
+slim_simulations/
+full_simulations/
+run_*/
+*_sim_results/
+*_results/
+
+# Data files that might be large
+# Uncomment if needed - currently excluded to allow version control of data
+# *.csv
+# *.json
+# *.pkl
+
+# Logs
+logs/
+*.log
+
+# OS specific
+.DS_Store
+.idea/
+.vscode/
+
+# Environment variables
+.env

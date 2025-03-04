@@ -442,9 +442,15 @@ def run_player_simulation(player_name, num_games=100, output_dir=None, verbose=T
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     if output_dir is None:
         if slim:
-            output_dir = f"run_{timestamp}"
+            base_dir = "slim_simulations"
+            output_dir = os.path.join(base_dir, f"{player_name.replace(' ', '_').lower()}_{timestamp}")
         else:
-            output_dir = f"{player_name.replace(' ', '_').lower()}_sim_results"
+            base_dir = "full_simulations"
+            output_dir = os.path.join(base_dir, f"{player_name.replace(' ', '_').lower()}_{timestamp}")
+        
+        # Create base directory if it doesn't exist
+        if not os.path.exists(base_dir):
+            os.makedirs(base_dir)
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -521,9 +527,15 @@ def batch_simulate_players(player_list, num_games=100, output_dir=None, verbose=
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     if output_dir is None:
         if slim:
-            output_dir = f"run_{timestamp}"
+            base_dir = "slim_simulations"
+            output_dir = os.path.join(base_dir, f"batch_{timestamp}")
         else:
-            output_dir = "player_simulations"
+            base_dir = "full_simulations"
+            output_dir = os.path.join(base_dir, f"batch_{timestamp}")
+        
+        # Create base directory if it doesn't exist
+        if not os.path.exists(base_dir):
+            os.makedirs(base_dir)
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
