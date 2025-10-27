@@ -1,0 +1,57 @@
+# Fantasy League Configuration for 2025-26 Season
+
+league:
+  id: 40204
+  season: 2026  # 2025-26 NBA season
+  name: "Hardwood Legends"
+
+# Data collection settings
+data_collection:
+  # How many seasons of historical data to collect
+  historical_seasons: 4  # Current season + 3 historical seasons
+
+  # NBA API seasons to fetch
+  nba_seasons:
+    - "2025-26"  # Current season (just started Oct 2025)
+    - "2024-25"  # Last season
+    - "2023-24"  # 2 seasons ago
+    - "2022-23"  # 3 seasons ago
+
+  # Minimum games played to include player
+  min_games: 1
+
+  # Rate limiting for NBA API (milliseconds between requests)
+  rate_limit_ms: 600
+
+# Output paths
+output:
+  roster_snapshots: "data/roster_snapshots"
+  historical_gamelogs: "data/historical_gamelogs"
+  matchups: "data/matchups"
+  player_mappings: "data/mappings"
+  combined_data: "data/combined"
+  logs: "logs"
+
+# Player name matching
+matching:
+  # Fuzzy match threshold (0-100, higher = stricter)
+  fuzzy_threshold: 85
+
+  # Manual name mappings (ESPN name -> NBA API name)
+  manual_mappings:
+    "VJ Edgecombe": "Victor Edgecombe"
+    "AJ Johnson": "A.J. Johnson"
+    # Add more as needed
+
+  # Common name variations to handle
+  known_variations:
+    "Nic": "Nicolas"
+    "Alex": "Alexander"
+    "AJ": "A.J."
+    "P.J.": "PJ"
+    "VJ": "Victor"
+
+  # Players to skip (free agents, waiver picks, etc.)
+  skip_players:
+    - "Empty"
+    - "FA"

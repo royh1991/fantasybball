@@ -1,0 +1,25 @@
+{
+  "comment": "Maps ADP file names to NBA API names for mismatches",
+  "mappings": {
+    "jimmy butler": "jimmy butler iii",
+    "nicolas claxton": "nic claxton"
+  },
+  "rookies_2024_check": [
+    "alexandre sarr",
+    "kel'el ware",
+    "jared mccain",
+    "adem bona",
+    "carlton carrington"
+  ],
+  "rookies_2025_prospects": [
+    "ace bailey",
+    "cooper flagg",
+    "dylan harper",
+    "kon knueppel",
+    "vj edgecombe"
+  ],
+  "notes": {
+    "rookies_2024_note": "2024 rookies who should now have NBA data (run collect_missing_data.py to add them)",
+    "rookies_2025_note": "2025 prospects not in NBA yet - will use projections only until they debut"
+  }
+}

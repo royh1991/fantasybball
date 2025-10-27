@@ -1,0 +1,39 @@
+# Fantasy Basketball Modeling System Dependencies
+
+# Core data science libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Statistical modeling
+statsmodels>=0.14.0
+
+# NBA data API
+nba-api>=1.2.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Configuration
+pyyaml>=6.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Visualization (optional but recommended)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Type hints
+typing-extensions>=4.7.0
+
+# Logging and utilities
+python-dotenv>=1.0.0
+
+# Optional: for advanced Bayesian modeling (not required for basic system)
+# pymc>=5.0.0
+# arviz>=0.15.0

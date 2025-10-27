@@ -1,0 +1,292 @@
+Initializing H-scoring system...
+
+Loading data from data/league_weekly_data_20251002_125746.csv
+Loading variances from data/player_variances_20251002_125746.json
+Loading do_not_draft list from data/do_not_draft.csv
+  Loaded 4 players to exclude
+Initializing scoring system...
+Calculating covariance matrix...
+Initializing paper-faithful H-score optimizer...
+Computing average G-score profile for opponent modeling...
+Average G-score profile computed from 193 players:
+  PTS          -0.224
+  REB          -0.345
+  AST          -0.535
+  STL          -0.111
+  BLK          -0.432
+  TOV           0.243
+  FG3M         -1.421
+  DD           -0.551
+  FG_PCT       -0.100
+  FT_PCT        0.466
+  FG3_PCT       0.335
+✓ Initialization complete!
+
+
+================================================================================
+SIMULATING 2-CENTER DRAFT
+================================================================================
+
+✓ Drafted: Anthony Davis
+Team size: 1/13
+Pick 1: Anthony Davis
+
+✓ Drafted: Chet Holmgren
+Team size: 2/13
+Pick 2: Chet Holmgren
+
+================================================================================
+BASELINE WEIGHTS (Starting Point)
+================================================================================
+
+These are the 'scarcity-based' weights the optimizer starts from.
+They represent category importance without any team context.
+
+  DD        : 0.2293
+  BLK       : 0.1444
+  AST       : 0.1076
+  FG3M      : 0.1051
+  REB       : 0.0829
+  TOV       : 0.0821
+  PTS       : 0.0712
+  STL       : 0.0615
+  FG3_PCT   : 0.0605
+  FT_PCT    : 0.0304
+  FG_PCT    : 0.0251
+
+
+================================================================================
+DETAILED WEIGHT ANALYSIS FOR 3 CANDIDATES
+================================================================================
+
+--------------------------------------------------------------------------------
+EVALUATING: Nikola Vucevic - Center (H-score ranked #1)
+--------------------------------------------------------------------------------
+
+Nikola Vucevic's X-Scores (statistical contributions):
+  PTS       :   0.78
+  REB       :   1.90
+  AST       :   0.22
+  STL       :  -0.17
+  BLK       :   0.26
+  DD        :   1.59
+  FG_PCT    :   0.38
+  FT_PCT    :   0.14
+  FG3_PCT   :   0.24
+
+Calculating optimal weights for drafting Nikola Vucevic...
+
+✓ H-Score: 0.6667
+
+Optimal weights found by optimizer:
+(These show what categories the optimizer is prioritizing)
+
+  DD        : 0.2293 
+  BLK       : 0.1444 
+  AST       : 0.1076 
+  FG3M      : 0.1051 
+  REB       : 0.0829 
+  TOV       : 0.0821 
+  PTS       : 0.0712 
+  STL       : 0.0615 
+  FG3_PCT   : 0.0605 
+  FT_PCT    : 0.0304 
+  FG_PCT    : 0.0251 
+
+Team X-Scores if we draft Nikola Vucevic:
+  REB       :   4.83  ★★★
+  DD        :   4.22  ★★★
+  BLK       :   3.40  ★★
+  FT_PCT    :   2.29  ★★
+  PTS       :   2.15  ★★
+  FG_PCT    :   1.77  ★
+  FG3_PCT   :   0.40  ★
+  TOV       :  -0.31  ✗
+  STL       :  -0.39  ✗
+  AST       :  -0.74  ✗
+  FG3M      :  -2.36  ✗✗
+
+Win probabilities by category:
+  PTS       :  66.9% ✓
+  REB       :  81.3% ✓
+  AST       :  48.9% ~
+  STL       :  47.5% ~
+  BLK       :  76.0% ✓
+  TOV       :  45.6% ~
+  FG3M      :  47.8% ~
+  DD        :  78.9% ✓
+  FG_PCT    :  72.2% ✓
+  FT_PCT    :  64.2% ✓
+  FG3_PCT   :  51.1% ~
+
+Expected categories won: 6.81 / 11
+(Need 6 to win matchup)
+
+--------------------------------------------------------------------------------
+EVALUATING: LaMelo Ball - Guard (H-score ranked #9)
+--------------------------------------------------------------------------------
+
+LaMelo Ball's X-Scores (statistical contributions):
+  PTS       :   0.91
+  REB       :  -0.17
+  AST       :   1.49
+  STL       :   0.37
+  BLK       :  -1.31
+  TOV       :  -1.22
+  FG3M      :   1.43
+  DD        :   0.67
+  FG_PCT    :  -1.79
+  FT_PCT    :   1.29
+  FG3_PCT   :   0.95
+
+Calculating optimal weights for drafting LaMelo Ball...
+
+✓ H-Score: 0.6482
+
+Optimal weights found by optimizer:
+(These show what categories the optimizer is prioritizing)
+
+  FG_PCT    : 0.1379 (+0.1129)
+  FT_PCT    : 0.1235 (+0.0931)
+  STL       : 0.1024 (+0.0409)
+  TOV       : 0.0935 (+0.0113)
+  BLK       : 0.0893 (-0.0551)
+  DD        : 0.0817 (-0.1476)
+  AST       : 0.0807 (-0.0269)
+  REB       : 0.0803 (-0.0026)
+  FG3M      : 0.0780 (-0.0270)
+  PTS       : 0.0771 (+0.0059)
+  FG3_PCT   : 0.0556 (-0.0049)
+
+Team X-Scores if we draft LaMelo Ball:
+  FT_PCT    :   3.44  ★★
+  DD        :   3.31  ★★
+  REB       :   2.76  ★★
+  PTS       :   2.28  ★★
+  BLK       :   1.83  ★
+  FG3_PCT   :   1.12  ★
+  AST       :   0.53  ★
+  STL       :   0.15  ★
+  FG_PCT    :  -0.40  ✗
+  FG3M      :  -0.98  ✗
+  TOV       :  -1.48  ✗
+
+Win probabilities by category:
+  PTS       :  67.8% ✓
+  REB       :  70.3% ✓
+  AST       :  55.5% ~
+  STL       :  52.4% ~
+  BLK       :  66.1% ✓
+  TOV       :  36.5% ✗
+  FG3M      :  51.0% ~
+  DD        :  74.2% ✓
+  FG_PCT    :  46.2% ~
+  FT_PCT    :  72.4% ✓
+  FG3_PCT   :  63.1% ✓
+
+Expected categories won: 6.55 / 11
+(Need 6 to win matchup)
+
+--------------------------------------------------------------------------------
+EVALUATING: De'Aaron Fox - Guard (H-score ranked #15)
+--------------------------------------------------------------------------------
+
+De'Aaron Fox's X-Scores (statistical contributions):
+  PTS       :   1.39
+  REB       :  -0.44
+  AST       :   1.48
+  STL       :   0.67
+  BLK       :  -0.68
+  TOV       :  -0.84
+  FG3M      :   0.52
+  FG_PCT    :  -0.12
+  FT_PCT    :   0.84
+  FG3_PCT   :   0.12
+
+Calculating optimal weights for drafting De'Aaron Fox...
+
+✓ H-Score: 0.6466
+
+Optimal weights found by optimizer:
+(These show what categories the optimizer is prioritizing)
+
+  FG_PCT    : 0.1434 (+0.1183)
+  FT_PCT    : 0.1432 (+0.1129)
+  STL       : 0.1102 (+0.0487)
+  TOV       : 0.0910 (+0.0089)
+  BLK       : 0.0892 (-0.0552)
+  DD        : 0.0830 (-0.1462)
+  REB       : 0.0816 (-0.0012)
+  FG3M      : 0.0795 (-0.0256)
+  AST       : 0.0743 (-0.0332)
+  PTS       : 0.0712 
+  FG3_PCT   : 0.0334 (-0.0271)
+
+Team X-Scores if we draft De'Aaron Fox:
+  FT_PCT    :   2.99  ★★
+  PTS       :   2.76  ★★
+  DD        :   2.57  ★★
+  REB       :   2.48  ★★
+  BLK       :   2.47  ★★
+  FG_PCT    :   1.27  ★
+  AST       :   0.52  ★
+  STL       :   0.46  ★
+  FG3_PCT   :   0.29  ★
+  TOV       :  -1.09  ✗
+  FG3M      :  -1.88  ✗
+
+Win probabilities by category:
+  PTS       :  70.9% ✓
+  REB       :  68.7% ✓
+  AST       :  55.5% ~
+  STL       :  55.0% ~
+  BLK       :  70.3% ✓
+  TOV       :  39.4% ✗
+  FG3M      :  48.9% ~
+  DD        :  70.0% ✓
+  FG_PCT    :  66.6% ✓
+  FT_PCT    :  69.3% ✓
+  FG3_PCT   :  49.2% ~
+
+Expected categories won: 6.64 / 11
+(Need 6 to win matchup)
+
+
+================================================================================
+WEIGHT COMPARISON ANALYSIS
+================================================================================
+
+Key Questions:
+--------------------------------------------------------------------------------
+
+1. Are the optimal weights DIFFERENT for each player?
+   → If yes: optimizer is adapting to each player's fit
+   → If no: optimizer is stuck/not working
+
+2. After 2 centers (weak AST/3PM), are AST/3PM weights HIGH?
+   → If yes: optimizer recognizes team needs
+   → If no: optimizer not adapting to weaknesses
+
+3. After 2 centers (strong BLK/REB), are BLK/REB weights LOW?
+   → If yes: optimizer recognizes diminishing returns
+   → If no: optimizer keeps stacking strengths
+
+4. Why is Vucevic (center) ranked higher than LaMelo (guard)?
+   → Check if Vucevic's weights favor his strengths
+   → Check if LaMelo's AST contribution is properly valued
+
+5. Is regularization preventing weight changes?
+   → At pick 2/13, regularization strength = 1.4320
+   → This pulls weights back toward baseline
+   → May prevent adapting to extreme team compositions
+
+================================================================================
+DIAGNOSIS COMPLETE
+================================================================================
+
+Review the weights above to understand what the optimizer is doing.
+Look for:
+  - Are weights shifting away from baseline?
+  - Do weak categories (AST, 3PM) get high weights?
+  - Do strong categories (BLK, REB) get low weights?
+  - Or are all weights staying close to baseline?

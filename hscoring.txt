@@ -1,0 +1,5369 @@
+License: CC BY 4.0
+arXiv:2409.09884v1 [stat.ME] 15 Sep 2024
+Dynamic quantification of player value for fantasy basketball
+Zach Rosenof
+Abstract
+Previous work on fantasy basketball quantifies player value for category leagues without taking draft circumstances into account. Quantifying value in this way is convenient, but inherently limited as a strategy, because it precludes the possibility of dynamic adaptation. This work introduces a framework for dynamic algorithms, dubbed “H-scoring”, and describes an implementation of the framework for head-to-head formats, dubbed 
+H
+0
+. 
+H
+0
+ models many of the main aspects of category league strategy including category weighting, positional assignments, and format-specific objectives. Head-to-head simulations provide evidence that 
+H
+0
+ outperforms static ranking lists. Category-level results from the simulations reveal that one component of 
+H
+0
+’s strategy is punting a subset of categories, which it learns to do implicitly.
+
+[Uncaptioned image]
+1Introduction
+See previous work for an introduction to fantasy basketball and definitions relevant to its mathematical study (Rosenof, 2024).
+
+Much of that previous work has been on static ranking systems and how they can be used to rank players. However, static ranking systems are inherently limited because they do not allow for adaptive strategies.
+
+“Punting” is one such adaptive strategy. When a manager punts, they strategically sacrifice one or more categories in order to improve performance in the rest. The choice of which categories to punt is necessarily informed by the players a manager has already chosen and how strong they are in each category. So the strategy is inherently adaptive, and cannot be executed properly with a static ranking list.
+
+This work has two purposes. One is to introduce a novel framework for a dynamic algorithm with adapts to drafting circumstances, called H-scoring. The other is to describe and analyze an implementation of the framework called 
+H
+0
+
+2H-scoring
+The central premise of H-scoring is that the aggregate statistics of future draft picks can be approximated as a heuristic function of one or more parameters encoding the manager’s strategy. Those parameters can be optimized for each player, allowing the manager to select the player associated with the highest value player-parameter set.
+
+The framework requires three pre-defined functions
+
+• 
+X
+⁢
+(
+j
+)
+ estimates probability distributions for the differences in category totals between the manager’s team and opposing teams. 
+j
+ is a set of parameters which encodes the manager’s strategy for future picks
+• 
+W
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+ or 
+W
+⁢
+(
+j
+)
+ calculates category victory probabilities based on the distributions estimated via 
+X
+⁢
+(
+j
+)
+. It is equivalent to the CDF of the overall category differential distribution at zero
+• 
+V
+⁢
+(
+W
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
+ or 
+V
+⁢
+(
+j
+)
+ defines the objective function, tailored for the scoring format
+The framework is then simply
+
+1. Estimate an optimal 
+j
+ to maximize 
+V
+⁢
+(
+j
+)
+ for each player, with gradient descent or some other optimization algorithm
+2. Choose the player with the highest 
+V
+⁢
+(
+j
+)
+This framework is designed with snake drafts in mind. For a discussion of how to apply it to value players for auctions, see Appendix A.1
+
+3The 
+H
+0
+ algorithm
+H
+0
+ is an implementation of H-scoring. Its parameter set 
+j
+ encodes two levers of influence over future draft picks- how to weigh different categories against each other, and which positions to prioritize. 
+X
+⁢
+(
+j
+)
+, 
+W
+⁢
+(
+j
+)
+ and 
+V
+⁢
+(
+j
+)
+ are defined such that 
+V
+⁢
+(
+j
+)
+ is differentiable, and it optimizes 
+j
+ via gradient descent
+
+3.1Assumptions
+H
+0
+ makes use of many simplifying assumptions
+
+• The manager’s team must fit into a pre-defined positional structure. So long as it does, all games played by all chosen players count
+• Player performance distributions are known exactly, and do not change over the course of a season. There are no substitutions or trades
+• All players’ performances have standard deviation 
+m
+τ
+ for counting statistics and 
+r
+τ
+ for percentage statistics
+• The distribution of performance means across all available players, relative to future picks that will be made by opposing teams, can be approximated with a particular form. More detail on this assumption is provided in Section 3.2.2
+• Percentage statistics can be treated equivalently to counting statistics, once in the basis of a static ranking system
+• Category-level performances are independent for each player. Therefore, category victory probabilities are also independent
+• The manager’s goal is to maximize their expected performance over an arbitrary scoring period. The definition of performance varies based on format
+– Each Category: number of categories won against an arbitrary opponent
+– Most Categories: one if winning a match-up against an arbitrary opponent, otherwise zero
+• If the manager in question has chosen 
+K
+ players, 
+K
++
+1
+ players are known for all other teams. In the case when 
+N
+ opponents have only selected 
+K
+ players, averages of the next 
+N
+ players in G-score order are used to fill in the 
+K
++
+1
+ player slots
+• For the purpose of calculating variance, it can be assumed that
+– There is no variance in the aggregate statistics of the manager’s future draft picks
+– The variances of other managers’ draft picks are equivalent to what they would be if those managers were choosing players at random
+• Any locally optimal 
+j
+ is sufficient
+H
+0
+ aims to optimize the fantasy basketball problem based on these assumptions. How well the assumptions reflect actual fantasy basketball is discussed in Section 5.2
+
+3.2Modeling category differences 
+X
+Formulating 
+X
+⁢
+(
+j
+)
+ requires a model of expected statistics for relevant players. For this purpose, it is helpful to define a new scoring system called X-score, which is the G-score with the 
+m
+σ
+ and 
+r
+σ
+ terms set to zero. For counting statistics, that is
+
+X
+p
+=
+m
+p
+−
+m
+μ
+m
+τ
+And for percentage statistics
+
+X
+p
+=
+a
+q
+a
+μ
+⁢
+(
+r
+q
+−
+r
+μ
+)
+r
+τ
+Like in the static context, these need some estimate of 
+Q
+, the set of relevant fantasy players.
+
+X-scores are helpful because while week-to-week variance merits roughly the same treatment in the dynamic context as it does in the static, player-to-player variance must be treated differently. Managers know the average statistics of previously picked players, rendering those players’ effective player-to-player variance zero.
+
+Another helpful quantity to define is 
+v
+, which is a vector that converts from the X-score basis to the G-score basis. For counting statistics, it is
+
+m
+τ
+m
+τ
+2
++
+m
+σ
+2
+And for percentage statistics it is
+
+r
+τ
+r
+τ
+2
++
+r
+σ
+2
+For convenience, 
+v
+ is normalized to sum to one
+
+3.2.1Team decomposition
+Considering the match-up against team 
+O
+, a total of 
+2
+⁢
+N
+ players are relevant. As depicted by Table 1 these 
+2
+⁢
+N
+ players can be broken down into five groups:
+
+• 
+q
+∈
+A
+c
+, already chosen players on team 
+A
+. Size 
+=
+K
+• 
+w
+=
+p
+, the single player to be chosen by the manager of team 
+A
+ with their current pick
+• 
+q
+∈
+A
+u
+ unknown remaining team A players. Size 
+=
+N
+−
+K
+−
+1
+• 
+q
+∈
+O
+m
+, known players on team O. Size 
+=
+K
++
+1
+• 
+q
+∈
+O
+u
+, unknown players on team O, matching up to unknown players on team 
+A
+. Size 
+=
+N
+−
+K
+−
+1
+Team 
+A
+Team 
+O
+Pick 1	
+A
+c
+O
+m
+Pick 2
+Pick 3
+Pick 4
+Pick 5
+Pick 6	p
+Pick 7	
+A
+u
+O
+u
+Pick 8
+Pick 9
+Pick 10
+Pick 11
+Pick 12
+Pick 13
+Table 1:Relevant player sets, 
+K
+=
+5
+ and 
+N
+=
+13
+Applying the central limit theorem, 
+H
+0
+ describes the differential between two teams in the basis of X-scores as follows
+
+X
+⁢
+(
+j
+)
+=
+𝒩
+⁢
+(
+X
+s
++
+X
+p
++
+X
+δ
+−
+X
+O
+m
+,
+2
+⁢
+N
++
+(
+N
+−
+K
+−
+1
+)
+⁢
+X
+σ
+2
+)
+Where
+
+• 
+X
+s
+ is the aggregate expected performance of players already selected on team 
+A
+, in terms of X-score
+• 
+X
+p
+ is the X-score of the candidate player
+• 
+X
+δ
+ is a measure of how different the mean performances of picks in 
+A
+u
+ are expected to be from those of the picks in 
+O
+u
+, in the X-score basis. In the H-scoring framework it depends on 
+j
+, so it can also be written as 
+X
+δ
+⁢
+(
+j
+)
+• 
+X
+O
+m
+ is the aggregate expected performance of players already selected by the opponent
+• 
+X
+σ
+2
+ is player to player variance, again in the basis of X-scores. It is estimated as the variance of X-scores over 
+Q
+The mean is a decomposed description of team 
+O
+’s expected performance minus team 
+A
+’s expected performance. The variance has 
+2
+⁢
+N
+ because in the X-score basis, 
+m
+τ
+ and 
+r
+τ
+ are cancelled out by the X-score denominator, leaving a standard variance of one for each player. The other contribution to variance is from the players in 
+O
+u
+, under the assumption that they are chosen at random.
+
+Most of the components of the distribution are simple to calculate. The one complicated component is 
+X
+δ
+⁢
+(
+j
+)
+, which is a function of how the manager plans to behave in the future and must be approximated.
+
+This decomposition is designed with a snake draft in mind. An alternative for auctions is presented in Appendix A.2
+
+3.2.2Adjusting for category weights
+H
+0
+ models category prioritization strategy with a weight vector 
+j
+C
+, which always sums to one. 
+H
+0
+ imagines that the manager would use that weight vector for the rest of the draft, and approximates 
+X
+δ
+ based on that. For example, if 
+j
+C
+ was set to 
+v
+, then the manager would be using 
+v
+-weighted X-scores for their future picks, which are equivalent to G-scores. 
+H
+0
+ would then expect future picks to be balanced. But if it was different, say
+
+j
+C
+=
+[
+1
+8
+1
+8
+1
+8
+1
+8
+1
+8
+1
+8
+1
+8
+1
+8
+0
+]
+Then 
+H
+0
+ would imagine that the manager would behave differently. In this case, it would expect the ninth category to be punted, leading to a skewed distribution across categories.
+
+The math on what to expect from future picks is complicated and requires liberal use of approximations about the space of available players and their expected performances. Details are in Appendix B. More briefly, it is assumed that player statistics are distributed as a multivariate normal distribution, and opposing managers make their remaining picks based on G-scores or equivalently 
+v
+-weighted X-scores. The standard deviation of the manager’s weighting of a category difference off baseline for an arbitrary candidate player 
+j
+C
+T
+⁢
+x
+δ
+q
+, dubbed 
+σ
+, roughly determines how different the chosen player can be expected to be from a generic player. It is estimated that in the 
+j
+C
+ basis the chosen player is 
+ω
+⁢
+σ
+ stronger, and in the 
+v
+ basis they are 
+γ
+⁢
+σ
+ weaker. Conditionally, the expected player that maximizes 
+j
+C
+T
+⁢
+x
+δ
+q
+ then has a difference off a generic player of
+
+X
+δ
+⁢
+(
+j
+C
+)
+=
+(
+N
+−
+K
+−
+1
+)
+∗
+Σ
+∗
+(
+v
+⁢
+j
+C
+T
+−
+j
+C
+⁢
+v
+T
+)
+∗
+Σ
+∗
+(
+−
+γ
+⁢
+j
+C
+−
+ω
+⁢
+v
+)
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+T
+⁢
+Σ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+v
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
+Where 
+Σ
+ is the covariance matrix between categories for player performance means (calculated separately across positions and averaged). 
+γ
+ and 
+ω
+ can be estimated empirically, by observing actual values when the algorithm is run and fitting them with a linear regression.
+
+Deriving the derivative with respect to 
+j
+C
+ is a matter of extensive routine calculation. It can be calculated unless 
+j
+C
+=
+v
+, in which case 
+X
+δ
+⁢
+(
+j
+C
+)
+ is undefined and therefore cannot be differentiated
+
+3.2.3Adjusting for positions
+One of the assumptions of 
+H
+0
+ is that all teams must fit a certain positional structure. An example structure is
+
+• Three utility spots (any position)
+• Two centers
+• Two guards (point guard or shooting guard)
+• One point guard
+• One shooting guard
+• Two forwards (power forward or small forward)
+• One power forward
+• One small forward
+There are potentially many options for assigning already drafted players to slots, both since there are flexible slot types like utilities, and because players are often eligible for multiple positions. 
+H
+0
+ models this as an assignment problem, and solves the problem outside of the gradient descent framework.
+
+An assignment problem is a problem where 
+N
+ nodes need to be connected one-to-one with another 
+N
+ nodes, with each potential connection being associated with a reward. The goal is to maximize the total reward. 
+H
+0
+ uses the following reward structure for its assignment problem
+
+• There is no reward for assigning players already drafted to desirable slots, since their statistics are locked in and do not change based on how they are categorized. Their rewards are zero for slots that they are eligible for and 
+−
+∞
+ for those which they are not eligible.
+• Future players can be any slot, but different slots may have different rewards depending on what kind of statistics the manager is looking for. Positional rewards for the non-flex slots are estimated as 
+μ
+C
+⁢
+j
+C
+, where 
+μ
+C
+ is a matrix of average category values per position (weighed by number of eligible positions, e.g. if a player is eligible for four positions they have 
+25
+%
+ weight for each one)
+• Flex slot rewards for future players are the highest rewards among eligible positions. E.g. the reward for guard is the highest between the reward for shooting guard and point guard. There is also a small flex bonus, to ensure that flex slots will be prioritized for future players- .0001 for guard/forward, and .0002 for utility
+Based on this reward structure, 
+H
+0
+ solves for the optimal assignments and uses that to infer how many players it will take of each slot type with future picks. Because of the way the reward structure is designed, 
+H
+0
+ tries to place already drafted players at less desirable slots, freeing up desirable slots for future players.
+
+Say that a manager already has a center 
+p
+0
+, and is considering drafting a player 
+p
+1
+ who is eligible as either a center or power forward. Their 
+j
+C
+ does not weight assists highly, and therefore their position rewards are skewed against assist-heavy point guard as such:
+
+[
+C
+=
+0.5
+P
+⁢
+G
+=
+−
+0.4
+S
+⁢
+G
+=
+−
+0.2
+P
+⁢
+F
+=
+0.4
+S
+⁢
+F
+=
+0.3
+]
+Then their assignment matrix would be Table 2. In this example, the manager’s highest-value option is to place 
+p
+0
+ at center and 
+p
+1
+ at power forward, because those are the least valuable slots possible to assign them to. The manager then has room for three utilities, one center, two guards, one of each guard type, two forwards, and one small forward for their remaining picks.
+
+Utility1	Utility2	Utility3	C1	C2	G1	G2	PG	SG	F1	F2	PF	SF
+p
+0
+0	0	0	0	0	
+−
+∞
+−
+∞
+−
+∞
+−
+∞
+−
+∞
+−
+∞
+−
+∞
+−
+∞
+p
+1
+0	0	0	0	0	
+−
+∞
+−
+∞
+−
+∞
+−
+∞
+0	0	0	
+−
+∞
+p
+2
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+3
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+4
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+5
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+6
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+7
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+8
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+9
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+1
+⁢
+0
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+1
+⁢
+1
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+p
+1
+⁢
+2
+0.5002	0.5002	0.5002	0.5	0.5	-1.999	-1.999	-0.4	-0.2	0.4001	0.4001	0.4	0.3
+Table 2:Example positional assignment matrix. A solution must choose one entry from each row and each column, with the goal of mazimizing the total of chosen entries
+Solving the assignment problem tells 
+H
+0
+ how many of each slot it will have available for future players, but says nothing about how it will fill the flexible position slots, which can take players of multiple positions. To account for this, 
+H
+0
+ models separate flex share vectors 
+j
+U
+, 
+j
+G
+, and 
+j
+F
+ . They control the expected value of the fraction of flex spots that will be devoted to each position. If 
+H
+0
+ wants a mix of centers and power forwards, it can set its flex share vectors as
+
+j
+U
+=
+[
+C
+=
+0.7
+P
+⁢
+G
+=
+0
+S
+⁢
+G
+=
+0
+P
+⁢
+F
+=
+0.3
+S
+⁢
+F
+=
+0
+]
+j
+G
+=
+[
+P
+⁢
+G
+=
+0.3
+S
+⁢
+G
+=
+0.7
+]
+j
+F
+=
+[
+P
+⁢
+F
+=
+1
+S
+⁢
+F
+=
+0
+]
+This implies that the manager will fill its three utility spots with an expected value of 70% centers and 30% power forwards, etc.
+
+A vector 
+P
+ is then calculated as the sums of players expected from each non-flex slots. Continuing the same example
+
+• There is 
+1
+ center slot left, plus 
+70
+%
+ of 
+3
+ utility slots. So there are 
+3.1
+ future Cs
+• There is 
+1
+ point guard left, plus 
+30
+%
+ percent of 
+2
+ guard slots. So there are 
+1.6
+ future PGs
+• There is 
+1
+ shooting guard slot left, plus 
+70
+%
+ percent of 
+3
+ utility slots. So there are 
+2.4
+ future SGs
+• 
+30
+%
+ percent of 
+3
+ utility slots go to power forwards, plus 
+2
+ forward slots. So there are 
+2.3
+ future PFs
+• There is 
+1
+ small forward slot remaining, so there is 
+1
+ future SF
+Altogether,
+
+P
+=
+[
+C
+=
+3.1
+P
+⁢
+G
+=
+1.6
+S
+⁢
+G
+=
+2.4
+P
+⁢
+F
+=
+2.9
+S
+⁢
+F
+=
+1
+]
+Finally, the 
+P
+ vector is combined with 
+μ
+C
+ to get a positional adjustment 
+μ
+C
+⁢
+P
+. Combined with the effect of categorical weightings the expression for 
+X
+δ
+⁢
+(
+j
+)
+ is
+
+X
+δ
+⁢
+(
+j
+)
+=
+(
+N
+−
+K
+−
+1
+)
+∗
+Σ
+∗
+(
+v
+⁢
+j
+C
+T
+−
+j
+C
+⁢
+v
+T
+)
+∗
+Σ
+∗
+(
+−
+γ
+⁢
+j
+C
+−
+ω
+⁢
+v
+)
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+T
+⁢
+Σ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+v
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
++
+μ
+C
+⁢
+P
+This specification for 
+X
+δ
+⁢
+(
+j
+)
+ is differentiable relative to 
+J
+U
+, 
+J
+G
+, and 
+J
+C
+. They have linear effects on 
+P
+ so the derivative of e.g. the SG component of 
+J
+G
+ is just the 
+μ
+C
+ row for SGs, multiplied by the number of guards decided by the assignment problem
+
+3.3Modeling win probabilities 
+W
+H
+0
+ calculates the probability of victory for team 
+A
+ based on the CDF of 
+X
+⁢
+(
+j
+)
+, which is a normal distribution, at zero. Calling its mean 
+μ
+ and the variance 
+σ
+2
+, the category victory probabilities are
+
+w
+c
+=
+1
+2
+⁢
+[
+1
++
+erf
+⁡
+(
+μ
+2
+∗
+σ
+)
+]
+The 
+c
+ subscript is useful for keeping track of win probabilities across categories
+
+3.4Modeling the objective function 
+V
+Once a 
+w
+c
+ is computed for each category, 
+H
+0
+ converts them into the objective function 
+V
+.
+
+Note that the objective function is defined according to an arbitrary match-up. To get at the result for an arbitrary match-up, the objective functions are calculated for each opponent, then those results are averaged
+
+3.4.1Each Category Objective
+The objective function for the Each Category format is
+
+V
+⁢
+(
+j
+)
+=
+∑
+c
+∈
+C
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+The gradient of this objective function is
+
+∇
+V
+⁢
+(
+j
+)
+=
+∑
+c
+∈
+C
+P
+⁢
+D
+⁢
+F
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+∗
+∇
+X
+⁢
+(
+j
+)
+Where PDF is the probability density function corresponding to the category differential distribution. Details of the calculation are included in Appendix C
+
+3.4.2Most Categories Objective
+The expression for probability of winning in Most Categories, assuming all categories are independent, is
+
+V
+⁢
+(
+j
+)
+=
+∑
+s
+∈
+S
+W
+∏
+c
+∈
+C
+f
+⁢
+(
+s
+,
+c
+)
+∗
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
++
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+)
+)
+⁢
+(
+1
+−
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
++
+1
+2
+⁢
+∑
+s
+∈
+S
+T
+∏
+c
+∈
+C
+f
+⁢
+(
+s
+,
+c
+)
+∗
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
++
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+)
+)
+⁢
+(
+1
+−
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
+Where 
+S
+W
+ is a set of overall winning scenarios in terms of which individual categories are won and lost, and 
+S
+T
+ is a set of tying scenarios. 
+f
+⁢
+(
+s
+,
+c
+1
+)
+ is one if the category 
+c
+1
+ is won in scenario 
+s
+ and zero otherwise.
+
+The possibility of a category-level tie is irrelevant since category distributions are modeled as continuous variables, and therefore the probability of a tie is theoretically infinitesimal. However, overall ties have non-zero probability if the number of categories is even, which is why they are included in the objective function.
+
+H
+0
+ must consider each individual scenario in 
+S
+W
+, and if there are an even number of categories, 
+S
+T
+ as well. Fortunately, the number of winning scenarios in the typical 9-cat league is only
+
+(
+9
+5
+)
++
+(
+9
+6
+)
++
+(
+9
+7
+)
++
+(
+9
+8
+)
++
+(
+9
+9
+)
+=
+256
+This is because there are 
+(
+9
+5
+)
+ scenarios where five categories are won and four are lost, 
+(
+9
+6
+)
+ scenarios where six categories are won and three are lost, etc. Manually checking each of these 
+256
+ scenarios is tractable. Each winning scenario involves calculating 
+8
+ multiplication steps so the total number of operations is no more than 
+2048
+ per player. The efficiency of the operation can improved by computing probabilities with the procedure shown in Appendix D.
+
+This objective function is differentiable. Details for how to calculate the gradient are included in Appendix E and they result in
+
+∇
+V
+⁢
+(
+j
+)
+=
+{
+∑
+c
+1
+∈
+C
+T
+⁢
+(
+j
+,
+c
+1
+)
+∗
+P
+⁢
+D
+⁢
+F
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+∗
+∇
+X
+⁢
+(
+j
+)
+|
+C
+|
+⁢
+ is odd
+1
+2
+⁢
+∑
+c
+1
+∈
+C
+T
+⁢
+(
+j
+,
+c
+1
+)
+∗
+P
+⁢
+D
+⁢
+F
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+∗
+∇
+X
+⁢
+(
+j
+)
+|
+C
+|
+⁢
+ is even
+T
+⁢
+(
+j
+,
+c
+1
+)
+ represents the probability that a category is a “tipping point”, that is, the probability that 
+c
+1
+ could be a deciding factor in the overall result. For 9-cat, it is defined as
+
+T
+⁢
+(
+j
+,
+c
+1
+)
+=
+∑
+s
+∈
+S
+c
+1
+⁢
+(
+4
+,
+4
+)
+(
+∏
+c
+2
+∈
+C
+f
+⁢
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+⁢
+(
+X
+⁢
+(
+j
+)
+)
++
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+2
+)
+)
+⁢
+(
+1
+−
+w
+c
+2
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
+)
+Where 
+S
+c
+1
+⁢
+(
+n
+,
+m
+)
+ is a set of scenarios across all categories except 
+c
+1
+, for which between 
+n
+ and 
+m
+ are wins. 
+S
+c
+1
+⁢
+(
+4
+,
+4
+)
+ is relevant in this case because 
+c
+1
+ could be the deciding category if four other categories are won and four are tied
+
+3.5Optimizing in practice
+The value of 
+V
+⁢
+(
+j
+)
+ is 
+H
+0
+’s definition of success. Discovering the best value of 
+j
+ to make 
+V
+⁢
+(
+j
+)
+ as high as possible requires optimization
+
+3.5.1Assignment problem
+The positional model described in section 3.2.3 requires the solution to an assignment problem. Fortunately, assignment problems are well-studied and efficient solutions are available. For the purpose of this paper a modified Jonker-Volgenant algorithm was used, as implemented by python’s scikit-learn package (Scipy.org, 2016).
+
+An alternative to solving the assignment problem separately is explicitly modeling each decision variable and optimizing them for 
+V
+. This would require an alternative optimization method besides gradient descent, because gradient descent only applies to problems with continuous variables
+
+3.5.2Gradient descent
+With an almost-always differentiable 
+V
+⁢
+(
+j
+)
+ available, gradient descent can be performed.
+
+An important limitation to keep in mind is that 
+V
+⁢
+(
+j
+)
+ is not convex, because the cumulative distribution function of a normal distribution is not convex. This means that gradient descent will only find a local minima, rather than a global minima.
+
+The downside of only being able to optimize locally can be ameliorated with clever choice of initial conditions. Intuitively, it is reasonable to expect that the best strategy will be similar to the weights computed in the previous round, so 
+j
+ is initialized as a mixture of default weights 
+v
+ and the previously computed optimal weights. For the first round when there are no previous weights, the initial point for 
+j
+C
+ is 
+v
+ perturbed with a factor of 
+1
+500
+ in the direction of the candidate players’ expected statistics (using exactly 
+v
+ leads to an undefined gradient). This way of doing gradient descent does not guarantee that an optimal point will be found, but it ensures that the local neighborhood in which gradient descent choices is a reasonable guess for the best solution.
+
+Each round of gradient descent may alter the sums of 
+j
+C
+, 
+j
+U
+, 
+j
+G
+, and 
+j
+F
+. While scaling 
+j
+C
+ up or down has no effect on resultant players chosen, the parameters 
+γ
+ and 
+ω
+ are easiest to calibrate when the scale of 
+j
+C
+ is held constant. For that reason 
+γ
+ and 
+ω
+ are calibrated based on the sum of 
+j
+C
+ always being one, and 
+H
+0
+ re-calibrates all 
+j
+C
+s to sum to one after each step of gradient descent by dividing through by the sum. The same is done for 
+j
+U
+, 
+j
+G
+, and 
+j
+F
+, which need to sum to one by definition.
+
+For the purposes of this paper, gradient descent was carried out with the Adam optimizer (Kingma, 2014)
+
+4Simulation
+Simulated versions of NBA fantasy seasons, from 2004-05 to 2023-24, were run to provide reassurance that the logical foundations of 
+H
+0
+ are solid.
+
+The simulated seasons were twelve-team, thirteen-player head-to-head competitions. Each player’s performance in each simulated season was generated by randomly sampling twenty weeks from their actual performances, excluding weeks for which they were injured. Only players with ten or more weeks of playing time were included. Teams were paired against each other weekly and winners were decided by which team had the most points by the end of the twenty week season. For these simulations, the player requirement was defined by the structure presented in section 3.2.3, with players eligible for positions that they were eligible for on Yahoo’s fantasy basketball platform.
+
+Managers had access to weekly performance numbers for each relevant player, allowing them to calculate all relevant metrics. Z-scores based on the full league were used to choose 
+Q
+, based on which managers calculated H-scores and G-scores.
+
+H-score was tested at seats zero, one, etc. while all other drafters were using G-score. One thousand of the twenty-week simulated seasons were run for every draft seat, allowing for robust estimates of how well that strategy really would have performed in that situation with error bars no greater than by 
+1000
+∗
+1
+2
+⁢
+(
+1
+−
+1
+2
+)
+1000
+≈
+1.6
+%
+. These match-ups were run for both the Most Categories and Each Categories format. The H-score drafters used 
+ω
+=
+0.7
+ and 
+γ
+=
+0.25
+ for parameters.
+
+The results are shown in Table 3, and Figures 1, 2, 3, and 4
+
+0	1	2	3	4	5	6	7	8	9	10	11	Mean
+Each Category	2004-05	41.4%	20.4%	26.7%	27.4%	12.7%	13.3%	13.8%	20.6%	6.2%	3.7%	4.7%	5.3%	16.4%
+2005-06	28.8%	12.0%	36.6%	42.5%	18.9%	19.7%	16.4%	14.8%	15.6%	18.5%	17.4%	20.2%	21.8%
+2006-07	18.4%	20.1%	12.4%	15.2%	20.1%	9.2%	23.7%	5.9%	22.1%	14.0%	17.3%	12.9%	16.0%
+2007-08	15.7%	8.6%	19.1%	35.1%	22.3%	7.2%	6.5%	4.9%	5.5%	9.0%	35.5%	29.7%	16.6%
+2008-09	61.5%	65.7%	62.4%	8.5%	8.6%	12.0%	49.7%	49.0%	42.0%	6.7%	24.1%	7.8%	33.2%
+2009-10	27.4%	29.8%	9.9%	40.6%	28.5%	34.1%	28.9%	24.9%	25.1%	6.3%	11.9%	8.6%	23.0%
+2010-11	16.6%	18.6%	17.3%	28.5%	23.0%	25.1%	23.1%	25.6%	24.8%	30.9%	33.7%	17.9%	23.7%
+2011-12	48.3%	39.9%	11.1%	19.4%	38.5%	37.8%	31.1%	22.4%	24.1%	26.9%	29.8%	27.7%	29.7%
+2012-13	44.8%	27.7%	8.7%	8.8%	6.6%	9.2%	11.6%	12.8%	8.9%	17.5%	4.9%	5.1%	13.9%
+2013-14	21.3%	7.4%	30.6%	21.6%	10.0%	29.9%	12.4%	4.6%	5.6%	6.0%	3.2%	9.3%	13.5%
+2014-15	18.2%	37.7%	36.4%	16.9%	12.5%	14.5%	33.6%	32.8%	34.4%	31.9%	31.1%	9.2%	25.8%
+2015-16	46.0%	24.4%	22.9%	11.6%	19.6%	8.9%	19.4%	22.3%	13.3%	30.1%	23.8%	24.6%	22.2%
+2016-17	17.5%	16.7%	16.2%	27.1%	21.1%	29.2%	26.4%	10.8%	22.3%	15.8%	32.0%	18.9%	21.2%
+2017-18	15.6%	16.7%	24.1%	34.8%	28.3%	30.7%	21.5%	32.0%	22.4%	15.2%	26.3%	30.3%	24.8%
+2018-19	52.4%	20.9%	16.4%	27.5%	27.1%	26.6%	26.9%	26.7%	25.1%	28.3%	11.3%	13.5%	25.2%
+2019-20	35.8%	17.1%	23.6%	33.8%	28.3%	24.2%	23.2%	32.6%	16.0%	14.8%	15.7%	6.3%	22.6%
+2020-21	47.6%	12.8%	18.9%	18.9%	22.9%	40.1%	38.5%	38.3%	43.3%	41.0%	34.7%	34.5%	32.6%
+2021-22	35.4%	23.6%	8.2%	5.7%	20.2%	23.0%	22.5%	12.1%	16.1%	13.7%	14.1%	7.3%	16.8%
+2022-23	21.7%	9.3%	14.4%	21.9%	30.6%	33.5%	22.9%	14.7%	14.2%	10.1%	12.3%	11.9%	18.1%
+2023-24	19.2%	26.5%	48.4%	8.9%	20.8%	10.4%	15.6%	16.2%	14.3%	12.3%	15.3%	10.6%	18.2%
+Mean	31.7%	22.8%	23.2%	22.7%	21.0%	21.9%	23.4%	21.2%	20.1%	17.6%	20.0%	15.6%	21.8%
+Most Categories	2004-05	51.1%	54.3%	49.0%	49.7%	26.5%	28.4%	21.1%	34.3%	9.1%	7.1%	11.5%	11.4%	29.5%
+2005-06	23.7%	15.1%	56.2%	66.8%	59.3%	20.9%	32.5%	14.6%	11.2%	33.2%	33.5%	35.6%	33.5%
+2006-07	23.2%	23.0%	12.9%	15.7%	17.8%	8.5%	9.2%	8.2%	23.9%	31.7%	34.4%	31.9%	20.0%
+2007-08	24.4%	12.1%	15.3%	63.9%	59.8%	7.0%	11.0%	8.3%	11.2%	46.0%	45.8%	43.0%	29.0%
+2008-09	76.8%	80.7%	80.5%	6.7%	7.0%	5.9%	7.8%	6.8%	9.5%	6.1%	48.7%	8.0%	28.7%
+2009-10	66.2%	27.4%	45.8%	54.5%	52.7%	56.6%	56.2%	58.4%	59.9%	27.8%	28.3%	25.8%	46.6%
+2010-11	52.1%	51.3%	51.2%	50.9%	44.7%	47.1%	44.1%	47.3%	45.5%	44.8%	50.1%	41.2%	47.5%
+2011-12	71.1%	57.2%	53.7%	57.9%	55.0%	58.1%	58.7%	33.2%	35.1%	36.3%	60.2%	62.3%	53.2%
+2012-13	40.1%	39.3%	15.2%	16.6%	15.1%	10.7%	23.8%	11.3%	13.7%	33.0%	18.6%	14.1%	20.9%
+2013-14	35.8%	40.1%	39.8%	41.6%	17.8%	14.6%	14.4%	10.0%	10.0%	32.6%	10.0%	22.9%	24.1%
+2014-15	66.4%	40.9%	29.3%	44.5%	38.1%	37.0%	53.3%	53.0%	51.1%	47.4%	49.1%	20.5%	44.2%
+2015-16	44.6%	32.3%	36.4%	31.6%	30.7%	31.3%	24.9%	26.9%	26.4%	57.4%	52.0%	54.7%	37.4%
+2016-17	39.6%	40.6%	38.0%	44.6%	58.6%	60.3%	65.2%	50.7%	47.5%	36.7%	61.3%	66.6%	50.8%
+2017-18	23.7%	67.6%	65.6%	68.5%	52.6%	54.6%	49.7%	48.2%	35.9%	44.3%	48.5%	49.9%	50.7%
+2018-19	60.8%	56.8%	48.1%	46.9%	63.7%	64.2%	43.7%	47.3%	37.6%	59.6%	34.0%	40.2%	50.2%
+2019-20	45.0%	10.8%	8.9%	48.7%	48.3%	56.1%	54.7%	54.2%	36.9%	38.2%	36.4%	29.3%	38.9%
+2020-21	50.6%	36.0%	37.2%	39.1%	40.3%	43.5%	53.3%	51.6%	57.7%	47.3%	56.7%	49.1%	46.9%
+2021-22	53.1%	30.1%	12.5%	12.5%	53.9%	59.0%	57.3%	48.5%	59.3%	54.7%	50.0%	13.2%	42.0%
+2022-23	11.8%	12.7%	12.6%	40.4%	39.7%	36.3%	40.1%	45.8%	46.0%	12.1%	44.7%	7.7%	29.2%
+2023-24	62.8%	23.4%	55.2%	14.4%	13.3%	9.7%	27.7%	35.3%	31.1%	31.6%	32.0%	37.2%	31.1%
+Mean	46.1%	37.6%	38.2%	40.8%	39.7%	35.5%	37.4%	34.7%	32.9%	36.4%	40.3%	33.2%	37.7%
+Table 3:Win rates for 
+H
+0
+ against a field of G-score drafters
+Refer to caption
+(a)Win rate histogram for Each Category
+Refer to caption
+(b)Win rate histogram for Most Categories
+Figure 1:Histograms of win rate by category. Results are empirical, based on the simulations
+Refer to caption
+Figure 2:Expected win rates against actual observed win rates, displayed in logarithmic scale. Results include both Each Categories and Most Categories
+Refer to caption
+(a)Optimal first round pick weights for Each Category. 17% of weights are below 0.95
+Refer to caption
+(b)Optimal first round pick weights for Most Categories. 18% of weights are below 0.95
+Figure 3:Histogram of optimal first round pick weights. The top fifty candidates by G-score at each seat for each year were included. Weights are presented relative to default G-score weight
+Refer to caption
+(a)Computed values of 
+σ
+ vs eventual values of m, representing the 
+ω
+ parameter. The resultant best-fit line has a slope of 
+0.37
+ with an R-square of 
+47
+%
+Refer to caption
+(b)Computed values of 
+σ
+ vs eventual values of m, representing the 
+γ
+ parameter. The resultant best-fit line has a slope of 
+0.87
+ with an R-square of 
+46
+%
+Figure 4:Best-fit lines for calculating 
+ω
+ and 
+γ
+, based on actual data from the simulations. Larger dots represent players drafted earlier, who have more data points for future picks
+5Discussion
+5.1Simulation results
+5.1.1Performance
+Figure 3 shows that 
+H
+0
+ performed well against a field of G-score agents. It won 
+21.8
+%
+ of its seasons in Each Category, and 
+37.7
+%
+ of its seasons in Most Categories. Both marks are well above the baseline of random chance, which is 
+8.3
+%
+.
+
+It is not immediately obvious why 
+H
+0
+ performed better in Most Categories than Each Category. One possibility is that in Each Category, sub-optimal opponents can randomly string together a series of 9-0 victories, which can be difficult to overcome. A result for Most Categories is either 1-0 or 0-1, making it more stable
+
+A few other observations can be made from Figure 3. One is that the algorithm generally performed better with higher draft seats. This tracks with the concept that the highest-value players have the most spread between each other, as is standard for many probability distributions including normal distributions. Top draft picks are very valuable and make the algorithm’s job easier.
+
+Another observation is that the success of 
+H
+0
+ was not universal, especially in Each Category and with low draft picks. Its win percentage was as low as 
+3.2
+%
+ in 2013-2014 with the 11th pick in Each Category. This is not surprising, given both that the top drafters often have inbuilt advantages, and that the H-score algorithm uses a plethora of assumptions which are not correct
+
+5.1.2Category win rates
+Figure 1 demonstrates that 
+H
+0
+ implicitly understood the concept of punting. The two histograms show the win rate distributions for categories across every H-score drafter from the simulations. The bulk of the distributions’ masses are centered slightly above the 
+50
+%
+ win rate, with a significant lower mode at 
+0
+%
+. In other words, the algorithm consistently over-performed in most of the categories, and hardly competed for the rest.
+
+Additionally, it can be seen that 
+H
+0
+ rarely invested so much into a category that it nearly guaranteed wins. The density at 
+100
+%
+ is quite low, especially compared to the density at 
+0
+%
+ which represents the opposite situation. This suggests that the H-scoring algorithm was successfully re-balancing by not overly focusing on categories that it was already strong in.
+
+The objective function gradients provide intuition on why 
+H
+O
+ learns how to punt and re-balance without being explicitly told to do so. The gradients are linearly related to category PDF values, which are thickest around zero, where the team is expected to win at a 
+50
+%
+ rate. This means that during gradient descent, the more average the team is performing in a category, the more that 
+H
+0
+ is trying to increase the weight for that category. A category that starts out average will be boosted to a bit above average. A category that is below average will have a low gradient, incentivizing 
+H
+0
+ to invest even less in that category, creating a snowball effect representing punting. And if a category is above average, 
+H
+0
+ will also invest less in it, keeping it slightly above 
+50
+%
+ without bringing it all the way to 
+100
+%
+.
+
+Between Each Category and Most Categories, it is apparent that the distribution for Most Categories is more skewed to the extremes. It has a larger volume of categories around 
+0
+%
+, a thinner distribution around 
+20
+%
+ to 
+50
+%
+, and a higher center of mass on the right. This tracks with the idea that punting is most effective and worthwhile in Most Categories, because there is no marginal value in winning another category when the majority is already won. This intuition is borne out by the expression for the gradient; gradient magnitudes are proportional to the probability that a category ends up being a tipping point
+
+5.1.3Predicting category win rates
+H
+0
+ predicted win rates moderately well, though there was significant distortion on the lower end. Figure 2 shows expected win rates versus actual win rates on a logarithmic scale. Above 
+10
+%
+ or so, actual win rates match expected win rates closely. At lower probabilities, the algorithm over-predicted success for some categories (assists, three-pointers, and blocks) and under-predicted it for others (turnovers and free-throw percent). These distortions are likely due to incorrect assumptions made by the algorithm, particularly that all players contribute the same variance, and percentage statistics can be treated equivalently to counting statistics in the X-score basis
+
+5.1.4Weights
+Figure 3 shows optimal weights computed by the algorithm. Perhaps surprisingly, the algorithm did not bifurcate weights to an extreme degree between punting and not-punting. Instead, it took a more subtle “soft-punting” approach. It weighed most categories a bit above 
+100
+%
+ and compensated with a long tail below for punted categories, peaking around 
+75
+%
+ or so. The lower tail represented slightly 
+20
+%
+ of all category weights, representing one or two categories on average.
+
+Intuitively, one might expect that if a manager is punting, they should bring their weight for that category all the way to 
+0
+%
+. However, that is not necessarily optimal. Even if a manager has a very low chance of winning a category, that chance is never zero. And across a field of candidates with relatively similar overall value, even a small de-weighting of one category can significantly skew the expected statistics of the highest-value player. Bringing a weight all the way to 
+0
+%
+ might sacrifice the category more than is necessary in order to bolster performances in all of the other categories.
+
+It should be remembered that the weights are estimates of best weights used for future players, with statistics distributed according to a simplified model. For player 
+p
+ who the algorithm is choosing, the algorithm may implicitly be using a very different weighing mechanism, because it has actual statistics on available players and does not have to make guesses.
+
+It should also be kept in mind that the weights calculated by 
+H
+0
+ are subject to a series of assumptions and simplifications. including those discussed in Sections 5.2.3 and 5.2.4. More work on these fronts could allow for more precise weights
+
+5.1.5Turnovers
+Another observation from Figure 3 which may be surprising is that the algorithm did not try to down-weight turnovers by default, which is a common tactic advocated for by fantasy analysts. Instead, turnover weights were distributed similarly to other categories.
+
+The oft-cited intuition behind down-weighting turnovers is that turnovers reward teams for having their players sit on the bench without touching the ball, which is the opposite of what managers want in general. That argument is not precisely logical, since scores for the other counting statistics naturally counterbalance the effect of turnovers. However, there is a way of re-framing the argument that cannot be accounted for by the logic behind 
+H
+0
+. As discussed in Section 5.2.6, 
+H
+0
+ does not model the correlations between categories on the week-to-week performance level. It could be that for a team to be competitive in turnovers, it must be doing poorly overall, and therefore be unlikely to win overall. If an investment in turnovers is only useful when the week is lost already, then that investment has no value.
+
+The idea can be investigated by analyzing the gradient of the objective function 
+V
+⁢
+(
+W
+)
+ relative to strength in each category. With performances modeled as a correlated multivariate normals, the gradient of the objective can be estimated via simulation. With small advantage states added to each counting statistic (disadvantage for turnovers), the results are included in Table 4
+
+It is apparent from these results that turnovers are roughly as important as other categories. As an advantage state is added, turnovers become less important, but other counting statistics also become less important at the same rate.
+
+This is reasonable upon careful consideration. If a match-up is close in terms of playing time, it is likely also close in terms of turnovers, making turnovers important. If one team has an advantage in playing time then it becomes unlikely that they will defy the odds and win turnovers, but at the same it also becomes unlikely for their opponents to flip the other counting statistics. Therefore turnovers retain their importance relative to other categories, except the percentage categories, which gain outsize importance because they are uncorrelated with playing time.
+
+Victory probability	Points	Rebounds	Assists	Steals	Blocks	Threes	Turnovers	Free Throw %	Field Goal %
+Most Categories									
+50.0%	10.3%	6.8%	6.2%	9.0%	7.1%	6.6%	7.2%	7.1%	7.4%
+59.7%	10.0%	7.4%	6.7%	8.6%	5.9%	6.8%	7.0%	6.9%	7.1%
+68.9%	9.1%	6.4%	6.1%	8.0%	5.6%	6.0%	6.5%	6.4%	6.3%
+77.1%	8.4%	5.5%	5.1%	6.4%	4.6%	5.3%	5.2%	5.0%	5.5%
+83.9%	6.5%	4.6%	4.3%	5.3%	3.8%	4.1%	4.0%	4.3%	4.4%
+Each Category									
+50.0%	34.0%	30.9%	27.7%	36.4%	30.6%	31.0%	33.4%	33.4%	34.4%
+54.3%	32.3%	30.9%	29.1%	36.4%	30.8%	30.3%	33.7%	33.4%	34.4%
+58.5%	29.6%	29.1%	27.3%	33.4%	28.2%	28.9%	30.9%	33.4%	34.4%
+62.3%	27.2%	27.0%	24.8%	29.2%	25.8%	26.0%	27.0%	33.4%	34.4%
+65.8%	22.8%	23.2%	21.7%	24.5%	23.0%	22.1%	24.2%	33.4%	34.4%
+Table 4:Computed gradients with correlations included. Player performances are randomly sampled from a multivariate normal distribution, with correlations computed across players and performances. The advantage state is modeled with a small positive mean for the non-turnover counting statistics, and a negative one of the same magnitude for turnovers
+5.1.6Parameters
+With data from the simulations, it is possible to estimate 
+ω
+ and 
+γ
+ using best-fit lines comparing 
+σ
+ to actual values of 
+m
+ and 
+k
+. The results are in Figures 4(b) and 4(a). The computed values are reasonably close to the estimates used for the simulations, 
+0.25
+ and 
+0.7
+.
+
+It is also apparent from individual data points and R-squared values that the 
+σ
+ is only so predictive of 
+m
+ and 
+k
+. Some of that is surely because of natural variation, but some of it could perhaps be reduced by more precise modeling
+
+5.2Assumptions
+5.2.1Teams must fit a certain position structure
+The idea that all teams must match an exact structure, and so long as they do all of their games count, is a simplification of real fantasy basketball. In reality positional structure is flexible; managers can bend on how balanced their team is based on how worthwhile it is for them to draft players of particular positions. Ideally H-scoring would implicitly understand this trade-off. However, it is difficult to quantify, since the degree to which a team has position-related issues depends on its exact players and how their schedules interact.
+
+The position structure requirement is still helpful because it makes 
+H
+0
+ understand that it cannot load its team up entirely with players of the same position. Without understanding that, 
+H
+0
+ could make sub-optimal punting decisions. Also, it allows 
+H
+0
+ to see the value in players with statistics unusual for their position. Those players facilitate strong punting strategies because they leave many open slots for players that would fit the build later
+
+5.2.2Performance distributions are known and do not change
+Player performances can drift over time for any number of reasons. This is not accounted for in 
+H
+0
+.
+
+One way in which this is problematic is that players don’t always have the same number of games each week, leading to changes in expected weekly performances across seasons. Understanding how expectations differ from week to week, especially in light of particularly important weeks like playoff weeks, could improve the implementation of H-scoring.
+
+Another way in which this is problematic is that real fantasy basketball managers can ameliorate injury risk by swapping in un-injured players. This mitigates the risk of players prone to injuries, and makes them more value than their expected performances would indicate. Future work could perhaps build this logic into the algorithm.
+
+Thirdly, it ignores the importance of general value in supporting flexibility. In real life, situations might change drastically, necessitating strategic pivots. Having high general value is useful for such situations, both since it increases the likelihood that a team will remain strong after changes, and because it gives the team more value for the trade market. 
+H
+0
+ doesn’t see this value because it is certain that its model of how players will perform is correct, and does not understand the concept of trades. One way of incorporating this would be to use an ensemble of H-score and a more general metric like G-score, to pick players that are balanced between general value and value to the manager
+
+5.2.3All players contribute the same level of variance
+It is convenient to assume that all players contribute the same amount of variance to a category, because player-level variance forecasts are generally not available. However this assumption is not entirely fair. It can be especially problematic in light of the idea that counting statistics are roughly Poisson variables, for which higher means imply higher variances. If a team is punting a category and has systematically low means, it likely has systematically low variance as well. Therefore 
+H
+0
+ will not estimate the category victory probability perfectly
+
+5.2.4Statistics for future picks follow a particular form
+H
+0
+ makes liberal assumptions about the space of player statistics. Arguably, the assumptions do capture the main properties of the state space relevant to fantasy drafting. They specify that more valuable players are taken before less valuable players, and that there are trade-offs in weighting categories based on how they tend to correlate with each other. But they do this in a blunt way that is imprecise. In particular, there are two assumptions that are roundly unfounded and potentially problematic.
+
+The first is that other managers are choosing players in order according to their general value. In reality, opposing managers may be punting, and therefore preferring players with skewed statistical profiles. Or, they might have fundamentally different expectations of how players are expected to perform. There are almost innumerable reasons why a real manger might diverge from the simple model expected by 
+H
+0
+.
+
+The second potentially problematic assumption is that category-level statistics of relevant players are distributed as a multivariate normal. This is obviously not necessarily true. Player statistics can take on any kind of distribution, depending on the category, season, etc. For example it is well-known that blocks tend to have heavy right tails in general (Lloyd, 2023).
+
+Theoretically, it is possible to avoid needing assumptions about available players by modeling the dynamic fantasy basketball problem as a perfect-information sequential game. Every perfect-information sequential game has a subgame-perfect equilibrium which can be derived through backwards induction (Fudenberg, 1991). However, backwards induction requires evaluating every subgame outcome. In this case, evaluating every subgame outcome has a high state-space complexity which makes applying backwards induction practically difficult.
+
+Consider a snake draft. If there are 
+J
+ available players, the first manager’s initial pick breaks into 
+J
+ subgames. Each of those players leads to 
+J
+−
+1
+ subgames for the next manager, or 
+J
+∗
+(
+J
+−
+1
+)
+ in total. In general, the number of subgames at step 
+x
+ of the draft is
+
+J
+!
+(
+J
+−
+x
+)
+!
+If 
+K
+ managers each choose 
+P
+ players, then the total number of subgames is
+
+∑
+x
+=
+1
+K
+∗
+P
+J
+!
+(
+J
+−
+x
+)
+!
+Since all terms are positive, the final term with 
+x
+=
+K
+∗
+P
+ serves as a lower bound on the sum. With 
+J
+=
+500
+ ( 
+≈
+ the number of NBA players) , 
+K
+=
+12
+, and 
+P
+=
+13
+ it is
+
+500
+!
+(
+500
+−
+156
+)
+!
+≈
+10
+409
+No modern computer is close to being able to evaluate that many subgames. Therefore, any practical advancement will still require some sort of heuristic.
+
+Future work could analyze the player statistics space with more sophistication, improving the Gaussian model to more accurately represent real data. This is likely a difficult task because the state space could look quite different depending on the overall player pool and which players have already been taken
+
+5.2.5Percentage statistics can be treated equivalent to counting statistics
+For convenience, 
+H
+0
+ treats percentage statistics equivalent to counting statistics, once in the X-score basis. This is helpful because it allows counting statistics and percentage statistics to be modeled together as a multivariate normal distribution. The problem is that it is inaccurate, because it misses the effect of volume. Higher volume implies lower volatility, and this could be baked into a more sophisticated implementation of H-scoring
+
+5.2.6Category statistics are independent
+H
+0
+ assumes that on a week-to-week basis, all categories are independent from each other. This is possibly quite untrue. If a team scores many threes on a particular week, they likely also scored many points.
+
+The reason for this omission is that incorporating week-to-week correlations would require using the CDF of a multivariate normal, for which there is no analytical expression (Genz, 2009). Player statistics could be more easily modeled as multivariate normals because only the means were required, not the CDF values.
+
+Handling this issue is not impossible, it is just computationally difficult. Perhaps a clever heuristic approach could make headway in the future.
+
+For what it is worth, week-to-week correlations were present in the simulations, and 
+H
+0
+ still performed well. So the omission is likely not extremely problematic
+
+5.2.7Managers want to to maximize expected value
+Real managers may care only about winning their leagues without a preference for last place versus fourth. This motivates an implementation of H-scoring which optimizes for upside potential instead of expected value. Also, real managers may want to focus most on playoff matches, since those are the most important matches for ultimate results. A future version of H-scoring could perhaps be tailored to this incentive structure as well
+
+5.2.8Players up to 
+K
++
+1
+ from other teams are known
+This is another assumption of convenience, to make modeling easier. Future work could perhaps handle the case where the 
+K
++
+1
+’th player from another team is not known with more sophistication
+
+5.2.9A local optimum is sufficient
+Non-global optimization is not ideal, but the trade-off is that non-convex optimization to find the actual global maximum would be more computationally intensive than gradient descent.
+
+Another potential limitation is that the result will be non-robust. If the assumptions made by 
+H
+0
+ are quite wrong, and it needs to pivot its strategy in later rounds, there is no guarantee that it will be able to do so successfully since 
+H
+0
+ is only optimizing for the single optimal point. H-scoring might benefit from some kind of robust optimization, to improve resilience in face of inaccurate assumptions
+
+5.3Rotisserie
+H
+0
+ does not handle the Rotisserie format for computational reasons. If computation was not a limiting factor, it would be possible to estimate the probability of winning in Rotisserie with brute force, given approximate normal distributions for each teams’ performances for each category. Unfortunately, the calculation is too intensive to be practical, even assuming that categories are uncorrelated.
+
+For a given category, there are 
+T
+!
+ possible orderings, where 
+T
+ is the number of teams. If 
+T
+ is 
+12
+ that translates to more than 
+479
+ million. For each of those possible orderings, calculating the probability of the ordering occurring accurately would require intensive numerical integration. Further, the algorithm would have to analyze combinations of orders across categories. With 
+9
+ categories, the total number of orderings to analyze would be 
+1.32
+∗
+10
+78
+. Both the integration and the combination steps would be too complex to be feasible with modern hardware.
+
+Future work could perhaps address Rotisserie with use of a clever heuristic
+
+6Conclusion
+The H-scoring framework is introduced for dynamic optimization of draft picks. It is not as convenient to use as a static ranking list, but the described implementation 
+H
+0
+ does perform better, at least in simulations.
+
+H
+0
+ relies on many assumptions which can perhaps be ameliorated by better heuristics or eliminated by more involved mathematics. Improvements could be made in accounting for player-specific variance, more precisely modeling the distribution of future draft picks, adapting to choices of other managers, incorporating correlations between weekly category scores, strategizing around waiver wire moves, better modeling Rotisserie, and other areas.
+
+Disclaimer: The views and opinions expressed in this article are those of the independent author and do not represent those of any organization, company or entity
+
+Appendix AAdapting H-scoring to Auctions
+A.1Converting to auction value
+For drafting, the H-score calculation yields win probabilities based on which player is chosen. These are easy to use- the manager can just take the candidate player with the highest H-score.
+
+However, the situation is not as simple for auctions. Auction managers need to quantify player values, not just rank them. Also, the raw H-score calculation yields a win probability for each candidate player if they could be selected without costing any money, which is not realistic. So some additional mechanisms are required to handle values for auctions.
+
+One way to equate H-scores to dollars is to subtract money (and corresponding value) from what the manager has remaining until they break even for taking the player. This is doable and theoretically works well, but is computationally expensive because it requires back-tracking through several calculations several times for each player.
+
+H
+0
+ uses a less computationally intensive method, which is to start with a replacement player and various values of 
+X
+m
+ to see how level of cash affects H-scores. Approximate cash values can then be derived for players by comparing their H-scores to those of just adding cash, and finding the closest cash equivalents
+
+A.2
+H
+0
+ team decomposition for auctions
+Like in the snake draft context, with a certain number of players remaining, 
+H
+0
+ can assume some level of control over the weighting applied to those players to account for a punting strategy. The main difference is that 
+X
+⁢
+(
+j
+)
+ must be calculated in an auction-specific way
+
+It is helpful to start by breaking down overall metrics in the following way
+
+• 
+X
+A
+μ
+=
+X
+s
++
+X
+p
++
+X
+r
++
+X
+m
++
+X
+δ
+⁢
+(
+j
+)
+ where
+– 
+X
+s
+ is the aggregate statistics of team 
+A
+’s already selected players
+– 
+X
+p
+ is the statistics of the candidate player
+– 
+X
+r
+ is the statistics of aggregate statistics replacement-level players, filling all empty slots
+– 
+X
+m
+ is the general benefit of leveraging extra money to get above-replacement players
+– 
+X
+δ
+⁢
+(
+j
+)
+ is the differential effect of punting strategy on the above-replacement players that will be selected instead of the replacement-level players. In essence, this is equivalent to 
+X
+δ
+⁢
+(
+j
+)
+ in the drafting context
+• 
+X
+o
+μ
+=
+X
+o
+s
++
+X
+o
+r
++
+X
+o
+m
+ where
+– 
+X
+o
+s
+ is the aggregate statistics of team 
+O
+’s already selected players
+– 
+X
+o
+r
+ is the aggregate statistics replacement-level players, filling all empty slots
+– 
+X
+o
+m
+ is the general benefit of leveraging extra money to get above-replacement players
+Then
+
+X
+⁢
+(
+j
+)
+=
+X
+A
+μ
+−
+X
+o
+μ
+=
+X
+s
++
+X
+p
+−
+X
+o
+s
++
+X
+r
+−
+X
+o
+r
++
+X
+m
+−
+X
+o
+m
++
+X
+δ
+This equation can be grouped into four parts
+
+• 
+X
+s
++
+X
+p
+−
+X
+o
+s
+: difference of known player statistics
+• 
+X
+r
+−
+X
+o
+r
+: difference of replacement-level values. E.g. if after adding the chosen player team 
+A
+ has one more player selected already, then team 
+O
+ has an additional replacement-level player which is subtracted out
+• 
+X
+m
+−
+X
+o
+m
+: the differential effect of team 
+A
+ having more money remaining than team 
+O
+• 
+X
+δ
+⁢
+(
+j
+)
+: differential as a result of punting strategy, defined in the same way as it was for the drafting context
+Take 
+M
+ to be the number of extra players on team 
+A
+ versus team 
+O
+, including player 
+p
+, and 
+R
+ to be the statistics of a replacement-value player. Also take 
+L
+ to be the amount of extra dollars team 
+A
+ has, and 
+D
+ to be the expected category benefit from one dollar worth of spending. The equation can then be rewritten to
+
+X
+⁢
+(
+j
+)
+=
+X
+s
++
+X
+p
+−
+X
+o
+s
++
+M
+⁢
+R
++
+L
+⁢
+D
++
+X
+δ
+⁢
+(
+j
+)
+M
+ and 
+L
+ are readily available. 
+R
+ and 
+D
+ are harder to calculate
+
+Overall replacement value is easy to estimate with the highest G-score (the appropriate metric for static value) among players expected not to be drafted. 
+R
+ is conceived of as an estimate of the statistical profile of a general player that could be picked up from the waiver wire or as a free agent, not necessarily mimicking the exact player seen to have the highest value. This necessitates careful handling of categories like turnovers, for which replacement-level players often are stronger than would otherwise be expected. 
+H
+0
+ distributes the overall replacement value evenly across players with a negative sign for turnovers. So with nine categories, it multiplies the replacement value (which is negative to start with) by 
+1
+7
+ for all categories except turnovers, and 
+−
+1
+7
+ for turnovers. It also divides by the 
+v
+ vector to convert G-score value into X-score value.
+
+H
+0
+ estimates 
+D
+ by taking the sum of available above-replacement value (weighted by the 
+v
+ vector for generic value) over the sum of remaining money in the pool. To get per-category values, overall value is spread by per-category generic weight (as in, divided by the 
+v
+ vector), with the value for turnovers inverted as it was for 
+R
+.
+
+This leaves 
+X
+δ
+⁢
+(
+j
+)
+ as the one remaining quantity to calculate, as it was for the snake draft context
+
+Appendix BEstimating distribution of future picks
+Define 
+x
+δ
+q
+ as the difference between candidate players’ mean performances and category-level baselines. In order to model all category differential distributions as equivalent and smooth functions, it is useful to approximate 
+x
+δ
+q
+ as a correlated random Gaussian. While not necessarily accurate, this captures basic properties of the relationships between categories while facilitating a relatively straightforward approach to modeling. The covariance can be estimated empirically by making a matrix 
+X
+, each row of which is 
+x
+δ
+q
+ of a player in 
+Q
+, and calculating its covariance matrix.
+
+If 
+x
+δ
+q
+ was all zeros, representing a baseline player, then its aggregate value in any weighting would also be zero. in terms of 
+j
+C
+, the chosen player 
+p
+’s value will likely be above the value of a baseline player. It can be written that
+
+j
+C
+T
+⁢
+x
+δ
+p
+=
+m
+On the other hand, in terms of generic value, the chosen player will likely be below baseline since the manager would need to sacrifice generic value in order to maximize value under 
+j
+C
+. Define
+
+v
+=
+m
+τ
+2
++
+m
+σ
+2
+m
+τ
+2
+This translates from X-scores to G-scores, a measure of generic value. Then,
+
+v
+T
+⁢
+x
+δ
+p
+=
+−
+k
+The chosen player by construction has the highest 
+j
+C
+T
+⁢
+x
+δ
+p
+ among players available. It is known that the expected value of the maximum of several normals with mean zero is roughly proportional to the standard deviation (Royston, 1982). That approximation can be invoked to declare that
+
+j
+C
+T
+⁢
+x
+δ
+p
+=
+ω
+⁢
+σ
+(1)
+Where 
+σ
+ is the standard deviation of 
+j
+C
+T
+⁢
+x
+δ
+q
+ across relevant candidate players.
+
+It is reasonable to approximate the relationship between 
+m
+ and 
+k
+ as a linear function, because a more unique player will likely require searching through rankings for longer. It can then also be said that
+
+v
+T
+⁢
+x
+δ
+p
+=
+−
+γ
+⁢
+σ
+(2)
+σ
+ takes some math to work out. Applying known linear algebra to the assumptions, 
+x
+δ
+q
+ has covariance matrix 
+A
+⁢
+Σ
+⁢
+A
+T
+ where 
+Σ
+ is the covariance matrix describing 
+X
+ and 
+A
+=
+I
+9
+−
+Σ
+⁢
+v
+⁢
+v
+T
+v
+T
+⁢
+Σ
+⁢
+v
+ (jlewk, 2022). So
+
+σ
+2
+=
+j
+C
+T
+⁢
+A
+⁢
+Σ
+⁢
+A
+T
+⁢
+j
+C
+Plugging in the definition of 
+A
+ yields
+
+σ
+2
+=
+j
+C
+T
+⁢
+(
+I
+9
+−
+Σ
+⁢
+v
+⁢
+v
+T
+v
+T
+⁢
+Σ
+⁢
+v
+)
+⁢
+Σ
+⁢
+(
+I
+9
+−
+Σ
+⁢
+v
+⁢
+v
+T
+v
+T
+⁢
+Σ
+⁢
+v
+)
+T
+⁢
+j
+C
+Simplifying leads to
+
+σ
+2
+=
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+T
+⁢
+Σ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+σ
+=
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+T
+⁢
+Σ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+Given this formulation, constraints 1 and 2, and invoking the assumption that the underlying distribution of X is a multivariate normal, 
+x
+δ
+⁢
+(
+j
+C
+)
+ can be derived. Applying more linear algebra, it is (jlewk, 2022)
+
+x
+δ
+⁢
+(
+j
+C
+)
+=
+Σ
+⁢
+U
+T
+⁢
+(
+U
+⁢
+Σ
+⁢
+U
+T
+)
+−
+1
+⁢
+b
+Where
+
+U
+=
+[
+v
+j
+]
+b
+=
+[
+−
+γ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+(
+1
+)
+)
+T
+⁢
+Σ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+ω
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+T
+⁢
+Σ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+]
+This expression can be further simplified. Note that
+
+U
+⁢
+Σ
+⁢
+U
+T
+=
+[
+v
+T
+⁢
+Σ
+⁢
+v
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+j
+C
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+]
+Making
+
+(
+U
+⁢
+Σ
+⁢
+U
+T
+)
+−
+1
+=
+1
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+v
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
+⁢
+[
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+−
+v
+T
+⁢
+Σ
+⁢
+j
+C
+−
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+]
+Since 
+U
+T
+=
+[
+v
+j
+C
+]
+,
+
+x
+δ
+⁢
+(
+j
+C
+)
+=
+Σ
+∗
+[
+v
+j
+C
+]
+⁢
+[
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+−
+v
+T
+⁢
+Σ
+⁢
+j
+C
+−
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+]
+⁢
+b
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+v
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
+=
+Σ
+∗
+[
+v
+∗
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+−
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+j
+C
+−
+v
+∗
+v
+T
+⁢
+Σ
+⁢
+j
+C
++
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+]
+∗
+b
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+v
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
+Which further simplifies
+
+x
+δ
+⁢
+(
+j
+C
+)
+=
+Σ
+∗
+[
+(
+v
+⁢
+j
+C
+T
+−
+j
+C
+⁢
+v
+T
+)
+⁢
+Σ
+⁢
+j
+C
+(
+j
+C
+⁢
+v
+T
+−
+v
+⁢
+j
+C
+T
+)
+⁢
+Σ
+⁢
+v
+]
+∗
+b
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+(
+1
+9
+)
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
+=
+Σ
+∗
+(
+v
+⁢
+j
+C
+T
+−
+j
+C
+⁢
+v
+T
+)
+∗
+[
+Σ
+⁢
+j
+C
+−
+Σ
+⁢
+v
+]
+∗
+b
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+v
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
+=
+Σ
+∗
+(
+v
+⁢
+j
+C
+T
+−
+j
+C
+⁢
+v
+T
+)
+∗
+(
+−
+Σ
+⁢
+j
+C
+∗
+γ
+−
+Σ
+⁢
+v
+∗
+ω
+)
+∗
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+T
+⁢
+Σ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+v
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
+=
+Σ
+∗
+(
+v
+⁢
+j
+C
+T
+−
+j
+C
+⁢
+v
+T
+)
+∗
+Σ
+∗
+(
+−
+γ
+⁢
+j
+C
+−
+ω
+⁢
+v
+)
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+T
+⁢
+Σ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+v
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
+Finally, this value must be multiplied by the number of picks remaining. So the result is
+
+X
+δ
+⁢
+(
+j
+C
+)
+=
+(
+N
+−
+K
+−
+1
+)
+∗
+Σ
+∗
+(
+v
+⁢
+j
+C
+T
+−
+j
+C
+⁢
+v
+T
+)
+∗
+Σ
+∗
+(
+−
+γ
+⁢
+j
+C
+−
+ω
+⁢
+v
+)
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+T
+⁢
+Σ
+⁢
+(
+j
+C
+−
+v
+⁢
+v
+T
+⁢
+Σ
+⁢
+j
+C
+v
+T
+⁢
+Σ
+⁢
+v
+)
+j
+C
+T
+⁢
+Σ
+⁢
+j
+C
+∗
+v
+T
+⁢
+Σ
+⁢
+v
+−
+(
+v
+T
+⁢
+Σ
+⁢
+j
+C
+)
+2
+Appendix CGradient of H-score for Each Category
+The gradient of the objective function with respect to 
+j
+ is
+
+∇
+V
+⁢
+(
+j
+)
+=
+∑
+c
+∈
+C
+∇
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+By the chain rule
+
+∇
+V
+⁢
+(
+j
+)
+=
+∑
+c
+∈
+C
+∇
+x
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+∗
+∇
+X
+⁢
+(
+j
+)
+Because 
+w
+c
+ is the cumulative distribution function of a normal distribution, this can be rewritten to
+
+∇
+V
+⁢
+(
+j
+)
+=
+∑
+c
+∈
+C
+P
+⁢
+D
+⁢
+F
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+∗
+∇
+X
+⁢
+(
+j
+)
+Appendix DEfficient computation for Most Categories
+The probability of match-up victory can be more efficiently computed using a tree. The top layer is winning points vs losing points, the next layer is winning points/winning rebounds vs winning points/losing rebounds etc. Each node stores the probability of the scenario occurring, and the children can be computed with one multiplication step each. Any node that represents five or more losses can be pruned. At layer 
+6
+ for example, there are 
+(
+6
+5
+)
+ nodes representing 
+5
+ losses and one win, and 
+(
+6
+6
+)
+ nodes representing 
+6
+ losses, all of which can be ignored. The total nodes requiring multiplication in each layer, starting from the second layer, are shown in Table 5.
+
+Layer	Operations
+2	
+2
+2
+=
+4
+3	
+2
+3
+=
+8
+4	
+2
+4
+=
+16
+5	
+2
+5
+−
+(
+5
+5
+)
+=
+31
+6	
+2
+6
+−
+(
+6
+5
+)
+−
+(
+6
+6
+)
+=
+57
+7	
+2
+7
+−
+(
+7
+5
+)
+−
+(
+7
+6
+)
+−
+(
+7
+7
+)
+=
+99
+8	
+2
+8
+−
+(
+8
+5
+)
+−
+(
+8
+6
+)
+−
+(
+8
+7
+)
+−
+(
+8
+8
+)
+=
+163
+9	
+256
+ as calculated earlier
+Table 5:Calculation of total number of scenarios
+The total number of calculations add up to 
+634
+, for a 
+69
+%
+ reduction in multiplication operations. This produces a relatively tractable operation, albeit a complicated one, to calculate the predicted win probability between two teams
+
+Appendix EGradient of H-score for Most Categories
+The objective function has already been described as
+
+V
+⁢
+(
+j
+)
+=
+∑
+s
+∈
+S
+W
+∏
+c
+∈
+C
+f
+⁢
+(
+s
+,
+c
+)
+∗
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
++
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+)
+)
+⁢
+(
+1
+−
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
++
+1
+2
+⁢
+∑
+s
+∈
+S
+T
+∏
+c
+∈
+C
+f
+⁢
+(
+s
+,
+c
+)
+∗
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
++
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+)
+)
+⁢
+(
+1
+−
+w
+c
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
+Where 
+S
+W
+ is a set of scenarios for which the relevant player wins, 
+S
+T
+ is the same for ties, and 
+f
+⁢
+(
+c
+,
+s
+)
+ is a binary equalling 
+1
+ if category 
+c
+ is won in scenario 
+s
+ and 
+0
+ otherwise.
+
+The case when there are an odd number of categories, and therefore no ties, is simplest. So assume that 
+S
+T
+ is empty for now.
+
+Because 
+∇
+⁢
+∏
+i
+x
+i
+=
+∑
+i
+∇
+x
+i
+∗
+∏
+l
+,
+≠
+i
+x
+l
+, it can be said that
+
+∇
+V
+⁢
+(
+j
+)
+=
+∑
+s
+∈
+S
+∑
+c
+1
+∈
+C
+(
+f
+⁢
+(
+s
+,
+c
+1
+)
+∗
+∇
+w
+c
+1
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+−
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+1
+)
+)
+⁢
+∇
+w
+c
+1
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
+(
+∏
+c
+2
+∈
+C
+(
+f
+⁢
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+)
+⁢
+(
+X
+⁢
+(
+j
+)
+)
++
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+2
+)
+)
+⁢
+(
+1
+−
+w
+c
+2
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
+)
+Or, rearranging terms,
+
+∇
+V
+(
+x
+)
+=
+∑
+s
+∈
+S
+∑
+c
+1
+∈
+C
+(
+f
+(
+s
+,
+c
+1
+)
+∗
+∇
+w
+c
+1
+∗
+(
+∏
+c
+2
+∈
+C
+f
+(
+s
+,
+c
+)
+∗
+w
+c
+2
+(
+X
+(
+j
+)
+)
++
+(
+1
+−
+f
+(
+s
+,
+c
+2
+)
+)
+(
+1
+−
+w
+c
+2
+(
+X
+(
+j
+)
+)
+)
+)
+−
+(
+(
+1
+−
+f
+(
+s
+,
+c
+1
+)
+)
+∇
+w
+c
+1
+(
+X
+(
+j
+)
+)
+∗
+(
+∏
+c
+2
+∈
+C
+(
+f
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+(
+X
+(
+j
+)
+)
++
+(
+1
+−
+f
+(
+s
+,
+c
+2
+)
+)
+(
+1
+−
+w
+c
+2
+(
+X
+(
+j
+)
+)
+)
+)
+)
+The sum terms are interchangeable so
+
+∇
+V
+(
+j
+)
+=
+∑
+c
+1
+∈
+C
+(
+∑
+s
+∈
+S
+(
+f
+(
+s
+,
+c
+1
+)
+∗
+∇
+w
+c
+c
+1
+∗
+(
+∏
+c
+2
+∈
+C
+f
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+(
+X
+(
+j
+)
+)
++
+(
+1
+−
+f
+(
+s
+,
+c
+2
+)
+)
+(
+1
+−
+w
+c
+2
+(
+X
+(
+j
+)
+)
+)
+)
+−
+∑
+s
+∈
+S
+(
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+1
+)
+)
+⁢
+∇
+w
+c
+1
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+∗
+(
+∏
+c
+2
+∈
+C
+(
+f
+⁢
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+⁢
+(
+X
+⁢
+(
+j
+)
+)
++
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+2
+)
+)
+⁢
+(
+1
+−
+w
+c
+2
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
+)
+)
+)
+Now it is useful to define some additional scenario sets. 
+S
+c
+1
+⁢
+(
+n
+,
+m
+)
+ is a set of scenarios across all categories except 
+c
+1
+, for which between 
+n
+ and 
+m
+ are wins. Since 
+f
+⁢
+(
+s
+,
+c
+1
+)
+ is 1 if and only if category 
+c
+1
+ is a win, and S consists of sets with 
+|
+C
+|
++
+1
+2
+ or more wins, the first product term is relevant for scenarios with 
+|
+C
+|
+−
+1
+2
+ or more wins among the categories that are not 
+c
+1
+. Since 
+1
+−
+f
+⁢
+(
+s
+,
+c
+1
+)
+ is 1 if and only if category 
+c
+1
+ is a loss, the second term is relevant for scenarios with 
+|
+C
+|
++
+1
+2
+ or more wins among the other categories. Also, it is helpful to shorten 
+|
+C
+|
+−
+1
+2
+ as 
+n
+. Subbing in the new notation
+
+∇
+V
+(
+x
+)
+=
+∑
+c
+1
+∈
+C
+(
+∑
+s
+∈
+S
+c
+1
+⁢
+(
+n
+,
+|
+C
+|
+)
+(
+∇
+w
+c
+1
+∗
+∏
+c
+2
+∈
+C
+f
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+(
+X
+(
+j
+)
+)
++
+(
+1
+−
+f
+(
+s
+,
+c
+2
+)
+)
+(
+1
+−
+w
+c
+2
+(
+X
+(
+j
+)
+)
+)
+)
+−
+∑
+s
+∈
+S
+c
+1
+⁢
+(
+n
++
+1
+,
+|
+C
+|
+)
+(
+∇
+w
+c
+1
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+∗
+(
+∏
+c
+2
+∈
+C
+(
+f
+⁢
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+⁢
+(
+X
+⁢
+(
+j
+)
+)
++
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+2
+)
+)
+⁢
+(
+1
+−
+w
+c
+2
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
+)
+)
+)
+The terms from scenarios with 
+n
++
+1
+ or more wins cancel, since they are on both sides of the subtraction.
+
+∇
+V
+(
+j
+)
+=
+∑
+c
+1
+∈
+C
+∑
+s
+∈
+S
+c
+1
+(
+n
+,
+n
+(
+∇
+w
+c
+1
+(
+X
+(
+j
+)
+)
+∗
+(
+∏
+c
+2
+∈
+C
+f
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+(
+X
+(
+j
+)
+)
++
+(
+1
+−
+f
+(
+s
+,
+c
+2
+)
+)
+(
+1
+−
+w
+c
+2
+)
+)
+Or
+
+∇
+V
+(
+j
+)
+=
+∑
+c
+1
+∈
+C
+∇
+w
+c
+1
+(
+X
+(
+j
+)
+)
+(
+∑
+s
+∈
+S
+c
+1
+⁢
+(
+n
+,
+n
+)
+(
+∏
+c
+2
+∈
+C
+f
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+(
+X
+(
+j
+)
+)
++
+(
+1
+−
+f
+(
+s
+,
+c
+2
+)
+)
+(
+1
+−
+w
+c
+2
+(
+X
+(
+j
+)
+)
+)
+)
+The large expression in parentheses can be thought of as a “tipping point” probability. For a given 
+c
+1
+, it is the probability that the other categories include exactly 
+n
+ wins and 
+n
+ losses, making 
+c
+1
+ the decisive category. It is intuitively logical that the tipping point probability would be a multiplier of the overall gradient, since it provides the exact probability that the category is relevant to winning chances.
+
+Defining
+
+T
+⁢
+(
+j
+,
+c
+1
+)
+=
+∑
+s
+∈
+S
+c
+1
+⁢
+(
+n
+,
+n
+)
+(
+∏
+c
+2
+∈
+C
+f
+⁢
+(
+s
+,
+c
+2
+)
+∗
+w
+c
+2
+⁢
+(
+X
+⁢
+(
+j
+)
+)
++
+(
+1
+−
+f
+⁢
+(
+s
+,
+c
+2
+)
+)
+⁢
+(
+1
+−
+w
+c
+2
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+)
+)
+Yields
+
+∇
+V
+⁢
+(
+j
+)
+=
+∑
+c
+1
+∈
+C
+T
+⁢
+(
+j
+,
+c
+1
+)
+∗
+∇
+w
+c
+1
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+Or
+
+∇
+V
+⁢
+(
+j
+)
+=
+∑
+c
+1
+∈
+C
+T
+⁢
+(
+j
+,
+c
+1
+)
+∗
+P
+⁢
+D
+⁢
+F
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+∗
+∇
+X
+⁢
+(
+j
+)
+This is the same as the gradient for each-category, just with the extra 
+T
+⁢
+(
+j
+,
+c
+1
+)
+ term.
+
+The definition above of 
+∇
+V
+⁢
+(
+j
+)
+ was designed only for the case when the number of categories was odd, and therefore ties were impossible. Fortunately, it can be easily extended to the even case.
+
+In the even case, tipping points can change the result by one half-step by flipping a loss to a tie, a tie to a loss, a win to a tie, or a tie to a win. There are more tipping points in a sense, because any tie scenario is a tipping point, but the influence of a tipping point is half as strong. So the resulting gradient is
+
+∇
+V
+⁢
+(
+j
+)
+=
+1
+2
+⁢
+∑
+c
+1
+∈
+C
+T
+⁢
+(
+j
+,
+c
+1
+)
+∗
+P
+⁢
+D
+⁢
+F
+⁢
+(
+X
+⁢
+(
+j
+)
+)
+∗
+∇
+X
+⁢
+(
+j
+)
+References
+[1]
+Fudenberg, D. and Tirole, J. (1991), Game Theory, Section 3.5, page 92. MIT Press
+[2]
+Genz, A. (2009). Computation of Multivariate normal and t Probabilities. Springer. ISBN 978-3-642-01689-9.
+[3]
+jlewk (https://math.stackexchange.com/users/484640/jlewk), Distribution of joint Gaussian conditional on their sum, URL (version: 2022-07-09): https://math.stackexchange.com/q/2942689
+[4]
+Kingma, D. and Ba, J. (2014). Adam: A Method for Stochastic Optimization [online]. [Preprint] Available from: https://arxiv.org/abs/1412.6980 [Accessed 28 Aug. 2024]
+[5]
+Lloyd, J. (2023). Assessing the Good, Bad, and Ugly of Fantasy Basketball Rankings [online] Available at: https://app.podscribe.ai/episode/87459093 [Accessed 13 Sep. 2024].
+[6]
+Rosenof, Z (2024). Static Value Quantification for Fantasy Basketball [online]. [Preprint] Available from: https://arxiv.org/abs/2307.02188 [Accessed 28 Aug. 2024]
+[7]
+Royston, J. (1982). Algorithm AS 177: Expected normal Order Statistics (Exact and Approximate). Journal of the Royal Statistical Society. Series C (Applied Statistics), vol. 31, no. 2, 1982, pp. 161–65. JSTOR, https://doi.org/10.2307/2347982. [Accessed 8 Dec. 2023.]
+[8]
+Scipy.org. (2016). linear_sum_assignment — SciPy v1.14.1 Manual. [online] Available from: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html#rc35ed51944ec-2 [Accessed 5 Sep. 2024].

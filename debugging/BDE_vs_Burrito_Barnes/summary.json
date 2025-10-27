@@ -1,0 +1,23 @@
+{
+  "matchup": "BDE vs Burrito Barnes",
+  "n_simulations": 500,
+  "team_a_wins": 0,
+  "team_b_wins": 499,
+  "ties": 1,
+  "team_a_win_pct": 0.0,
+  "team_b_win_pct": 0.998,
+  "team_a_roster_size": 13,
+  "team_b_roster_size": 13,
+  "team_a_modeled_players": 10,
+  "team_b_modeled_players": 12,
+  "team_a_avg_cats_won": 1.752,
+  "team_b_avg_cats_won": 9.07,
+  "team_a_cats_std": 0.9209736069885711,
+  "team_b_cats_std": 1.0035508101022657,
+  "team_a_avg_pts": 337.276,
+  "team_b_avg_pts": 512.77,
+  "team_a_avg_reb": 147.08,
+  "team_b_avg_reb": 184.43,
+  "team_a_avg_ast": 69.224,
+  "team_b_avg_ast": 99.312
+}

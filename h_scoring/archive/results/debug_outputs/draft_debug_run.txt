@@ -1,0 +1,1753 @@
+Using data files:
+  - data/league_weekly_data_20251002_125746.csv
+  - data/player_variances_20251002_125746.json
+
+
+Loading data from data/league_weekly_data_20251002_125746.csv
+Loading variances from data/player_variances_20251002_125746.json
+Loading do_not_draft list from data/do_not_draft.csv
+  Loaded 4 players to exclude
+Initializing scoring system...
+Calculating covariance matrix...
+Initializing paper-faithful H-score optimizer...
+Computing average G-score profile for opponent modeling...
+Average G-score profile computed from 193 players:
+  PTS          -0.224
+  REB          -0.345
+  AST          -0.535
+  STL          -0.111
+  BLK          -0.432
+  TOV           0.243
+  FG3M         -1.421
+  DD           -0.551
+  FG_PCT       -0.100
+  FT_PCT        0.466
+  FG3_PCT       0.335
+✓ Initialization complete!
+
+================================================================================
+DETAILED DRAFT DEBUGGING - H-SCORE CALCULATIONS
+================================================================================
+
+Settings:
+  - 12 teams, 13 roster spots
+  - You are drafting at position 6
+  - Snake draft format
+  - Opponents use Balanced ADP strategy
+  - You use H-scoring strategy
+
+Starting draft...
+
+--------------------------------------------------------------------------------
+ROUND 1
+--------------------------------------------------------------------------------
+Pick   1 - Team  1: Nikola Jokic                   (ADP: 1.1)
+Pick   2 - Team  2: Victor Wembanyama              (ADP: 2.8)
+Pick   3 - Team  3: Giannis Antetokounmpo          (ADP: 3.8)
+Pick   4 - Team  4: Luka Doncic                    (ADP: 4.7)
+Pick   5 - Team  5: Shai Gilgeous-Alexander        (ADP: 3.8)
+
+################################################################################
+# Pick 6 - YOUR TURN (Team 6, Round 1)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #1 RECOMMENDATIONS
+============================================================
+
+Excluding 3 do_not_draft players from consideration:
+  - Kawhi Leonard
+  - Joel Embiid
+  - Zion Williamson
+Evaluating 47 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE  G_SCORE
+    1      Anthony Davis 0.527382 7.044256
+    2   Domantas Sabonis 0.525714 7.882563
+    3      Chet Holmgren 0.516361 3.543958
+    4       James Harden 0.515271 6.062541
+    5      Stephen Curry 0.514709 5.068840
+    6       Kevin Durant 0.514139 4.990313
+    7       LeBron James 0.510700 5.254746
+    8 Karl-Anthony Towns 0.509469 4.831295
+    9        Evan Mobley 0.506182 3.376574
+   10        Ivica Zubac 0.502963      NaN
+   11      Pascal Siakam 0.501478 2.848143
+   12        Bam Adebayo 0.500394 3.110639
+   13    Anthony Edwards 0.499915 3.954698
+   14     Scottie Barnes 0.499783 3.453712
+   15    Cade Cunningham 0.493851 3.037110
+   16    Lauri Markkanen 0.492683 3.031604
+   17         Trae Young 0.492419 4.354956
+   18     Paolo Banchero 0.490330 0.845659
+   19       Devin Booker 0.488822 3.062528
+   20        Jalen Duren 0.488009      NaN
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+     3. Anthony Davis             | H: 0.5274 | G: 7.0443 | ADP:   9.7
+     4. Domantas Sabonis          | H: 0.5257 | G: 7.8826 | ADP:  10.1
+    20. Chet Holmgren             | H: 0.5164 | G: 3.5440 | ADP:  25.7
+     8. James Harden              | H: 0.5153 | G: 6.0625 | ADP:  15.4
+    12. Stephen Curry             | H: 0.5147 | G: 5.0688 | ADP:  18.9
+    17. Kevin Durant              | H: 0.5141 | G: 4.9903 | ADP:  22.7
+    11. LeBron James              | H: 0.5107 | G: 5.2547 | ADP:  18.3
+     5. Karl-Anthony Towns        | H: 0.5095 | G: 4.8313 | ADP:  10.5
+    14. Evan Mobley               | H: 0.5062 | G: 3.3766 | ADP:  21.1
+    30. Ivica Zubac               | H: 0.5030 | G:    nan | ADP:  35.5
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Anthony Davis
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =   1.123 | G =   1.285
+    REB     : X =   1.845 | G =   2.226
+    AST     : X =  -0.153 | G =  -0.116
+    STL     : X =   0.302 | G =   0.394
+    BLK     : X =   1.436 | G =   1.953
+    TOV     : X =  -0.310 | G =  -0.350
+    FG3M    : X =  -2.383 | G =  -1.208
+    DD      : X =   1.845 | G =   2.497
+    FG_PCT  : X =   1.055 | G =   0.428
+    FT_PCT  : X =   1.743 | G =   0.322
+    FG3_PCT : X =  -0.184 | G =  -0.387
+
+  Current Team Composition (0 players):
+  ------------------------------------------------------------
+    (Empty - First pick)
+
+  Team X-Score Totals (Before → After Adding Anthony Davis):
+  ------------------------------------------------------------
+    PTS     :    0.00 →    1.12 (Δ   +1.12)
+    REB     :    0.00 →    1.84 (Δ   +1.84)
+    AST     :    0.00 →   -0.15 (Δ   -0.15)
+    STL     :    0.00 →    0.30 (Δ   +0.30)
+    BLK     :    0.00 →    1.44 (Δ   +1.44)
+    TOV     :    0.00 →   -0.31 (Δ   -0.31)
+    FG3M    :    0.00 →   -2.38 (Δ   -2.38)
+    DD      :    0.00 →    1.85 (Δ   +1.85)
+    FG_PCT  :    0.00 →    1.05 (Δ   +1.05)
+    FT_PCT  :    0.00 →    1.74 (Δ   +1.74)
+    FG3_PCT :    0.00 →   -0.18 (Δ   -0.18)
+
+  Why Anthony Davis over Domantas Sabonis?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0017
+    G-Score Advantage: -0.8383
+
+    Category Comparison:
+      ✗ AST     :  -0.15 vs   1.73 (Δ  -1.88)
+      ✓ BLK     :   1.44 vs  -0.21 (Δ  +1.65)
+      ✗ DD      :   1.85 vs   2.58 (Δ  -0.73)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Anthony Davis (ADP: 9.7) ✓✓✓
+
+
+✓ Drafted: Anthony Davis
+Team size: 1/13
+Pick   7 - Team  7: Anthony Edwards                (ADP: 7.1)
+Pick   8 - Team  8: Domantas Sabonis               (ADP: 10.1)
+Pick   9 - Team  9: Cade Cunningham                (ADP: 7.7)
+Pick  10 - Team 10: Karl-Anthony Towns             (ADP: 10.5)
+Pick  11 - Team 11: Trae Young                     (ADP: 11.8)
+Pick  12 - Team 12: Devin Booker                   (ADP: 13.8)
+--------------------------------------------------------------------------------
+ROUND 2
+--------------------------------------------------------------------------------
+Pick  13 - Team 12: James Harden                   (ADP: 15.4)
+Pick  14 - Team 11: Paolo Banchero                 (ADP: 15.4)
+Pick  15 - Team 10: Alperen Sengün                 (ADP: 18.0)
+Pick  16 - Team  9: Stephen Curry                  (ADP: 18.9)
+Pick  17 - Team  8: LeBron James                   (ADP: 18.3)
+Pick  18 - Team  7: Tyrese Maxey                   (ADP: 20.2)
+
+################################################################################
+# Pick 19 - YOUR TURN (Team 6, Round 2)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #2 RECOMMENDATIONS
+============================================================
+
+Excluding 3 do_not_draft players from consideration:
+  - Kawhi Leonard
+  - Joel Embiid
+  - Zion Williamson
+Evaluating 47 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE  G_SCORE
+    1        Bam Adebayo 0.576019 3.110639
+    2        Evan Mobley 0.575790 3.376574
+    3       Kevin Durant 0.571509 4.990313
+    4     Nikola Vucevic 0.570104      NaN
+    5        Rudy Gobert 0.566056      NaN
+    6        Ivica Zubac 0.562292      NaN
+    7        Jalen Duren 0.560292      NaN
+    8      Chet Holmgren 0.559464 3.543958
+    9      DeMar DeRozan 0.559160 1.762281
+   10 Michael Porter Jr. 0.559071 1.885304
+   11      Amen Thompson 0.553231 0.611062
+   12       Myles Turner 0.552705 2.330214
+   13      Deandre Ayton 0.552561 0.671211
+   14          Josh Hart 0.551828 1.696404
+   15     Scottie Barnes 0.550410 3.453712
+   16      Jarrett Allen 0.549900      NaN
+   17        LaMelo Ball 0.549218 3.608426
+   18    Lauri Markkanen 0.547114 3.031604
+   19      Pascal Siakam 0.545367 2.848143
+   20      Derrick White 0.542631 2.131447
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+    15. Bam Adebayo               | H: 0.5760 | G: 3.1106 | ADP:  34.0
+     1. Evan Mobley               | H: 0.5758 | G: 3.3766 | ADP:  21.1
+     4. Kevin Durant              | H: 0.5715 | G: 4.9903 | ADP:  22.7
+    35. Nikola Vucevic            | H: 0.5701 | G:    nan | ADP:  55.4
+    47. Rudy Gobert               | H: 0.5661 | G:    nan | ADP:  68.9
+    17. Ivica Zubac               | H: 0.5623 | G:    nan | ADP:  35.5
+    31. Jalen Duren               | H: 0.5603 | G:    nan | ADP:  55.0
+     7. Chet Holmgren             | H: 0.5595 | G: 3.5440 | ADP:  25.7
+    43. DeMar DeRozan             | H: 0.5592 | G: 1.7623 | ADP:  65.4
+    40. Michael Porter Jr.        | H: 0.5591 | G: 1.8853 | ADP:  60.5
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Bam Adebayo
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =   0.690 | G =   0.685
+    REB     : X =   1.346 | G =   1.639
+    AST     : X =   0.308 | G =   0.273
+    STL     : X =   0.433 | G =   0.659
+    BLK     : X =   0.252 | G =   0.277
+    TOV     : X =  -0.530 | G =  -0.635
+    FG3M    : X =  -1.747 | G =  -1.195
+    DD      : X =   1.093 | G =   1.448
+    FG_PCT  : X =   0.507 | G =   0.195
+    FT_PCT  : X =   0.576 | G =   0.227
+    FG3_PCT : X =  -0.139 | G =  -0.464
+
+  Current Team Composition (1 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+
+  Team X-Score Totals (Before → After Adding Bam Adebayo):
+  ------------------------------------------------------------
+    PTS     :    1.12 →    1.81 (Δ   +0.69)
+    REB     :    1.84 →    3.19 (Δ   +1.35)
+    AST     :   -0.15 →    0.15 (Δ   +0.31)
+    STL     :    0.30 →    0.74 (Δ   +0.43)
+    BLK     :    1.44 →    1.69 (Δ   +0.25)
+    TOV     :   -0.31 →   -0.84 (Δ   -0.53)
+    FG3M    :   -2.38 →   -4.13 (Δ   -1.75)
+    DD      :    1.85 →    2.94 (Δ   +1.09)
+    FG_PCT  :    1.05 →    1.56 (Δ   +0.51)
+    FT_PCT  :    1.74 →    2.32 (Δ   +0.58)
+    FG3_PCT :   -0.18 →   -0.32 (Δ   -0.14)
+
+  Why Bam Adebayo over Evan Mobley?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0002
+    G-Score Advantage: -0.2659
+
+    Category Comparison:
+      ✗ BLK     :   0.25 vs   1.16 (Δ  -0.90)
+      ✗ FG_PCT  :   0.51 vs   1.13 (Δ  -0.62)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Bam Adebayo (ADP: 34.0) ✓✓✓
+
+
+✓ Drafted: Bam Adebayo
+Team size: 2/13
+Pick  20 - Team  5: Evan Mobley                    (ADP: 21.1)
+Pick  21 - Team  4: Jalen Brunson                  (ADP: 22.7)
+Pick  22 - Team  3: Jalen Williams                 (ADP: 21.3)
+Pick  23 - Team  2: Donovan Mitchell               (ADP: 23.5)
+Pick  24 - Team  1: Scottie Barnes                 (ADP: 24.8)
+--------------------------------------------------------------------------------
+ROUND 3
+--------------------------------------------------------------------------------
+Pick  25 - Team  1: Kevin Durant                   (ADP: 22.7)
+Pick  26 - Team  2: Chet Holmgren                  (ADP: 25.7)
+Pick  27 - Team  3: De'Aaron Fox                   (ADP: 26.9)
+Pick  28 - Team  4: Pascal Siakam                  (ADP: 29.0)
+Pick  29 - Team  5: Jalen Johnson                  (ADP: 28.2)
+
+################################################################################
+# Pick 30 - YOUR TURN (Team 6, Round 3)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #3 RECOMMENDATIONS
+============================================================
+
+Excluding 4 do_not_draft players from consideration:
+  - Kawhi Leonard
+  - Joel Embiid
+  - Zion Williamson
+  - Paul George
+Evaluating 46 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE  G_SCORE
+    1     Nikola Vucevic 0.594791      NaN
+    2    Lauri Markkanen 0.571741 3.031604
+    3      Miles Bridges 0.571625 2.791567
+    4 Michael Porter Jr. 0.569728 1.885304
+    5      DeMar DeRozan 0.569507 1.762281
+    6       Jamal Murray 0.569470 2.538635
+    7        LaMelo Ball 0.568366 3.608426
+    8  Jaren Jackson Jr. 0.567530 2.763731
+    9        Rudy Gobert 0.566486      NaN
+   10      Derrick White 0.566073 2.131447
+   11       Myles Turner 0.564967 2.330214
+   12      Julius Randle 0.564949 2.601705
+   13        Zach LaVine 0.564246 2.040767
+   14       Desmond Bane 0.563137 2.342836
+   15        Ivica Zubac 0.563050      NaN
+   16        Josh Giddey 0.562988 1.199083
+   17        Jalen Duren 0.561936      NaN
+   18          Josh Hart 0.559866 1.696404
+   19        Tyler Herro 0.559010 2.071463
+   20       Cooper Flagg 0.558008 0.000000
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+    24. Nikola Vucevic            | H: 0.5948 | G:    nan | ADP:  55.4
+    15. Lauri Markkanen           | H: 0.5717 | G: 3.0316 | ADP:  45.6
+    38. Miles Bridges             | H: 0.5716 | G: 2.7916 | ADP:  69.7
+    29. Michael Porter Jr.        | H: 0.5697 | G: 1.8853 | ADP:  60.5
+    32. DeMar DeRozan             | H: 0.5695 | G: 1.7623 | ADP:  65.4
+    12. Jamal Murray              | H: 0.5695 | G: 2.5386 | ADP:  43.8
+     2. LaMelo Ball               | H: 0.5684 | G: 3.6084 | ADP:  29.2
+    10. Jaren Jackson Jr.         | H: 0.5675 | G: 2.7637 | ADP:  41.7
+    36. Rudy Gobert               | H: 0.5665 | G:    nan | ADP:  68.9
+     9. Derrick White             | H: 0.5661 | G: 2.1314 | ADP:  39.7
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Nikola Vucevic
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =   0.782 | G =   0.677
+    REB     : X =   1.903 | G =   2.273
+    AST     : X =   0.222 | G =   0.142
+    STL     : X =  -0.167 | G =  -0.221
+    BLK     : X =   0.257 | G =   0.274
+    TOV     : X =  -0.055 | G =  -0.051
+    FG3M    : X =   0.046 | G =   0.036
+    DD      : X =   1.585 | G =   2.449
+    FG_PCT  : X =   0.384 | G =   0.119
+    FT_PCT  : X =   0.136 | G =   0.204
+    FG3_PCT : X =   0.235 | G =     nan
+
+  Current Team Composition (2 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+
+  Team X-Score Totals (Before → After Adding Nikola Vucevic):
+  ------------------------------------------------------------
+    PTS     :    1.81 →    2.60 (Δ   +0.78)
+    REB     :    3.19 →    5.09 (Δ   +1.90)
+    AST     :    0.15 →    0.38 (Δ   +0.22)
+    STL     :    0.74 →    0.57 (Δ   -0.17)
+    BLK     :    1.69 →    1.95 (Δ   +0.26)
+    TOV     :   -0.84 →   -0.90 (Δ   -0.06)
+    FG3M    :   -4.13 →   -4.08 (Δ   +0.05)
+    DD      :    2.94 →    4.52 (Δ   +1.59)
+    FG_PCT  :    1.56 →    1.95 (Δ   +0.38)
+    FT_PCT  :    2.32 →    2.45 (Δ   +0.14)
+    FG3_PCT :   -0.32 →   -0.09 (Δ   +0.24)
+
+  Why Nikola Vucevic over Lauri Markkanen?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0231
+    G-Score Advantage: +nan
+
+    Category Comparison:
+      ✓ REB     :   1.90 vs   0.65 (Δ  +1.26)
+      ✓ AST     :   0.22 vs  -1.64 (Δ  +1.86)
+      ✓ BLK     :   0.26 vs  -0.38 (Δ  +0.63)
+      ✓ DD      :   1.59 vs   0.52 (Δ  +1.06)
+      ✓ FG_PCT  :   0.38 vs  -0.34 (Δ  +0.72)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Nikola Vucevic (ADP: 55.4) ✓✓✓
+
+
+✓ Drafted: Nikola Vucevic
+Team size: 3/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick  31 - Team  7: Jaylen Brown                   (ADP: 29.1)
+Pick  32 - Team  8: LaMelo Ball                    (ADP: 29.2)
+Pick  33 - Team  9: Amen Thompson                  (ADP: 29.9)
+Pick  34 - Team 10: Franz Wagner                   (ADP: 34.4)
+Pick  35 - Team 11: Josh Giddey                    (ADP: 32.3)
+Pick  36 - Team 12: Dyson Daniels                  (ADP: 37.6)
+--------------------------------------------------------------------------------
+ROUND 4
+--------------------------------------------------------------------------------
+Pick  37 - Team 12: Ja Morant                      (ADP: 38.5)
+Pick  38 - Team 11: Ivica Zubac                    (ADP: 35.5)
+Pick  39 - Team 10: Desmond Bane                   (ADP: 43.6)
+Pick  40 - Team  9: Derrick White                  (ADP: 39.7)
+Pick  41 - Team  8: Jaren Jackson Jr.              (ADP: 41.7)
+Pick  42 - Team  7: Cooper Flagg                   (ADP: 43.9)
+
+################################################################################
+# Pick 43 - YOUR TURN (Team 6, Round 4)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #4 RECOMMENDATIONS
+============================================================
+
+Excluding 4 do_not_draft players from consideration:
+  - Kawhi Leonard
+  - Joel Embiid
+  - Zion Williamson
+  - Paul George
+Evaluating 46 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE   G_SCORE
+    1       Jamal Murray 0.601277  2.538635
+    2      Miles Bridges 0.600824  2.791567
+    3    Lauri Markkanen 0.600693  3.031604
+    4 Michael Porter Jr. 0.599625  1.885304
+    5        Zach LaVine 0.596903  2.040767
+    6       Myles Turner 0.594422  2.330214
+    7      Julius Randle 0.592586  2.601705
+    8     Brandon Ingram 0.591050  0.411506
+    9        Tyler Herro 0.590997  2.071463
+   10 Kristaps Porzingis 0.589387  0.000000
+   11      Austin Reaves 0.589258  0.617886
+   12        Jalen Duren 0.588545       NaN
+   13      DeMar DeRozan 0.588524  1.762281
+   14       John Collins 0.587001  0.976822
+   15        Deni Avdija 0.586468 -0.159556
+   16      Mikal Bridges 0.585560  1.651468
+   17           Naz Reid 0.584079 -0.536521
+   18      Deandre Ayton 0.580750  0.671211
+   19    Trey Murphy III 0.580534  1.320118
+   20      Mark Williams 0.579718       NaN
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+     1. Jamal Murray              | H: 0.6013 | G: 2.5386 | ADP:  43.8
+    25. Miles Bridges             | H: 0.6008 | G: 2.7916 | ADP:  69.7
+     3. Lauri Markkanen           | H: 0.6007 | G: 3.0316 | ADP:  45.6
+    16. Michael Porter Jr.        | H: 0.5996 | G: 1.8853 | ADP:  60.5
+    18. Zach LaVine               | H: 0.5969 | G: 2.0408 | ADP:  62.9
+     9. Myles Turner              | H: 0.5944 | G: 2.3302 | ADP:  55.0
+    17. Julius Randle             | H: 0.5926 | G: 2.6017 | ADP:  62.7
+    35. Brandon Ingram            | H: 0.5911 | G: 0.4115 | ADP:  82.0
+    10. Tyler Herro               | H: 0.5910 | G: 2.0715 | ADP:  55.1
+     7. Kristaps Porzingis        | H: 0.5894 | G: 0.0000 | ADP:  54.8
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Jamal Murray
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =   0.678 | G =   0.766
+    REB     : X =  -0.986 | G =  -0.614
+    AST     : X =   1.249 | G =   1.247
+    STL     : X =   0.273 | G =   0.374
+    BLK     : X =  -0.407 | G =  -0.346
+    TOV     : X =  -0.363 | G =  -0.336
+    FG3M    : X =   0.692 | G =   0.764
+    DD      : X =  -0.196 | G =  -0.171
+    FG_PCT  : X =  -0.339 | G =  -0.116
+    FT_PCT  : X =   1.022 | G =   0.589
+    FG3_PCT : X =   1.036 | G =   0.382
+
+  Current Team Composition (3 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+
+  Team X-Score Totals (Before → After Adding Jamal Murray):
+  ------------------------------------------------------------
+    PTS     :    2.60 →    3.27 (Δ   +0.68)
+    REB     :    5.09 →    4.11 (Δ   -0.99)
+    AST     :    0.38 →    1.62 (Δ   +1.25)
+    STL     :    0.57 →    0.84 (Δ   +0.27)
+    BLK     :    1.95 →    1.54 (Δ   -0.41)
+    TOV     :   -0.90 →   -1.26 (Δ   -0.36)
+    FG3M    :   -4.08 →   -3.39 (Δ   +0.69)
+    DD      :    4.52 →    4.33 (Δ   -0.20)
+    FG_PCT  :    1.95 →    1.61 (Δ   -0.34)
+    FT_PCT  :    2.45 →    3.48 (Δ   +1.02)
+    FG3_PCT :   -0.09 →    0.95 (Δ   +1.04)
+
+  Why Jamal Murray over Miles Bridges?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0005
+    G-Score Advantage: -0.2529
+
+    Category Comparison:
+      ✗ REB     :  -0.99 vs   0.73 (Δ  -1.72)
+      ✓ AST     :   1.25 vs   0.22 (Δ  +1.02)
+      ✗ DD      :  -0.20 vs   0.39 (Δ  -0.59)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Jamal Murray (ADP: 43.8) ✓✓✓
+
+
+✓ Drafted: Jamal Murray
+Team size: 4/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick  44 - Team  5: Kawhi Leonard                  (ADP: 44.8)
+Pick  45 - Team  4: Trey Murphy III                (ADP: 45.3)
+Pick  46 - Team  3: Lauri Markkanen                (ADP: 45.6)
+Pick  47 - Team  2: Joel Embiid                    (ADP: 47.8)
+Pick  48 - Team  1: Zion Williamson                (ADP: 48.7)
+--------------------------------------------------------------------------------
+ROUND 5
+--------------------------------------------------------------------------------
+Pick  49 - Team  1: Josh Hart                      (ADP: 50.5)
+Pick  50 - Team  2: Jimmy Butler                   (ADP: 52.9)
+Pick  51 - Team  3: Kristaps Porzingis             (ADP: 54.8)
+Pick  52 - Team  4: Austin Reaves                  (ADP: 53.6)
+Pick  53 - Team  5: Jalen Duren                    (ADP: 55.0)
+
+################################################################################
+# Pick 54 - YOUR TURN (Team 6, Round 5)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #5 RECOMMENDATIONS
+============================================================
+
+Excluding 1 do_not_draft players from consideration:
+  - Paul George
+Evaluating 49 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE   G_SCORE
+    1      Miles Bridges 0.605091  2.791567
+    2 Michael Porter Jr. 0.604247  1.885304
+    3        Zach LaVine 0.601899  2.040767
+    4       Myles Turner 0.598983  2.330214
+    5      DeMar DeRozan 0.598187  1.762281
+    6      Julius Randle 0.597574  2.601705
+    7       John Collins 0.595957  0.976822
+    8     Brandon Ingram 0.594474  0.411506
+    9        Tyler Herro 0.594192  2.071463
+   10        Deni Avdija 0.592200 -0.159556
+   11        CJ McCollum 0.591366  1.672847
+   12        Rudy Gobert 0.589978       NaN
+   13     Onyeka Okongwu 0.588553  0.088693
+   14      Mikal Bridges 0.587924  1.651468
+   15           Naz Reid 0.587220 -0.536521
+   16      Deandre Ayton 0.586394  0.671211
+   17       Bradley Beal 0.585048  0.302530
+   18      Mark Williams 0.584866       NaN
+   19     Andrew Wiggins 0.582323 -0.413584
+   20      Jarrett Allen 0.579991       NaN
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+    17. Miles Bridges             | H: 0.6051 | G: 2.7916 | ADP:  69.7
+     8. Michael Porter Jr.        | H: 0.6042 | G: 1.8853 | ADP:  60.5
+    10. Zach LaVine               | H: 0.6019 | G: 2.0408 | ADP:  62.9
+     1. Myles Turner              | H: 0.5990 | G: 2.3302 | ADP:  55.0
+    11. DeMar DeRozan             | H: 0.5982 | G: 1.7623 | ADP:  65.4
+     9. Julius Randle             | H: 0.5976 | G: 2.6017 | ADP:  62.7
+    33. John Collins              | H: 0.5960 | G: 0.9768 | ADP:  88.0
+    27. Brandon Ingram            | H: 0.5945 | G: 0.4115 | ADP:  82.0
+     2. Tyler Herro               | H: 0.5942 | G: 2.0715 | ADP:  55.1
+     5. Deni Avdija               | H: 0.5922 | G: -0.1596 | ADP:  56.5
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Miles Bridges
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =   0.739 | G =   0.887
+    REB     : X =   0.733 | G =   0.795
+    AST     : X =   0.224 | G =   0.157
+    STL     : X =  -0.095 | G =  -0.130
+    BLK     : X =  -0.097 | G =  -0.084
+    TOV     : X =  -0.371 | G =  -0.414
+    FG3M    : X =   0.664 | G =   0.658
+    DD      : X =   0.392 | G =   0.475
+    FG_PCT  : X =  -0.717 | G =  -0.248
+    FT_PCT  : X =   1.023 | G =   0.590
+    FG3_PCT : X =   0.309 | G =   0.105
+
+  Current Team Composition (4 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+    4. Jamal Murray
+
+  Team X-Score Totals (Before → After Adding Miles Bridges):
+  ------------------------------------------------------------
+    PTS     :    3.27 →    4.01 (Δ   +0.74)
+    REB     :    4.11 →    4.84 (Δ   +0.73)
+    AST     :    1.62 →    1.85 (Δ   +0.22)
+    STL     :    0.84 →    0.75 (Δ   -0.10)
+    BLK     :    1.54 →    1.44 (Δ   -0.10)
+    TOV     :   -1.26 →   -1.63 (Δ   -0.37)
+    FG3M    :   -3.39 →   -2.73 (Δ   +0.66)
+    DD      :    4.33 →    4.72 (Δ   +0.39)
+    FG_PCT  :    1.61 →    0.89 (Δ   -0.72)
+    FT_PCT  :    3.48 →    4.50 (Δ   +1.02)
+    FG3_PCT :    0.95 →    1.26 (Δ   +0.31)
+
+  Why Miles Bridges over Michael Porter Jr.?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0008
+    G-Score Advantage: +0.9063
+
+    Category Comparison:
+      ✓ AST     :   0.22 vs  -1.54 (Δ  +1.76)
+      ✗ FG_PCT  :  -0.72 vs   0.04 (Δ  -0.75)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Miles Bridges (ADP: 69.7) ✓✓✓
+
+
+✓ Drafted: Miles Bridges
+Team size: 5/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick  55 - Team  7: Myles Turner                   (ADP: 55.0)
+Pick  56 - Team  8: Tyler Herro                    (ADP: 55.1)
+Pick  57 - Team  9: Walker Kessler                 (ADP: 55.3)
+Pick  58 - Team 10: Jarrett Allen                  (ADP: 55.4)
+Pick  59 - Team 11: Deni Avdija                    (ADP: 56.5)
+Pick  60 - Team 12: Brandon Miller                 (ADP: 56.7)
+--------------------------------------------------------------------------------
+ROUND 6
+--------------------------------------------------------------------------------
+Pick  61 - Team 12: Coby White                     (ADP: 60.4)
+Pick  62 - Team 11: Michael Porter Jr.             (ADP: 60.5)
+Pick  63 - Team 10: Julius Randle                  (ADP: 62.7)
+Pick  64 - Team  9: Zach LaVine                    (ADP: 62.9)
+Pick  65 - Team  8: DeMar DeRozan                  (ADP: 65.4)
+Pick  66 - Team  7: Jalen Green                    (ADP: 66.4)
+
+################################################################################
+# Pick 67 - YOUR TURN (Team 6, Round 6)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #6 RECOMMENDATIONS
+============================================================
+
+Excluding 1 do_not_draft players from consideration:
+  - Paul George
+Evaluating 49 players...
+
+Top Recommendations:
+ RANK      PLAYER_NAME  H_SCORE   G_SCORE
+    1    Tobias Harris 0.614336  1.194131
+    2   Brandon Ingram 0.613334  0.411506
+    3     John Collins 0.612305  0.976822
+    4    Keegan Murray 0.610807  0.976872
+    5   Draymond Green 0.610493  0.253392
+    6     Bobby Portis 0.610108  0.646683
+    7      CJ McCollum 0.609477  1.672847
+    8     Aaron Gordon 0.608381 -0.698546
+    9    Mikal Bridges 0.605940  1.651468
+   10 D'Angelo Russell 0.604708  0.527056
+   11         Naz Reid 0.604468 -0.536521
+   12   Onyeka Okongwu 0.604426  0.088693
+   13     Bradley Beal 0.602862  0.302530
+   14      Rudy Gobert 0.602170       NaN
+   15   Andrew Wiggins 0.599824 -0.413584
+   16  Jaden McDaniels 0.598887 -0.793797
+   17    Mark Williams 0.597661       NaN
+   18   Darius Garland 0.597155  2.000598
+   19       OG Anunoby 0.593982  1.464161
+   20  Cameron Johnson 0.593157  0.133422
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+    45. Tobias Harris             | H: 0.6143 | G: 1.1941 | ADP: 112.8
+    14. Brandon Ingram            | H: 0.6133 | G: 0.4115 | ADP:  82.0
+    20. John Collins              | H: 0.6123 | G: 0.9768 | ADP:  88.0
+    40. Keegan Murray             | H: 0.6108 | G: 0.9769 | ADP: 107.2
+    39. Draymond Green            | H: 0.6105 | G: 0.2534 | ADP: 105.6
+    49. Bobby Portis              | H: 0.6101 | G: 0.6467 | ADP: 116.7
+    29. CJ McCollum               | H: 0.6095 | G: 1.6728 | ADP:  98.7
+    38. Aaron Gordon              | H: 0.6084 | G: -0.6985 | ADP: 105.6
+    13. Mikal Bridges             | H: 0.6059 | G: 1.6515 | ADP:  81.8
+    44. D'Angelo Russell          | H: 0.6047 | G: 0.5271 | ADP: 111.7
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Tobias Harris
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =   0.070 | G =   0.063
+    REB     : X =   0.338 | G =   0.306
+    AST     : X =  -0.529 | G =  -0.343
+    STL     : X =   0.179 | G =   0.224
+    BLK     : X =   0.081 | G =   0.074
+    TOV     : X =   0.621 | G =   0.521
+    FG3M    : X =  -0.146 | G =  -0.125
+    DD      : X =  -0.225 | G =  -0.204
+    FG_PCT  : X =   0.029 | G =   0.016
+    FT_PCT  : X =   0.401 | G =   0.518
+    FG3_PCT : X =   0.202 | G =   0.146
+
+  Current Team Composition (5 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+    4. Jamal Murray
+    5. Miles Bridges
+
+  Team X-Score Totals (Before → After Adding Tobias Harris):
+  ------------------------------------------------------------
+    PTS     :    4.01 →    4.08 (Δ   +0.07)
+    REB     :    4.84 →    5.18 (Δ   +0.34)
+    AST     :    1.85 →    1.32 (Δ   -0.53)
+    STL     :    0.75 →    0.92 (Δ   +0.18)
+    BLK     :    1.44 →    1.52 (Δ   +0.08)
+    TOV     :   -1.63 →   -1.01 (Δ   +0.62)
+    FG3M    :   -2.73 →   -2.87 (Δ   -0.15)
+    DD      :    4.72 →    4.49 (Δ   -0.22)
+    FG_PCT  :    0.89 →    0.92 (Δ   +0.03)
+    FT_PCT  :    4.50 →    4.90 (Δ   +0.40)
+    FG3_PCT :    1.26 →    1.46 (Δ   +0.20)
+
+  Why Tobias Harris over Brandon Ingram?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0010
+    G-Score Advantage: +0.7826
+
+    Category Comparison:
+      ✗ PTS     :   0.07 vs   0.79 (Δ  -0.72)
+      ✗ AST     :  -0.53 vs   0.92 (Δ  -1.45)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Tobias Harris (ADP: 112.8) ✓✓✓
+
+
+✓ Drafted: Tobias Harris
+Team size: 6/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick  68 - Team  5: OG Anunoby                     (ADP: 67.8)
+Pick  69 - Team  4: Deandre Ayton                  (ADP: 68.8)
+Pick  70 - Team  3: Rudy Gobert                    (ADP: 68.9)
+Pick  71 - Team  2: Darius Garland                 (ADP: 69.2)
+Pick  72 - Team  1: Jordan Poole                   (ADP: 73.3)
+--------------------------------------------------------------------------------
+ROUND 7
+--------------------------------------------------------------------------------
+Pick  73 - Team  1: Alexandre Sarr                 (ADP: 74.1)
+Pick  74 - Team  2: Andrew Nembhard                (ADP: 75.3)
+Pick  75 - Team  3: Cam Thomas                     (ADP: 76.8)
+Pick  76 - Team  4: RJ Barrett                     (ADP: 78.1)
+Pick  77 - Team  5: Payton Pritchard               (ADP: 79.0)
+
+################################################################################
+# Pick 78 - YOUR TURN (Team 6, Round 7)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #7 RECOMMENDATIONS
+============================================================
+
+Excluding 1 do_not_draft players from consideration:
+  - Paul George
+Evaluating 49 players...
+
+Top Recommendations:
+ RANK       PLAYER_NAME  H_SCORE   G_SCORE
+    1    Brandon Ingram 0.634634  0.411506
+    2      John Collins 0.633184  0.976822
+    3       CJ McCollum 0.631412  1.672847
+    4     Keegan Murray 0.631189  0.976872
+    5      Bobby Portis 0.630848  0.646683
+    6    Draymond Green 0.630651  0.253392
+    7      Aaron Gordon 0.629012 -0.698546
+    8     Mikal Bridges 0.628092  1.651468
+    9  D'Angelo Russell 0.626841  0.527056
+   10          Naz Reid 0.625146 -0.536521
+   11      Bradley Beal 0.624898  0.302530
+   12  Jabari Smith Jr. 0.624678  0.144503
+   13    Onyeka Okongwu 0.624350  0.088693
+   14      Santi Aldama 0.623101 -1.583129
+   15    Andrew Wiggins 0.621004 -0.413584
+   16     Mark Williams 0.619860       NaN
+   17   Jaden McDaniels 0.619744 -0.793797
+   18  Kevin Porter Jr. 0.617492 -0.726350
+   19 Immanuel Quickley 0.615933  0.063613
+   20        Jaden Ivey 0.614878 -2.006648
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+     4. Brandon Ingram            | H: 0.6346 | G: 0.4115 | ADP:  82.0
+    10. John Collins              | H: 0.6332 | G: 0.9768 | ADP:  88.0
+    19. CJ McCollum               | H: 0.6314 | G: 1.6728 | ADP:  98.7
+    30. Keegan Murray             | H: 0.6312 | G: 0.9769 | ADP: 107.2
+    38. Bobby Portis              | H: 0.6308 | G: 0.6467 | ADP: 116.7
+    29. Draymond Green            | H: 0.6307 | G: 0.2534 | ADP: 105.6
+    28. Aaron Gordon              | H: 0.6290 | G: -0.6985 | ADP: 105.6
+     3. Mikal Bridges             | H: 0.6281 | G: 1.6515 | ADP:  81.8
+    34. D'Angelo Russell          | H: 0.6268 | G: 0.5271 | ADP: 111.7
+     9. Naz Reid                  | H: 0.6251 | G: -0.5365 | ADP:  86.9
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Brandon Ingram
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =   0.785 | G =   0.988
+    REB     : X =  -0.148 | G =  -0.119
+    AST     : X =   0.922 | G =   1.015
+    STL     : X =  -0.285 | G =  -0.385
+    BLK     : X =  -0.196 | G =  -0.190
+    TOV     : X =  -0.921 | G =  -1.113
+    FG3M    : X =  -0.117 | G =  -0.103
+    DD      : X =  -0.408 | G =  -0.369
+    FG_PCT  : X =  -0.115 | G =  -0.038
+    FT_PCT  : X =   1.609 | G =   0.489
+    FG3_PCT : X =   0.421 | G =   0.235
+
+  Current Team Composition (6 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+    4. Jamal Murray
+    5. Miles Bridges
+    6. Tobias Harris
+
+  Team X-Score Totals (Before → After Adding Brandon Ingram):
+  ------------------------------------------------------------
+    PTS     :    4.08 →    4.87 (Δ   +0.79)
+    REB     :    5.18 →    5.03 (Δ   -0.15)
+    AST     :    1.32 →    2.24 (Δ   +0.92)
+    STL     :    0.92 →    0.64 (Δ   -0.29)
+    BLK     :    1.52 →    1.33 (Δ   -0.20)
+    TOV     :   -1.01 →   -1.93 (Δ   -0.92)
+    FG3M    :   -2.87 →   -2.99 (Δ   -0.12)
+    DD      :    4.49 →    4.09 (Δ   -0.41)
+    FG_PCT  :    0.92 →    0.80 (Δ   -0.12)
+    FT_PCT  :    4.90 →    6.51 (Δ   +1.61)
+    FG3_PCT :    1.46 →    1.88 (Δ   +0.42)
+
+  Why Brandon Ingram over John Collins?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0014
+    G-Score Advantage: -0.5653
+
+    Category Comparison:
+      ✓ PTS     :   0.79 vs   0.01 (Δ  +0.77)
+      ✗ REB     :  -0.15 vs   0.99 (Δ  -1.14)
+      ✓ AST     :   0.92 vs  -2.24 (Δ  +3.16)
+      ✗ BLK     :  -0.20 vs   0.54 (Δ  -0.74)
+      ✗ DD      :  -0.41 vs   0.46 (Δ  -0.87)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Brandon Ingram (ADP: 82.0) ✓✓✓
+
+
+✓ Drafted: Brandon Ingram
+Team size: 7/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick  79 - Team  7: Paul George                    (ADP: 77.4)
+Pick  80 - Team  8: Immanuel Quickley              (ADP: 80.0)
+Pick  81 - Team  9: Cameron Johnson                (ADP: 80.7)
+Pick  82 - Team 10: Isaiah Hartenstein             (ADP: 82.1)
+Pick  83 - Team 11: Mikal Bridges                  (ADP: 81.8)
+Pick  84 - Team 12: Mark Williams                  (ADP: 82.5)
+--------------------------------------------------------------------------------
+ROUND 8
+--------------------------------------------------------------------------------
+Pick  85 - Team 12: Kel'el Ware                    (ADP: 83.6)
+Pick  86 - Team 11: Jakob Poeltl                   (ADP: 84.5)
+Pick  87 - Team 10: Naz Reid                       (ADP: 86.9)
+Pick  88 - Team  9: John Collins                   (ADP: 88.0)
+Pick  89 - Team  8: Anfernee Simons                (ADP: 91.2)
+Pick  90 - Team  7: Donovan Clingan                (ADP: 92.7)
+
+################################################################################
+# Pick 91 - YOUR TURN (Team 6, Round 8)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #8 RECOMMENDATIONS
+============================================================
+Evaluating 50 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE   G_SCORE
+    1       Jrue Holiday 0.654818  0.737175
+    2      Keegan Murray 0.651834  0.976872
+    3       Bobby Portis 0.651754  0.646683
+    4        CJ McCollum 0.650736  1.672847
+    5     Draymond Green 0.649793  0.253392
+    6    P.J. Washington 0.649363 -0.060203
+    7       Aaron Gordon 0.648569 -0.698546
+    8   D'Angelo Russell 0.646026  0.527056
+    9   Jabari Smith Jr. 0.645235  0.144503
+   10       Bradley Beal 0.644082  0.302530
+   11       Santi Aldama 0.643522 -1.583129
+   12     Onyeka Okongwu 0.642522  0.088693
+   13      Royce O'Neale 0.641593 -2.015245
+   14     Andrew Wiggins 0.640853 -0.413584
+   15    Jaden McDaniels 0.639690 -0.793797
+   16   Donte DiVincenzo 0.637476 -0.185188
+   17   Kevin Porter Jr. 0.636794 -0.726350
+   18     Daniel Gafford 0.636149       NaN
+   19 Brandin Podziemski 0.634415 -1.281533
+   20         Jaden Ivey 0.633817 -2.006648
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+    43. Jrue Holiday              | H: 0.6548 | G: 0.7372 | ADP: 128.5
+    18. Keegan Murray             | H: 0.6518 | G: 0.9769 | ADP: 107.2
+    26. Bobby Portis              | H: 0.6518 | G: 0.6467 | ADP: 116.7
+     7. CJ McCollum               | H: 0.6507 | G: 1.6728 | ADP:  98.7
+    17. Draymond Green            | H: 0.6498 | G: 0.2534 | ADP: 105.6
+    50. P.J. Washington           | H: 0.6494 | G: -0.0602 | ADP: 131.0
+    16. Aaron Gordon              | H: 0.6486 | G: -0.6985 | ADP: 105.6
+    22. D'Angelo Russell          | H: 0.6460 | G: 0.5271 | ADP: 111.7
+    29. Jabari Smith Jr.          | H: 0.6452 | G: 0.1445 | ADP: 118.6
+    11. Bradley Beal              | H: 0.6441 | G: 0.3025 | ADP: 103.4
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Jrue Holiday
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =  -0.210 | G =  -0.210
+    REB     : X =  -0.327 | G =  -0.251
+    AST     : X =   0.740 | G =   0.857
+    STL     : X =   0.146 | G =   0.202
+    BLK     : X =  -0.288 | G =  -0.224
+    TOV     : X =  -0.107 | G =  -0.134
+    FG3M    : X =   0.455 | G =   0.395
+    DD      : X =  -0.120 | G =  -0.114
+    FG_PCT  : X =  -0.180 | G =  -0.089
+    FT_PCT  : X =  -0.019 | G =  -0.063
+    FG3_PCT : X =   0.632 | G =   0.369
+
+  Current Team Composition (7 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+    4. Jamal Murray
+    5. Miles Bridges
+    6. Tobias Harris
+    7. Brandon Ingram
+
+  Team X-Score Totals (Before → After Adding Jrue Holiday):
+  ------------------------------------------------------------
+    PTS     :    4.87 →    4.66 (Δ   -0.21)
+    REB     :    5.03 →    4.70 (Δ   -0.33)
+    AST     :    2.24 →    2.98 (Δ   +0.74)
+    STL     :    0.64 →    0.79 (Δ   +0.15)
+    BLK     :    1.33 →    1.04 (Δ   -0.29)
+    TOV     :   -1.93 →   -2.04 (Δ   -0.11)
+    FG3M    :   -2.99 →   -2.54 (Δ   +0.45)
+    DD      :    4.09 →    3.97 (Δ   -0.12)
+    FG_PCT  :    0.80 →    0.62 (Δ   -0.18)
+    FT_PCT  :    6.51 →    6.49 (Δ   -0.02)
+    FG3_PCT :    1.88 →    2.51 (Δ   +0.63)
+
+  Why Jrue Holiday over Keegan Murray?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0030
+    G-Score Advantage: -0.2397
+
+    Category Comparison:
+      ✗ REB     :  -0.33 vs   0.23 (Δ  -0.56)
+      ✓ AST     :   0.74 vs  -2.14 (Δ  +2.88)
+      ✗ BLK     :  -0.29 vs   0.25 (Δ  -0.53)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Jrue Holiday (ADP: 128.5) ✓✓✓
+
+
+✓ Drafted: Jrue Holiday
+Team size: 8/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick  92 - Team  5: Bennedict Mathurin             (ADP: 91.9)
+Pick  93 - Team  4: Norman Powell                  (ADP: 93.2)
+Pick  94 - Team  3: Onyeka Okongwu                 (ADP: 93.5)
+Pick  95 - Team  2: Ausar Thompson                 (ADP: 95.3)
+Pick  96 - Team  1: Christian Braun                (ADP: 97.0)
+--------------------------------------------------------------------------------
+ROUND 9
+--------------------------------------------------------------------------------
+Pick  97 - Team  1: CJ McCollum                    (ADP: 98.7)
+Pick  98 - Team  2: Shaedon Sharpe                 (ADP: 97.2)
+Pick  99 - Team  3: Devin Vassell                  (ADP: 99.1)
+Pick 100 - Team  4: Matas Buzelis                  (ADP: 101.3)
+Pick 101 - Team  5: Andrew Wiggins                 (ADP: 101.2)
+
+################################################################################
+# Pick 102 - YOUR TURN (Team 6, Round 9)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #9 RECOMMENDATIONS
+============================================================
+Evaluating 50 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE   G_SCORE
+    1      Keegan Murray 0.673326  0.976872
+    2       Bobby Portis 0.671610  0.646683
+    3    P.J. Washington 0.670532 -0.060203
+    4     Draymond Green 0.670022  0.253392
+    5         Chris Paul 0.669917  1.523503
+    6       Aaron Gordon 0.668930 -0.698546
+    7   D'Angelo Russell 0.667067  0.527056
+    8       Bradley Beal 0.666098  0.302530
+    9   Jabari Smith Jr. 0.665798  0.144503
+   10       Santi Aldama 0.664639 -1.583129
+   11      Royce O'Neale 0.663454 -2.015245
+   12     Daniel Gafford 0.661853       NaN
+   13    Jaden McDaniels 0.661290 -0.793797
+   14   Donte DiVincenzo 0.659859 -0.185188
+   15   Kevin Porter Jr. 0.657160 -0.726350
+   16   Dereck Lively II 0.656705       NaN
+   17 Brandin Podziemski 0.655450 -1.281533
+   18         Jaden Ivey 0.654955 -2.006648
+   19         Tari Eason 0.653286 -0.974396
+   20        Mike Conley 0.652581 -0.034622
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+     8. Keegan Murray             | H: 0.6733 | G: 0.9769 | ADP: 107.2
+    16. Bobby Portis              | H: 0.6716 | G: 0.6467 | ADP: 116.7
+    39. P.J. Washington           | H: 0.6705 | G: -0.0602 | ADP: 131.0
+     7. Draymond Green            | H: 0.6700 | G: 0.2534 | ADP: 105.6
+    48. Chris Paul                | H: 0.6699 | G: 1.5235 | ADP: 135.0
+     6. Aaron Gordon              | H: 0.6689 | G: -0.6985 | ADP: 105.6
+    12. D'Angelo Russell          | H: 0.6671 | G: 0.5271 | ADP: 111.7
+     1. Bradley Beal              | H: 0.6661 | G: 0.3025 | ADP: 103.4
+    19. Jabari Smith Jr.          | H: 0.6658 | G: 0.1445 | ADP: 118.6
+    20. Santi Aldama              | H: 0.6646 | G: -1.5831 | ADP: 119.0
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Keegan Murray
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =  -0.173 | G =  -0.160
+    REB     : X =   0.228 | G =   0.199
+    AST     : X =  -2.142 | G =  -0.883
+    STL     : X =   0.042 | G =   0.057
+    BLK     : X =   0.246 | G =   0.239
+    TOV     : X =   1.449 | G =   1.043
+    FG3M    : X =   0.693 | G =   0.828
+    DD      : X =  -0.199 | G =  -0.180
+    FG_PCT  : X =  -0.478 | G =  -0.283
+    FT_PCT  : X =  -0.013 | G =  -0.048
+    FG3_PCT : X =   0.420 | G =   0.166
+
+  Current Team Composition (8 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+    4. Jamal Murray
+    5. Miles Bridges
+    6. Tobias Harris
+    7. Brandon Ingram
+    8. Jrue Holiday
+
+  Team X-Score Totals (Before → After Adding Keegan Murray):
+  ------------------------------------------------------------
+    PTS     :    4.66 →    4.48 (Δ   -0.17)
+    REB     :    4.70 →    4.93 (Δ   +0.23)
+    AST     :    2.98 →    0.84 (Δ   -2.14)
+    STL     :    0.79 →    0.83 (Δ   +0.04)
+    BLK     :    1.04 →    1.28 (Δ   +0.25)
+    TOV     :   -2.04 →   -0.59 (Δ   +1.45)
+    FG3M    :   -2.54 →   -1.84 (Δ   +0.69)
+    DD      :    3.97 →    3.77 (Δ   -0.20)
+    FG_PCT  :    0.62 →    0.15 (Δ   -0.48)
+    FT_PCT  :    6.49 →    6.48 (Δ   -0.01)
+    FG3_PCT :    2.51 →    2.93 (Δ   +0.42)
+
+  Why Keegan Murray over Bobby Portis?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0017
+    G-Score Advantage: +0.3302
+
+    Category Comparison:
+      ✗ REB     :   0.23 vs   1.17 (Δ  -0.94)
+      ✗ AST     :  -2.14 vs  -1.54 (Δ  -0.60)
+      ✓ BLK     :   0.25 vs  -0.57 (Δ  +0.81)
+      ✗ DD      :  -0.20 vs   0.61 (Δ  -0.81)
+      ✗ FG_PCT  :  -0.48 vs   0.06 (Δ  -0.54)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Keegan Murray (ADP: 107.2) ✓✓✓
+
+
+✓ Drafted: Keegan Murray
+Team size: 9/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick 103 - Team  7: Bradley Beal                   (ADP: 103.4)
+Pick 104 - Team  8: Jalen Suggs                    (ADP: 103.4)
+Pick 105 - Team  9: Nicolas Claxton                (ADP: 104.4)
+Pick 106 - Team 10: Brice Sensabaugh               (ADP: 104.5)
+Pick 107 - Team 11: Jaden McDaniels                (ADP: 105.3)
+Pick 108 - Team 12: Aaron Gordon                   (ADP: 105.6)
+--------------------------------------------------------------------------------
+ROUND 10
+--------------------------------------------------------------------------------
+Pick 109 - Team 12: Draymond Green                 (ADP: 105.6)
+Pick 110 - Team 11: Stephon Castle                 (ADP: 110.0)
+Pick 111 - Team 10: Malik Monk                     (ADP: 110.9)
+Pick 112 - Team  9: Toumani Camara                 (ADP: 107.3)
+Pick 113 - Team  8: D'Angelo Russell               (ADP: 111.7)
+Pick 114 - Team  7: Zach Edey                      (ADP: 113.6)
+
+################################################################################
+# Pick 115 - YOUR TURN (Team 6, Round 10)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #10 RECOMMENDATIONS
+============================================================
+Evaluating 50 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE   G_SCORE
+    1        Brook Lopez 0.693746  1.554240
+    2  Jonas Valanciunas 0.689600  0.000000
+    3         Ace Bailey 0.689600  0.000000
+    4       Dylan Harper 0.689600  0.000000
+    5         Chris Paul 0.689459  1.523503
+    6       Bobby Portis 0.689055  0.646683
+    7    P.J. Washington 0.689022 -0.060203
+    8   Jabari Smith Jr. 0.683469  0.144503
+    9       Santi Aldama 0.683066 -1.583129
+   10      Royce O'Neale 0.682535 -2.015245
+   11   Donte DiVincenzo 0.679703 -0.185188
+   12     Daniel Gafford 0.677530       NaN
+   13   Kevin Porter Jr. 0.676244 -0.726350
+   14        Buddy Hield 0.675207 -0.549583
+   15         Tyus Jones 0.674651 -0.183841
+   16 Brandin Podziemski 0.674565 -1.281533
+   17      Jeremy Sochan 0.674475 -2.492242
+   18         Jaden Ivey 0.674258 -2.006648
+   19   Dereck Lively II 0.672324       NaN
+   20        Mike Conley 0.672118 -0.034622
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+    45. Brook Lopez               | H: 0.6937 | G: 1.5542 | ADP: 136.6
+    50. Jonas Valanciunas         | H: 0.6896 | G: 0.0000 | ADP: 137.9
+    44. Ace Bailey                | H: 0.6896 | G: 0.0000 | ADP: 136.2
+    38. Dylan Harper              | H: 0.6896 | G: 0.0000 | ADP: 135.5
+    35. Chris Paul                | H: 0.6895 | G: 1.5235 | ADP: 135.0
+     3. Bobby Portis              | H: 0.6891 | G: 0.6467 | ADP: 116.7
+    26. P.J. Washington           | H: 0.6890 | G: -0.0602 | ADP: 131.0
+     6. Jabari Smith Jr.          | H: 0.6835 | G: 0.1445 | ADP: 118.6
+     7. Santi Aldama              | H: 0.6831 | G: -1.5831 | ADP: 119.0
+    25. Royce O'Neale             | H: 0.6825 | G: -2.0152 | ADP: 130.8
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Brook Lopez
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =  -0.175 | G =  -0.152
+    REB     : X =   0.166 | G =   0.146
+    AST     : X =  -1.915 | G =  -0.843
+    STL     : X =  -0.660 | G =  -0.854
+    BLK     : X =   1.542 | G =   2.159
+    TOV     : X =   0.779 | G =   0.636
+    FG3M    : X =   0.299 | G =   0.256
+    DD      : X =  -0.375 | G =  -0.281
+    FG_PCT  : X =   0.148 | G =   0.085
+    FT_PCT  : X =   0.127 | G =   0.204
+    FG3_PCT : X =   0.433 | G =   0.198
+
+  Current Team Composition (9 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+    4. Jamal Murray
+    5. Miles Bridges
+    6. Tobias Harris
+    7. Brandon Ingram
+    8. Jrue Holiday
+    9. Keegan Murray
+
+  Team X-Score Totals (Before → After Adding Brook Lopez):
+  ------------------------------------------------------------
+    PTS     :    4.48 →    4.31 (Δ   -0.18)
+    REB     :    4.93 →    5.10 (Δ   +0.17)
+    AST     :    0.84 →   -1.07 (Δ   -1.92)
+    STL     :    0.83 →    0.17 (Δ   -0.66)
+    BLK     :    1.28 →    2.83 (Δ   +1.54)
+    TOV     :   -0.59 →    0.19 (Δ   +0.78)
+    FG3M    :   -1.84 →   -1.54 (Δ   +0.30)
+    DD      :    3.77 →    3.39 (Δ   -0.37)
+    FG_PCT  :    0.15 →    0.29 (Δ   +0.15)
+    FT_PCT  :    6.48 →    6.60 (Δ   +0.13)
+    FG3_PCT :    2.93 →    3.37 (Δ   +0.43)
+
+  Why Brook Lopez over Jonas Valanciunas?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0041
+    G-Score Advantage: +1.5542
+
+    Category Comparison:
+      ✗ AST     :  -1.92 vs   0.00 (Δ  -1.92)
+      ✓ BLK     :   1.54 vs   0.00 (Δ  +1.54)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Brook Lopez (ADP: 136.6) ✓✓✓
+
+
+✓ Drafted: Brook Lopez
+Team size: 10/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick 116 - Team  5: Keyonte George                 (ADP: 113.4)
+Pick 117 - Team  4: Bobby Portis                   (ADP: 116.7)
+Pick 118 - Team  3: Anthony Black                  (ADP: 115.6)
+Pick 119 - Team  2: Nick Richards                  (ADP: 116.7)
+Pick 120 - Team  1: Jaden Ivey                     (ADP: 117.2)
+--------------------------------------------------------------------------------
+ROUND 11
+--------------------------------------------------------------------------------
+Pick 121 - Team  1: Jabari Smith Jr.               (ADP: 118.6)
+Pick 122 - Team  2: Santi Aldama                   (ADP: 119.0)
+Pick 123 - Team  3: Dereck Lively II               (ADP: 120.4)
+Pick 124 - Team  4: Brandin Podziemski             (ADP: 120.8)
+Pick 125 - Team  5: Moses Moody                    (ADP: 123.2)
+
+################################################################################
+# Pick 126 - YOUR TURN (Team 6, Round 11)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #11 RECOMMENDATIONS
+============================================================
+Evaluating 50 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE   G_SCORE
+    1         Chris Paul 0.719004  1.523503
+    2  Jonas Valanciunas 0.716156  0.000000
+    3         Ace Bailey 0.716156  0.000000
+    4       VJ Edgecombe 0.716156  0.000000
+    5       Dylan Harper 0.716156  0.000000
+    6    P.J. Washington 0.714418 -0.060203
+    7         Al Horford 0.711349 -2.379963
+    8      Royce O'Neale 0.709255 -2.015245
+    9   Donte DiVincenzo 0.707964 -0.185188
+   10         Tyus Jones 0.705425 -0.183841
+   11   Kevin Porter Jr. 0.705235 -0.726350
+   12     Daniel Gafford 0.705030       NaN
+   13        Buddy Hield 0.702627 -0.549583
+   14        Mike Conley 0.702514 -0.034622
+   15      Jeremy Sochan 0.702166 -2.492242
+   16     Keldon Johnson 0.700703 -1.684070
+   17         Yves Missi 0.700693       NaN
+   18 Guerschon Yabusele 0.698681 -1.701488
+   19         Tari Eason 0.698012 -0.974396
+   20      Luguentz Dort 0.696805 -1.514868
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+    25. Chris Paul                | H: 0.7190 | G: 1.5235 | ADP: 135.0
+    39. Jonas Valanciunas         | H: 0.7162 | G: 0.0000 | ADP: 137.9
+    34. Ace Bailey                | H: 0.7162 | G: 0.0000 | ADP: 136.2
+    44. VJ Edgecombe              | H: 0.7162 | G: 0.0000 | ADP: 138.6
+    28. Dylan Harper              | H: 0.7162 | G: 0.0000 | ADP: 135.5
+    16. P.J. Washington           | H: 0.7144 | G: -0.0602 | ADP: 131.0
+    48. Al Horford                | H: 0.7113 | G: -2.3800 | ADP: 139.2
+    15. Royce O'Neale             | H: 0.7093 | G: -2.0152 | ADP: 130.8
+     6. Donte DiVincenzo          | H: 0.7080 | G: -0.1852 | ADP: 127.0
+    36. Tyus Jones                | H: 0.7054 | G: -0.1838 | ADP: 137.4
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Chris Paul
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =  -0.953 | G =  -0.644
+    REB     : X =  -0.907 | G =  -0.488
+    AST     : X =   1.917 | G =   2.139
+    STL     : X =   0.658 | G =   0.980
+    BLK     : X =  -1.086 | G =  -0.686
+    TOV     : X =   0.049 | G =   0.046
+    FG3M    : X =   0.139 | G =   0.118
+    DD      : X =   0.146 | G =   0.154
+    FG_PCT  : X =  -0.426 | G =  -0.290
+    FT_PCT  : X =  -0.009 | G =  -0.029
+    FG3_PCT : X =   0.366 | G =   0.223
+
+  Current Team Composition (10 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+    4. Jamal Murray
+    5. Miles Bridges
+    6. Tobias Harris
+    7. Brandon Ingram
+    8. Jrue Holiday
+    9. Keegan Murray
+    10. Brook Lopez
+
+  Team X-Score Totals (Before → After Adding Chris Paul):
+  ------------------------------------------------------------
+    PTS     :    4.31 →    3.36 (Δ   -0.95)
+    REB     :    5.10 →    4.19 (Δ   -0.91)
+    AST     :   -1.07 →    0.84 (Δ   +1.92)
+    STL     :    0.17 →    0.83 (Δ   +0.66)
+    BLK     :    2.83 →    1.74 (Δ   -1.09)
+    TOV     :    0.19 →    0.24 (Δ   +0.05)
+    FG3M    :   -1.54 →   -1.41 (Δ   +0.14)
+    DD      :    3.39 →    3.54 (Δ   +0.15)
+    FG_PCT  :    0.29 →   -0.13 (Δ   -0.43)
+    FT_PCT  :    6.60 →    6.60 (Δ   -0.01)
+    FG3_PCT :    3.37 →    3.73 (Δ   +0.37)
+
+  Why Chris Paul over Jonas Valanciunas?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0028
+    G-Score Advantage: +1.5235
+
+    Category Comparison:
+      ✗ PTS     :  -0.95 vs   0.00 (Δ  -0.95)
+      ✗ REB     :  -0.91 vs   0.00 (Δ  -0.91)
+      ✓ AST     :   1.92 vs   0.00 (Δ  +1.92)
+      ✗ BLK     :  -1.09 vs   0.00 (Δ  -1.09)
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Chris Paul (ADP: 135.0) ✓✓✓
+
+
+✓ Drafted: Chris Paul
+Team size: 11/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick 127 - Team  7: Tari Eason                     (ADP: 123.3)
+Pick 128 - Team  8: Kevin Porter Jr.               (ADP: 123.5)
+Pick 129 - Team  9: Cason Wallace                  (ADP: 124.6)
+Pick 130 - Team 10: Cole Anthony                   (ADP: 124.8)
+Pick 131 - Team 11: Daniel Gafford                 (ADP: 126.6)
+Pick 132 - Team 12: Donte DiVincenzo               (ADP: 127.0)
+--------------------------------------------------------------------------------
+ROUND 12
+--------------------------------------------------------------------------------
+Pick 133 - Team 12: Kentavious Caldwell-Pope       (ADP: 127.1)
+Pick 134 - Team 11: Klay Thompson                  (ADP: 128.3)
+Pick 135 - Team 10: Luguentz Dort                  (ADP: 128.4)
+Pick 136 - Team  9: Zaccharie Risacher             (ADP: 128.9)
+Pick 137 - Team  8: Jonathan Kuminga               (ADP: 129.9)
+Pick 138 - Team  7: Tim Hardaway Jr.               (ADP: 130.3)
+
+################################################################################
+# Pick 139 - YOUR TURN (Team 6, Round 12)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #12 RECOMMENDATIONS
+============================================================
+Evaluating 50 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE   G_SCORE
+    1  Jonas Valanciunas 0.737572  0.000000
+    2       Dylan Harper 0.737572  0.000000
+    3 Carlton Carrington 0.737572  0.000000
+    4       VJ Edgecombe 0.737572  0.000000
+    5         Ace Bailey 0.737572  0.000000
+    6    P.J. Washington 0.737054 -0.060203
+    7         Al Horford 0.735095 -2.379963
+    8      Royce O'Neale 0.732353 -2.015245
+    9    Kelly Oubre Jr. 0.729737  0.130228
+   10    Kyle Filipowski 0.728915 -1.715393
+   11 Wendell Carter Jr. 0.728222 -1.148229
+   12        Buddy Hield 0.727134 -0.549583
+   13       Jerami Grant 0.727105 -0.208819
+   14  Scotty Pippen Jr. 0.726866 -1.020860
+   15       Caris LeVert 0.725414 -1.312470
+   16         Tyus Jones 0.724813 -0.183841
+   17         Yves Missi 0.724714       NaN
+   18      Jeremy Sochan 0.724391 -2.492242
+   19        Mike Conley 0.723094 -0.034622
+   20     Keldon Johnson 0.722733 -1.684070
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+    26. Jonas Valanciunas         | H: 0.7376 | G: 0.0000 | ADP: 137.9
+    15. Dylan Harper              | H: 0.7376 | G: 0.0000 | ADP: 135.5
+    44. Carlton Carrington        | H: 0.7376 | G: 0.0000 | ADP: 141.8
+    31. VJ Edgecombe              | H: 0.7376 | G: 0.0000 | ADP: 138.6
+    21. Ace Bailey                | H: 0.7376 | G: 0.0000 | ADP: 136.2
+     4. P.J. Washington           | H: 0.7371 | G: -0.0602 | ADP: 131.0
+    35. Al Horford                | H: 0.7351 | G: -2.3800 | ADP: 139.2
+     3. Royce O'Neale             | H: 0.7324 | G: -2.0152 | ADP: 130.8
+    43. Kelly Oubre Jr.           | H: 0.7297 | G: 0.1302 | ADP: 141.7
+    49. Kyle Filipowski           | H: 0.7289 | G: -1.7154 | ADP: 143.4
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: Jonas Valanciunas
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =   0.000 | G =   0.000
+    REB     : X =   0.000 | G =   0.000
+    AST     : X =   0.000 | G =   0.000
+    STL     : X =   0.000 | G =   0.000
+    BLK     : X =   0.000 | G =   0.000
+    TOV     : X =   0.000 | G =   0.000
+    FG3M    : X =   0.000 | G =   0.000
+    DD      : X =   0.000 | G =   0.000
+    FG_PCT  : X =   0.000 | G =   0.000
+    FT_PCT  : X =   0.000 | G =   0.000
+    FG3_PCT : X =   0.000 | G =   0.000
+
+  Current Team Composition (11 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+    4. Jamal Murray
+    5. Miles Bridges
+    6. Tobias Harris
+    7. Brandon Ingram
+    8. Jrue Holiday
+    9. Keegan Murray
+    10. Brook Lopez
+    11. Chris Paul
+
+  Team X-Score Totals (Before → After Adding Jonas Valanciunas):
+  ------------------------------------------------------------
+    PTS     :    3.36 →    3.36 (Δ   +0.00)
+    REB     :    4.19 →    4.19 (Δ   +0.00)
+    AST     :    0.84 →    0.84 (Δ   +0.00)
+    STL     :    0.83 →    0.83 (Δ   +0.00)
+    BLK     :    1.74 →    1.74 (Δ   +0.00)
+    TOV     :    0.24 →    0.24 (Δ   +0.00)
+    FG3M    :   -1.41 →   -1.41 (Δ   +0.00)
+    DD      :    3.54 →    3.54 (Δ   +0.00)
+    FG_PCT  :   -0.13 →   -0.13 (Δ   +0.00)
+    FT_PCT  :    6.60 →    6.60 (Δ   +0.00)
+    FG3_PCT :    3.73 →    3.73 (Δ   +0.00)
+
+  Why Jonas Valanciunas over Dylan Harper?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0000
+    G-Score Advantage: +0.0000
+
+    Category Comparison:
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: Jonas Valanciunas (ADP: 137.9) ✓✓✓
+
+
+✓ Drafted: Jonas Valanciunas
+Team size: 12/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick 140 - Team  5: Harrison Barnes                (ADP: 130.8)
+Pick 141 - Team  4: De'Andre Hunter                (ADP: 130.8)
+Pick 142 - Team  3: Royce O'Neale                  (ADP: 130.8)
+Pick 143 - Team  2: P.J. Washington                (ADP: 131.0)
+Pick 144 - Team  1: Herbert Jones                  (ADP: 131.1)
+--------------------------------------------------------------------------------
+ROUND 13
+--------------------------------------------------------------------------------
+Pick 145 - Team  1: T.J. McConnell                 (ADP: 132.1)
+Pick 146 - Team  2: Duncan Robinson                (ADP: 131.6)
+Pick 147 - Team  3: Dennis Schröder                (ADP: 133.4)
+Pick 148 - Team  4: Mike Conley                    (ADP: 133.4)
+Pick 149 - Team  5: Aaron Wiggins                  (ADP: 133.6)
+
+################################################################################
+# Pick 150 - YOUR TURN (Team 6, Round 13)
+################################################################################
+
+  Evaluating top 50 candidates with H-scoring...
+
+============================================================
+PICK #13 RECOMMENDATIONS
+============================================================
+Evaluating 50 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE   G_SCORE
+    1       VJ Edgecombe 0.753301  0.000000
+    2 Carlton Carrington 0.753301  0.000000
+    3       Dylan Harper 0.753301  0.000000
+    4   Taylor Hendricks 0.753301  0.000000
+    5         Ace Bailey 0.753301  0.000000
+    6       Kon Knueppel 0.753301  0.000000
+    7         Al Horford 0.751984 -2.379963
+    8  Russell Westbrook 0.747723 -0.668496
+    9        Buddy Hield 0.746872 -0.549583
+   10    Kelly Oubre Jr. 0.746286  0.130228
+   11       Jerami Grant 0.745449 -0.208819
+   12    Kyle Filipowski 0.744959 -1.715393
+   13  Scotty Pippen Jr. 0.744564 -1.020860
+   14         Tyus Jones 0.744392 -0.183841
+   15 Wendell Carter Jr. 0.743797 -1.148229
+   16       Caris LeVert 0.743745 -1.312470
+   17      Jeremy Sochan 0.741073 -2.492242
+   18     Keldon Johnson 0.740617 -1.684070
+   19 Guerschon Yabusele 0.740586 -1.701488
+   20         Yves Missi 0.739871       NaN
+
+  ================================================================================
+  TOP 10 H-SCORE RECOMMENDATIONS:
+  ================================================================================
+    20. VJ Edgecombe              | H: 0.7533 | G: 0.0000 | ADP: 138.6
+    33. Carlton Carrington        | H: 0.7533 | G: 0.0000 | ADP: 141.8
+     5. Dylan Harper              | H: 0.7533 | G: 0.0000 | ADP: 135.5
+    48. Taylor Hendricks          | H: 0.7533 | G: 0.0000 | ADP:   nan
+    11. Ace Bailey                | H: 0.7533 | G: 0.0000 | ADP: 136.2
+    41. Kon Knueppel              | H: 0.7533 | G: 0.0000 | ADP: 145.2
+    24. Al Horford                | H: 0.7520 | G: -2.3800 | ADP: 139.2
+    43. Russell Westbrook         | H: 0.7477 | G: -0.6685 | ADP: 149.0
+     8. Buddy Hield               | H: 0.7469 | G: -0.5496 | ADP: 135.9
+    32. Kelly Oubre Jr.           | H: 0.7463 | G: 0.1302 | ADP: 141.7
+
+  ================================================================================
+  DETAILED ANALYSIS - YOUR PICK: VJ Edgecombe
+  ================================================================================
+
+  X-Scores by Category:
+  ------------------------------------------------------------
+    PTS     : X =   0.000 | G =   0.000
+    REB     : X =   0.000 | G =   0.000
+    AST     : X =   0.000 | G =   0.000
+    STL     : X =   0.000 | G =   0.000
+    BLK     : X =   0.000 | G =   0.000
+    TOV     : X =   0.000 | G =   0.000
+    FG3M    : X =   0.000 | G =   0.000
+    DD      : X =   0.000 | G =   0.000
+    FG_PCT  : X =   0.000 | G =   0.000
+    FT_PCT  : X =   0.000 | G =   0.000
+    FG3_PCT : X =   0.000 | G =   0.000
+
+  Current Team Composition (12 players):
+  ------------------------------------------------------------
+    1. Anthony Davis
+    2. Bam Adebayo
+    3. Nikola Vucevic
+    4. Jamal Murray
+    5. Miles Bridges
+    6. Tobias Harris
+    7. Brandon Ingram
+    8. Jrue Holiday
+    9. Keegan Murray
+    10. Brook Lopez
+    11. Chris Paul
+    12. Jonas Valanciunas
+
+  Team X-Score Totals (Before → After Adding VJ Edgecombe):
+  ------------------------------------------------------------
+    PTS     :    3.36 →    3.36 (Δ   +0.00)
+    REB     :    4.19 →    4.19 (Δ   +0.00)
+    AST     :    0.84 →    0.84 (Δ   +0.00)
+    STL     :    0.83 →    0.83 (Δ   +0.00)
+    BLK     :    1.74 →    1.74 (Δ   +0.00)
+    TOV     :    0.24 →    0.24 (Δ   +0.00)
+    FG3M    :   -1.41 →   -1.41 (Δ   +0.00)
+    DD      :    3.54 →    3.54 (Δ   +0.00)
+    FG_PCT  :   -0.13 →   -0.13 (Δ   +0.00)
+    FT_PCT  :    6.60 →    6.60 (Δ   +0.00)
+    FG3_PCT :    3.73 →    3.73 (Δ   +0.00)
+
+  Why VJ Edgecombe over Carlton Carrington?
+  ------------------------------------------------------------
+    H-Score Advantage: +0.0000
+    G-Score Advantage: +0.0000
+
+    Category Comparison:
+  ================================================================================
+
+
+  ✓✓✓ YOU DRAFTED: VJ Edgecombe (ADP: 138.6) ✓✓✓
+
+
+✓ Drafted: VJ Edgecombe
+Team size: 13/13
+
+Emerging Strategy:
+----------------------------------------
+Punting: FG3_PCT
+Strong in: STL, FG_PCT, FT_PCT
+----------------------------------------
+Pick 151 - Team  7: Kyshawn George                 (ADP: 134.1)
+Pick 152 - Team  8: Kris Dunn                      (ADP: 135.3)
+Pick 153 - Team  9: Ty Jerome                      (ADP: 134.8)
+Pick 154 - Team 10: Jared McCain                   (ADP: 135.3)
+Pick 155 - Team 11: Dylan Harper                   (ADP: 135.5)
+Pick 156 - Team 12: Sam Hauser                     (ADP: 135.6)
+
+================================================================================
+DRAFT COMPLETE
+================================================================================
+
+================================================================================
+YOUR FINAL TEAM (Position 6)
+================================================================================
+
+Round  Overall Player                              ADP    H-Score    G-Score
+--------------------------------------------------------------------------------
+    1        6 Anthony Davis                       9.7     0.5274     7.0443
+    2       18 Bam Adebayo                        34.0     0.5760     3.1106
+    3       30 Nikola Vucevic                     55.4     0.5948        nan
+    4       42 Jamal Murray                       43.8     0.6013     2.5386
+    5       54 Miles Bridges                      69.7     0.6051     2.7916
+    6       66 Tobias Harris                     112.8     0.6143     1.1941
+    7       79 Brandon Ingram                     82.0     0.6346     0.4115
+    8       91 Jrue Holiday                      128.5     0.6548     0.7372
+    9      103 Keegan Murray                     107.2     0.6733     0.9769
+   10      115 Brook Lopez                       136.6     0.6937     1.5542
+   11      127 Chris Paul                        135.0     0.7190     1.5235
+   12      139 Jonas Valanciunas                 137.9     0.7376     0.0000
+   13      150 VJ Edgecombe                      138.6     0.7533     0.0000
+
+================================================================================
+TEAM X-SCORE TOTALS BY CATEGORY
+================================================================================
+
+Category       Total X-Score Strength
+--------------------------------------------------
+FT_PCT                  6.60 ★★ Strong
+REB                     4.19 ★ Average
+FG3_PCT                 3.73 ★ Average
+DD                      3.54 ★ Average
+PTS                     3.36 ★ Average
+BLK                     1.74 ★ Average
+FG3M                   -1.41 ⚠ Weak
+AST                     0.84 ★ Average
+STL                     0.83 ★ Average
+TOV                     0.24 ★ Average
+FG_PCT                 -0.13 ⚠ Weak
+
+✓ Raw output saved to: draft_debug_raw_20251002_145730.txt
+✓ Detailed JSON saved to: draft_debug_detailed_20251002_145730.json

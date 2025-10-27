@@ -1,0 +1,23 @@
+{
+  "matchup": "Team Boricua Squad vs KL2 LLC",
+  "n_simulations": 500,
+  "team_a_wins": 13,
+  "team_b_wins": 477,
+  "ties": 10,
+  "team_a_win_pct": 0.026,
+  "team_b_win_pct": 0.954,
+  "team_a_roster_size": 13,
+  "team_b_roster_size": 13,
+  "team_a_modeled_players": 8,
+  "team_b_modeled_players": 12,
+  "team_a_avg_cats_won": 3.202,
+  "team_b_avg_cats_won": 7.476,
+  "team_a_cats_std": 1.166154291534069,
+  "team_b_cats_std": 1.210104419217954,
+  "team_a_avg_pts": 375.818,
+  "team_b_avg_pts": 523.134,
+  "team_a_avg_reb": 131.24,
+  "team_b_avg_reb": 158.99,
+  "team_a_avg_ast": 77.632,
+  "team_b_avg_ast": 88.994
+}

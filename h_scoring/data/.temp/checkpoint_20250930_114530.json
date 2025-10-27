@@ -1,0 +1,34 @@
+{
+  "completed_players": [
+    "Bam Adebayo",
+    "Santi Aldama",
+    "Nickeil Alexander-Walker",
+    "Grayson Allen",
+    "Jarrett Allen",
+    "Giannis Antetokounmpo"
+  ],
+  "game_data_files": [
+    "data/.temp/game_bam_adebayo_20250930_114533.csv",
+    "data/.temp/game_santi_aldama_20250930_114535.csv",
+    "data/.temp/game_nickeil_alexander-walker_20250930_114537.csv",
+    "data/.temp/game_grayson_allen_20250930_114539.csv",
+    "data/.temp/game_jarrett_allen_20250930_114542.csv",
+    "data/.temp/game_giannis_antetokounmpo_20250930_114544.csv"
+  ],
+  "weekly_data_files": [
+    "data/.temp/weekly_bam_adebayo_20250930_114533.csv",
+    "data/.temp/weekly_santi_aldama_20250930_114535.csv",
+    "data/.temp/weekly_nickeil_alexander-walker_20250930_114537.csv",
+    "data/.temp/weekly_grayson_allen_20250930_114539.csv",
+    "data/.temp/weekly_jarrett_allen_20250930_114542.csv",
+    "data/.temp/weekly_giannis_antetokounmpo_20250930_114544.csv"
+  ],
+  "variance_data_files": [
+    "data/.temp/variance_bam_adebayo_20250930_114533.json",
+    "data/.temp/variance_santi_aldama_20250930_114535.json",
+    "data/.temp/variance_nickeil_alexander-walker_20250930_114537.json",
+    "data/.temp/variance_grayson_allen_20250930_114539.json",
+    "data/.temp/variance_jarrett_allen_20250930_114542.json",
+    "data/.temp/variance_giannis_antetokounmpo_20250930_114544.json"
+  ]
+}

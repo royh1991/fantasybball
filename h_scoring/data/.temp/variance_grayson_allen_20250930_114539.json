@@ -1,0 +1,103 @@
+{
+  "Grayson Allen": {
+    "PTS": {
+      "mean_per_game": 11.582938388625593,
+      "std_per_game": 6.351339782994065,
+      "var_per_game": 40.3395170390431,
+      "cv_per_game": 0.5483357995956415,
+      "games": 211,
+      "mean_weekly": 35.582089552238806,
+      "weeks": 67
+    },
+    "REB": {
+      "mean_per_game": 3.440758293838863,
+      "std_per_game": 1.8948671000928319,
+      "var_per_game": 3.590521327014218,
+      "cv_per_game": 0.5507120635256026,
+      "games": 211,
+      "mean_weekly": 10.716417910447761,
+      "weeks": 67
+    },
+    "AST": {
+      "mean_per_game": 2.4976303317535544,
+      "std_per_game": 1.98176065919013,
+      "var_per_game": 3.927375310313699,
+      "cv_per_game": 0.793456355007813,
+      "games": 211,
+      "mean_weekly": 7.611940298507463,
+      "weeks": 67
+    },
+    "STL": {
+      "mean_per_game": 0.8767772511848341,
+      "std_per_game": 0.9123392448896087,
+      "var_per_game": 0.8323628977657415,
+      "cv_per_game": 1.0405598955227429,
+      "games": 211,
+      "mean_weekly": 2.671641791044776,
+      "weeks": 67
+    },
+    "BLK": {
+      "mean_per_game": 0.3696682464454976,
+      "std_per_game": 0.6293075437761548,
+      "var_per_game": 0.3960279846535771,
+      "cv_per_game": 1.7023575863688292,
+      "games": 211,
+      "mean_weekly": 1.1194029850746268,
+      "weeks": 67
+    },
+    "TOV": {
+      "mean_per_game": 1.146919431279621,
+      "std_per_game": 1.0292056521561428,
+      "var_per_game": 1.0592642744301513,
+      "cv_per_game": 0.8973652586981244,
+      "games": 211,
+      "mean_weekly": 3.5522388059701493,
+      "weeks": 67
+    },
+    "FG3M": {
+      "mean_per_game": 2.3696682464454977,
+      "std_per_game": 1.8710397883036807,
+      "var_per_game": 3.5007898894154823,
+      "cv_per_game": 0.7895787906641533,
+      "games": 211,
+      "mean_weekly": 7.2835820895522385,
+      "weeks": 67
+    },
+    "FG_PCT": {
+      "mean_per_game": 0.4813538059959769,
+      "std_per_game": 0.1792574895858611,
+      "var_per_game": 0.032133247572625104,
+      "cv_per_game": 0.37240276767928854,
+      "games": 203,
+      "mean_weekly": 0.4572794119006309,
+      "weeks": 67
+    },
+    "FT_PCT": {
+      "mean_per_game": 0.8829677540307462,
+      "std_per_game": 0.194533421252943,
+      "var_per_game": 0.03784325198437498,
+      "cv_per_game": 0.22031769604823992,
+      "games": 127,
+      "mean_weekly": 0.792625450834406,
+      "weeks": 67
+    },
+    "FG3_PCT": {
+      "mean_per_game": 0.48275850100825984,
+      "std_per_game": 0.20307968609942967,
+      "var_per_game": 0.041241358906242885,
+      "cv_per_game": 0.42066516835082113,
+      "games": 183,
+      "mean_weekly": 0.4157448479994099,
+      "weeks": 67
+    },
+    "DD": {
+      "mean_per_game": 0.009478672985781991,
+      "std_per_game": 0.09712639418692767,
+      "var_per_game": 0.009433536447754458,
+      "cv_per_game": 0,
+      "games": 211,
+      "mean_weekly": 0.029850746268656716,
+      "weeks": 67
+    }
+  }
+}

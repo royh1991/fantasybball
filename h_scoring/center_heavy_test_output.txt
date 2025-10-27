@@ -1,0 +1,271 @@
+Using data files:
+  - data/league_weekly_data_20251002_125746.csv
+  - data/player_variances_20251002_125746.json
+  - /Users/rhu/fantasybasketball2/data/fantasy_basketball_clean2.csv
+
+
+Loading data from data/league_weekly_data_20251002_125746.csv
+Loading variances from data/player_variances_20251002_125746.json
+Loading do_not_draft list from data/do_not_draft.csv
+  Loaded 4 players to exclude
+Initializing scoring system...
+Calculating covariance matrix...
+Initializing paper-faithful H-score optimizer...
+Computing average G-score profile for opponent modeling...
+Average G-score profile computed from 193 players:
+  PTS          -0.224
+  REB          -0.345
+  AST          -0.535
+  STL          -0.111
+  BLK          -0.432
+  TOV           0.243
+  FG3M         -1.421
+  DD           -0.551
+  FG_PCT       -0.100
+  FT_PCT        0.466
+  FG3_PCT       0.335
+✓ Initialization complete!
+
+================================================================================
+CENTER-HEAVY DRAFT TEST
+================================================================================
+
+Test Parameters:
+  - Position: 5
+  - Rounds: 3
+  - Forced picks: Centers in rounds 1 & 2
+  - Analysis: H-scoring recommendations for round 3
+
+================================================================================
+
+
+ROUND 1
+--------------------------------------------------------------------------------
+Pick 1 - Team 1: Nikola Jokic
+Pick 2 - Team 2: Victor Wembanyama
+Pick 3 - Team 3: Giannis Antetokounmpo
+Pick 4 - Team 4: Shai Gilgeous-Alexander
+
+Pick 5 - YOUR TURN (Team 5)
+  ★ FORCED CENTER PICK: Anthony Davis (ADP: 9.7)
+
+✓ Drafted: Anthony Davis
+Team size: 1/13
+Pick 6 - Team 6: Luka Doncic
+Pick 7 - Team 7: Anthony Edwards
+Pick 8 - Team 8: Cade Cunningham
+Pick 9 - Team 9: Domantas Sabonis
+Pick 10 - Team 10: Karl-Anthony Towns
+Pick 11 - Team 11: Trae Young
+Pick 12 - Team 12: Devin Booker
+
+
+ROUND 2
+--------------------------------------------------------------------------------
+Pick 23 - Team 12: James Harden
+Pick 22 - Team 11: Paolo Banchero
+Pick 21 - Team 10: Alperen Sengün
+Pick 20 - Team 9: LeBron James
+Pick 19 - Team 8: Stephen Curry
+Pick 18 - Team 7: Tyrese Maxey
+Pick 17 - Team 6: Evan Mobley
+
+Pick 20 - YOUR TURN (Team 5)
+  ★ FORCED CENTER PICK: Chet Holmgren (ADP: 25.7)
+
+✓ Drafted: Chet Holmgren
+Team size: 2/13
+Pick 21 - Team 4: Jalen Williams
+Pick 22 - Team 3: Jalen Brunson
+Pick 23 - Team 2: Kevin Durant
+Pick 24 - Team 1: Donovan Mitchell
+
+================================================================================
+TEAM COMPOSITION ANALYSIS (After 2 Centers)
+================================================================================
+
+Your Roster:
+  1. Anthony Davis                  | PF,C  | ADP: 9.7
+  2. Chet Holmgren                  | PF,C  | ADP: 25.7
+
+
+Your Team's Category Strengths (X-Scores):
+--------------------------------------------------------------------------------
+  BLK       :   3.14  ★★ STRONG
+  REB       :   2.92  ★★ STRONG
+  DD        :   2.64  ★★ STRONG
+  FT_PCT    :   2.15  ★★ STRONG
+  FG_PCT    :   1.39  ★ POSITIVE
+  PTS       :   1.37  ★ POSITIVE
+  FG3_PCT   :   0.17  ★ POSITIVE
+  STL       :  -0.22  ✗ WEAK
+  TOV       :  -0.25  ✗ WEAK
+  AST       :  -0.96  ✗ WEAK
+  FG3M      :  -2.40  ✗✗ VERY WEAK
+
+
+================================================================================
+ROUND 3 H-SCORE ANALYSIS
+================================================================================
+
+Evaluating top 60 available players...
+
+============================================================
+PICK #3 RECOMMENDATIONS
+============================================================
+
+Excluding 4 do_not_draft players from consideration:
+  - Kawhi Leonard
+  - Joel Embiid
+  - Zion Williamson
+  - Paul George
+Evaluating 56 players...
+
+Top Recommendations:
+ RANK        PLAYER_NAME  H_SCORE  G_SCORE
+    1     Nikola Vucevic 0.594032      NaN
+    2        Bam Adebayo 0.586204 3.110639
+    3        Rudy Gobert 0.582453      NaN
+    4        Ivica Zubac 0.578309      NaN
+    5        Jalen Duren 0.578034      NaN
+    6    Lauri Markkanen 0.574546 3.031604
+    7      Miles Bridges 0.573476 2.791567
+    8 Michael Porter Jr. 0.572727 1.885304
+    9        LaMelo Ball 0.572574 3.608426
+   10      Amen Thompson 0.571139 0.611062
+   11      Deandre Ayton 0.570531 0.671211
+   12       Jamal Murray 0.570058 2.538635
+   13     Scottie Barnes 0.569241 3.453712
+   14      Julius Randle 0.567453 2.601705
+   15       De'Aaron Fox 0.566966 3.409154
+   16      Pascal Siakam 0.566851 2.848143
+   17        Zach LaVine 0.566644 2.040767
+   18      Mark Williams 0.566315      NaN
+   19      Derrick White 0.565774 2.131447
+   20      Jarrett Allen 0.565543      NaN
+
+Top 20 H-Score Recommendations:
+--------------------------------------------------------------------------------
+Rank   Player                         Pos      ADP      H-Score    G-Score   
+--------------------------------------------------------------------------------
+29     Nikola Vucevic                 C        55.4     0.5940     nan       
+9      Bam Adebayo                    PF,C     34.0     0.5862     3.1106    
+41     Rudy Gobert                    C        68.9     0.5825     nan       
+11     Ivica Zubac                    C        35.5     0.5783     nan       
+25     Jalen Duren                    C        55.0     0.5780     nan       
+20     Lauri Markkanen                SF,PF    45.6     0.5745     3.0316    
+43     Miles Bridges                  SF,PF    69.7     0.5735     2.7916    
+34     Michael Porter Jr.             SF,PF    60.5     0.5727     1.8853    
+6      LaMelo Ball                    PG,SG    29.2     0.5726     3.6084    
+7      Amen Thompson                  PG,SG,SF 29.9     0.5711     0.6111    
+40     Deandre Ayton                  C        68.8     0.5705     0.6712    
+17     Jamal Murray                   PG,SG    43.8     0.5701     2.5386    
+1      Scottie Barnes                 SG,SF,PF 24.8     0.5692     3.4537    
+35     Julius Randle                  PF,C     62.7     0.5675     2.6017    
+2      De'Aaron Fox                   PG,SG    26.9     0.5670     3.4092    
+4      Pascal Siakam                  PF,C     29.0     0.5669     2.8481    
+36     Zach LaVine                    PG,SG    62.9     0.5666     2.0408    
+55     Mark Williams                  C        82.5     0.5663     nan       
+14     Derrick White                  PG,SG    39.7     0.5658     2.1314    
+30     Jarrett Allen                  C        55.4     0.5655     nan       
+
+
+================================================================================
+DETAILED ANALYSIS: Top 5 Recommendations
+================================================================================
+
+1. Nikola Vucevic (C) - ADP 55.4
+   H-Score: 0.5940 | G-Score: nan
+
+   Category Contributions (X-Scores):
+     REB       :   1.90
+     DD        :   1.59
+     PTS       :   0.78
+     FG_PCT    :   0.38
+     BLK       :   0.26
+     FG3_PCT   :   0.24
+     AST       :   0.22
+     FT_PCT    :   0.14
+     STL       :  -0.17
+
+2. Bam Adebayo (PF,C) - ADP 34.0
+   H-Score: 0.5862 | G-Score: 3.1106
+
+   Category Contributions (X-Scores):
+     REB       :   1.35
+     DD        :   1.09
+     PTS       :   0.69
+     FT_PCT    :   0.58
+     FG_PCT    :   0.51
+     STL       :   0.43
+     AST       :   0.31
+     BLK       :   0.25
+     FG3_PCT   :  -0.14
+     TOV       :  -0.53
+     FG3M      :  -1.75
+
+3. Rudy Gobert (C) - ADP 68.9
+   H-Score: 0.5825 | G-Score: nan
+
+   Category Contributions (X-Scores):
+     REB       :   1.75
+     DD        :   1.33
+     BLK       :   1.15
+     FG_PCT    :   0.98
+     TOV       :   0.20
+     STL       :  -0.23
+     PTS       :  -0.34
+     FT_PCT    :  -0.59
+     AST       :  -2.10
+     FG3M      :  -3.52
+
+4. Ivica Zubac (C) - ADP 35.5
+   H-Score: 0.5783 | G-Score: nan
+
+   Category Contributions (X-Scores):
+     REB       :   1.45
+     FG_PCT    :   1.21
+     DD        :   0.96
+     BLK       :   0.90
+     TOV       :   0.25
+     PTS       :  -0.22
+     STL       :  -0.83
+     AST       :  -1.15
+     FG3M      :  -3.52
+
+5. Jalen Duren (C) - ADP 55.0
+   H-Score: 0.5780 | G-Score: nan
+
+   Category Contributions (X-Scores):
+     REB       :   1.49
+     DD        :   1.23
+     FG_PCT    :   0.92
+     BLK       :   0.51
+     TOV       :  -0.11
+     FT_PCT    :  -0.12
+     STL       :  -0.47
+     PTS       :  -0.68
+     AST       :  -0.90
+     FG3M      :  -3.52
+
+
+================================================================================
+POSITION DIVERSITY ANALYSIS
+================================================================================
+
+Top 10 Recommendations by Position:
+  C         : 4 players
+  SF,PF     : 3 players
+  PF,C      : 1 players
+  PG,SG     : 1 players
+  PG,SG,SF  : 1 players
+
+Aggregated Position Distribution:
+  Guards (G, PG, SG):  2
+  Forwards (F, SF, PF): 4
+  Centers (C):          4
+
+
+================================================================================
+✓ Test results saved to: center_heavy_test_20251016_213128.json
+================================================================================

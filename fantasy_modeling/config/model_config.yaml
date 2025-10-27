@@ -1,0 +1,167 @@
+# Bayesian Model Configuration
+
+# Empirical Bayes settings
+empirical_bayes:
+  # Shooting percentage priors (Beta distribution)
+  shooting_priors:
+    # League-wide priors (will be refined by position)
+    fg_pct:
+      alpha: 80   # Prior successes
+      beta: 100   # Prior failures
+      strength: 50 # How many "virtual" shots worth of prior
+    ft_pct:
+      alpha: 75
+      beta: 25
+      strength: 20
+    fg3_pct:
+      alpha: 35
+      beta: 65
+      strength: 30
+
+  # Position-specific adjustments (multipliers on base priors)
+  position_adjustments:
+    PG:
+      fg_pct: 0.95
+      ft_pct: 1.05
+      fg3_pct: 1.10
+    SG:
+      fg_pct: 0.98
+      ft_pct: 1.02
+      fg3_pct: 1.15
+    SF:
+      fg_pct: 1.00
+      ft_pct: 0.98
+      fg3_pct: 1.05
+    PF:
+      fg_pct: 1.10
+      ft_pct: 0.95
+      fg3_pct: 0.85
+    C:
+      fg_pct: 1.20
+      ft_pct: 0.85
+      fg3_pct: 0.70
+
+  # Recent game weighting
+  recency:
+    games_to_consider: 10
+    decay_factor: 0.9  # Most recent game = 1.0, 10th game = 0.9^9
+    min_games_required: 3
+
+# Counting stat distributions
+counting_stats:
+  # Use Poisson by default, NegBin for high-variance players
+  default_distribution: "poisson"
+
+  # Thresholds for using Negative Binomial (coefficient of variation)
+  negbin_cv_threshold: 1.5  # If CV > 1.5, use NegBin
+
+  # Stat-specific settings
+  points:
+    min_value: 0
+    max_value: 70  # Cap unrealistic simulations
+  rebounds:
+    min_value: 0
+    max_value: 30
+  assists:
+    min_value: 0
+    max_value: 20
+  steals:
+    min_value: 0
+    max_value: 10
+  blocks:
+    min_value: 0
+    max_value: 10
+  turnovers:
+    min_value: 0
+    max_value: 10
+
+# Correlation modeling
+correlations:
+  # Which stat pairs to model correlations for
+  correlated_pairs:
+    - ["AST", "TO"]     # More assists = more turnovers
+    - ["REB", "BLK"]    # Big men correlation
+    - ["PTS", "FGA"]    # Scoring volume
+    - ["STL", "TO"]     # Aggressive play
+    - ["FGA", "FTA"]    # Getting to the line
+
+  # Position-based correlation groups
+  position_groups:
+    guards: ["PG", "SG"]
+    wings: ["SG", "SF"]
+    bigs: ["PF", "C"]
+
+  # Minimum games for correlation calculation
+  min_games_for_correlation: 20
+
+# Shot attempt modeling
+shot_attempts:
+  # How to model FGA, FG3A, FTA
+  distribution: "poisson"
+
+  # 3PA rate modeling (what % of FGA are 3PA)
+  three_point_rate:
+    use_binomial: true
+    min_rate: 0.0
+    max_rate: 0.8  # Cap at 80% 3PA rate
+
+  # Free throw rate (FTA per FGA)
+  free_throw_rate:
+    baseline: 0.25  # League average ~0.25 FTA per FGA
+    position_multipliers:
+      PG: 0.9
+      SG: 0.95
+      SF: 1.0
+      PF: 1.1
+      C: 1.2
+
+# Minutes projection
+minutes:
+  # How to handle minutes in simulations
+  use_historical_average: true
+  injury_adjustment: 0.95  # Reduce by 5% for injury risk
+
+  # Blowout/garbage time modeling
+  blowout_reduction:
+    threshold: 20  # Point differential
+    reduction_factor: 0.7  # Play 70% of normal minutes
+
+# Simulation settings
+simulation:
+  # Number of simulations per projection
+  n_simulations: 1000
+
+  # Random seed for reproducibility
+  random_seed: 42
+
+  # Parallel processing
+  use_parallel: true
+  n_jobs: -1  # Use all CPU cores
+
+  # Outlier handling
+  outlier_detection:
+    enabled: true
+    method: "iqr"  # or "zscore"
+    threshold: 3.0  # 3 standard deviations or 3*IQR
+
+# Validation settings
+validation:
+  # Backtesting configuration
+  backtest:
+    seasons: ["2022-23", "2023-24"]
+    test_split: 0.2  # Last 20% of games for testing
+
+  # Metrics to track
+  metrics:
+    - "rmse"       # Root mean squared error
+    - "mae"        # Mean absolute error
+    - "mape"       # Mean absolute percentage error
+    - "coverage"   # % of actuals within prediction interval
+    - "sharpness"  # Width of prediction intervals
+
+# Cache settings
+cache:
+  enabled: true
+  directory: "cache/"
+  ttl_hours: 24  # Time to live
+  max_size_mb: 500
