@@ -1,4 +1,5 @@
 espn_name,player_id_espn,nba_api_name,nba_api_id,normalized_name,position,matched
+AJ Green,4397475,AJ Green,1631260,aj green,SG,True
 Aaron Gordon,3064290,Aaron Gordon,203932,aaron gordon,PF,True
 Aaron Nesmith,4396909,Aaron Nesmith,1630174,aaron nesmith,SF,True
 Aaron Wiggins,4397183,Aaron Wiggins,1630598,aaron wiggins,SG,True
@@ -16,7 +17,6 @@ Austin Reaves,4066457,Austin Reaves,1630559,austin reaves,SG,True
 Bam Adebayo,4066261,Bam Adebayo,1628389,bam adebayo,C,True
 Ben Sheppard,4433076,Ben Sheppard,1641767,ben sheppard,SG,True
 Bennedict Mathurin,4683634,Bennedict Mathurin,1631097,bennedict mathurin,SF,True
-Bradley Beal,6580,Bradley Beal,203078,bradley beal,SF,True
 Brandon Ingram,3913176,Brandon Ingram,1627742,brandon ingram,SF,True
 Brandon Miller,4433287,Brandon Miller,1641706,brandon miller,SF,True
 Brice Sensabaugh,5105839,Brice Sensabaugh,1641729,brice sensabaugh,SF,True
@@ -34,7 +34,6 @@ Coby White,4395651,Coby White,1629632,coby white,PG,True
 Cole Anthony,4432809,Cole Anthony,1630175,cole anthony,PG,True
 Collin Sexton,4277811,Collin Sexton,1629012,collin sexton,SG,True
 Cooper Flagg,5041939,Cooper Flagg,1642843,cooper flagg,SF,True
-D'Angelo Russell,3136776,D'Angelo Russell,1626156,d'angelo russell,PG,True
 Daniel Gafford,4278049,Daniel Gafford,1629655,daniel gafford,C,True
 Darius Garland,4396907,Darius Garland,1629636,darius garland,PG,True
 Davion Mitchell,4278053,Davion Mitchell,1630558,davion mitchell,PG,True
@@ -45,7 +44,6 @@ Deandre Ayton,4278129,Deandre Ayton,1629028,deandre ayton,C,True
 Dejounte Murray,3907497,Dejounte Murray,1627749,dejounte murray,SG,True
 Deni Avdija,4683021,Deni Avdija,1630166,deni avdija,SF,True
 Dennis Schroder,3032979,Dennis Schröder,203471,dennis schroder,PG,True
-Dereck Lively II,4683688,Dereck Lively II,1641726,dereck lively ii,C,True
 Derrick White,3078576,Derrick White,1628401,derrick white,SG,True
 Desmond Bane,4066320,Desmond Bane,1630217,desmond bane,SG,True
 Devin Booker,3136193,Devin Booker,1626164,devin booker,PG,True
@@ -69,7 +67,6 @@ Herbert Jones,4277813,Herbert Jones,1630529,herbert jones,SF,True
 Immanuel Quickley,4395724,Immanuel Quickley,1630193,immanuel quickley,PG,True
 Isaiah Collier,4683766,Isaiah Collier,1642268,isaiah collier,PG,True
 Isaiah Hartenstein,4222252,Isaiah Hartenstein,1628392,isaiah hartenstein,C,True
-Isaiah Jackson,4432170,Isaiah Jackson,1630543,isaiah jackson,PF,True
 Isaiah Stewart,4432810,Isaiah Stewart,1630191,isaiah stewart,C,True
 Ivica Zubac,4017837,Ivica Zubac,1627826,ivica zubac,C,True
 Ja Morant,4279888,Ja Morant,1629630,ja morant,PG,True
@@ -90,8 +87,8 @@ Jared McCain,4683778,Jared McCain,1642272,jared mccain,SG,True
 Jaren Jackson Jr.,4277961,Jaren Jackson Jr.,1628991,jaren jackson jr.,C,True
 Jarrett Allen,4066328,Jarrett Allen,1628386,jarrett allen,C,True
 Jaylen Brown,3917376,Jaylen Brown,1627759,jaylen brown,SF,True
-Jaylen Wells,5112087,Jaylen Wells,1642377,jaylen wells,SG,True
 Jerami Grant,2991070,Jerami Grant,203924,jerami grant,PF,True
+Jeremiah Fears,5144091,Jeremiah Fears,1642847,jeremiah fears,SG,True
 Jimmy Butler III,6430,Jimmy Butler III,202710,jimmy butler iii,SF,True
 Joel Embiid,3059318,Joel Embiid,203954,joel embiid,C,True
 John Collins,3908845,John Collins,1628381,john collins,PF,True
@@ -108,7 +105,9 @@ Keegan Murray,4594327,Keegan Murray,1631099,keegan murray,PF,True
 Kel'el Ware,5105623,Kel'el Ware,1642276,kel'el ware,C,True
 Keldon Johnson,4395723,Keldon Johnson,1629640,keldon johnson,SF,True
 Kelly Oubre Jr.,3133603,Kelly Oubre Jr.,1626162,kelly oubre jr.,SF,True
+Kentavious Caldwell-Pope,2581018,Kentavious Caldwell-Pope,203484,kentavious caldwell-pope,SG,True
 Kevin Durant,3202,Kevin Durant,201142,kevin durant,PF,True
+Kevin Huerter,4066372,Kevin Huerter,1628989,kevin huerter,SG,True
 Kevin Porter Jr.,4397140,Kevin Porter Jr.,1629645,kevin porter jr.,SG,True
 Keyonte George,4433627,Keyonte George,1641718,keyonte george,PG,True
 Khris Middleton,6609,Khris Middleton,203114,khris middleton,SF,True
@@ -120,6 +119,7 @@ Kyshawn George,5174563,Kyshawn George,1642273,kyshawn george,SG,True
 LaMelo Ball,4432816,LaMelo Ball,1630163,lamelo ball,PG,True
 Lauri Markkanen,4066336,Lauri Markkanen,1628374,lauri markkanen,PF,True
 LeBron James,1966,LeBron James,2544,lebron james,SF,True
+Luguentz Dort,4397020,Luguentz Dort,1629652,luguentz dort,SG,True
 Luka Doncic,3945274,Luka Dončić,1629029,luka doncic,PG,True
 Malik Monk,4066262,Malik Monk,1628370,malik monk,SG,True
 Mark Williams,4701232,Mark Williams,1631109,mark williams,C,True
@@ -130,7 +130,6 @@ Miles Bridges,4066383,Miles Bridges,1628970,miles bridges,SF,True
 Moussa Diabate,4433249,Moussa Diabaté,1631217,moussa diabate,PF,True
 Myles Turner,3133628,Myles Turner,1626167,myles turner,C,True
 Naz Reid,4396971,Naz Reid,1629675,naz reid,C,True
-Neemias Queta,4397424,Neemias Queta,1629674,neemias queta,C,True
 Nic Claxton,4278067,Nic Claxton,1629651,nic claxton,C,True
 Nickeil Alexander-Walker,4278039,Nickeil Alexander-Walker,1629638,nickeil alexander-walker,SG,True
 Nikola Jokic,3112335,Nikola Jokić,203999,nikola jokic,C,True
@@ -150,12 +149,14 @@ Ronald Holland II,4683771,Ronald Holland II,1641842,ronald holland ii,SF,True
 Rudy Gobert,3032976,Rudy Gobert,203497,rudy gobert,C,True
 Rui Hachimura,4066648,Rui Hachimura,1629060,rui hachimura,PF,True
 Ryan Kalkbrenner,4576060,Ryan Kalkbrenner,1641750,ryan kalkbrenner,C,True
+Ryan Rollins,4591725,Ryan Rollins,1631157,ryan rollins,SG,True
 Sam Hauser,4065804,Sam Hauser,1630573,sam hauser,SF,True
 Sam Merrill,4066757,Sam Merrill,1630241,sam merrill,SG,True
 Santi Aldama,4593125,Santi Aldama,1630583,santi aldama,PF,True
 Scottie Barnes,4433134,Scottie Barnes,1630567,scottie barnes,SF,True
 Shaedon Sharpe,4914336,Shaedon Sharpe,1631101,shaedon sharpe,SG,True
 Shai Gilgeous-Alexander,4278073,Shai Gilgeous-Alexander,1628983,shai gilgeous-alexander,PG,True
+Simone Fontecchio,3899664,Simone Fontecchio,1631323,simone fontecchio,SF,True
 Stephen Curry,3975,Stephen Curry,201939,stephen curry,PG,True
 Stephon Castle,4845367,Stephon Castle,1642264,stephon castle,PG,True
 Steven Adams,2991235,Steven Adams,203500,steven adams,C,True
@@ -179,5 +180,3 @@ Zaccharie Risacher,5211175,Zaccharie Risacher,1642258,zaccharie risacher,SF,True
 Zach Edey,4600663,Zach Edey,1641744,zach edey,C,True
 Zach LaVine,3064440,Zach LaVine,203897,zach lavine,SG,True
 Zion Williamson,4395628,Zion Williamson,1629627,zion williamson,PF,True
-Jusuf Nurkic,0000000,Jusuf Nurkić,0000000,jusuf nurkic,C,True
-Nikola Jovic,0000000,Nikola Jović,0000000,nikola jovic,PF,True

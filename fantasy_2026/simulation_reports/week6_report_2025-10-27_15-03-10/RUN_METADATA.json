@@ -1,0 +1,32 @@
+{
+  "run_timestamp": "2025-10-27_15-03-10",
+  "week": 6,
+  "week_dates": "2025-10-21 to 2025-10-27",
+  "total_matchups": 7,
+  "simulations_per_matchup": 500,
+  "data_source": "box_scores_latest.csv",
+  "model_type": "Bayesian (Beta-Binomial + Poisson)",
+  "historical_data": "2019-2024 seasons",
+  "evolution_rate": 0.5,
+  "categories": [
+    "FG%",
+    "FT%",
+    "3P%",
+    "3PM",
+    "PTS",
+    "REB",
+    "AST",
+    "STL",
+    "BLK",
+    "TO",
+    "DD"
+  ],
+  "validation_accuracy": "7/7 (100%)",
+  "matchup_summary": {
+    "competitive": 0,
+    "high_confidence": 4,
+    "mean_win_prob_spread": 0.6302857142857144,
+    "avg_games_per_team": 30.785714285714285,
+    "avg_players_per_team": 13.0
+  }
+}

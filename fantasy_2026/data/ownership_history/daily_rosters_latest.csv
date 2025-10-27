@@ -16,12 +16,12 @@ date,team_id,team_name,player_name
 2025-10-21 00:48:32.933,21,Burrito Barnes,Cason Wallace
 2025-10-21 00:48:32.933,21,Burrito Barnes,Cooper Flagg
 2025-10-21 00:48:32.933,21,Burrito Barnes,Deandre Ayton
-2025-10-21 00:48:32.933,21,Burrito Barnes,Dereck Lively II
 2025-10-21 00:48:32.933,21,Burrito Barnes,Devin Vassell
 2025-10-21 00:48:32.933,21,Burrito Barnes,Duncan Robinson
 2025-10-21 00:48:32.933,21,Burrito Barnes,Ivica Zubac
 2025-10-21 00:48:32.933,21,Burrito Barnes,Kawhi Leonard
 2025-10-21 00:48:32.933,21,Burrito Barnes,Payton Pritchard
+2025-10-21 00:48:32.933,21,Burrito Barnes,Ryan Rollins
 2025-10-21 00:48:32.933,21,Burrito Barnes,Stephen Curry
 2025-10-21 00:48:32.933,21,Burrito Barnes,Wendell Carter Jr.
 2025-10-21 00:48:32.933,6,Cold Beans,Bub Carrington
@@ -51,15 +51,15 @@ date,team_id,team_name,player_name
 2025-10-21 00:48:32.933,14,Enter the Dragon,Walker Kessler
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,Brandon Miller
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,CJ McCollum
-2025-10-21 00:48:32.933,20,Hardwood Hustlers,D'Angelo Russell
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,Dillon Brooks
-2025-10-21 00:48:32.933,20,Hardwood Hustlers,Isaiah Jackson
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,Jalen Brunson
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,Jarrett Allen
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,Joel Embiid
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,John Collins
+2025-10-21 00:48:32.933,20,Hardwood Hustlers,Kentavious Caldwell-Pope
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,Khris Middleton
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,Kyrie Irving
+2025-10-21 00:48:32.933,20,Hardwood Hustlers,Luguentz Dort
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,Nikola Jokic
 2025-10-21 00:48:32.933,20,Hardwood Hustlers,Steven Adams
 2025-10-21 00:48:32.933,12,IN MAMBA WE TRUST,Aaron Wiggins
@@ -88,12 +88,12 @@ date,team_id,team_name,player_name
 2025-10-21 00:48:32.933,5,Jay Stat,Paolo Banchero
 2025-10-21 00:48:32.933,5,Jay Stat,Quentin Grimes
 2025-10-21 00:48:32.933,5,Jay Stat,Shai Gilgeous-Alexander
+2025-10-21 00:48:32.933,10,KL2 LLC,AJ Green
 2025-10-21 00:48:32.933,10,KL2 LLC,Anthony Davis
 2025-10-21 00:48:32.933,10,KL2 LLC,Ben Sheppard
 2025-10-21 00:48:32.933,10,KL2 LLC,Buddy Hield
 2025-10-21 00:48:32.933,10,KL2 LLC,Jalen Suggs
 2025-10-21 00:48:32.933,10,KL2 LLC,Jamal Murray
-2025-10-21 00:48:32.933,10,KL2 LLC,Jaylen Wells
 2025-10-21 00:48:32.933,10,KL2 LLC,Jordan Poole
 2025-10-21 00:48:32.933,10,KL2 LLC,Malik Monk
 2025-10-21 00:48:32.933,10,KL2 LLC,Nikola Jovic
@@ -104,16 +104,17 @@ date,team_id,team_name,player_name
 2025-10-21 00:48:32.933,10,KL2 LLC,Zaccharie Risacher
 2025-10-21 00:48:32.933,19,LF da broccoli,Aaron Nesmith
 2025-10-21 00:48:32.933,19,LF da broccoli,Anthony Edwards
-2025-10-21 00:48:32.933,19,LF da broccoli,Bradley Beal
 2025-10-21 00:48:32.933,19,LF da broccoli,Cameron Johnson
 2025-10-21 00:48:32.933,19,LF da broccoli,Chet Holmgren
 2025-10-21 00:48:32.933,19,LF da broccoli,Collin Sexton
 2025-10-21 00:48:32.933,19,LF da broccoli,Derrick White
 2025-10-21 00:48:32.933,19,LF da broccoli,Grayson Allen
 2025-10-21 00:48:32.933,19,LF da broccoli,Jaden McDaniels
+2025-10-21 00:48:32.933,19,LF da broccoli,Jeremiah Fears
 2025-10-21 00:48:32.933,19,LF da broccoli,Mikal Bridges
 2025-10-21 00:48:32.933,19,LF da broccoli,Nic Claxton
 2025-10-21 00:48:32.933,19,LF da broccoli,OG Anunoby
+2025-10-21 00:48:32.933,19,LF da broccoli,Simone Fontecchio
 2025-10-21 00:48:32.933,17,Nadim the Dream,Alperen Sengun
 2025-10-21 00:48:32.933,17,Nadim the Dream,Andrew Wiggins
 2025-10-21 00:48:32.933,17,Nadim the Dream,Ausar Thompson
@@ -161,8 +162,8 @@ date,team_id,team_name,player_name
 2025-10-21 00:48:32.933,16,Team Menyo,Evan Mobley
 2025-10-21 00:48:32.933,16,Team Menyo,Franz Wagner
 2025-10-21 00:48:32.933,16,Team Menyo,Kelly Oubre Jr.
+2025-10-21 00:48:32.933,16,Team Menyo,Kevin Huerter
 2025-10-21 00:48:32.933,16,Team Menyo,Kristaps Porzingis
-2025-10-21 00:48:32.933,16,Team Menyo,Neemias Queta
 2025-10-21 00:48:32.933,16,Team Menyo,Ronald Holland II
 2025-10-21 00:48:32.933,16,Team Menyo,Santi Aldama
 2025-10-21 00:48:32.933,16,Team Menyo,Trae Young
@@ -196,12 +197,12 @@ date,team_id,team_name,player_name
 2025-10-22 00:48:32.933,21,Burrito Barnes,Cason Wallace
 2025-10-22 00:48:32.933,21,Burrito Barnes,Cooper Flagg
 2025-10-22 00:48:32.933,21,Burrito Barnes,Deandre Ayton
-2025-10-22 00:48:32.933,21,Burrito Barnes,Dereck Lively II
 2025-10-22 00:48:32.933,21,Burrito Barnes,Devin Vassell
 2025-10-22 00:48:32.933,21,Burrito Barnes,Duncan Robinson
 2025-10-22 00:48:32.933,21,Burrito Barnes,Ivica Zubac
 2025-10-22 00:48:32.933,21,Burrito Barnes,Kawhi Leonard
 2025-10-22 00:48:32.933,21,Burrito Barnes,Payton Pritchard
+2025-10-22 00:48:32.933,21,Burrito Barnes,Ryan Rollins
 2025-10-22 00:48:32.933,21,Burrito Barnes,Stephen Curry
 2025-10-22 00:48:32.933,21,Burrito Barnes,Wendell Carter Jr.
 2025-10-22 00:48:32.933,6,Cold Beans,Bub Carrington
@@ -231,15 +232,15 @@ date,team_id,team_name,player_name
 2025-10-22 00:48:32.933,14,Enter the Dragon,Walker Kessler
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,Brandon Miller
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,CJ McCollum
-2025-10-22 00:48:32.933,20,Hardwood Hustlers,D'Angelo Russell
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,Dillon Brooks
-2025-10-22 00:48:32.933,20,Hardwood Hustlers,Isaiah Jackson
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,Jalen Brunson
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,Jarrett Allen
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,Joel Embiid
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,John Collins
+2025-10-22 00:48:32.933,20,Hardwood Hustlers,Kentavious Caldwell-Pope
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,Khris Middleton
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,Kyrie Irving
+2025-10-22 00:48:32.933,20,Hardwood Hustlers,Luguentz Dort
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,Nikola Jokic
 2025-10-22 00:48:32.933,20,Hardwood Hustlers,Steven Adams
 2025-10-22 00:48:32.933,12,IN MAMBA WE TRUST,Aaron Wiggins
@@ -268,12 +269,12 @@ date,team_id,team_name,player_name
 2025-10-22 00:48:32.933,5,Jay Stat,Paolo Banchero
 2025-10-22 00:48:32.933,5,Jay Stat,Quentin Grimes
 2025-10-22 00:48:32.933,5,Jay Stat,Shai Gilgeous-Alexander
+2025-10-22 00:48:32.933,10,KL2 LLC,AJ Green
 2025-10-22 00:48:32.933,10,KL2 LLC,Anthony Davis
 2025-10-22 00:48:32.933,10,KL2 LLC,Ben Sheppard
 2025-10-22 00:48:32.933,10,KL2 LLC,Buddy Hield
 2025-10-22 00:48:32.933,10,KL2 LLC,Jalen Suggs
 2025-10-22 00:48:32.933,10,KL2 LLC,Jamal Murray
-2025-10-22 00:48:32.933,10,KL2 LLC,Jaylen Wells
 2025-10-22 00:48:32.933,10,KL2 LLC,Jordan Poole
 2025-10-22 00:48:32.933,10,KL2 LLC,Malik Monk
 2025-10-22 00:48:32.933,10,KL2 LLC,Nikola Jovic
@@ -284,16 +285,17 @@ date,team_id,team_name,player_name
 2025-10-22 00:48:32.933,10,KL2 LLC,Zaccharie Risacher
 2025-10-22 00:48:32.933,19,LF da broccoli,Aaron Nesmith
 2025-10-22 00:48:32.933,19,LF da broccoli,Anthony Edwards
-2025-10-22 00:48:32.933,19,LF da broccoli,Bradley Beal
 2025-10-22 00:48:32.933,19,LF da broccoli,Cameron Johnson
 2025-10-22 00:48:32.933,19,LF da broccoli,Chet Holmgren
 2025-10-22 00:48:32.933,19,LF da broccoli,Collin Sexton
 2025-10-22 00:48:32.933,19,LF da broccoli,Derrick White
 2025-10-22 00:48:32.933,19,LF da broccoli,Grayson Allen
 2025-10-22 00:48:32.933,19,LF da broccoli,Jaden McDaniels
+2025-10-22 00:48:32.933,19,LF da broccoli,Jeremiah Fears
 2025-10-22 00:48:32.933,19,LF da broccoli,Mikal Bridges
 2025-10-22 00:48:32.933,19,LF da broccoli,Nic Claxton
 2025-10-22 00:48:32.933,19,LF da broccoli,OG Anunoby
+2025-10-22 00:48:32.933,19,LF da broccoli,Simone Fontecchio
 2025-10-22 00:48:32.933,17,Nadim the Dream,Alperen Sengun
 2025-10-22 00:48:32.933,17,Nadim the Dream,Andrew Wiggins
 2025-10-22 00:48:32.933,17,Nadim the Dream,Ausar Thompson
@@ -341,8 +343,8 @@ date,team_id,team_name,player_name
 2025-10-22 00:48:32.933,16,Team Menyo,Evan Mobley
 2025-10-22 00:48:32.933,16,Team Menyo,Franz Wagner
 2025-10-22 00:48:32.933,16,Team Menyo,Kelly Oubre Jr.
+2025-10-22 00:48:32.933,16,Team Menyo,Kevin Huerter
 2025-10-22 00:48:32.933,16,Team Menyo,Kristaps Porzingis
-2025-10-22 00:48:32.933,16,Team Menyo,Neemias Queta
 2025-10-22 00:48:32.933,16,Team Menyo,Ronald Holland II
 2025-10-22 00:48:32.933,16,Team Menyo,Santi Aldama
 2025-10-22 00:48:32.933,16,Team Menyo,Trae Young
@@ -376,12 +378,12 @@ date,team_id,team_name,player_name
 2025-10-23 00:48:32.933,21,Burrito Barnes,Cason Wallace
 2025-10-23 00:48:32.933,21,Burrito Barnes,Cooper Flagg
 2025-10-23 00:48:32.933,21,Burrito Barnes,Deandre Ayton
-2025-10-23 00:48:32.933,21,Burrito Barnes,Dereck Lively II
 2025-10-23 00:48:32.933,21,Burrito Barnes,Devin Vassell
 2025-10-23 00:48:32.933,21,Burrito Barnes,Duncan Robinson
 2025-10-23 00:48:32.933,21,Burrito Barnes,Ivica Zubac
 2025-10-23 00:48:32.933,21,Burrito Barnes,Kawhi Leonard
 2025-10-23 00:48:32.933,21,Burrito Barnes,Payton Pritchard
+2025-10-23 00:48:32.933,21,Burrito Barnes,Ryan Rollins
 2025-10-23 00:48:32.933,21,Burrito Barnes,Stephen Curry
 2025-10-23 00:48:32.933,21,Burrito Barnes,Wendell Carter Jr.
 2025-10-23 00:48:32.933,6,Cold Beans,Bub Carrington
@@ -412,15 +414,15 @@ date,team_id,team_name,player_name
 2025-10-23 00:48:32.933,14,Enter the Dragon,Walker Kessler
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,Brandon Miller
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,CJ McCollum
-2025-10-23 00:48:32.933,20,Hardwood Hustlers,D'Angelo Russell
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,Dillon Brooks
-2025-10-23 00:48:32.933,20,Hardwood Hustlers,Isaiah Jackson
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,Jalen Brunson
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,Jarrett Allen
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,Joel Embiid
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,John Collins
+2025-10-23 00:48:32.933,20,Hardwood Hustlers,Kentavious Caldwell-Pope
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,Khris Middleton
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,Kyrie Irving
+2025-10-23 00:48:32.933,20,Hardwood Hustlers,Luguentz Dort
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,Nikola Jokic
 2025-10-23 00:48:32.933,20,Hardwood Hustlers,Steven Adams
 2025-10-23 00:48:32.933,12,IN MAMBA WE TRUST,Aaron Wiggins
@@ -449,12 +451,12 @@ date,team_id,team_name,player_name
 2025-10-23 00:48:32.933,5,Jay Stat,Paolo Banchero
 2025-10-23 00:48:32.933,5,Jay Stat,Quentin Grimes
 2025-10-23 00:48:32.933,5,Jay Stat,Shai Gilgeous-Alexander
+2025-10-23 00:48:32.933,10,KL2 LLC,AJ Green
 2025-10-23 00:48:32.933,10,KL2 LLC,Anthony Davis
 2025-10-23 00:48:32.933,10,KL2 LLC,Ben Sheppard
 2025-10-23 00:48:32.933,10,KL2 LLC,Buddy Hield
 2025-10-23 00:48:32.933,10,KL2 LLC,Jalen Suggs
 2025-10-23 00:48:32.933,10,KL2 LLC,Jamal Murray
-2025-10-23 00:48:32.933,10,KL2 LLC,Jaylen Wells
 2025-10-23 00:48:32.933,10,KL2 LLC,Jordan Poole
 2025-10-23 00:48:32.933,10,KL2 LLC,Malik Monk
 2025-10-23 00:48:32.933,10,KL2 LLC,Nikola Jovic
@@ -465,16 +467,17 @@ date,team_id,team_name,player_name
 2025-10-23 00:48:32.933,10,KL2 LLC,Zaccharie Risacher
 2025-10-23 00:48:32.933,19,LF da broccoli,Aaron Nesmith
 2025-10-23 00:48:32.933,19,LF da broccoli,Anthony Edwards
-2025-10-23 00:48:32.933,19,LF da broccoli,Bradley Beal
 2025-10-23 00:48:32.933,19,LF da broccoli,Cameron Johnson
 2025-10-23 00:48:32.933,19,LF da broccoli,Chet Holmgren
 2025-10-23 00:48:32.933,19,LF da broccoli,Collin Sexton
 2025-10-23 00:48:32.933,19,LF da broccoli,Derrick White
 2025-10-23 00:48:32.933,19,LF da broccoli,Jaden McDaniels
+2025-10-23 00:48:32.933,19,LF da broccoli,Jeremiah Fears
 2025-10-23 00:48:32.933,19,LF da broccoli,Jonathan Kuminga
 2025-10-23 00:48:32.933,19,LF da broccoli,Mikal Bridges
 2025-10-23 00:48:32.933,19,LF da broccoli,Nic Claxton
 2025-10-23 00:48:32.933,19,LF da broccoli,OG Anunoby
+2025-10-23 00:48:32.933,19,LF da broccoli,Simone Fontecchio
 2025-10-23 00:48:32.933,17,Nadim the Dream,Alperen Sengun
 2025-10-23 00:48:32.933,17,Nadim the Dream,Andrew Wiggins
 2025-10-23 00:48:32.933,17,Nadim the Dream,Ausar Thompson
@@ -522,8 +525,8 @@ date,team_id,team_name,player_name
 2025-10-23 00:48:32.933,16,Team Menyo,Evan Mobley
 2025-10-23 00:48:32.933,16,Team Menyo,Franz Wagner
 2025-10-23 00:48:32.933,16,Team Menyo,Kelly Oubre Jr.
+2025-10-23 00:48:32.933,16,Team Menyo,Kevin Huerter
 2025-10-23 00:48:32.933,16,Team Menyo,Kristaps Porzingis
-2025-10-23 00:48:32.933,16,Team Menyo,Neemias Queta
 2025-10-23 00:48:32.933,16,Team Menyo,Ronald Holland II
 2025-10-23 00:48:32.933,16,Team Menyo,Santi Aldama
 2025-10-23 00:48:32.933,16,Team Menyo,Trae Young
@@ -557,12 +560,12 @@ date,team_id,team_name,player_name
 2025-10-24 00:48:32.933,21,Burrito Barnes,Cason Wallace
 2025-10-24 00:48:32.933,21,Burrito Barnes,Cooper Flagg
 2025-10-24 00:48:32.933,21,Burrito Barnes,Deandre Ayton
-2025-10-24 00:48:32.933,21,Burrito Barnes,Dereck Lively II
 2025-10-24 00:48:32.933,21,Burrito Barnes,Devin Vassell
 2025-10-24 00:48:32.933,21,Burrito Barnes,Duncan Robinson
 2025-10-24 00:48:32.933,21,Burrito Barnes,Ivica Zubac
 2025-10-24 00:48:32.933,21,Burrito Barnes,Kawhi Leonard
 2025-10-24 00:48:32.933,21,Burrito Barnes,Payton Pritchard
+2025-10-24 00:48:32.933,21,Burrito Barnes,Ryan Rollins
 2025-10-24 00:48:32.933,21,Burrito Barnes,Stephen Curry
 2025-10-24 00:48:32.933,21,Burrito Barnes,Wendell Carter Jr.
 2025-10-24 00:48:32.933,6,Cold Beans,Bub Carrington
@@ -593,15 +596,15 @@ date,team_id,team_name,player_name
 2025-10-24 00:48:32.933,14,Enter the Dragon,Walker Kessler
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,Brandon Miller
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,CJ McCollum
-2025-10-24 00:48:32.933,20,Hardwood Hustlers,D'Angelo Russell
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,Dillon Brooks
-2025-10-24 00:48:32.933,20,Hardwood Hustlers,Isaiah Jackson
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,Jalen Brunson
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,Jarrett Allen
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,Joel Embiid
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,John Collins
+2025-10-24 00:48:32.933,20,Hardwood Hustlers,Kentavious Caldwell-Pope
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,Khris Middleton
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,Kyrie Irving
+2025-10-24 00:48:32.933,20,Hardwood Hustlers,Luguentz Dort
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,Nikola Jokic
 2025-10-24 00:48:32.933,20,Hardwood Hustlers,Steven Adams
 2025-10-24 00:48:32.933,12,IN MAMBA WE TRUST,Aaron Wiggins
@@ -630,12 +633,12 @@ date,team_id,team_name,player_name
 2025-10-24 00:48:32.933,5,Jay Stat,Paolo Banchero
 2025-10-24 00:48:32.933,5,Jay Stat,Quentin Grimes
 2025-10-24 00:48:32.933,5,Jay Stat,Shai Gilgeous-Alexander
+2025-10-24 00:48:32.933,10,KL2 LLC,AJ Green
 2025-10-24 00:48:32.933,10,KL2 LLC,Anthony Davis
 2025-10-24 00:48:32.933,10,KL2 LLC,Ben Sheppard
 2025-10-24 00:48:32.933,10,KL2 LLC,Buddy Hield
 2025-10-24 00:48:32.933,10,KL2 LLC,Jalen Suggs
 2025-10-24 00:48:32.933,10,KL2 LLC,Jamal Murray
-2025-10-24 00:48:32.933,10,KL2 LLC,Jaylen Wells
 2025-10-24 00:48:32.933,10,KL2 LLC,Jordan Poole
 2025-10-24 00:48:32.933,10,KL2 LLC,Malik Monk
 2025-10-24 00:48:32.933,10,KL2 LLC,Nikola Vucevic
@@ -645,16 +648,17 @@ date,team_id,team_name,player_name
 2025-10-24 00:48:32.933,10,KL2 LLC,Zaccharie Risacher
 2025-10-24 00:48:32.933,19,LF da broccoli,Aaron Nesmith
 2025-10-24 00:48:32.933,19,LF da broccoli,Anthony Edwards
-2025-10-24 00:48:32.933,19,LF da broccoli,Bradley Beal
 2025-10-24 00:48:32.933,19,LF da broccoli,Cameron Johnson
 2025-10-24 00:48:32.933,19,LF da broccoli,Chet Holmgren
 2025-10-24 00:48:32.933,19,LF da broccoli,Collin Sexton
 2025-10-24 00:48:32.933,19,LF da broccoli,Derrick White
 2025-10-24 00:48:32.933,19,LF da broccoli,Jaden McDaniels
+2025-10-24 00:48:32.933,19,LF da broccoli,Jeremiah Fears
 2025-10-24 00:48:32.933,19,LF da broccoli,Jonathan Kuminga
 2025-10-24 00:48:32.933,19,LF da broccoli,Mikal Bridges
 2025-10-24 00:48:32.933,19,LF da broccoli,Nic Claxton
 2025-10-24 00:48:32.933,19,LF da broccoli,OG Anunoby
+2025-10-24 00:48:32.933,19,LF da broccoli,Simone Fontecchio
 2025-10-24 00:48:32.933,17,Nadim the Dream,Alperen Sengun
 2025-10-24 00:48:32.933,17,Nadim the Dream,Andrew Wiggins
 2025-10-24 00:48:32.933,17,Nadim the Dream,Ausar Thompson
@@ -702,8 +706,8 @@ date,team_id,team_name,player_name
 2025-10-24 00:48:32.933,16,Team Menyo,Evan Mobley
 2025-10-24 00:48:32.933,16,Team Menyo,Franz Wagner
 2025-10-24 00:48:32.933,16,Team Menyo,Kelly Oubre Jr.
+2025-10-24 00:48:32.933,16,Team Menyo,Kevin Huerter
 2025-10-24 00:48:32.933,16,Team Menyo,Kristaps Porzingis
-2025-10-24 00:48:32.933,16,Team Menyo,Neemias Queta
 2025-10-24 00:48:32.933,16,Team Menyo,Ronald Holland II
 2025-10-24 00:48:32.933,16,Team Menyo,Santi Aldama
 2025-10-24 00:48:32.933,16,Team Menyo,Trae Young
@@ -737,12 +741,12 @@ date,team_id,team_name,player_name
 2025-10-25 00:48:32.933,21,Burrito Barnes,Cason Wallace
 2025-10-25 00:48:32.933,21,Burrito Barnes,Cooper Flagg
 2025-10-25 00:48:32.933,21,Burrito Barnes,Deandre Ayton
-2025-10-25 00:48:32.933,21,Burrito Barnes,Dereck Lively II
 2025-10-25 00:48:32.933,21,Burrito Barnes,Devin Vassell
 2025-10-25 00:48:32.933,21,Burrito Barnes,Duncan Robinson
 2025-10-25 00:48:32.933,21,Burrito Barnes,Ivica Zubac
 2025-10-25 00:48:32.933,21,Burrito Barnes,Kawhi Leonard
 2025-10-25 00:48:32.933,21,Burrito Barnes,Payton Pritchard
+2025-10-25 00:48:32.933,21,Burrito Barnes,Ryan Rollins
 2025-10-25 00:48:32.933,21,Burrito Barnes,Stephen Curry
 2025-10-25 00:48:32.933,21,Burrito Barnes,Wendell Carter Jr.
 2025-10-25 00:48:32.933,6,Cold Beans,Bub Carrington
@@ -773,15 +777,15 @@ date,team_id,team_name,player_name
 2025-10-25 00:48:32.933,14,Enter the Dragon,Walker Kessler
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,Brandon Miller
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,CJ McCollum
-2025-10-25 00:48:32.933,20,Hardwood Hustlers,D'Angelo Russell
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,Dillon Brooks
-2025-10-25 00:48:32.933,20,Hardwood Hustlers,Isaiah Jackson
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,Jalen Brunson
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,Jarrett Allen
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,Joel Embiid
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,John Collins
+2025-10-25 00:48:32.933,20,Hardwood Hustlers,Kentavious Caldwell-Pope
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,Khris Middleton
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,Kyrie Irving
+2025-10-25 00:48:32.933,20,Hardwood Hustlers,Luguentz Dort
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,Nikola Jokic
 2025-10-25 00:48:32.933,20,Hardwood Hustlers,Steven Adams
 2025-10-25 00:48:32.933,12,IN MAMBA WE TRUST,Aaron Wiggins
@@ -810,12 +814,12 @@ date,team_id,team_name,player_name
 2025-10-25 00:48:32.933,5,Jay Stat,Paolo Banchero
 2025-10-25 00:48:32.933,5,Jay Stat,Quentin Grimes
 2025-10-25 00:48:32.933,5,Jay Stat,Shai Gilgeous-Alexander
+2025-10-25 00:48:32.933,10,KL2 LLC,AJ Green
 2025-10-25 00:48:32.933,10,KL2 LLC,Anthony Davis
 2025-10-25 00:48:32.933,10,KL2 LLC,Ben Sheppard
 2025-10-25 00:48:32.933,10,KL2 LLC,Buddy Hield
 2025-10-25 00:48:32.933,10,KL2 LLC,Jalen Suggs
 2025-10-25 00:48:32.933,10,KL2 LLC,Jamal Murray
-2025-10-25 00:48:32.933,10,KL2 LLC,Jaylen Wells
 2025-10-25 00:48:32.933,10,KL2 LLC,Jordan Poole
 2025-10-25 00:48:32.933,10,KL2 LLC,Malik Monk
 2025-10-25 00:48:32.933,10,KL2 LLC,Nikola Vucevic
@@ -825,16 +829,17 @@ date,team_id,team_name,player_name
 2025-10-25 00:48:32.933,10,KL2 LLC,Zaccharie Risacher
 2025-10-25 00:48:32.933,19,LF da broccoli,Aaron Nesmith
 2025-10-25 00:48:32.933,19,LF da broccoli,Anthony Edwards
-2025-10-25 00:48:32.933,19,LF da broccoli,Bradley Beal
 2025-10-25 00:48:32.933,19,LF da broccoli,Cameron Johnson
 2025-10-25 00:48:32.933,19,LF da broccoli,Chet Holmgren
 2025-10-25 00:48:32.933,19,LF da broccoli,Collin Sexton
 2025-10-25 00:48:32.933,19,LF da broccoli,Derrick White
 2025-10-25 00:48:32.933,19,LF da broccoli,Jaden McDaniels
+2025-10-25 00:48:32.933,19,LF da broccoli,Jeremiah Fears
 2025-10-25 00:48:32.933,19,LF da broccoli,Jonathan Kuminga
 2025-10-25 00:48:32.933,19,LF da broccoli,Mikal Bridges
 2025-10-25 00:48:32.933,19,LF da broccoli,Nic Claxton
 2025-10-25 00:48:32.933,19,LF da broccoli,OG Anunoby
+2025-10-25 00:48:32.933,19,LF da broccoli,Simone Fontecchio
 2025-10-25 00:48:32.933,17,Nadim the Dream,Alperen Sengun
 2025-10-25 00:48:32.933,17,Nadim the Dream,Andrew Wiggins
 2025-10-25 00:48:32.933,17,Nadim the Dream,Ausar Thompson
@@ -882,8 +887,8 @@ date,team_id,team_name,player_name
 2025-10-25 00:48:32.933,16,Team Menyo,Evan Mobley
 2025-10-25 00:48:32.933,16,Team Menyo,Franz Wagner
 2025-10-25 00:48:32.933,16,Team Menyo,Kelly Oubre Jr.
+2025-10-25 00:48:32.933,16,Team Menyo,Kevin Huerter
 2025-10-25 00:48:32.933,16,Team Menyo,Kristaps Porzingis
-2025-10-25 00:48:32.933,16,Team Menyo,Neemias Queta
 2025-10-25 00:48:32.933,16,Team Menyo,Ronald Holland II
 2025-10-25 00:48:32.933,16,Team Menyo,Santi Aldama
 2025-10-25 00:48:32.933,16,Team Menyo,Trae Young
@@ -917,12 +922,12 @@ date,team_id,team_name,player_name
 2025-10-26 00:48:32.933,21,Burrito Barnes,Cason Wallace
 2025-10-26 00:48:32.933,21,Burrito Barnes,Cooper Flagg
 2025-10-26 00:48:32.933,21,Burrito Barnes,Deandre Ayton
-2025-10-26 00:48:32.933,21,Burrito Barnes,Dereck Lively II
 2025-10-26 00:48:32.933,21,Burrito Barnes,Devin Vassell
 2025-10-26 00:48:32.933,21,Burrito Barnes,Duncan Robinson
 2025-10-26 00:48:32.933,21,Burrito Barnes,Ivica Zubac
 2025-10-26 00:48:32.933,21,Burrito Barnes,Kawhi Leonard
 2025-10-26 00:48:32.933,21,Burrito Barnes,Payton Pritchard
+2025-10-26 00:48:32.933,21,Burrito Barnes,Ryan Rollins
 2025-10-26 00:48:32.933,21,Burrito Barnes,Stephen Curry
 2025-10-26 00:48:32.933,21,Burrito Barnes,Wendell Carter Jr.
 2025-10-26 00:48:32.933,6,Cold Beans,Bub Carrington
@@ -953,15 +958,15 @@ date,team_id,team_name,player_name
 2025-10-26 00:48:32.933,14,Enter the Dragon,Walker Kessler
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,Brandon Miller
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,CJ McCollum
-2025-10-26 00:48:32.933,20,Hardwood Hustlers,D'Angelo Russell
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,Dillon Brooks
-2025-10-26 00:48:32.933,20,Hardwood Hustlers,Isaiah Jackson
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,Jalen Brunson
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,Jarrett Allen
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,Joel Embiid
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,John Collins
+2025-10-26 00:48:32.933,20,Hardwood Hustlers,Kentavious Caldwell-Pope
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,Khris Middleton
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,Kyrie Irving
+2025-10-26 00:48:32.933,20,Hardwood Hustlers,Luguentz Dort
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,Nikola Jokic
 2025-10-26 00:48:32.933,20,Hardwood Hustlers,Steven Adams
 2025-10-26 00:48:32.933,12,IN MAMBA WE TRUST,Aaron Wiggins
@@ -990,12 +995,12 @@ date,team_id,team_name,player_name
 2025-10-26 00:48:32.933,5,Jay Stat,Paolo Banchero
 2025-10-26 00:48:32.933,5,Jay Stat,Quentin Grimes
 2025-10-26 00:48:32.933,5,Jay Stat,Shai Gilgeous-Alexander
+2025-10-26 00:48:32.933,10,KL2 LLC,AJ Green
 2025-10-26 00:48:32.933,10,KL2 LLC,Anthony Davis
 2025-10-26 00:48:32.933,10,KL2 LLC,Ben Sheppard
 2025-10-26 00:48:32.933,10,KL2 LLC,Buddy Hield
 2025-10-26 00:48:32.933,10,KL2 LLC,Jalen Suggs
 2025-10-26 00:48:32.933,10,KL2 LLC,Jamal Murray
-2025-10-26 00:48:32.933,10,KL2 LLC,Jaylen Wells
 2025-10-26 00:48:32.933,10,KL2 LLC,Jordan Poole
 2025-10-26 00:48:32.933,10,KL2 LLC,Malik Monk
 2025-10-26 00:48:32.933,10,KL2 LLC,Nikola Vucevic
@@ -1005,16 +1010,17 @@ date,team_id,team_name,player_name
 2025-10-26 00:48:32.933,10,KL2 LLC,Zaccharie Risacher
 2025-10-26 00:48:32.933,19,LF da broccoli,Aaron Nesmith
 2025-10-26 00:48:32.933,19,LF da broccoli,Anthony Edwards
-2025-10-26 00:48:32.933,19,LF da broccoli,Bradley Beal
 2025-10-26 00:48:32.933,19,LF da broccoli,Cameron Johnson
 2025-10-26 00:48:32.933,19,LF da broccoli,Chet Holmgren
 2025-10-26 00:48:32.933,19,LF da broccoli,Collin Sexton
 2025-10-26 00:48:32.933,19,LF da broccoli,Derrick White
 2025-10-26 00:48:32.933,19,LF da broccoli,Jaden McDaniels
+2025-10-26 00:48:32.933,19,LF da broccoli,Jeremiah Fears
 2025-10-26 00:48:32.933,19,LF da broccoli,Jonathan Kuminga
 2025-10-26 00:48:32.933,19,LF da broccoli,Mikal Bridges
 2025-10-26 00:48:32.933,19,LF da broccoli,Nic Claxton
 2025-10-26 00:48:32.933,19,LF da broccoli,OG Anunoby
+2025-10-26 00:48:32.933,19,LF da broccoli,Simone Fontecchio
 2025-10-26 00:48:32.933,17,Nadim the Dream,Alperen Sengun
 2025-10-26 00:48:32.933,17,Nadim the Dream,Andrew Wiggins
 2025-10-26 00:48:32.933,17,Nadim the Dream,Ausar Thompson
@@ -1062,8 +1068,8 @@ date,team_id,team_name,player_name
 2025-10-26 00:48:32.933,16,Team Menyo,Evan Mobley
 2025-10-26 00:48:32.933,16,Team Menyo,Franz Wagner
 2025-10-26 00:48:32.933,16,Team Menyo,Kelly Oubre Jr.
+2025-10-26 00:48:32.933,16,Team Menyo,Kevin Huerter
 2025-10-26 00:48:32.933,16,Team Menyo,Kristaps Porzingis
-2025-10-26 00:48:32.933,16,Team Menyo,Neemias Queta
 2025-10-26 00:48:32.933,16,Team Menyo,Ronald Holland II
 2025-10-26 00:48:32.933,16,Team Menyo,Santi Aldama
 2025-10-26 00:48:32.933,16,Team Menyo,Trae Young
@@ -1080,3 +1086,184 @@ date,team_id,team_name,player_name
 2025-10-26 00:48:32.933,18,Team perez,Sam Merrill
 2025-10-26 00:48:32.933,18,Team perez,T.J. McConnell
 2025-10-26 00:48:32.933,18,Team perez,VJ Edgecombe
+2025-10-27 00:48:32.933,15,BDE,Amen Thompson
+2025-10-27 00:48:32.933,15,BDE,Domantas Sabonis
+2025-10-27 00:48:32.933,15,BDE,Dyson Daniels
+2025-10-27 00:48:32.933,15,BDE,Immanuel Quickley
+2025-10-27 00:48:32.933,15,BDE,Jabari Smith Jr.
+2025-10-27 00:48:32.933,15,BDE,Keldon Johnson
+2025-10-27 00:48:32.933,15,BDE,Kevin Porter Jr.
+2025-10-27 00:48:32.933,15,BDE,Kyshawn George
+2025-10-27 00:48:32.933,15,BDE,Moussa Diabate
+2025-10-27 00:48:32.933,15,BDE,Norman Powell
+2025-10-27 00:48:32.933,15,BDE,Rui Hachimura
+2025-10-27 00:48:32.933,15,BDE,Toumani Camara
+2025-10-27 00:48:32.933,15,BDE,Trey Murphy III
+2025-10-27 00:48:32.933,21,Burrito Barnes,Austin Reaves
+2025-10-27 00:48:32.933,21,Burrito Barnes,Cason Wallace
+2025-10-27 00:48:32.933,21,Burrito Barnes,Cooper Flagg
+2025-10-27 00:48:32.933,21,Burrito Barnes,Deandre Ayton
+2025-10-27 00:48:32.933,21,Burrito Barnes,Devin Vassell
+2025-10-27 00:48:32.933,21,Burrito Barnes,Duncan Robinson
+2025-10-27 00:48:32.933,21,Burrito Barnes,Ivica Zubac
+2025-10-27 00:48:32.933,21,Burrito Barnes,Kawhi Leonard
+2025-10-27 00:48:32.933,21,Burrito Barnes,Payton Pritchard
+2025-10-27 00:48:32.933,21,Burrito Barnes,Ryan Rollins
+2025-10-27 00:48:32.933,21,Burrito Barnes,Stephen Curry
+2025-10-27 00:48:32.933,21,Burrito Barnes,Wendell Carter Jr.
+2025-10-27 00:48:32.933,6,Cold Beans,Bub Carrington
+2025-10-27 00:48:32.933,6,Cold Beans,Draymond Green
+2025-10-27 00:48:32.933,6,Cold Beans,Egor Demin
+2025-10-27 00:48:32.933,6,Cold Beans,Grayson Allen
+2025-10-27 00:48:32.933,6,Cold Beans,Keyonte George
+2025-10-27 00:48:32.933,6,Cold Beans,Kyle Kuzma
+2025-10-27 00:48:32.933,6,Cold Beans,LeBron James
+2025-10-27 00:48:32.933,6,Cold Beans,Miles Bridges
+2025-10-27 00:48:32.933,6,Cold Beans,Onyeka Okongwu
+2025-10-27 00:48:32.933,6,Cold Beans,Pascal Siakam
+2025-10-27 00:48:32.933,6,Cold Beans,Tre Jones
+2025-10-27 00:48:32.933,6,Cold Beans,Victor Wembanyama
+2025-10-27 00:48:32.933,6,Cold Beans,Zach LaVine
+2025-10-27 00:48:32.933,14,Enter the Dragon,Alex Sarr
+2025-10-27 00:48:32.933,14,Enter the Dragon,Bennedict Mathurin
+2025-10-27 00:48:32.933,14,Enter the Dragon,Cade Cunningham
+2025-10-27 00:48:32.933,14,Enter the Dragon,De'Andre Hunter
+2025-10-27 00:48:32.933,14,Enter the Dragon,Jalen Green
+2025-10-27 00:48:32.933,14,Enter the Dragon,Jalen Johnson
+2025-10-27 00:48:32.933,14,Enter the Dragon,Jerami Grant
+2025-10-27 00:48:32.933,14,Enter the Dragon,Josh Giddey
+2025-10-27 00:48:32.933,14,Enter the Dragon,Matas Buzelis
+2025-10-27 00:48:32.933,14,Enter the Dragon,Ryan Kalkbrenner
+2025-10-27 00:48:32.933,14,Enter the Dragon,Stephon Castle
+2025-10-27 00:48:32.933,14,Enter the Dragon,Tre Johnson
+2025-10-27 00:48:32.933,14,Enter the Dragon,Walker Kessler
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Brandon Miller
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,CJ McCollum
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Dillon Brooks
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Jalen Brunson
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Jarrett Allen
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Joel Embiid
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,John Collins
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Kentavious Caldwell-Pope
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Khris Middleton
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Kyrie Irving
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Luguentz Dort
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Nikola Jokic
+2025-10-27 00:48:32.933,20,Hardwood Hustlers,Steven Adams
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Aaron Wiggins
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Brandon Ingram
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Dennis Schroder
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Devin Booker
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Ja Morant
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Jaden Ivey
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Jakob Poeltl
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Julius Randle
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Kevin Durant
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Mark Williams
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,P.J. Washington
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Tristan da Silva
+2025-10-27 00:48:32.933,12,IN MAMBA WE TRUST,Zion Williamson
+2025-10-27 00:48:32.933,5,Jay Stat,Anfernee Simons
+2025-10-27 00:48:32.933,5,Jay Stat,Cole Anthony
+2025-10-27 00:48:32.933,5,Jay Stat,Darius Garland
+2025-10-27 00:48:32.933,5,Jay Stat,Donovan Clingan
+2025-10-27 00:48:32.933,5,Jay Stat,Donovan Mitchell
+2025-10-27 00:48:32.933,5,Jay Stat,Jaime Jaquez Jr.
+2025-10-27 00:48:32.933,5,Jay Stat,Jalen Duren
+2025-10-27 00:48:32.933,5,Jay Stat,Jared McCain
+2025-10-27 00:48:32.933,5,Jay Stat,Kel'el Ware
+2025-10-27 00:48:32.933,5,Jay Stat,Klay Thompson
+2025-10-27 00:48:32.933,5,Jay Stat,Paolo Banchero
+2025-10-27 00:48:32.933,5,Jay Stat,Quentin Grimes
+2025-10-27 00:48:32.933,5,Jay Stat,Shai Gilgeous-Alexander
+2025-10-27 00:48:32.933,10,KL2 LLC,AJ Green
+2025-10-27 00:48:32.933,10,KL2 LLC,Anthony Davis
+2025-10-27 00:48:32.933,10,KL2 LLC,Ben Sheppard
+2025-10-27 00:48:32.933,10,KL2 LLC,Buddy Hield
+2025-10-27 00:48:32.933,10,KL2 LLC,Jalen Suggs
+2025-10-27 00:48:32.933,10,KL2 LLC,Jamal Murray
+2025-10-27 00:48:32.933,10,KL2 LLC,Jordan Poole
+2025-10-27 00:48:32.933,10,KL2 LLC,Malik Monk
+2025-10-27 00:48:32.933,10,KL2 LLC,Nikola Vucevic
+2025-10-27 00:48:32.933,10,KL2 LLC,Reed Sheppard
+2025-10-27 00:48:32.933,10,KL2 LLC,Shaedon Sharpe
+2025-10-27 00:48:32.933,10,KL2 LLC,Ty Jerome
+2025-10-27 00:48:32.933,10,KL2 LLC,Zaccharie Risacher
+2025-10-27 00:48:32.933,19,LF da broccoli,Aaron Nesmith
+2025-10-27 00:48:32.933,19,LF da broccoli,Anthony Edwards
+2025-10-27 00:48:32.933,19,LF da broccoli,Cameron Johnson
+2025-10-27 00:48:32.933,19,LF da broccoli,Chet Holmgren
+2025-10-27 00:48:32.933,19,LF da broccoli,Collin Sexton
+2025-10-27 00:48:32.933,19,LF da broccoli,Derrick White
+2025-10-27 00:48:32.933,19,LF da broccoli,Jaden McDaniels
+2025-10-27 00:48:32.933,19,LF da broccoli,Jeremiah Fears
+2025-10-27 00:48:32.933,19,LF da broccoli,Jonathan Kuminga
+2025-10-27 00:48:32.933,19,LF da broccoli,Mikal Bridges
+2025-10-27 00:48:32.933,19,LF da broccoli,Nic Claxton
+2025-10-27 00:48:32.933,19,LF da broccoli,OG Anunoby
+2025-10-27 00:48:32.933,19,LF da broccoli,Simone Fontecchio
+2025-10-27 00:48:32.933,17,Nadim the Dream,Alperen Sengun
+2025-10-27 00:48:32.933,17,Nadim the Dream,Andrew Wiggins
+2025-10-27 00:48:32.933,17,Nadim the Dream,Ausar Thompson
+2025-10-27 00:48:32.933,17,Nadim the Dream,Coby White
+2025-10-27 00:48:32.933,17,Nadim the Dream,Daniel Gafford
+2025-10-27 00:48:32.933,17,Nadim the Dream,DeMar DeRozan
+2025-10-27 00:48:32.933,17,Nadim the Dream,Donte DiVincenzo
+2025-10-27 00:48:32.933,17,Nadim the Dream,Giannis Antetokounmpo
+2025-10-27 00:48:32.933,17,Nadim the Dream,Jaylen Brown
+2025-10-27 00:48:32.933,17,Nadim the Dream,Jrue Holiday
+2025-10-27 00:48:32.933,17,Nadim the Dream,Lauri Markkanen
+2025-10-27 00:48:32.933,17,Nadim the Dream,Sam Hauser
+2025-10-27 00:48:32.933,17,Nadim the Dream,Zach Edey
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Brice Sensabaugh
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Christian Braun
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Davion Mitchell
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Desmond Bane
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Isaiah Stewart
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Jimmy Butler III
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Karl-Anthony Towns
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Myles Turner
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Nickeil Alexander-Walker
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Rudy Gobert
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Tobias Harris
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Tyler Herro
+2025-10-27 00:48:32.933,11,TEAM TOO ICEY BOY 12,Tyrese Maxey
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Gary Trent Jr.
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Herbert Jones
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Isaiah Collier
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Jalen Williams
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Jordan Clarkson
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Josh Hart
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Keegan Murray
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Luka Doncic
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Michael Porter Jr.
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Naz Reid
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Paul George
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Scottie Barnes
+2025-10-27 00:48:32.933,8,Team Boricua Squad,Tari Eason
+2025-10-27 00:48:32.933,16,Team Menyo,Aaron Gordon
+2025-10-27 00:48:32.933,16,Team Menyo,Ace Bailey
+2025-10-27 00:48:32.933,16,Team Menyo,Andrew Nembhard
+2025-10-27 00:48:32.933,16,Team Menyo,De'Aaron Fox
+2025-10-27 00:48:32.933,16,Team Menyo,Dejounte Murray
+2025-10-27 00:48:32.933,16,Team Menyo,Evan Mobley
+2025-10-27 00:48:32.933,16,Team Menyo,Franz Wagner
+2025-10-27 00:48:32.933,16,Team Menyo,Kelly Oubre Jr.
+2025-10-27 00:48:32.933,16,Team Menyo,Kevin Huerter
+2025-10-27 00:48:32.933,16,Team Menyo,Kristaps Porzingis
+2025-10-27 00:48:32.933,16,Team Menyo,Ronald Holland II
+2025-10-27 00:48:32.933,16,Team Menyo,Santi Aldama
+2025-10-27 00:48:32.933,16,Team Menyo,Trae Young
+2025-10-27 00:48:32.933,18,Team perez,Bam Adebayo
+2025-10-27 00:48:32.933,18,Team perez,Cam Thomas
+2025-10-27 00:48:32.933,18,Team perez,Cedric Coward
+2025-10-27 00:48:32.933,18,Team perez,Deni Avdija
+2025-10-27 00:48:32.933,18,Team perez,Dylan Harper
+2025-10-27 00:48:32.933,18,Team perez,Isaiah Hartenstein
+2025-10-27 00:48:32.933,18,Team perez,James Harden
+2025-10-27 00:48:32.933,18,Team perez,Jaren Jackson Jr.
+2025-10-27 00:48:32.933,18,Team perez,LaMelo Ball
+2025-10-27 00:48:32.933,18,Team perez,RJ Barrett
+2025-10-27 00:48:32.933,18,Team perez,Sam Merrill
+2025-10-27 00:48:32.933,18,Team perez,T.J. McConnell
+2025-10-27 00:48:32.933,18,Team perez,VJ Edgecombe
