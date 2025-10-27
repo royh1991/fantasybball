@@ -201,8 +201,8 @@ def main():
             print(f"  {cat:<8} {a_str:<25} {b_str:<25} {winner}")
 
         # Try to find corresponding simulation results
-        sim_folder_name = matchup_name.replace(' vs ', '_vs_').replace(' ', '_') + '_week6'
-        sim_folder = Path('/Users/rhu/fantasybasketball2/fantasy_2026/matchup_simulations') / sim_folder_name
+        sim_folder_name = matchup_name.replace(' vs ', '_vs_').replace(' ', '_')
+        sim_folder = Path('/Users/rhu/fantasybasketball2/fantasy_2026/fixed_simulations') / sim_folder_name
 
         if sim_folder.exists():
             sim_results = load_simulation_results(sim_folder)

@@ -1,0 +1,17 @@
+{
+  "matchup": "LF da broccoli vs Team Menyo",
+  "team_a_name": "LF da broccoli",
+  "team_b_name": "Team Menyo",
+  "n_simulations": 500,
+  "team_a_wins": 443,
+  "team_b_wins": 44,
+  "ties": 13,
+  "team_a_win_pct": 0.886,
+  "team_b_win_pct": 0.088,
+  "team_a_avg_cats_won": 7.308,
+  "team_b_avg_cats_won": 3.396,
+  "team_a_players": 12,
+  "team_b_players": 13,
+  "team_a_total_games": 33,
+  "team_b_total_games": 27
+}

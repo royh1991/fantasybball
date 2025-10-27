@@ -1,0 +1,17 @@
+{
+  "matchup": "IN MAMBA WE TRUST vs Cold Beans",
+  "team_a_name": "IN MAMBA WE TRUST",
+  "team_b_name": "Cold Beans",
+  "n_simulations": 500,
+  "team_a_wins": 68,
+  "team_b_wins": 411,
+  "ties": 21,
+  "team_a_win_pct": 0.136,
+  "team_b_win_pct": 0.822,
+  "team_a_avg_cats_won": 3.866,
+  "team_b_avg_cats_won": 6.894,
+  "team_a_players": 13,
+  "team_b_players": 14,
+  "team_a_total_games": 31,
+  "team_b_total_games": 33
+}

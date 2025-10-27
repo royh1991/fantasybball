@@ -176,6 +176,8 @@ def fetch_player_game_log(player_id, player_name, season, rate_limit_ms=600):
         df = gamelog.get_data_frames()[0]
 
         if not df.empty:
+            df['player_id'] = player_id
+            df['player_name'] = player_name
             df['PLAYER_NAME'] = player_name
             df['season'] = season
 
@@ -283,18 +285,21 @@ def collect_historical_data_for_players(roster_df, existing_logs, seasons, rate_
 
         # Determine what to fetch based on what we have
         if player_normalized in existing_players_normalized:
-            # Player exists in our data - assume we have historical, just get current season
-            current_season = seasons[0]  # 2025-26 (first in list)
-
-            # Check if we already have the current season
+            # Player exists - check which seasons are missing
             if player_normalized in existing_player_seasons:
                 existing_seasons = existing_player_seasons[player_normalized]
-                if current_season in existing_seasons:
-                    print(f"  ✓ Already have all seasons (including {current_season}), skipping")
+                # Find which configured seasons we don't have yet
+                seasons_to_fetch = [s for s in seasons if s not in existing_seasons]
+
+                if not seasons_to_fetch:
+                    print(f"  ✓ Already have all {len(existing_seasons)} seasons, skipping")
                     continue
 
-            seasons_to_fetch = [current_season]
-            print(f"  → Already have historical data, fetching current season: {current_season}")
+                print(f"  → Have {len(existing_seasons)} seasons, fetching {len(seasons_to_fetch)} missing: {', '.join(seasons_to_fetch)}")
+            else:
+                # Have the player but no season data - fetch all
+                seasons_to_fetch = seasons
+                print(f"  → Have player but no season data, fetching all {len(seasons)} seasons")
         else:
             # Brand new player - fetch all seasons
             seasons_to_fetch = seasons

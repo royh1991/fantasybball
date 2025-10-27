@@ -426,6 +426,34 @@ model.fit_player(historical_data, 'Luka Doncic')
 # - Variance and uncertainty
 ```
 
+### Rookie / Replacement-Level Players
+
+For rookies with <5 games of historical data, the system automatically uses **replacement-level models** based on position:
+
+**Replacement-Level Stats (per-game averages):**
+| Position | PTS | REB | AST | 3PM | FG%  | FT%  |
+|----------|-----|-----|-----|-----|------|------|
+| **PG**   | 8.0 | 3.0 | 3.5 | 0.7 | .430 | .750 |
+| **SG**   | 9.0 | 2.5 | 2.0 | 0.8 | .435 | .780 |
+| **SF**   | 9.0 | 4.0 | 1.5 | 0.6 | .445 | .760 |
+| **PF**   | 9.0 | 5.5 | 1.5 | 0.5 | .460 | .740 |
+| **C**    | 8.0 | 6.0 | 1.0 | 0.3 | .520 | .680 |
+
+**When replacement-level is used:**
+- Rookies with 0-4 games of historical data
+- Players not in ESPN projections
+- Players with unmappable names
+
+**Example output:**
+```
+Simulating 500 matchups...
+  ℹ️  Using replacement-level for 2 rookies:
+           Egor Demin (PG)
+           Tre Johnson (SG)
+```
+
+This ensures all rostered players contribute to simulations, even if we have no historical data on them yet.
+
 ### Evolution Rate
 `evolution_rate=0.5` controls how quickly the model adapts:
 - Higher = more weight on recent games (responsive to hot/cold streaks)
