@@ -644,6 +644,302 @@ fantasy_modeling/
 - PyMC (too slow for production)
 - ArviZ (visualization for PyMC)
 
+## Variance Calibration and Validation
+
+### Background: The Overconfidence Problem
+
+In October 2025, analysis of Week 6 predictions revealed the model was systematically **underestimating variance** (i.e., producing overly narrow confidence intervals). Specifically:
+
+- **Expected behavior**: ~68% of results within 1σ, ~95% within 2σ, ~5% beyond 2σ
+- **Observed behavior**: 33.1% of actual results fell beyond 2σ (should be ~5%)
+
+**Example symptoms:**
+- Hardwood Hustlers predicted 124.5±10.9 rebounds, actual was 140 (2σ away)
+- Hardwood Hustlers predicted 46.8±6.0 three-pointers, actual was 58 (2σ away)
+
+This overconfidence made the model unreliable for risk assessment and lineup decisions.
+
+---
+
+### Diagnostic Tools Created
+
+**1. `debug_variance_calibration.py`** (fantasy_2026 directory)
+
+Purpose: Measure actual vs simulated variance for all 11 categories.
+
+**What it does:**
+- Loads actual Week 6 results from `box_scores_latest.csv`
+- Runs 500 simulations per matchup
+- Calculates z-scores: `z = (actual - simulated_mean) / simulated_std`
+- Reports percentage of results beyond 1σ, 2σ, 3σ
+
+**Key metric**: Percentage beyond 2σ (target: ~5%, initial: 33.1%)
+
+**Usage:**
+```bash
+cd /Users/rhu/fantasybasketball2/fantasy_2026
+python debug_variance_calibration.py
+```
+
+**Output:**
+```
+Z-Score Analysis:
+  Beyond 1σ: 45.2% (expect ~32%)
+  Beyond 2σ: 33.1% (expect ~5%)   ← PROBLEM!
+  Beyond 3σ: 14.5% (expect ~0.3%)
+```
+
+**2. `diagnose_ft_pct.py`** (fantasy_2026 directory)
+
+Purpose: Investigate systematic bias in FT% predictions.
+
+**Discovery:**
+- Model predicted team FT% of 59-66%
+- Actual Week 6 FT% was 78.4%
+- **Gap: 12.2 percentage points**
+
+**Root cause identified:**
+```python
+# Historical data included games with 0 FTA
+# These games had FT_PCT = 0.0, dragging down the mean
+len(historical[historical['FTA'] == 0])  # 42% of games!
+```
+
+**Impact:** This wasn't just a variance problem - it was a **systematic bias** in the mean prediction.
+
+---
+
+### Fixes Applied to `weekly_projection_system.py`
+
+Located at: `/Users/rhu/fantasybasketball2/weekly_projection_system.py`
+
+#### Fix 1: Filter Zero-Attempt Games in Shooting Percentages
+
+**Problem:** Model was learning from games where players had 0 FTA/FGA/3PA, treating FG%/FT%/3P% = 0.0 as valid observations.
+
+**Solution:** Filter to only games with attempts > 0 when calculating shooting percentages.
+
+```python
+# In fit_player() method, lines ~350-365
+pct_to_attempt = {
+    'FG_PCT': 'FGA',
+    'FT_PCT': 'FTA',
+    'FG3_PCT': 'FG3A'
+}
+
+for pct_stat, attempt_col in pct_to_attempt.items():
+    # FILTER: Only games where player attempted shots
+    mask = (training_data[attempt_col] > 0) & \
+           (training_data[pct_stat].notna()) & \
+           (training_data[pct_stat] >= 0) & \
+           (training_data[pct_stat] <= 1)
+
+    values = training_data.loc[mask, pct_stat].values
+
+    if len(values) > 0:
+        # Continue with Beta-Binomial fitting...
+```
+
+**Result:** FT% gap reduced from 12.2 percentage points → 0.5 percentage points
+
+#### Fix 2: Incorporate Variance Using Negative Binomial Distributions
+
+**Problem:** Count stats (PTS, REB, AST, etc.) used pure Poisson models, which assume variance = mean. Real basketball data is **overdispersed** (variance > mean).
+
+**Solution:** Use Negative Binomial distribution when overdispersion detected.
+
+```python
+def poisson_to_negbinom(lam, var):
+    """Convert Poisson rate to Negative Binomial (n, p) parameters."""
+    if var <= lam:
+        return None  # Use Poisson
+    p = lam / var
+    n = (lam ** 2) / (var - lam)
+    return n, p
+
+# In simulate_game() method
+for stat in ['PTS', 'REB', 'AST', 'STL', 'BLK', 'TO']:
+    lam = dist_info['posterior_mean']
+    var = dist_info['posterior_var'] + 0.8 * dist_info['obs_var']
+
+    nb_params = poisson_to_negbinom(lam, var)
+    if nb_params:
+        n, p = nb_params
+        value = np.random.negative_binomial(n, p)
+    else:
+        value = np.random.poisson(lam)
+```
+
+#### Fix 3: Beta Sampling for Shooting Percentages
+
+**Problem:** Model stored Beta distribution parameters but sampled point estimates during simulation.
+
+**Solution:** Sample from Beta distribution to capture parameter uncertainty.
+
+```python
+def beta_mean_var_to_params(mean, var):
+    """Convert mean and variance to Beta (α, β) parameters."""
+    kappa = (mean * (1 - mean)) / var - 1
+    alpha = mean * kappa
+    beta = (1 - mean) * kappa
+    return alpha, beta
+
+# In simulate_game() method
+for pct_stat in ['FG_PCT', 'FT_PCT', 'FG3_PCT']:
+    mean = pct_info['posterior_mean']
+    var = pct_info['posterior_var'] + 0.8 * pct_info['obs_var']
+
+    alpha, beta = beta_mean_var_to_params(mean, var)
+    sampled_pct = np.random.beta(alpha, beta)
+
+    # Ensure bounds
+    sampled_pct = max(0.0, min(1.0, sampled_pct))
+```
+
+---
+
+### Results and Impact
+
+#### Before Fixes (October 2025)
+```
+FT% Mean Bias: 12.2 percentage points (59% predicted vs 78% actual)
+Beyond 2σ: 33.1% (should be ~5%)
+Model Status: ❌ Unreliable for lineup decisions
+```
+
+#### After Fixes
+```
+FT% Mean Bias: 0.5 percentage points (78.9% predicted vs 78.4% actual)
+Beyond 2σ: 16.9% (improved, but still high)
+Model Status: ⚠️ Better, but variance still slightly underestimated
+```
+
+**Category-specific improvements:**
+- **FT%**: Systematic bias eliminated ✅
+- **FG%, 3P%**: Minor improvement from Beta sampling
+- **Counting stats**: Better tail behavior from Negative Binomial
+- **DD (double-doubles)**: Still underestimated (separate issue)
+
+#### Remaining Work
+
+**Double-Double (DD) Underestimation:**
+- Model simulates 3-6 DD per week
+- Actual Week 6 results: 9-11 DD per week
+- **Root cause:** Mean bias, not variance issue
+- **Potential fix:** Adjust correlation model to better capture high-performing outlier games
+
+**Variance calibration:**
+- Target: 5% beyond 2σ
+- Current: 16.9% beyond 2σ
+- **Gap**: Still ~3.4x too many outliers
+- **Potential causes:**
+  - Game-to-game correlations not captured (hot/cold streaks)
+  - Team-level effects (opponent strength, pace)
+  - Missing contextual factors (home/away, rest days)
+
+---
+
+### Validation Methodology
+
+**Test setup:**
+- Historical: 2019-2024 seasons for model fitting
+- Validation: Week 6 of 2024-25 season (October 2025)
+- Simulations: 500 iterations per matchup
+- Metrics: Z-scores, prediction intervals, systematic bias
+
+**Why Week 6?**
+- Complete actual results available in `box_scores_latest.csv`
+- All 7 matchups with 12-16 players per team
+- 23-37 games per team (large sample for meaningful statistics)
+
+**Statistical framework:**
+```python
+# For each category in each matchup:
+z_score = (actual_value - simulated_mean) / simulated_std
+
+# Expected z-score distribution: N(0, 1)
+# P(|z| > 1) ≈ 32%
+# P(|z| > 2) ≈ 5%
+# P(|z| > 3) ≈ 0.3%
+```
+
+---
+
+### Key Learnings
+
+1. **Data quality matters more than model complexity**
+   - The FT% bias was purely a data filtering issue
+   - Fixed by one 5-line code change
+   - Impact: 12 percentage point improvement
+
+2. **Systematic bias vs variance underestimation**
+   - FT% had mean bias → needed data filtering
+   - Other stats had variance underestimation → needed better distributions
+
+3. **Don't use arbitrary scaling factors**
+   - Initial approach tried multiplying variance by 1.2x, 1.5x
+   - User rejected: "i'm not a huge fan of arbitrarily multiplying by increasingly higher numbers"
+   - Better approach: Find root causes (zero-attempt games, wrong distributions)
+
+4. **Validation is critical**
+   - Without Week 6 validation, would never have caught FT% bias
+   - Z-score analysis revealed the exact nature of the problem
+   - Diagnostic tools paid for themselves immediately
+
+---
+
+### Tools for Ongoing Monitoring
+
+**Quick variance check:**
+```bash
+cd /Users/rhu/fantasybasketball2/fantasy_2026
+python debug_variance_calibration.py | grep "Beyond 2σ"
+# Target output: Beyond 2σ: ~5%
+```
+
+**FT% bias check:**
+```bash
+python diagnose_ft_pct.py | grep "GAP:"
+# Target output: GAP: <2 percentage points
+```
+
+**Full validation:**
+```bash
+python analyze_actual_vs_simulated.py
+# Compares all 11 categories, all 7 matchups
+```
+
+---
+
+### Integration with Other Systems
+
+**Parent directory (`weekly_projection_system.py`):**
+- The fixes above were applied to this file
+- Used by `fantasy_2026/simulate_with_correct_data.py`
+- Achieved 100% accuracy on Week 6 matchup winners (7/7)
+
+**This directory (`fantasy_modeling/`):**
+- Already implements proper variance handling via Negative Binomial
+- Does not have FT% filtering bug (uses different data pipeline)
+- Could benefit from similar validation framework
+
+**Recommendation:** Apply the zero-attempt filtering fix to this system as well:
+
+```python
+# In models/bayesian_model.py, method fit_shooting_stats():
+for pct_stat, attempt_stat in [('fg_pct', 'fga'), ('ft_pct', 'fta'), ('fg3_pct', 'fg3a')]:
+    # FILTER: Only games with attempts > 0
+    mask = (player_data[attempt_stat] > 0) & \
+           (player_data[pct_stat].notna()) & \
+           (player_data[pct_stat] >= 0) & \
+           (player_data[pct_stat] <= 1)
+
+    clean_data = player_data[mask]
+    # Continue with Beta-Binomial fitting...
+```
+
+---
+
 ## Future Enhancements
 
 Potential additions (not yet implemented):

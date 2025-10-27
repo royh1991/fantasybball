@@ -33,6 +33,60 @@ def adaptive_bayesian_update(prev_mean, prev_var, new_obs, obs_var, evolution_va
     return new_mean, new_var
 
 
+def beta_params_from_mean_var(mean, var):
+    """
+    Convert mean and variance to Beta distribution parameters.
+
+    For Beta(α, β):
+        E[X] = α / (α + β) = mean
+        Var[X] = αβ / ((α+β)²(α+β+1)) = var
+    """
+    # Ensure mean is in valid range
+    mean = max(0.01, min(0.99, mean))
+
+    # Ensure variance is not too large
+    max_var = mean * (1 - mean) * 0.9
+    var = min(var, max_var)
+    var = max(var, 0.0001)
+
+    # Method of moments
+    common = (mean * (1 - mean) / var) - 1
+
+    if common < 1:
+        # Not enough data - use weak prior
+        common = 2
+
+    alpha = mean * common
+    beta = (1 - mean) * common
+
+    return max(alpha, 0.5), max(beta, 0.5)
+
+
+def negative_binomial_params(mean, var):
+    """
+    Convert mean and variance to Negative Binomial parameters.
+
+    For NegBin(r, p):
+        E[X] = r(1-p)/p = mean
+        Var[X] = r(1-p)/p² = var
+
+    Returns (n, p) for np.random.negative_binomial(n, p)
+    If var <= mean, returns None, None (use Poisson instead)
+    """
+    if var <= mean:
+        return None, None
+
+    # Negative binomial parameterization
+    r = (mean * mean) / (var - mean)
+    p = mean / var
+
+    # Ensure valid parameters
+    r = max(r, 0.1)
+    p = max(0.01, min(0.99, p))
+
+    return r, p
+
+
 class FantasyProjectionModel:
     """
     Adaptive Bayesian model for all fantasy basketball stats.
@@ -50,9 +104,17 @@ class FantasyProjectionModel:
         self.evolution_rate = evolution_rate
         self.distributions = {}
         self.percentages = {}
+        self.dd_rate = 0.0  # Historical double-double rate
 
     def fit_player(self, historical_data: pd.DataFrame, player_nba_name: str):
         """Fit adaptive model for a player using all their historical data."""
+        # Mapping for filtering shooting percentages by attempts
+        pct_to_attempt = {
+            'FG_PCT': 'FGA',
+            'FT_PCT': 'FTA',
+            'FG3_PCT': 'FG3A'
+        }
+
         # Case-insensitive comparison to handle mapping inconsistencies
         player_data = historical_data[historical_data['PLAYER_NAME'].str.lower() == player_nba_name.lower()].copy()
 
@@ -64,31 +126,51 @@ class FantasyProjectionModel:
         player_data = player_data.dropna(subset=['parsed_date'])
         player_data = player_data.sort_values('parsed_date')
 
-        # Split into pre-2024-25 and first 10 games of 2024-25
-        cutoff_date = datetime(2024, 10, 1)
-        training_data = player_data[player_data['parsed_date'] < cutoff_date]
-        season_2024 = player_data[player_data['parsed_date'] >= cutoff_date]
+        # Split into training (all historical) and current season (for adaptive update)
+        # We're in 2025-26 season, so use Oct 1, 2025 as cutoff
+        cutoff_date = datetime(2025, 10, 1)
+        all_historical = player_data[player_data['parsed_date'] < cutoff_date]
+        current_season = player_data[player_data['parsed_date'] >= cutoff_date]
 
-        # For rookies with no historical data, use all their 2024-25 games as training
-        if len(training_data) < 5 and len(season_2024) >= 5:
-            # Rookie - use all 2024-25 data
-            training_data = season_2024
-            season_2024 = pd.DataFrame()  # No update data
+        # Use only recent games for training (last 150 games, or all if less than 150)
+        # This ensures the model focuses on current ability, not early career
+        if len(all_historical) > 150:
+            training_data = all_historical.tail(150)
+        else:
+            training_data = all_historical
+
+        # For rookies with no historical data, use all their current season games as training
+        if len(training_data) < 5 and len(current_season) >= 5:
+            # Rookie - use all current season data
+            training_data = current_season
+            current_season = pd.DataFrame()  # No update data
 
         if len(training_data) < 5:  # Still need minimum data
             return False
 
         # Initialize distributions for attempt stats and counting stats
+        # Use recency weighting to capture trends (more recent games = higher weight)
         all_stats = self.attempt_stats + self.counting_stats
+
+        n_games = len(training_data)
+        # Exponential decay: more recent games get higher weight
+        weights = 0.9 ** np.arange(n_games-1, -1, -1)
+        weights = weights / weights.sum()  # Normalize to sum to 1
+
         for stat in all_stats:
             if stat not in training_data.columns:
                 continue
 
             values = training_data[stat].values
-            mean_val = np.mean(values)
-            var_val = np.var(values)
-            n_games = len(values)
-            initial_uncertainty = var_val / n_games
+
+            # Weighted mean and variance
+            mean_val = np.average(values, weights=weights)
+            var_val = np.average((values - mean_val)**2, weights=weights)
+
+            # Effective sample size for uncertainty
+            # With decay weighting, effective n is lower than actual n
+            effective_n = 1.0 / np.sum(weights**2)  # Kish's effective sample size
+            initial_uncertainty = var_val / effective_n
 
             self.distributions[stat] = {
                 'mean': mean_val,
@@ -99,21 +181,46 @@ class FantasyProjectionModel:
             }
 
         # Initialize shooting percentages
+        # CRITICAL FIX: Only include games where player attempted shots!
+        # Mapping: FG_PCT requires FGA > 0, FT_PCT requires FTA > 0, FG3_PCT requires FG3A > 0
         for pct_stat in self.shooting_pcts:
             if pct_stat not in training_data.columns:
                 continue
 
-            values = training_data[pct_stat].values
-            # Remove NaN and values outside [0, 1]
-            values = values[(~np.isnan(values)) & (values >= 0) & (values <= 1)]
+            # Get corresponding attempt column
+            attempt_col = pct_to_attempt.get(pct_stat)
+            if attempt_col not in training_data.columns:
+                continue
+
+            # FILTER: Only games where player attempted shots
+            mask = (training_data[attempt_col] > 0) & \
+                   (training_data[pct_stat].notna()) & \
+                   (training_data[pct_stat] >= 0) & \
+                   (training_data[pct_stat] <= 1)
+
+            # Get filtered data with original index preserved
+            filtered_indices = training_data.index[mask]
+            values = training_data.loc[mask, pct_stat].values
 
             if len(values) == 0:
                 continue
 
-            mean_val = np.mean(values)
-            var_val = np.var(values)
-            n_games = len(values)
-            initial_uncertainty = var_val / n_games
+            # Apply recency weighting to filtered games
+            # Map filtered indices back to positions in training_data
+            n_total = len(training_data)
+            positions = np.array([training_data.index.get_loc(idx) for idx in filtered_indices])
+
+            # Calculate weights based on position (later games = higher weight)
+            pct_weights = 0.9 ** (n_total - 1 - positions)
+            pct_weights = pct_weights / pct_weights.sum()
+
+            # Weighted mean and variance
+            mean_val = np.average(values, weights=pct_weights)
+            var_val = np.average((values - mean_val)**2, weights=pct_weights)
+
+            # Effective sample size
+            effective_n = 1.0 / np.sum(pct_weights**2)
+            initial_uncertainty = var_val / effective_n
 
             self.percentages[pct_stat] = {
                 'mean': mean_val,
@@ -123,10 +230,10 @@ class FantasyProjectionModel:
                 'posterior_var': initial_uncertainty
             }
 
-        # Adaptive update if 2024-25 data available (for veterans)
-        if len(season_2024) > 0:
-            n_update = min(10, len(season_2024))
-            update_data = season_2024.head(n_update)
+        # Adaptive update if current season data available (for veterans)
+        if len(current_season) > 0:
+            n_update = min(10, len(current_season))
+            update_data = current_season.head(n_update)
 
             # Update attempt stats and counting stats
             for stat in all_stats:
@@ -147,13 +254,23 @@ class FantasyProjectionModel:
                 self.distributions[stat]['posterior_var'] = posterior_var
 
             # Update shooting percentages
+            # CRITICAL FIX: Only update with games where player attempted shots
             for pct_stat in self.shooting_pcts:
                 if pct_stat not in update_data.columns or pct_stat not in self.percentages:
                     continue
 
-                # Filter valid percentage values
-                values = update_data[pct_stat].values
-                values = values[(~np.isnan(values)) & (values >= 0) & (values <= 1)]
+                # Get corresponding attempt column
+                attempt_col = pct_to_attempt.get(pct_stat)
+                if attempt_col not in update_data.columns:
+                    continue
+
+                # FILTER: Only games with attempts > 0
+                mask = (update_data[attempt_col] > 0) & \
+                       (update_data[pct_stat].notna()) & \
+                       (update_data[pct_stat] >= 0) & \
+                       (update_data[pct_stat] <= 1)
+
+                values = update_data.loc[mask, pct_stat].values
 
                 if len(values) == 0:
                     continue
@@ -170,6 +287,18 @@ class FantasyProjectionModel:
 
                 self.percentages[pct_stat]['posterior_mean'] = posterior_mean
                 self.percentages[pct_stat]['posterior_var'] = posterior_var
+
+        # Calculate historical double-double rate from training data
+        # This will be used as a baseline in simulate_game()
+        if all(stat in training_data.columns for stat in ['PTS', 'REB', 'AST', 'STL', 'BLK']):
+            dd_count = 0
+            for _, row in training_data.iterrows():
+                dd_stats = [row['PTS'], row['REB'], row['AST'], row['STL'], row['BLK']]
+                if sum(s >= 10 for s in dd_stats) >= 2:
+                    dd_count += 1
+            self.dd_rate = dd_count / len(training_data) if len(training_data) > 0 else 0.0
+        else:
+            self.dd_rate = 0.0
 
         return True
 
@@ -235,39 +364,192 @@ class FantasyProjectionModel:
                 'posterior_var': variance / 10
             }
 
+        # Estimate DD rate based on projected stats
+        # Players averaging 10+ in 2+ categories likely get many DDs
+        pts_pg = espn_row.get('PTS', 0) / games_played if games_played > 0 else 0
+        reb_pg = espn_row.get('TREB', 0) / games_played if games_played > 0 else 0
+        ast_pg = espn_row.get('AST', 0) / games_played if games_played > 0 else 0
+        stl_pg = espn_row.get('STL', 0) / games_played if games_played > 0 else 0
+        blk_pg = espn_row.get('BLK', 0) / games_played if games_played > 0 else 0
+
+        stats_above_10 = sum([pts_pg >= 10, reb_pg >= 10, ast_pg >= 10, stl_pg >= 10, blk_pg >= 10])
+        stats_close = sum([8 <= pts_pg < 10, 8 <= reb_pg < 10, 8 <= ast_pg < 10, 8 <= stl_pg < 10, 8 <= blk_pg < 10])
+
+        # Estimate DD rate based on proximity to thresholds
+        if stats_above_10 >= 3:
+            self.dd_rate = 0.85  # Almost always DD (e.g., Jokić)
+        elif stats_above_10 == 2:
+            self.dd_rate = 0.70  # Very frequently DD (e.g., AD, KAT)
+        elif stats_above_10 == 1 and stats_close >= 1:
+            self.dd_rate = 0.40  # Sometimes DD (e.g., LeBron)
+        elif stats_close >= 2:
+            self.dd_rate = 0.20  # Occasionally DD
+        else:
+            self.dd_rate = 0.05  # Rarely DD
+
+        return True
+
+    def fit_replacement_level(self, position: str = 'SF'):
+        """
+        Create a replacement-level player model based on position.
+
+        Uses league-average stats for the position. This is used for rookies
+        with no historical data or ESPN projections.
+
+        Replacement level stats are conservative estimates representing
+        a typical deep-roster player at each position.
+        """
+        # Replacement level stats by position (per-game averages)
+        # These are based on ~12th-15th man on roster statistics
+        replacement_stats = {
+            'PG': {
+                'FGA': 7.0, 'FTA': 2.0, 'FG3A': 2.5,
+                'PTS': 8.0, 'REB': 3.0, 'AST': 3.5, 'STL': 0.8, 'BLK': 0.2, 'TOV': 1.5,
+                'FG_PCT': 0.430, 'FT_PCT': 0.750, 'FG3_PCT': 0.340
+            },
+            'SG': {
+                'FGA': 7.5, 'FTA': 2.0, 'FG3A': 2.5,
+                'PTS': 9.0, 'REB': 2.5, 'AST': 2.0, 'STL': 0.7, 'BLK': 0.2, 'TOV': 1.2,
+                'FG_PCT': 0.435, 'FT_PCT': 0.780, 'FG3_PCT': 0.350
+            },
+            'SF': {
+                'FGA': 7.5, 'FTA': 2.0, 'FG3A': 2.0,
+                'PTS': 9.0, 'REB': 4.0, 'AST': 1.5, 'STL': 0.7, 'BLK': 0.4, 'TOV': 1.0,
+                'FG_PCT': 0.445, 'FT_PCT': 0.760, 'FG3_PCT': 0.345
+            },
+            'PF': {
+                'FGA': 7.0, 'FTA': 2.5, 'FG3A': 1.5,
+                'PTS': 9.0, 'REB': 5.5, 'AST': 1.5, 'STL': 0.6, 'BLK': 0.6, 'TOV': 1.0,
+                'FG_PCT': 0.460, 'FT_PCT': 0.740, 'FG3_PCT': 0.330
+            },
+            'C': {
+                'FGA': 6.0, 'FTA': 2.5, 'FG3A': 0.5,
+                'PTS': 8.0, 'REB': 6.0, 'AST': 1.0, 'STL': 0.5, 'BLK': 0.8, 'TOV': 1.2,
+                'FG_PCT': 0.520, 'FT_PCT': 0.680, 'FG3_PCT': 0.280
+            }
+        }
+
+        # Default to SF if position not recognized
+        stats = replacement_stats.get(position, replacement_stats['SF'])
+
+        # Set attempt stats
+        for stat in ['FGA', 'FTA', 'FG3A']:
+            value = stats[stat]
+            variance = (0.5 * value) ** 2  # Higher variance for replacement level
+
+            self.distributions[stat] = {
+                'mean': value,
+                'var': variance,
+                'obs_var': variance,
+                'posterior_mean': value,
+                'posterior_var': variance / 5  # Higher uncertainty
+            }
+
+        # Set counting stats
+        for stat in ['PTS', 'REB', 'AST', 'STL', 'BLK', 'TOV']:
+            value = stats[stat]
+            variance = (0.5 * value) ** 2
+
+            self.distributions[stat] = {
+                'mean': value,
+                'var': variance,
+                'obs_var': variance,
+                'posterior_mean': value,
+                'posterior_var': variance / 5
+            }
+
+        # Set shooting percentages
+        for pct_stat in ['FG_PCT', 'FT_PCT', 'FG3_PCT']:
+            value = stats[pct_stat]
+            variance = 0.03  # Higher variance for replacement level
+
+            self.percentages[pct_stat] = {
+                'mean': value,
+                'var': variance,
+                'obs_var': variance,
+                'posterior_mean': value,
+                'posterior_var': variance / 5
+            }
+
+        # Replacement level players rarely get double-doubles
+        self.dd_rate = 0.02  # 2% chance
+
         return True
 
     def simulate_game(self) -> Dict:
-        """Simulate a single game using correlated sampling for shooting stats."""
+        """
+        Simulate a single game with PROPER VARIANCE.
+
+        Key improvements over original:
+        1. Uses Negative Binomial for counting stats (allows variance > mean)
+        2. Samples shooting % from Beta distribution (parameter uncertainty)
+        3. Incorporates both obs_var and posterior_var
+        """
         stats = {}
 
-        # Step 1: Sample attempt stats from Poisson
+        # Step 1: Sample attempt stats using TOTAL VARIANCE
         for attempt_stat in self.attempt_stats:
             if attempt_stat in self.distributions:
-                mean = self.distributions[attempt_stat]['posterior_mean']
-                value = np.random.poisson(max(0, mean))
-                stats[attempt_stat] = max(1, value)  # At least 1 attempt to avoid division by zero
+                posterior_mean = self.distributions[attempt_stat]['posterior_mean']
+                posterior_var = self.distributions[attempt_stat]['posterior_var']
+                obs_var = self.distributions[attempt_stat]['obs_var']
+
+                # Total variance = observation variance + parameter uncertainty
+                # Use 1.5x obs_var to account for additional model uncertainty
+                total_var = obs_var * 1.5 + posterior_var
+
+                # Use Negative Binomial if overdispersed, else Poisson
+                r, p = negative_binomial_params(posterior_mean, total_var)
+
+                if r is not None and p is not None:
+                    # Overdispersed - use Negative Binomial
+                    value = np.random.negative_binomial(r, p)
+                else:
+                    # Not overdispersed - use Poisson
+                    value = np.random.poisson(max(0, posterior_mean))
+
+                stats[attempt_stat] = max(1, value)  # At least 1 attempt
             else:
                 stats[attempt_stat] = 1
 
-        # Step 2: Sample makes using Binomial(attempts, percentage)
-        # FGM from FGA
+        # Step 2: Sample shooting percentages from Beta distribution
+        # This incorporates game-to-game variation in shooting ability
+
+        # FG%
         if 'FG_PCT' in self.percentages:
-            fg_pct = max(0.0, min(1.0, self.percentages['FG_PCT']['posterior_mean']))
+            mean = self.percentages['FG_PCT']['posterior_mean']
+            var = self.percentages['FG_PCT']['posterior_var'] + \
+                  self.percentages['FG_PCT']['obs_var'] * 1.2  # Use 120% of obs_var for extra variance
+
+            alpha, beta = beta_params_from_mean_var(mean, var)
+            fg_pct = np.random.beta(alpha, beta)
+            fg_pct = max(0.0, min(1.0, fg_pct))  # Ensure valid probability
             stats['FGM'] = np.random.binomial(stats['FGA'], fg_pct)
         else:
             stats['FGM'] = 0
 
-        # FTM from FTA
+        # FT%
         if 'FT_PCT' in self.percentages:
-            ft_pct = max(0.0, min(1.0, self.percentages['FT_PCT']['posterior_mean']))
+            mean = self.percentages['FT_PCT']['posterior_mean']
+            var = self.percentages['FT_PCT']['posterior_var'] + \
+                  self.percentages['FT_PCT']['obs_var'] * 1.2  # Use 120% of obs_var
+
+            alpha, beta = beta_params_from_mean_var(mean, var)
+            ft_pct = np.random.beta(alpha, beta)
+            ft_pct = max(0.0, min(1.0, ft_pct))  # Ensure valid probability
             stats['FTM'] = np.random.binomial(stats['FTA'], ft_pct)
         else:
             stats['FTM'] = 0
 
-        # 3PM from 3PA
+        # 3P%
         if 'FG3_PCT' in self.percentages:
-            fg3_pct = max(0.0, min(1.0, self.percentages['FG3_PCT']['posterior_mean']))
+            mean = self.percentages['FG3_PCT']['posterior_mean']
+            var = self.percentages['FG3_PCT']['posterior_var'] + \
+                  self.percentages['FG3_PCT']['obs_var'] * 1.2  # Use 120% of obs_var
+
+            alpha, beta = beta_params_from_mean_var(mean, var)
+            fg3_pct = np.random.beta(alpha, beta)
+            fg3_pct = max(0.0, min(1.0, fg3_pct))  # Ensure valid probability
             stats['FG3M'] = np.random.binomial(stats['FG3A'], fg3_pct)
         else:
             stats['FG3M'] = 0
@@ -275,18 +557,61 @@ class FantasyProjectionModel:
         # Step 3: Enforce constraint that 3PM can't exceed FGM
         stats['FG3M'] = min(stats['FG3M'], stats['FGM'])
 
-        # Step 4: Sample other counting stats from Poisson
+        # Step 4: Sample counting stats with TOTAL VARIANCE using Negative Binomial
         for counting_stat in self.counting_stats:
             if counting_stat in self.distributions:
-                mean = self.distributions[counting_stat]['posterior_mean']
-                value = np.random.poisson(max(0, mean))
+                posterior_mean = self.distributions[counting_stat]['posterior_mean']
+                posterior_var = self.distributions[counting_stat]['posterior_var']
+                obs_var = self.distributions[counting_stat]['obs_var']
+
+                # Total variance includes both sources of uncertainty
+                # Use 1.2x obs_var to account for additional model uncertainty
+                total_var = obs_var * 1.2 + posterior_var
+
+                # Use Negative Binomial for overdispersion
+                r, p = negative_binomial_params(posterior_mean, total_var)
+
+                if r is not None and p is not None:
+                    value = np.random.negative_binomial(r, p)
+                else:
+                    value = np.random.poisson(max(0, posterior_mean))
+
                 stats[counting_stat] = max(0, value)
             else:
                 stats[counting_stat] = 0
 
-        # Step 5: Calculate double-double
+        # Step 5: Calculate double-double using hybrid approach
+        # Combines historical DD rate with proximity to thresholds
         dd_stats = [stats['PTS'], stats['REB'], stats['AST'], stats['STL'], stats['BLK']]
-        stats['DD'] = 1 if sum(s >= 10 for s in dd_stats) >= 2 else 0
+        stats_at_10 = sum(s >= 10 for s in dd_stats)
+        stats_close = sum(8 <= s < 10 for s in dd_stats)
+
+        # Calculate DD probability based on simulated stats and historical rate
+        if stats_at_10 >= 2:
+            # Already has DD based on simulated stats - very likely
+            dd_prob = 0.95
+        elif stats_at_10 == 1 and stats_close >= 2:
+            # Close to DD with multiple stats near threshold
+            # Use historical rate with moderate boost for correlation
+            dd_prob = min(0.85, self.dd_rate * 1.3)
+        elif stats_at_10 == 1 and stats_close == 1:
+            # One stat at 10+, one close - use historical rate as-is
+            dd_prob = self.dd_rate
+        elif stats_at_10 == 1:
+            # One stat at 10+, others far away - unlikely DD
+            dd_prob = self.dd_rate * 0.4
+        elif stats_close >= 2:
+            # Multiple stats close but none at 10 - medium probability
+            dd_prob = self.dd_rate * 0.7
+        elif stats_close == 1:
+            # One stat close - low probability
+            dd_prob = self.dd_rate * 0.3
+        else:
+            # Far from DD - very rare
+            dd_prob = self.dd_rate * 0.1
+
+        # Sample DD based on calculated probability
+        stats['DD'] = 1 if np.random.random() < dd_prob else 0
 
         return stats
 

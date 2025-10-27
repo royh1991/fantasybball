@@ -40,3 +40,27 @@ logs/
 
 # Environment variables
 .env
+
+# Fantasy 2026 generated data and reports
+fantasy_2026/simulation_reports/
+fantasy_2026/data/
+
+# Generated visualizations and outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# Data files (can be large and regenerated)
+*.csv
+*.json
+*.pkl
+*.parquet
+*.feather
+
+# Debug outputs
+debug_outputs/
+*_debug/
+*_diagnostic/
